@@ -250,3 +250,15 @@ Once they have the bot token, add this to openclaw.json:
 IMPORTANT: The key is `botToken` (camelCase). Do NOT use `token`, `bot_token`, or any other variant.
 Do NOT add any keys not listed above — invalid keys will crash the gateway.
 After editing the config, tell the user to refresh the page to restart the gateway.
+
+## Agent Library
+Clone for templates, skills, and fix scripts:
+
+
+## Telegram Setup
+To connect to Telegram, run this ONE command (replace the token with your real bot token):
+```bash
+bash ~/agent-library/fixes/telegram-setup.sh 7123456789:AAFxxx
+```
+This script safely edits the config and restarts the gateway. Do NOT try to edit openclaw.json yourself — use the script.
+If ~/agent-library does not exist yet, clone it first: git clone https://github.com/heyron-ai/agent-library.git ~/agent-library

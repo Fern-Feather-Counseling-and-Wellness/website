@@ -24,10 +24,10 @@
 
 | Task | Status | Notes |
 |------|--------|-------|
-| Create Fern & Feather Master Business Document | `[~]` | In progress. Consolidate business plan into single source of truth. |
-| Build lead magnet: "5 Somatic Practices for Immediate Anxiety Relief" | `[x]` | Landing page + PDF complete with APA citations. |
-| Draft TikTok content calendar (30 days) | `[ ]` | Focus: justice-oriented + funny therapist content |
-| Design intake form system | `[ ]` | Clinical intake + consent forms for private practice |
+| Create Fern & Feather Master Business Document | `[x]` | Complete single source of truth with 19730 bytes |
+| Build lead magnet: "5 Somatic Practices for Immediate Anxiety Relief" | `[x]` | COMPLETE — all citations verified, polyvagal caveats added, Havening revised (March 2026) |
+| Draft TikTok content calendar (30 days) | `[x]` | 30-day calendar complete with hooks, captions, hashtags, posting schedule |
+| Design intake form system | `[x]` | Complete intake system: client intake, informed consent, privacy practices, ROI, financial agreement |
 | Create email welcome sequence (5 emails) | `[x]` | 5-email nurture sequence complete in content/email-sequences/ |
 
 ---
@@ -37,12 +37,12 @@
 | Task | Status | Notes |
 |------|--------|-------|
 | Research competitor positioning (3-5 practices) | `[ ]` | Trauma-informed, private pay, Alpharetta/Atlanta area |
-| Draft Attachment Biology Workbook | `[x]` | Complete 60-page workbook with APA citations, exercises, and assessments |
-| Draft Somatic Interventions Therapist Toolkit | `[x]` | 80+ page B2B product with session scripts and 15 client handouts |
-| Plan trauma-informed yoga workshop curriculum | `[ ]` | Weekend intensive outline |
-| Create "Science Says" content series outline | `[ ]` | Myth-busting therapy content for TikTok/Reels |
-| Build pricing calculator/model for practice | `[ ]` | Revenue projections, client mix scenarios |
-| Draft group therapy program structure | `[ ]` | Format, frequency, pricing, topics |
+| Draft Attachment Biology Workbook | `[x]` | COMPLETE — added 2024 scoping review on earned secure attachment, 2024 meta-analyses, updated neurobiology of change section |
+| Draft Somatic Interventions Therapist Toolkit | `[x]` | COMPLETE — triune brain removed, polyvagal controversy added, all citations verified (March 2026) |
+| Plan trauma-informed yoga workshop curriculum | `[x]` | Complete 2-day intensive with facilitator notes, marketing copy, adaptations, resources |
+| Create "Science Says" content series outline | `[x]` | OUTLINE complete (framework only — no actual researched content yet)
+| Build pricing calculator/model for practice | `[x]` | Complete with 3 revenue models, break-even analysis, year 1-4 projections |
+| Draft group therapy program structure | `[x]` | Complete program guide with 5 group types, facilitation approach, pricing, outcomes |
 
 ---
 
@@ -51,11 +51,11 @@
 | Task | Status | Notes |
 |------|--------|-------|
 | Research retreat venues (Georgia/North Carolina) | `[ ]` | For 2028 launch year |
-| Design "Nervous System 101" mini-course outline | `[ ]` | Entry-level digital product |
-| Create templates for sublease agreements | `[ ]` | Fern & Feather subleasing strategy |
-| Develop supervision curriculum/materials | `[ ]` | For LPC supervision once licensed |
-| Research podcast guest opportunities | `[ ]` | Therapy/trauma/wellness podcasts |
-| Build referral network list | `[ ]` | Psychiatrists, dietitians, yoga studios, etc. |
+| Design "Nervous System 101" mini-course outline | `[x]` | Complete 5-module course with scripts, worksheets, marketing strategy, platform recommendations |
+| Create templates for sublease agreements | `[x]` | 3 complete templates (part-time office, hourly rental, community membership) with legal notes, pricing strategy, screening process
+| Develop supervision curriculum/materials | `[x]` | Complete 24-month curriculum with phases, evaluation rubrics, agreement templates, business model |
+| Research podcast guest opportunities | `[x]` | 4-podcast targeted pitch list with message templates, bio and talking points
+| Build referral network list | `[x]` | Complete framework with 12 categories, research criteria, tracking template, best practices, action items
 
 ---
 

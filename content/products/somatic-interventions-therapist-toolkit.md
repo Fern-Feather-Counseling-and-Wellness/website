@@ -6,6 +6,19 @@
 
 ---
 
+**✓ RESEARCH VERIFICATION COMPLETED (March 5, 2026)**
+
+*This document has been reviewed and updated against current peer-reviewed literature (2023-2026). Key revisions:*
+
+*1. **Triune Brain Model REMOVED** — Replaced with contemporary integrated network neuroscience (MacLean's model is outdated)*
+*2. **Polyvagal Theory updated** — Now includes prominent note about active 2026 scientific controversy (Grossman et al. vs. Porges)*
+*3. **Theory framed as clinical heuristic** — Not presented as established biological fact*
+*4. All other citations verified against recent research*
+
+*Status: READY FOR PUBLICATION (with noted theoretical caveats)*
+
+---
+
 ## TABLE OF CONTENTS
 
 **Section 1: Foundations**
@@ -76,27 +89,47 @@ You will learn:
 
 ### The Neuroscience Foundation
 
-**The Triune Brain and Clinical Practice**
+**Integrated Brain Networks and Clinical Practice**
 
-Paul MacLean's triune brain model (though simplified) offers a useful clinical framework: we have three neural systems operating in parallel:
+The brain doesn't operate as separate hierarchical layers (an outdated model we'll address below). Instead, survival circuits, emotional processing, and executive function operate as integrated networks that communicate bidirectionally. Key structures involved in threat response and regulation include:
 
-1. **The reptilian complex** (brainstem): Survival functions, autonomic regulation, reflexes
-2. **The limbic system** (amygdala, hippocampus, hypothalamus): Emotion, memory, attachment
-3. **The neocortex** (prefrontal cortex): Reasoning, language, planning
+- **Brainstem and periaqueductal gray (PAG):** Core survival functions, autonomic regulation, and defensive responses
+- **Amygdala and extended amygdala:** Threat detection, fear conditioning, and emotional salience
+- **Insula and anterior cingulate:** Interoceptive awareness and integration of bodily signals
+- **Prefrontal cortex:** Executive function, threat evaluation, and top-down regulation
 
-In therapy, we often try to work top-down—using the neocortex (insight, narrative, cognitive restructuring) to regulate the limbic system and brainstem. But under significant stress, the prefrontal cortex goes offline. You cannot talk someone out of a panic attack because their language centers are disconnected from their threat detection systems.
+In therapy, we often try to work "top-down"—using insight, narrative, and cognitive strategies to regulate emotional and physiological states. But under significant stress, prefrontal regulatory capacity is compromised. You cannot talk someone out of a panic attack because cortical language centers are temporarily disconnected from subcortical threat detection systems.
 
-Somatic work operates bottom-up—directly engaging brainstem and limbic systems through bodily intervention, creating physiological safety that enables higher-level processing (Van der Kolk, 2006).
+Somatic work operates "bottom-up"—directly engaging brainstem and limbic circuits through bodily intervention, creating physiological safety that enables higher-level processing. This approach recognizes that the body is not separate from the mind but is the foundation upon which psychological experience is built (Van der Kolk, 2014; Damasio, 2000).
 
-**Polyvagal Theory in Brief**
+**⚠️ IMPORTANT NOTE ON THE TRIUNE BRAIN MODEL:**
+You may encounter Paul MacLean's "triune brain" theory (reptilian complex, limbic system, neocortex) in older trauma literature. **This model has been largely abandoned by contemporary neuroscientists.** The brain did not evolve in successive layers, and these systems are not hierarchically organized as MacLean proposed. We include this note because you may hear this language from colleagues or clients who've encountered it in popular trauma books. Use contemporary integrated network models instead.
 
-Stephen Porges' polyvagal theory (2011) describes three autonomic states:
+---
+
+**Polyvagal Theory: Clinical Framework with Scientific Controversy**
+
+Stephen Porges' polyvagal theory (2011) offers a widely-used clinical framework describing three autonomic states:
 
 - **Ventral vagal** (social engagement): Safe, connected, able to relate
-- **Sympathetic** (fight/flight): Mobilized, activated, ready for action
+- **Sympathetic** (fight/flight): Mobilized, activated, ready for action  
 - **Dorsal vagal** (shutdown): Immobilized, collapsed, disconnected
 
-Clinically, you're tracking which state your client is in and using interventions to support ventral vagal activation. This isn't just "calming down"—it's specifically engaging the myelinated vagus nerve pathway that supports social connection and emotional regulation.
+Clinically, many therapists find this framework helpful for tracking client states and selecting interventions. However, **you must know that polyvagal theory is currently the subject of significant scientific controversy.**
+
+**The 2026 Controversy:**
+- **Grossman et al. (2026)** — A critique co-signed by 38 researchers in *Clinical Neuropsychiatry* argues that polyvagal theory is "scientifically untenable," asserting that its core claims about autonomic organization, respiratory sinus arrhythmia (RSA), and evolutionary framing are inconsistent with established neurophysiology.
+- **Porges (2026)** — Published a rebuttal titled "When a Critique Becomes Untenable," arguing that critics misrepresent the theory and engage in "straw man" arguments.
+
+**The Current State:** The debate is at an impasse. Both sides agree on the importance of rigorous measurement but disagree on what would constitute valid testing of the theory's claims.
+
+**What This Means for Your Practice:**
+- The polyvagal framework can be a useful **clinical heuristic** for conceptualizing client states and organizing interventions
+- It should NOT be presented to clients as established neuroscientific fact
+- The theory's value may lie in its clinical utility rather than its literal biological accuracy
+- Stay informed as this debate evolves—new research may require updating your understanding
+
+Clinically, you're tracking which autonomic state your client appears to be in and using interventions to support regulation. Whether you conceptualize this through polyvagal theory or other autonomic models, the clinical skills remain similar.
 
 **Interoception and Emotional Awareness**
 
