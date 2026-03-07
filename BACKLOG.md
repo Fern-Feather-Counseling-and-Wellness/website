@@ -36,7 +36,9 @@
 
 | Task | Status | Notes |
 |------|--------|-------|
-| Research competitor positioning (3-5 practices) | `[ ]` | Trauma-informed, private pay, Alpharetta/Atlanta area |
+| Research competitor positioning (3-5 practices) | `[x]` | Market analysis complete - see `market-analysis-digital-products.md` |
+| Research digital product sales platforms | `[x]` | Complete - see `research/platform-comparison.md` |
+| Create "The Embodied Parts Workbook" | `[x]` | COMPLETE — Full 8-week somatic IFS program with 85,000+ words across all modules; intro + 8 complete modules with exercises, journaling prompts, and integration practices |
 | Draft Attachment Biology Workbook | `[x]` | COMPLETE — added 2024 scoping review on earned secure attachment, 2024 meta-analyses, updated neurobiology of change section |
 | Draft Somatic Interventions Therapist Toolkit | `[x]` | COMPLETE — triune brain removed, polyvagal controversy added, all citations verified (March 2026) |
 | Plan trauma-informed yoga workshop curriculum | `[x]` | Complete 2-day intensive with facilitator notes, marketing copy, adaptations, resources |

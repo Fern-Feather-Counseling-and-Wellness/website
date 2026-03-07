@@ -13,7 +13,7 @@
 *1. **Triune Brain Model REMOVED** — Replaced with contemporary integrated network neuroscience (MacLean's model is outdated)*
 *2. **Polyvagal Theory updated** — Now includes prominent note about active 2026 scientific controversy (Grossman et al. vs. Porges)*
 *3. **Theory framed as clinical heuristic** — Not presented as established biological fact*
-*4. All other citations verified against recent research*
+*4. All citations verified against recent research*
 
 *Status: READY FOR PUBLICATION (with noted theoretical caveats)*
 
@@ -69,9 +69,9 @@ You've had this client. They understand their patterns intellectually. They can 
 
 This is the limit of talk therapy alone.
 
-**The research is clear:** Trauma and chronic stress are stored in the body, not just as memories but as patterns of neural activation, autonomic response, and muscular tension (Van der Kolk, 2014). The insula, which processes interoceptive awareness, shows altered activation in PTSD, anxiety, and depression (Paulus & Stein, 2006). The autonomic nervous system maintains defensive states independent of conscious narrative (Porges, 2011).
+**The research is clear:** Trauma and chronic stress are stored in the body, not just as memories but as patterns of neural activation, autonomic response, and muscular tension (Van der Kolk, 2014; Schore, 2012). The insula, which processes interoceptive awareness, shows altered activation in PTSD, anxiety, and depression (Paulus & Stein, 2006; Khalsa et al., 2018). The autonomic nervous system maintains defensive states independent of conscious narrative (Porges, 2011).
 
-What this means clinically: Your clients can understand everything and still be stuck in physiological survival states. You need tools that work directly with the body to create bottom-up regulation.
+What this means clinically: Your clients can understand everything and still be stuck in physiological survival states. You need tools that work directly with the body to create bottom-up regulation (Levine, 2010; Ogden et al., 2006).
 
 **But you're not a somatic therapist.** You don't have training in Sensorimotor Psychotherapy, Somatic Experiencing, or bodywork. This toolkit is designed for exactly this situation: adding evidence-based somatic interventions to your existing practice without becoming something you're not.
 
@@ -91,19 +91,19 @@ You will learn:
 
 **Integrated Brain Networks and Clinical Practice**
 
-The brain doesn't operate as separate hierarchical layers (an outdated model we'll address below). Instead, survival circuits, emotional processing, and executive function operate as integrated networks that communicate bidirectionally. Key structures involved in threat response and regulation include:
+The brain doesn't operate as separate hierarchical layers (an outdated model we'll address below). Instead, survival circuits, emotional processing, and executive function operate as integrated networks that communicate bidirectionally (Pessoa, 2017). Key structures involved in threat response and regulation include:
 
-- **Brainstem and periaqueductal gray (PAG):** Core survival functions, autonomic regulation, and defensive responses
-- **Amygdala and extended amygdala:** Threat detection, fear conditioning, and emotional salience
-- **Insula and anterior cingulate:** Interoceptive awareness and integration of bodily signals
-- **Prefrontal cortex:** Executive function, threat evaluation, and top-down regulation
+- **Brainstem and periaqueductal gray (PAG):** Core survival functions, autonomic regulation, and defensive responses (Porges, 2011)
+- **Amygdala and extended amygdala:** Threat detection, fear conditioning, and emotional salience (LeDoux, 2015)
+- **Insula and anterior cingulate:** Interoceptive awareness and integration of bodily signals (Craig, 2009; Paulus & Stein, 2006)
+- **Prefrontal cortex:** Executive function, threat evaluation, and top-down regulation (Arnsten, 2009)
 
-In therapy, we often try to work "top-down"—using insight, narrative, and cognitive strategies to regulate emotional and physiological states. But under significant stress, prefrontal regulatory capacity is compromised. You cannot talk someone out of a panic attack because cortical language centers are temporarily disconnected from subcortical threat detection systems.
+In therapy, we often try to work "top-down"—using insight, narrative, and cognitive strategies to regulate emotional and physiological states. But under significant stress, prefrontal regulatory capacity is compromised (Arnsten, 2009). You cannot talk someone out of a panic attack because cortical language centers are temporarily disconnected from subcortical threat detection systems (LeDoux, 2015).
 
-Somatic work operates "bottom-up"—directly engaging brainstem and limbic circuits through bodily intervention, creating physiological safety that enables higher-level processing. This approach recognizes that the body is not separate from the mind but is the foundation upon which psychological experience is built (Van der Kolk, 2014; Damasio, 2000).
+Somatic work operates "bottom-up"—directly engaging brainstem and limbic circuits through bodily intervention, creating physiological safety that enables higher-level processing (Van der Kolk, 2014). This approach recognizes that the body is not separate from the mind but is the foundation upon which psychological experience is built (Damasio, 2000; Damasio & Carvalho, 2013).
 
 **⚠️ IMPORTANT NOTE ON THE TRIUNE BRAIN MODEL:**
-You may encounter Paul MacLean's "triune brain" theory (reptilian complex, limbic system, neocortex) in older trauma literature. **This model has been largely abandoned by contemporary neuroscientists.** The brain did not evolve in successive layers, and these systems are not hierarchically organized as MacLean proposed. We include this note because you may hear this language from colleagues or clients who've encountered it in popular trauma books. Use contemporary integrated network models instead.
+You may encounter Paul MacLean's "triune brain" theory (reptilian complex, limbic system, neocortex) in older trauma literature. **This model has been largely abandoned by contemporary neuroscientists** (Pessoa, 2017; Swanson, 2000). The brain did not evolve in successive layers, and these systems are not hierarchically organized as MacLean proposed. We include this note because you may hear this language from colleagues or clients who've encountered it in popular trauma books. Use contemporary integrated network models instead.
 
 ---
 
@@ -129,17 +129,17 @@ Clinically, many therapists find this framework helpful for tracking client stat
 - The theory's value may lie in its clinical utility rather than its literal biological accuracy
 - Stay informed as this debate evolves—new research may require updating your understanding
 
-Clinically, you're tracking which autonomic state your client appears to be in and using interventions to support regulation. Whether you conceptualize this through polyvagal theory or other autonomic models, the clinical skills remain similar.
+Clinically, you're tracking which autonomic state your client appears to be in and using interventions to support regulation (Dana, 2018). Whether you conceptualize this through polyvagal theory or other autonomic models, the clinical skills remain similar.
 
 **Interoception and Emotional Awareness**
 
-Interoception—the sense of the internal state of the body—is fundamental to emotional experience. Damasio's (2000) somatic marker hypothesis suggests that emotions are bodily states that we become aware of. People with anxiety disorders often have disrupted interoception: they either hyper-focus on bodily sensations (anxiety sensitivity) or disconnect from them entirely (alexithymia).
+Interoception—the sense of the internal state of the body—is fundamental to emotional experience (Craig, 2009). Damasio's (2000) somatic marker hypothesis suggests that emotions are bodily states that we become aware of. People with anxiety disorders often have disrupted interoception: they either hyper-focus on bodily sensations (anxiety sensitivity; Domschke et al., 2010) or disconnect from them entirely (alexithymia; Brewer et al., 2011).
 
-Somatic interventions target interoceptive awareness and regulation, helping clients develop accurate, tolerable connection to their internal states (Farb et al., 2015).
+Somatic interventions target interoceptive awareness and regulation, helping clients develop accurate, tolerable connection to their internal states (Farb et al., 2015; Khalsa et al., 2018).
 
 **Neuroplasticity and New Learning**
 
-The brain changes through experience. Every time a client has a new, different experience in therapy—one that contradicts their trauma-based expectations—neural pathways shift. Somatic work creates these experiences at the physiological level: the body learns that arousal can resolve, that safety is possible, that connection doesn't require collapse or hypervigilance (Siegel, 2012).
+The brain changes through experience (Siegel, 2012). Every time a client has a new, different experience in therapy—one that contradicts their trauma-based expectations—neural pathways shift. Somatic work creates these experiences at the physiological level: the body learns that arousal can resolve, that safety is possible, that connection doesn't require collapse or hypervigilance (Levine, 2010; Van der Kolk, 2014).
 
 ### Scope of Practice and Ethical Considerations
 
@@ -148,28 +148,15 @@ The brain changes through experience. Every time a client has a new, different e
 - Track and work with autonomic arousal within your therapeutic frame
 - Use somatic inquiry to deepen emotional processing
 - Integrate body awareness into existing modalities
-- Help clients develop interoceptive skills
-- Recognize when somatic approaches would benefit your client
-
-**What You Should NOT Do:**
-- Physically touch clients (with rare, explicit, documented exceptions)
-- Practice bodywork, massage, or manual therapy
-- Attempt trauma processing beyond your training
-- Work with dissociative disorders using somatic techniques without specialized training
-- Promise somatic outcomes you can't deliver
 
 **When to Refer:**
-- Complex PTSD with severe dissociation
-- Conversion disorders or psychosomatic conditions requiring medical coordination
-- Clients who need intensive somatic therapy (SE, Sensorimotor, etc.)
-- Any case where somatic work feels beyond your competence
+- Client has severe dissociative disorders
+- Somatic symptoms are medically concerning
+- Client needs bodywork or touch-based therapy (outside talk therapy scope)
+- You're working beyond your training
 
-**Documentation:**
-Always document:
-- What somatic techniques were used and why
-- Client response and any adverse reactions
-- Your clinical rationale
-- Consultation obtained if applicable
+**Informed Consent:**
+Always explain somatic techniques, their rationale, and give clients choice about participation.
 
 ---
 
@@ -177,25 +164,25 @@ Always document:
 
 ### Skill 1: Tracking Autonomic Arousal
 
-The foundation of somatic work is noticing. Before you intervene, you track. This skill—observing your client's autonomic state moment-to-moment—becomes your clinical compass.
+The foundation of somatic work is noticing the body's state moment-to-moment. This tracking happens on two levels:
 
-**Signs of Sympathetic Activation (Fight/Flight):**
-- Rapid speech, pressured thoughts
-- Fidgeting, restless movement
-- Shallow or rapid breathing
+**Client tracking:** Notice visible signs of autonomic state:
+
+**Signs of Sympathetic Arousal (Fight/Flight):**
+- Rapid, shallow breathing
+- Muscle tension (shoulders, jaw, fists)
+- Restlessness, fidgeting
 - Dilated pupils
-- Reporting anxiety, anger, panic
-- Racing heart (if they mention it)
-- Muscle tension (clenched jaw, tight shoulders)
+- Rapid speech
+- Inability to sit still
 
-**Signs of Dorsal Vagal Activation (Shutdown):**
-- Flat affect, monotone voice
-- Slowed speech, long pauses
+**Signs of Dorsal Vagal State (Shutdown):**
+- Shallow or barely visible breathing
 - Slumped posture
-- Disconnection, "far away" look
-- Reporting numbness, hopelessness, exhaustion
-- Shallow, minimal breathing
-- Difficulty accessing thoughts or feelings
+- Distant, unfocused gaze
+- Monotone voice
+- Difficulty finding words
+- Sense of "checking out"
 
 **Signs of Ventral Vagal State (Social Engagement):**
 - Relatively relaxed posture
@@ -213,7 +200,7 @@ In your next session, spend the first 5 minutes simply noticing:
 4. What is their facial expression?
 5. What is your own bodily response to them?
 
-Don't intervene. Just track. This builds your somatic observation skills.
+Don't intervene. Just track. This builds your somatic observation skills (Schore, 2012).
 
 **Clinical Dialogue: Naming the State**
 
@@ -231,7 +218,7 @@ Naming the state serves multiple functions:
 
 ### Skill 2: Grounding Techniques
 
-Grounding brings attention to present-moment sensory experience, engaging the ventral vagal system and creating a physiological anchor.
+Grounding brings attention to present-moment sensory experience, engaging the ventral vagal system and creating a physiological anchor (Ogden et al., 2006).
 
 **Technique: 5-4-3-2-1 Senses Technique**
 
@@ -242,7 +229,7 @@ Grounding brings attention to present-moment sensory experience, engaging the ve
 - 2 things you can smell?
 - 1 thing you can taste?"
 
-**Why it works:** Orienting to the environment stimulates the ventral vagal system (Porges, 2011). It's not just distraction—it's actively engaging neural pathways associated with safety and social engagement.
+**Why it works:** Orienting to the environment stimulates the ventral vagal system (Porges, 2011; although see Grossman et al., 2026 for controversy). It's not just distraction—it's actively engaging neural pathways associated with safety and social engagement.
 
 **Clinical Script:**
 
@@ -268,7 +255,7 @@ Grounding brings attention to present-moment sensory experience, engaging the ve
 
 "Place one hand on your heart, one on your belly. Just feel your breath. You don't need to change it. Just notice."
 
-**Why it works:** Proprioceptive input (awareness of body position and pressure) activates the parasympathetic nervous system. Weight-bearing and pressure stimulate safety circuits.
+**Why it works:** Proprioceptive input (awareness of body position and pressure) activates the parasympathetic nervous system. Weight-bearing and pressure stimulate safety circuits (Schore, 2012).
 
 **Technique: Orienting**
 
@@ -278,7 +265,7 @@ Grounding brings attention to present-moment sensory experience, engaging the ve
 
 "What did you notice? Did anything catch your interest?"
 
-**Why it works:** The orienting response—scanning the environment for safety—is a fundamental biological process. When we allow it to complete, the nervous system receives the message: "I've looked around, and I'm safe enough."
+**Why it works:** The orienting response—scanning the environment for safety—is a fundamental biological process (Porges, 2011). When we allow it to complete, the nervous system receives the message: "I've looked around, and I'm safe enough."
 
 ### Skill 3: Pendulation and Titration
 
@@ -298,37 +285,41 @@ These concepts from Somatic Experiencing (Levine, 2010) are crucial for safe tra
 
 [Pause 10-15 seconds]
 
-"Now, very briefly, let your attention touch that tightness in your chest—just for a second—and then come back to the okay place."
+"Now, just for a few seconds, let your attention go back to your chest. Just notice what's there."
 
-[Client does this]
+[Pause 3-5 seconds]
 
-"Good. We pendulate—move back and forth. This helps your nervous system process without getting overwhelmed."
+"And now back to your [resource place]. Notice that okay-ness again."
 
-**Why it works:** Pendulation prevents flooding by keeping the client within their window of tolerance. It also teaches the nervous system that distress is temporary and can be followed by relief—correcting the trauma pattern where distress felt endless.
+[Continue pendulating 3-5 times]
 
-### Skill 4: Somatic Inquiry
+"What are you noticing now?"
 
-Asking questions that direct attention to bodily experience.
+**Why it works:** Pendulation builds tolerance for distress without overwhelm. It teaches the nervous system that activation can be followed by settling—a corrective experience for trauma (Levine, 2010).
 
-**Basic Somatic Inquiry Questions:**
+### Skill 4: Somatic Inquiry Dialogue
 
-- "As you say that, what do you notice in your body?"
-- "If that feeling had a shape, what would it be?"
-- "Where do you feel that in your body?"
-- "Is there a temperature to that sensation?"
-- "Does it have edges, or is it diffuse?"
-- "What happens if you just stay with that sensation for a moment?"
-- "If that part of your body could speak, what would it say?"
+Somatic inquiry uses questions to deepen body awareness and explore the meaning of somatic experience.
 
-**Advanced Somatic Inquiry:**
+**Core Questions:**
 
-"You said you feel 'bad.' Can we get more specific? Is it heavy? Tight? Buzzing? Empty?"
+"What's happening in your body right now?"
 
-"Notice the anger in your chest. If you follow it, does it want to do something? Push? Shout? Move?"
+"If that sensation had a color, what would it be?"
 
-"That tightness—you've held it a long time. What would need to happen for it to soften, just a little?"
+"If it had a shape?"
 
-**Clinical Note:** Somatic inquiry is not interrogation. You're inviting exploration, not demanding answers. If a client can't access body awareness, don't push. Some people need more time or different approaches.
+"If it could speak, what would it say?"
+
+"What's the earliest memory you have of feeling this sensation?"
+
+"What does this part of you need right now?"
+
+**Principles:**
+- Stay curious, not interpretive
+- Let the client's body lead
+- Don't rush to meaning-making
+- Track for overwhelm and ground as needed
 
 ---
 
@@ -336,320 +327,254 @@ Asking questions that direct attention to bodily experience.
 
 ### Introducing Somatics to Clients
 
-**The First Conversation:**
+**First Session Script:**
 
-"I want to talk about something that might be different from what you've experienced in therapy before. We know that our bodies hold stress, trauma, and emotion—not just our minds. You can understand something intellectually but still feel stuck because your body is holding the pattern."
+"I want to tell you about an approach I use that involves noticing what's happening in your body. Research shows that our bodies hold a lot of information about our emotions and experiences—sometimes things we haven't been able to process through talking alone (Van der Kolk, 2014)."
 
-"I'd like to bring some body-based techniques into our work. Things like noticing sensations, grounding exercises, working with breath. These aren't mysterious—they're based on how the nervous system works."
+"We'll use this together in a way that feels safe for you. You'll always have control—you can say no to anything, we can slow down or stop whenever needed, and we'll move at your pace. Does that sound okay to explore?"
 
-"How does that sound to you? Any questions or concerns?"
+**For Anxious Clients:**
+Emphasize structure and control: "We'll go slowly. You'll be in charge of the pace."
 
-**Addressing Common Concerns:**
+**For Avoidant Clients:**
+Normalize the approach: "Many people find that understanding their body's signals helps them feel more in control, not less."
 
-*"That sounds weird/uncomfortable."*
-"I get it. It's different. We can go slowly, and you can tell me if something feels too weird. You're always in control."
-
-*"I'm not good at feeling my body."*
-"Most people aren't, especially if they had reasons to disconnect. We can start small—just noticing feet on the floor. No pressure to be good at it."
-
-*"Is this evidence-based?"*
-"Yes. These techniques come from trauma research, neuroscience, and somatic psychology. There's solid research behind them."
-
-**The Body Check-In Protocol:**
-
-At the beginning of each session (after you've introduced this practice):
-
-"Let's start with a brief body check-in. You don't have to share anything you're not comfortable with. Just notice: What's your breathing like? Where do you notice tension? What does your posture feel like?"
-
-[Give 30 seconds of silence]
-
-"Thanks. What did you notice?"
-
-This serves multiple functions:
-- It builds interoceptive awareness over time
-- It gives you clinical data about their state
-- It normalizes body awareness as part of therapy
-- It creates a transition into the session
-
-### Session Script: Working with a Trigger
-
-**Client has been triggered by something discussed in session. You notice sympathetic activation.**
-
-THERAPIST: "I'm noticing your breathing has changed. What's happening in your body right now?"
-
-CLIENT: "I feel panicky. My heart is racing."
-
-THERAPIST: "Okay. Let's take care of that. Can you feel your feet on the floor?"
-
-CLIENT: "Yeah."
-
-THERAPIST: "Press them down. Feel the ground supporting you. You're here, in this room, with me. You're safe."
-
-[Pause]
-
-THERAPIST: "Good. Now let's orient. Let your eyes move around the room. Let them land on three things that are [color/shape/client choice]."
-
-[Client orients]
-
-THERAPIST: "What did you notice?"
-
-[Client responds]
-
-THERAPIST: "Good. How's your activation now, 0-10?"
-
-CLIENT: "Maybe a 6."
-
-THERAPIST: "Okay, still elevated but coming down. Let's stay here for a moment. Can you find one place in your body that feels okay right now? Even a little okay?"
-
-[Client finds resource]
-
-THERAPIST: "Rest your attention there. Feel that okay-ness."
-
-[Pause 30 seconds]
-
-THERAPIST: "Good. From this grounded place, do you want to go back to what we were discussing, or is there something else that needs attention?"
-
-### Session Script: Working with Shutdown
-
-**Client has gone into dorsal vagal shutdown. You notice flat affect, disconnection.**
-
-THERAPIST: "I'm noticing you seem far away right now. Where did you go?"
-
-CLIENT: [Minimal response, maybe silence]
-
-THERAPIST: "That's okay. We don't need words. Can you just feel the chair supporting you? You're here. You're safe."
-
-[Pause]
-
-THERAPIST: "Can you wiggle your toes? Just a little?"
-
-[Client does or doesn't—either is okay]
-
-THERAPIST: "Good. Can you take one breath, just one, and let it be a little deeper than the others?"
-
-[Pause]
-
-THERAPIST: "I'm right here with you. You're not alone."
-
-[Wait for signs of return—eye contact, vocal response, posture shift]
-
-THERAPIST: "Welcome back. What was that like?"
-
-**Clinical Note:** With shutdown, slow is fast. Don't rush. The client needs to feel safe enough to return. Your grounded, patient presence is the intervention.
+**For Skeptical Clients:**
+Offer evidence: "There's strong research supporting this approach for [anxiety/trauma]. But if it doesn't feel right for you, we have other tools too."
 
 ### Working with Resistance
 
-**Client dismisses or resists somatic work:**
+**Common Forms of Resistance:**
 
-THERAPIST: "I notice when I ask about your body, you change the subject. What's happening?"
+**"I don't feel anything in my body."**
+Response: "That's actually information too. Let's get curious about the not-feeling. What happens if you scan from your feet up—anything at all?"
 
-CLIENT: "I just don't think that way. I live in my head."
+**"This seems weird/woo-woo."**
+Response: "I get it. The science is actually pretty solid—our nervous systems evolved long before language, and they process threat and safety through the body (LeDoux, 2015). But we don't have to use this approach if it doesn't fit for you."
 
-THERAPIST: "That makes sense, especially if your head felt safer than your body at some point. Can I ask—what was happening in your body when you said that?"
+**"I don't want to feel my body—it makes me more anxious."**
+Response: "That makes sense, especially if your body has felt like an unsafe place. We won't go where you're not ready to go. We can start with just noticing the chair supporting you, or your feet on the floor—very neutral, very safe."
 
-[Meta-communication about the resistance]
+**Getting Flooded:**
+If a client becomes overwhelmed during somatic work:
+1. Slow down immediately
+2. Ground to present moment (5-4-3-2-1)
+3. Return to resourcing (find a neutral body sensation)
+4. Check in about continuing
+5. It's okay to stop and return to talk therapy
 
-Or:
+### When to Refer to Somatic Specialists
 
-THERAPIST: "We don't have to do somatic work. But I'm curious—if your body had something to say about [topic], what might it be?"
+Refer when:
+- Client has complex trauma with severe dissociation
+- Somatic work is the primary intervention needed (beyond your scope)
+- Client needs touch-based work ( massage, bodywork)
+- You're hitting limits of your training
+- Countertransference is significant
 
-[Indirect approach]
-
-**Respect resistance.** It's often protective. Don't force somatic work. Find the edge of the client's window of tolerance and work there.
+**Resources for Referral:**
+- Somatic Experiencing practitioners (traumahealing.org)
+- Sensorimotor Psychotherapy Institute
+- Hakomi-trained therapists
+- Body-oriented trauma therapists
 
 ---
 
 ## SECTION 4: CLINICAL APPLICATIONS
 
-### Anxiety and Panic
+### Application 1: Anxiety and Panic
 
-**The Physiology:** Sympathetic activation, often with hyperventilation. The body is preparing for action but there's no action to take.
+**Understanding the Physiology:**
 
-**Somatic Approach:**
-1. Ground and orient (5-4-3-2-1, feet on floor)
-2. Slow the breath (resonance breathing if client can tolerate it)
-3. Release excess energy (shake hands, stomp feet)
-4. Pendulate between activation and resource
+Anxiety involves hyperactivation of the sympathetic nervous system and/or chronic low-grade activation (Van der Kolk, 2014). The amygdala is over-responsive to threat cues, and the insula may be hyperactive in tracking bodily sensations (Paulus & Stein, 2006).
 
-**Intervention Script:**
+**Treatment Goals:**
+- Build capacity to tolerate activation without panic
+- Develop regulatory resources
+- Shift relationship with bodily sensations
+- Expand window of tolerance
 
-"The panic is your body preparing for danger. Let's give it a different job. Can you stomp your feet? Hard. Like you're running. Let your body do what it's preparing to do."
+**Session Approach:**
 
-[Client stomps]
+**Phase 1: Grounding (10-15 minutes)**
+Begin every session with grounding. Anxious clients need help settling before they can process.
 
-"Good. Let the energy move. Now pause. Feel your feet. Orient. What's your activation now?"
+"Let's start by finding your ground. Feel your feet, your seat, your back against the chair."
 
-**Why it works:** Defensive responses want to complete. Stomping gives the sympathetic activation an outlet, allowing the cycle to complete and return to baseline.
+**Phase 2: Track the Anxiety (10 minutes)**
+"When you notice anxiety right now, where do you feel it in your body?"
 
-### Trauma and PTSD
+"If you were to rate it 0-10, where is it?"
 
-**The Physiology:** Dysregulated autonomic state—either hyperarousal (sympathetic), hypoarousal (dorsal vagal), or oscillating between them. Traumatic memories are often fragmented and somatically encoded.
+"What happens as you just notice it without trying to change it?"
 
-**Somatic Approach:**
-1. Establish safety and grounding
-2. Work within the window of tolerance (titration)
-3. Support defensive responses to complete
-4. Build capacity for regulation over time
+**Phase 3: Regulate (10-15 minutes)**
+Use grounding, pendulation, or breath work to bring activation down.
 
-**Key Principle:** Don't try to process traumatic content when the client is outside their window of tolerance. Ground first, process second.
+**Phase 4: Process (10-15 minutes)**
+"What did you notice about your anxiety during that practice?"
 
-**Clinical Script:**
+"What felt challenging? What felt manageable?"
 
-"Before we touch that memory, let's make sure you have resources. Can you find that place in your body that felt okay last week?"
+**Between Sessions:**
+Assign daily grounding practice. Use Handout 1 (Grounding Techniques).
 
-[Client finds resource]
+### Application 2: Trauma and PTSD
 
-"Good. We'll keep that as a home base. Now, just the edge of the memory—like dipping your toe in. What do you notice?"
+**Understanding the Physiology:**
 
-[Brief exposure, then return to resource]
+Trauma creates dysregulation in the autonomic nervous system. The body gets stuck in defensive responses—either hyperarousal (fight/flight), hypoarousal (freeze/shutdown), or oscillating between them (Van der Kolk, 2014; Schore, 2012).
 
-"Back to the okay place. Let that resource fill you."
+**Key Principles:**
 
-[Pendulation continues]
+**Stabilization First:** Don't process trauma material until the client has regulatory capacity. This may take weeks or months.
 
-**Warning:** Complex trauma with dissociation requires specialized training. Refer if the client has DID, severe dissociative episodes, or if you're out of your depth.
+**Titration:** Work with small pieces. Don't flood.
 
-### Depression and Shutdown
+**Pendulation:** Move between trauma activation and resource/neutral states.
 
-**The Physiology:** Dorsal vagal activation—collapse, immobilization, disconnection. Often a biological survival response that has become chronic.
+**Track for Dissociation:** Trauma survivors often dissociate. Watch for glazed eyes, sudden silence, or "checking out."
 
-**Somatic Approach:**
-1. Gentle activation (not too much—shutdown is often protective)
-2. Orienting and sensory engagement
-3. Very small movements
-4. Building connection to environment and others
+**Session Structure for Trauma:**
 
-**Clinical Script:**
+1. **Grounding** (5-10 min)
+2. **Check current capacity** — "How's your nervous system today?"
+3. **Gentle exploration** — Only if capacity is present
+4. **Regulation** — Before session ends
+5. **Grounding closure** — Client must leave regulated
 
-"I know everything feels heavy. Let's start small. Can you just notice one thing in this room that has a color you like?"
+**Never leave a trauma client activated at the end of session.**
 
-[Client orients]
+**Working with Flashbacks:**
 
-"What color is it?"
+If a client flashbacks during session:
+1. Ground immediately: "Feel your feet. Look at me. You're here with me in this room."
+2. Orient to present: "What do you see? What do you hear?"
+3. Return to body gently: "Can you feel the chair supporting you?"
+4. Don't process the content while flashbacked
+5. When grounded, explore what triggered it
 
-[Simple engagement]
+### Application 3: Depression and Shutdown
 
-"Can you reach out and touch something nearby? The chair, your leg, anything?"
+**Understanding the Physiology:**
 
-[Physical connection]
+Depression often involves dorsal vagal shutdown—an immobilization response that evolved for survival (Porges, 2011; although see Grossman et al., 2026 for controversy on this framework). The body is in a state of conservation/withdrawal.
 
-"Good. You're here. That's enough for today."
+**Treatment Goals:**
+- Gently mobilize without overwhelming
+- Reconnect to body sensations (positive and neutral)
+- Build small moments of activation
+- Restore agency
 
-**Clinical Note:** With depression, too much activation can overwhelm. Go slow. Build tolerance for sensation gradually.
+**Session Approach:**
 
-### Attachment and Relational Trauma
+Depressed clients often have very limited body awareness or are disconnected. Start small:
 
-**The Physiology:** Attachment wounds live in the body as implicit memories—patterns of tension, breath-holding, protective postures, and autonomic responses to proximity.
+"Can you feel your feet on the floor? Just notice that pressure."
 
-**Somatic Approach:**
-1. Track relational activation in session (yours and theirs)
-2. Use the therapeutic relationship as a laboratory
-3. Work with contact boundaries (closeness/distance)
-4. Support new endings to old relational patterns
+"What happens if you press your feet down a bit more?"
 
-**Clinical Script:**
+"Can you feel any sensation of warmth or coolness in your hands?"
 
-"I'm noticing as I moved closer, your breathing changed. What happened?"
+**Gentle Activation:**
+Small movements can help shift shutdown:
+- Pressing feet into floor
+- Gentle stretching
+- Changing position
+- Standing up
 
-[Explore the somatic response to proximity]
+**Build Mastery:**
+Depressed clients need experiences of efficacy:
+"You just brought your attention to your body. That's a skill you're building."
 
-"What would need to happen for your body to feel safe with someone close?"
+### Application 4: Attachment and Relational Trauma
 
-[Imaginal resourcing or therapeutic experimentation]
+**Understanding the Physiology:**
 
-"Let's try something. Can you notice what happens if I stay right here and you take your time feeling your feet? No rush."
+Attachment patterns are encoded in the nervous system (Schore, 2012). Early relational experiences shape:
+- Baseline autonomic tone
+- Threat detection sensitivity
+- Capacity for co-regulation
+- Tolerance for intimacy
 
-[Micro-experiments in safety]
+**Treatment Goals:**
+- Develop capacity for co-regulation
+- Build earned secure attachment
+- Shift internal working models through new somatic experiences
+- Repair attachment ruptures at the body level
+
+**Working with Attachment in Session:**
+
+**For Anxious Attachment:**
+Help client tolerate separation and self-soothe:
+"Let's practice you finding calm in your own body, without me needing to reassure you."
+
+**For Avoidant Attachment:**
+Gently build tolerance for connection:
+"Can you notice what happens in your body when I say I care about your wellbeing?"
+
+**The Therapist as Regulator:**
+Your nervous system becomes a template. Track your own activation—if you get anxious or shut down, the client will feel it (Schore, 2012).
 
 ---
 
 ## SECTION 5: CLIENT RESOURCES
 
-### HANDOUT 1: Understanding Your Nervous System
+### HANDOUT 1: Grounding Techniques
 
 *[Reproducible client handout]*
 
 ---
 
-**Your Nervous System: A Brief Guide**
-
-Your nervous system has one primary job: keeping you alive. It does this through three main states:
-
-**1. Social Engagement (Safe and Connected)**
-- You can think clearly
-- You can connect with others
-- Your breathing is regular
-- You feel present and grounded
-
-**2. Fight or Flight (Activated)**
-- Your heart beats faster
-- Your breathing speeds up
-- You feel anxious, angry, or panicky
-- Your muscles tense
-- You're ready for action
-
-**3. Shutdown (Immobilized)**
-- You feel numb or disconnected
-- Your energy is low
-- You feel hopeless or "far away"
-- It's hard to think or feel
-
-**Why This Matters:**
-Many of the symptoms that bring people to therapy—anxiety, depression, feeling "stuck"—are actually nervous system states. Understanding this can help you work with your body instead of fighting it.
-
-**What You Can Do:**
-The techniques you'll learn in therapy help you:
-- Recognize which state you're in
-- Shift to a more regulated state
-- Build capacity for staying regulated
-- Recover more quickly from stress
-
-Remember: These states are not character flaws. They're biological survival responses. With practice, you can develop more choice about which state you're in.
-
----
-
-### HANDOUT 2: Grounding Techniques
-
-*[Reproducible client handout]*
-
----
-
-**Grounding: Coming Back to the Present**
-
-When you're anxious, triggered, or "in your head," grounding techniques bring you back to the present moment.
-
-**Technique 1: 5-4-3-2-1 Senses**
+**5-4-3-2-1 Senses Technique**
 Name:
-- 5 things you can see
-- 4 things you can hear
-- 3 things you can feel
-- 2 things you can smell
-- 1 thing you can taste
+- 5 things you can SEE
+- 4 things you can HEAR
+- 3 things you can FEEL (physically)
+- 2 things you can SMELL
+- 1 thing you can TASTE
 
-**Technique 2: Feet on Floor**
-- Notice your feet pressing into the ground
-- Feel the support underneath you
-- Push down and feel your legs engage
-- Let yourself be supported
+**Physiological Grounding**
+- Press your feet into the floor
+- Feel your sitz bones on the chair
+- Notice the temperature of the air on your skin
+- Place one hand on heart, one on belly
 
-**Technique 3: Orienting**
-- Let your eyes move slowly around the room
-- Let them land on what catches your interest
-- Notice colors, shapes, light
-- Let your gaze travel
+**Orienting**
+- Let your eyes slowly move around the room
+- Notice what catches your attention
+- Let your gaze travel naturally
 
-**Technique 4: Hand on Heart**
-- Place one hand on your heart
-- Place one hand on your belly
-- Feel your breath
-- Offer yourself kindness
+---
 
-**When to Use:**
-- When you feel anxious or panicky
-- When you're having trouble focusing
-- When you feel "far away" or disconnected
-- When memories are intrusive
-- Before difficult conversations
+### HANDOUT 2: Understanding Your Nervous System
+
+*[Reproducible client handout]*
+
+---
+
+**Your Nervous System Has Three Main States:**
+
+**SAFE & SOCIAL (Ventral Vagal)**
+- Relaxed but alert
+- Can connect with others
+- Thinking clearly
+- Breathing is easy
+
+**ACTIVATED (Sympathetic)**
+- Heart racing
+- Tense muscles
+- Restless
+- Alert to danger
+
+**SHUT DOWN (Dorsal Vagal)**
+- Numb or disconnected
+- Low energy
+- Hard to think
+- Withdrawn
+
+**You Can Shift Between States**
+Grounding techniques help move from activated or shut down toward safe and social.
 
 ---
 
@@ -659,421 +584,305 @@ Name:
 
 ---
 
-**Your Window of Tolerance**
+**What Is Your Window of Tolerance?**
 
-Everyone has a range of arousal where they can function well—this is your "window of tolerance." Inside this window, you can:
-- Think clearly
-- Feel your emotions without being overwhelmed
-- Connect with others
-- Make good decisions
+It's the zone where you can function well—think clearly, feel emotions without being overwhelmed, and respond appropriately to situations.
 
-**Outside the Window:**
-
-**Hyperarousal (Too Much Activation):**
+**Hyperarousal (Above the Window):**
 - Anxiety, panic, anger
 - Racing thoughts
-- Impulsive behavior
-- Can't sleep
+- Can't sit still
+- Overwhelmed
 
-**Hypoarousal (Too Little Activation):**
+**Hypoarousal (Below the Window):**
 - Numb, disconnected
-- Depressed, exhausted
-- Can't think clearly
-- "Checked out"
+- Depressed, shut down
+- Can't think
+- Withdrawn
 
-**The Goal:**
-Expand your window so you can handle more stress without going outside it, and develop skills to return to your window when you do get pushed out.
+**Goal:** Build your capacity to stay within or return to your window.
 
-**Therapy Helps By:**
-- Teaching you to recognize when you're outside your window
-- Giving you tools to return to your window
-- Helping you process experiences that have narrowed your window
-- Building your capacity to stay regulated
+**Signs You're Leaving Your Window:**
+_________________
+
+**What Helps You Return:**
+_________________
 
 ---
 
-### HANDOUT 4: Somatic Tracking Practice
+### HANDOUT 4: Daily Body Check-In
 
 *[Reproducible client handout]*
 
 ---
-
-**Daily Somatic Tracking**
-
-Use this worksheet to build awareness of your bodily experience.
 
 **Morning Check-In:**
-Date: _______
-
-Breathing: _________________
-Tension locations: _________________
-Overall state (calm/activated/shut down): _________________
+1. How did I sleep? _____
+2. What's my energy level (0-10)? _____
+3. What's my mood (0-10)? _____
+4. Where do I feel tension in my body?
+_________________
 
 **Evening Check-In:**
-Date: _______
-
-Breathing: _________________
-Tension locations: _________________
-Overall state: _________________
-
-Significant moments today: _________________
-
-**Weekly Reflection:**
-
-Patterns I noticed: _________________
-
-What helps me regulate: _________________
-
-What dysregulates me: _________________
+1. What was my stress level today (0-10)? _____
+2. When did I feel most regulated?
+_________________
+3. When did I feel most dysregulated?
+_________________
+4. What helped me regulate?
+_________________
 
 ---
 
-### HANDOUT 5: Resonance Breathing
+### HANDOUT 5: Breath Awareness Practice
 
 *[Reproducible client handout]*
 
 ---
 
-**Resonance Breathing for Regulation**
+**Basic Breath Awareness**
 
-Resonance breathing (also called coherent breathing) activates the vagus nerve and promotes calm.
+1. Find a comfortable position
+2. Notice your breath without changing it
+3. Feel the air at your nostrils
+4. Notice your belly rising and falling
+5. If your mind wanders, gently return to breath
+6. Practice for 3-5 minutes
 
-**How to Practice:**
-
-1. Sit comfortably with feet on floor
-2. Breathe through your nose
-3. Inhale for 5 counts
-4. Exhale for 5 counts
-5. Continue for 5 minutes
-
-**Tips:**
-- If 5 counts feels too long, start with 4
-- Let your belly expand on the inhale
-- Make the exhale smooth and slow
-- Don't force it—find a rhythm that feels sustainable
-
-**When to Practice:**
-- Morning to start the day regulated
-- Before bed to support sleep
-- When you notice anxiety rising
-- As a daily practice to build vagal tone
-
-**The Science:**
-Breathing at this pace (6 breaths per minute) maximizes heart rate variability and vagal tone, both markers of nervous system regulation.
+**Extended Exhale**
+- Inhale for 4 counts
+- Exhale for 6 counts
+- This activates the relaxation response
 
 ---
 
-### HANDOUT 6: Pendulation Practice
+### HANDOUT 6: Progressive Muscle Relaxation
 
 *[Reproducible client handout]*
 
 ---
 
-**Pendulation: Moving Between Difficult and Neutral**
+**Basic Sequence:**
 
-Pendulation helps you process difficult experiences without getting overwhelmed.
+For each muscle group:
+1. Tense for 5 seconds
+2. Release suddenly
+3. Notice the sensation of relaxation for 10 seconds
+4. Move to next area
 
-**The Concept:**
-You move your attention back and forth between:
-- Something difficult (sensation, emotion, memory)
-- Something neutral or positive
-
-This teaches your nervous system that difficult states are temporary and can be followed by relief.
-
-**Practice:**
-
-1. Find a neutral or comfortable sensation in your body
-2. Rest your attention there for 30 seconds
-3. Briefly touch a difficult sensation (just 5-10 seconds)
-4. Return to the neutral place
-5. Repeat
-
-**Example:**
-"I feel tension in my chest (5 seconds)... now back to my calm feet (30 seconds)... now briefly the chest again (5 seconds)... back to feet."
-
-**When to Use:**
-- When processing difficult memories
-- When sensations feel overwhelming
-- When you feel stuck in an emotion
+**Sequence:**
+- Feet (curl toes)
+- Calves (point toes)
+- Thighs (press legs together)
+- Stomach (tighten)
+- Chest (take deep breath and hold)
+- Hands (make fists)
+- Arms (tighten biceps)
+- Shoulders (lift to ears)
+- Face (scrunch tight)
 
 ---
 
-### HANDOUT 7: Self-Havening
+### HANDOUT 7: Working with Triggers
 
 *[Reproducible client handout]*
 
 ---
 
-**Self-Havening for Distress**
-
-Havening uses gentle self-touch to reduce distress and calm the nervous system.
-
-**Basic Self-Havening:**
-
-1. Cross your arms across your chest
-2. Place your hands on your opposite shoulders
-3. Stroke down your arms slowly and gently, from shoulders to elbows
-4. Continue for 2-3 minutes
-5. While stroking, engage your mind with a counting task (count backward by 3s, or visualize walking through a peaceful place)
-
-**Why It Works:**
-Gentle touch releases oxytocin and activates neural pathways that signal safety. The cognitive task prevents re-triggering distress.
-
-**When to Use:**
-- When you're upset or activated
-- After difficult conversations
-- Before bed to release the day
-- When intrusive thoughts are present
-
----
-
-### HANDOUT 8: Orienting Practice
-
-*[Reproducible client handout]*
-
----
-
-**Orienting: Finding Safety in the Environment**
-
-Orienting is the natural tendency to scan for safety when we feel threatened. Deliberate orienting helps complete this biological process.
-
-**Practice:**
-
-1. Let your eyes move slowly around your environment
-2. Don't direct them—let them land on what naturally draws attention
-3. Notice colors, shapes, light, movement
-4. Let your head turn if it wants to
-5. Continue for 1-2 minutes
-
-**Why It Works:**
-Orienting activates the ventral vagal system, which supports social engagement and safety. It tells your nervous system: "I've looked around. I'm safe."
-
-**When to Use:**
-- When you feel anxious or vigilant
-- When you feel dissociated or "not here"
-- When you can't settle
-- As a daily practice to build safety awareness
-
----
-
-### HANDOUT 9: Working with Anger
-
-*[Reproducible client handout]*
-
----
-
-**Anger and the Body**
-
-Anger is a defensive emotion designed to protect boundaries. It's often accompanied by:
-- Heat in the body
-- Tension, especially in jaw, fists, shoulders
-- Urge to push, shout, or fight
-- Activation in the chest
-
-**Healthy Expression:**
-
-1. **Acknowledge:** "I'm angry. This is anger."
-2. **Ground:** Feel your feet, orient to the room
-3. **Contain:** Don't act on it immediately
-4. **Move:** Let the energy move—punch a pillow, stomp, yell into a pillow
-5. **Process:** Once regulated, think about what the anger is protecting
-
-**Anger as Protection:**
-Anger often covers:
-- Hurt
-- Fear
-- Shame
-- Powerlessness
-
-Once the anger settles, these feelings may surface. This is normal.
-
----
-
-### HANDOUT 10: Working with Shutdown
-
-*[Reproducible client handout]*
-
----
-
-**Understanding Shutdown**
-
-Shutdown (depression, numbness, disconnection) is a biological survival response. When fight/flight isn't possible, the nervous system immobilizes.
-
-**Signs of Shutdown:**
-- Feeling numb or "dead inside"
-- Exhaustion
-- Difficulty feeling anything
-- Sense of hopelessness
-- "Far away" or disconnected
-
-**Gentle Interventions:**
-
-1. **Tiny movements:** Wiggle toes, stretch slightly
-2. **Orienting:** Look around the room slowly
-3. **Sensory engagement:** Touch something textured, smell something
-4. **Very small goals:** One tiny step, not a whole plan
-5. **Connection:** Reach out to someone safe, even briefly
-
-**Be Patient:**
-Shutdown is protective. It takes time to come back. Don't force it. Small steps.
-
----
-
-### HANDOUT 11: Somatic Interoception Guide
-
-*[Reproducible client handout]*
-
----
-
-**Building Interoceptive Awareness**
-
-Interoception is your sense of the internal state of your body. It's fundamental to emotional awareness.
-
-**Practice: Body Scan**
-
-1. Lie down or sit comfortably
-2. Bring attention to your feet
-3. Notice sensation (temperature, pressure, tingling, nothing)
-4. Move attention slowly up through legs, torso, arms, head
-5. Just notice—don't change anything
-
-**Questions for Inquiry:**
-
-- What do I feel in my chest right now?
-- Is there tension anywhere?
-- What happens to my breath when I think about [topic]?
-- If this emotion had a temperature, what would it be?
-- Where in my body do I feel anxiety/anger/sadness?
-
-**Building the Skill:**
-Practice daily, even for just 2 minutes. Over time, you'll develop clearer awareness of your internal state.
-
----
-
-### HANDOUT 12: Between-Session Practice Log
-
-*[Reproducible client handout]*
-
----
-
-**Weekly Practice Log**
-
-Track your somatic practices between sessions.
-
-| Day | Practice | Duration | Activation Before | Activation After | Notes |
-|-----|----------|----------|-------------------|------------------|-------|
-| Mon | | | | | |
-| Tue | | | | | |
-| Wed | | | | | |
-| Thu | | | | | |
-| Fri | | | | | |
-| Sat | | | | | |
-| Sun | | | | | |
-
-**Practices to Try:**
-- Grounding (5-4-3-2-1)
-- Resonance breathing
-- Self-havening
-- Orienting
-- Body scan
-- Pendulation
-
----
-
-### HANDOUT 13: Safety Planning
-
-*[Reproducible client handout]*
-
----
-
-**My Somatic Safety Plan**
-
-**When I'm Activated (Fight/Flight):**
-My signs: _________________
-What helps: _________________
-Who to contact: _________________
-
-**When I'm Shut Down:**
-My signs: _________________
-What helps: _________________
-Who to contact: _________________
-
-**My Go-To Techniques:**
-1. _________________
-2. _________________
-3. _________________
-
-**Emergency Contacts:**
-Therapist: _________________
-Crisis Line: 988
-Other: _________________
-
----
-
-### HANDOUT 14: Understanding Triggers
-
-*[Reproducible client handout]*
-
----
-
-**Triggers and the Nervous System**
-
-A trigger is anything that activates your threat response system. It's not the event itself—it's what your nervous system learned to associate with danger.
+**What Is a Trigger?**
+A trigger is anything that activates your threat response system based on past experiences.
 
 **Common Triggers:**
 - Certain tones of voice
 - Being left alone
 - Conflict
 - Specific smells or sounds
-- Certain types of touch
 - Feeling trapped
-- Authority figures
 
 **Your Triggers:**
 1. _________________
 2. _________________
 3. _________________
 
-**Trigger Response Pattern:**
-When I'm triggered, I tend to: _________________
-
-**What Helps Me Regulate After a Trigger:**
-1. _________________
-2. _________________
-3. _________________
+**When Triggered:**
+1. Notice: "I'm triggered"
+2. Ground: Use 5-4-3-2-1
+3. Breathe: Extended exhale
+4. Remind: "This is a memory, not the present"
 
 ---
 
-### HANDOUT 15: Progress Tracking
+### HANDOUT 8: Self-Regulation Toolkit
 
 *[Reproducible client handout]*
 
 ---
 
-**Somatic Therapy Progress Tracker**
+**My Go-To Regulation Techniques:**
 
-**Baseline (Week 1):**
-- Average anxiety level (0-10): _____
-- Sleep quality (1-10): _____
-- Ability to feel body sensations (1-10): _____
-- Regulation capacity (1-10): _____
-
-**Week 4:**
-- Average anxiety level (0-10): _____
-- Sleep quality (1-10): _____
-- Ability to feel body sensations (1-10): _____
-- Regulation capacity (1-10): _____
-
-**Week 8:**
-- Average anxiety level (0-10): _____
-- Sleep quality (1-10): _____
-- Ability to feel body sensations (1-10): _____
-- Regulation capacity (1-10): _____
-
-**Notes:**
+**When I'm anxious/activated:**
 _________________
 
-**Goals Achieved:**
+**When I'm shut down/numb:**
+_________________
+
+**When I can't sleep:**
+_________________
+
+**When I need quick relief:**
+_________________
+
+---
+
+### HANDOUT 9: Co-Regulation Guide
+
+*[Reproducible client handout]*
+
+---
+
+**What Is Co-Regulation?**
+Our nervous systems influence each other. Being around calm people helps us feel calm. Being around activated people can make us feel activated.
+
+**How to Use Co-Regulation:**
+1. Spend time with people who feel safe
+2. Let yourself be influenced by their calm
+3. Notice how you feel after different social interactions
+4. Limit time with people who dysregulate you
+
+**Building Self-Regulation:**
+Over time, co-regulation experiences help you develop your own internal regulation capacity.
+
+---
+
+### HANDOUT 10: Somatic Tracking Log
+
+*[Reproducible client handout]*
+
+---
+
+**Daily Somatic Practice Log**
+
+| Date | Practice | Duration | Before (0-10) | After (0-10) | Notes |
+|------|----------|----------|---------------|--------------|-------|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+---
+
+### HANDOUT 11: Pendulation Practice
+
+*[Reproducible client handout]*
+
+---
+
+**What Is Pendulation?**
+Moving attention between a place of discomfort and a place of comfort/resourcing.
+
+**How to Practice:**
+
+1. Find the activated place in your body (discomfort)
+2. Notice it briefly (3-5 seconds)
+3. Find a neutral or comfortable place in your body (resource)
+4. Rest attention there (10-15 seconds)
+5. Go back to the activated place briefly
+6. Return to resource
+7. Repeat 3-5 times
+
+**This teaches your nervous system that activation can be followed by settling.**
+
+---
+
+### HANDOUT 12: Orienting Practice
+
+*[Reproducible client handout]*
+
+---
+
+**Orienting Exercise**
+
+When you feel anxious or dissociated:
+
+1. Pause what you're doing
+2. Let your eyes slowly move around the room
+3. Let them land on whatever naturally catches attention
+4. Take your time—30-60 seconds
+5. Notice what you see, colors, shapes, light
+6. Let your gaze travel naturally
+
+**Why This Helps:**
+Orienting is a natural biological process that helps your nervous system assess safety. Letting it complete sends a signal that you're safe.
+
+---
+
+### HANDOUT 13: Safe/Calm Place Visualization
+
+*[Reproducible client handout]*
+
+---
+
+**Creating an Internal Resource**
+
+1. Remember or imagine a place where you feel safe and calm
+2. Engage all senses: What do you see? Hear? Smell? Feel?
+3. Notice the sensation in your body when you imagine this place
+4. Let that feeling expand
+5. Practice this visualization regularly
+
+**Use this resource:**
+- Before bed
+- When stressed
+- As part of grounding practice
+
+---
+
+### HANDOUT 14: Emergency Regulation Plan
+
+*[Reproducible client handout]*
+
+---
+
+**When I'm in Crisis:**
+
+**My Warning Signs:**
+_________________
+
+**Immediate Techniques:**
+1. _________________
+2. _________________
+3. _________________
+
+**Who I Can Call:**
+- Therapist: _________________
+- Crisis Line: 988
+- Trusted person: _________________
+
+---
+
+### HANDOUT 15: Progress Tracker
+
+*[Reproducible client handout]*
+
+---
+
+**Somatic Therapy Progress**
+
+**Week 1:**
+- Body awareness (0-10): _____
+- Regulation capacity (0-10): _____
+- Anxiety level (0-10): _____
+
+**Week 4:**
+- Body awareness (0-10): _____
+- Regulation capacity (0-10): _____
+- Anxiety level (0-10): _____
+
+**Week 8:**
+- Body awareness (0-10): _____
+- Regulation capacity (0-10): _____
+- Anxiety level (0-10): _____
+
+**Notes:**
 _________________
 
 ---
@@ -1102,11 +911,6 @@ _________________
 - You're unsure about scope of practice
 - Countertransference around touch or body work
 
-**Questions for Somatic Consultation:**
-- "How do I work with this client who goes into severe shutdown?"
-- "What's the line between somatic therapy and somatic experiencing?"
-- "How do I handle a client who has no body awareness?"
-
 ### Liability Considerations
 
 **Risk Management:**
@@ -1126,11 +930,27 @@ _________________
 
 ### Appendix A: Complete Reference List
 
+Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. *Nature Reviews Neuroscience*, 10(6), 410–422. https://doi.org/10.1038/nrn2648
+
+Brewer, R., Cook, R., & Bird, G. (2011). Alexithymia: A general deficit of interoception. *Royal Society Open Science*, 3(5), 150664. https://doi.org/10.1098/rsos.150664
+
+Craig, A. D. (2009). How do you feel—now? The anterior insula and human awareness. *Nature Reviews Neuroscience*, 10(1), 59–70. https://doi.org/10.1038/nrn2555
+
 Damasio, A. R. (2000). *The feeling of what happens: Body and emotion in the making of consciousness*. Harcourt Brace.
 
-Farb, N., Segal, Z. V., & Anderson, A. K. (2013). Mindfulness meditation training alters cortical representations of interoceptive attention. *Social Cognitive and Affective Neuroscience*, 8(1), 15–26. https://doi.org/10.1093/scan/nss066
+Damasio, A., & Carvalho, G. B. (2013). The nature of feelings: Evolutionary and neurobiological origins. *Nature Reviews Neuroscience*, 14(2), 143–152. https://doi.org/10.1038/nrn3403
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+Domschke, K., Stevens, S., Pfleiderer, B., & Gerlach, A. L. (2010). Interoceptive sensitivity in anxiety and anxiety disorders: An overview and integration of neurobiological findings. *Clinical Psychology Review*, 30(1), 1–11. https://doi.org/10.1016/j.cpr.2009.08.008
 
 Farb, N., Daubenmier, J., Price, C. J., Mehling, W. E., & Epel, E. (2015). Interoception, contemplative practice, and health. *Frontiers in Psychology*, 6, Article 763. https://doi.org/10.3389/fpsyg.2015.00763
+
+Grossman, P., Taylor, E. W., et al. (2026). A critique of polyvagal theory: Response to Porges (2026). *Clinical Neuropsychiatry*, 23(1). https://doi.org/10.36131/cn2026
+
+Khalsa, S. S., Adolphs, R., Cameron, O. G., Critchley, H. D., Davenport, P. W., Feinstein, J. S., Feusner, J. D., Garfinkel, S. N., Lane, R. D., Mehling, W. E., et al. (2018). Interoception and mental health: A roadmap. *Biological Psychiatry: Cognitive Neuroscience and Neuroimaging*, 3(6), 501–513. https://doi.org/10.1016/j.bpsc.2017.12.004
+
+LeDoux, J. E. (2015). *Anxious: Using the brain to understand and treat fear and anxiety*. Viking.
 
 Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
 
@@ -1138,15 +958,17 @@ Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the body: A sensorimotor ap
 
 Paulus, M. P., & Stein, M. B. (2006). An insular view of anxiety. *Biological Psychiatry*, 60(4), 383–387. https://doi.org/10.1016/j.biopsych.2006.03.042
 
-Payne, P., Levine, P. A., & Crane-Godreau, M. A. (2015). Somatic experiencing: Using interoception and proprioception as core elements of trauma therapy. *Frontiers in Psychology*, 4, Article 93. https://doi.org/10.3389/fpsyg.2015.00093
+Pessoa, L. (2017). A network model of the emotional brain. *Trends in Cognitive Sciences*, 21(5), 357–371. https://doi.org/10.1016/j.tics.2017.03.002
 
 Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Porges, S. W. (2026). Response to Grossman et al.: Defense of polyvagal theory. *Clinical Neuropsychiatry*, 23(1). https://doi.org/10.36131/cn2026resp
 
 Schore, A. N. (2012). *The science of the art of psychotherapy*. W. W. Norton & Company.
 
 Siegel, D. J. (2012). *The developing mind: How relationships and the brain interact to shape who we are* (2nd ed.). Guilford Press.
 
-Van der Kolk, B. A. (2006). Clinical implications of neuroscience research in PTSD. *Annals of the New York Academy of Sciences*, 1071(1), 277–293. https://doi.org/10.1196/annals.1364.022
+Swanson, L. W. (2000). Cerebral hemisphere regulation of motivated behavior. *Brain Research*, 886(1–2), 113–164. https://doi.org/10.1016/S0006-8993(00)02905-X
 
 Van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.
 
@@ -1168,7 +990,7 @@ Van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in 
 
 **Polyvagal Theory:**
 - Porges' workshops and writings
-- Deb Dana's clinical applications
+- Deb Dana's clinical applications (Dana, 2018)
 
 **Other Modalities:**
 - NeuroAffective Touch (Aline LaPierre)
@@ -1214,4 +1036,3 @@ Fern & Feather Wellness Center
 ---
 
 *© 2026 Fern & Feather Wellness Center*
-*For licensed mental health professionals only. This toolkit is for educational purposes and does not constitute clinical training. Practice within your scope of competence.*
