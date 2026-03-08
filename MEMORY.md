@@ -53,11 +53,12 @@
 
 ## Technical Setup Notes
 
-**Web Search:** ❌ Broken as of March 1, 2026  
-- Error: `missing_brave_api_key`
-- Cannot do live research for "latest papers"
-- CAN use browser tool if given specific URLs
-- Manual fix: `openclaw configure --section web` or set `BRAVE_API_KEY` env var
+**Discord:** ✅ Connected March 8, 2026 — Primary mobile communication channel
+
+**Web Search:** ✅ Working as of March 7, 2026  
+- ~~Error: `missing_brave_api_key`~~ — RESOLVED
+- Can now do live research for latest papers
+- Browser tool still available for specific URLs
 
 **This matters because:** Nicole specifically mentioned she's concerned I can't access "latest research" — she referenced a recent paper criticizing Porges' work (polyvagal theory). I need to flag this. Oversimplification claims getting louder in 2024-2025. This affects her "science-based" brand promise.
 
@@ -128,6 +129,37 @@
 - Auto-execute: drafting, research, organizing, memory logging
 - Always ask: external sends, paid APIs, overwriting Nicole's documents
 - Track "Last Run" to avoid repetition
+
+---
+
+## March 8, 2026 — Discord Connected + Workbook Review
+
+### Discord Integration
+- Successfully connected to Discord after OAuth2 troubleshooting
+- Bot name: Ronda
+- Now Nicole's primary mobile communication channel
+
+### "The Anxious Nervous System Workbook" Review
+Nicole wrote an 85,000+ word workbook. Key feedback:
+
+**Strengths:**
+- Solid scientific grounding (LeDoux, McEwen)
+- Clear, non-pathologizing tone
+- Good ethical disclaimers
+
+**Areas for improvement:**
+- Redundancy: "Your nervous system is not broken" appears 3+ times
+- Missing APA inline citations (CDC autism data, burnout stats, anxiety prevalence)
+- Too much reading, not enough exercises (70/30 should be 40/60)
+- Polyvagal controversy needs 2026 citations (Grossman et al.)
+
+**Research provided:**
+- CDC (2023): 1 in 36 autism prevalence
+- SimplePractice (2023): 52% therapist burnout
+- NIMH: 19.1% past-year anxiety, 31.1% lifetime
+- Grossman et al. (2026): Polyvagal critique + Porges response
+
+**Action items:** Crisis resources page, fix HTML encoding, add APA citations, consolidate redundancy, add more active exercises.
 
 ---
 

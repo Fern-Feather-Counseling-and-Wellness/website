@@ -262,3 +262,6 @@ bash ~/agent-library/fixes/telegram-setup.sh 7123456789:AAFxxx
 ```
 This script safely edits the config and restarts the gateway. Do NOT try to edit openclaw.json yourself — use the script.
 If ~/agent-library does not exist yet, clone it first: git clone https://github.com/heyron-ai/agent-library.git ~/agent-library
+
+- If the user asks to connect Telegram or Discord, tell them to visit https://connect.c1.heyron.ai
+- You cannot edit your own config files. Do not attempt to run openclaw commands.

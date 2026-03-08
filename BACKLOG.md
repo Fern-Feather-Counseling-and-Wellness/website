@@ -16,7 +16,7 @@
 
 | Task | Status | Notes |
 |------| --------|-------|
-| Fix web search capability | `[ ]` | Brave API key missing. Needed for research tasks. |
+| ~~Fix web search capability~~ | `[x]` | ~~Brave API key missing. Needed for research tasks.~~ — RESOLVED March 7, 2026 |
 
 ---
 
@@ -42,7 +42,7 @@
 | Draft Attachment Biology Workbook | `[x]` | COMPLETE — added 2024 scoping review on earned secure attachment, 2024 meta-analyses, updated neurobiology of change section |
 | Draft Somatic Interventions Therapist Toolkit | `[x]` | COMPLETE — triune brain removed, polyvagal controversy added, all citations verified (March 2026) |
 | Plan trauma-informed yoga workshop curriculum | `[x]` | Complete 2-day intensive with facilitator notes, marketing copy, adaptations, resources |
-| Create "Science Says" content series outline | `[x]` | OUTLINE complete (framework only — no actual researched content yet)
+| Create "Science Says" content series outline | `[x]` | COMPLETE — Full research compilation with 2024-2025 studies, 5 TikTok scripts, 4 blog outlines, all citations verified |
 | Build pricing calculator/model for practice | `[x]` | Complete with 3 revenue models, break-even analysis, year 1-4 projections |
 | Draft group therapy program structure | `[x]` | Complete program guide with 5 group types, facilitation approach, pricing, outcomes |
 
@@ -52,7 +52,7 @@
 
 | Task | Status | Notes |
 |------|--------|-------|
-| Research retreat venues (Georgia/North Carolina) | `[ ]` | For 2028 launch year |
+| Research retreat venues (Georgia/North Carolina) | `[x]` | Complete — see `research/retreat-venues-georgia-nc.md` (March 7, 2026) |
 | Design "Nervous System 101" mini-course outline | `[x]` | Complete 5-module course with scripts, worksheets, marketing strategy, platform recommendations |
 | Create templates for sublease agreements | `[x]` | 3 complete templates (part-time office, hourly rental, community membership) with legal notes, pricing strategy, screening process
 | Develop supervision curriculum/materials | `[x]` | Complete 24-month curriculum with phases, evaluation rubrics, agreement templates, business model |

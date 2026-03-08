@@ -68,6 +68,6 @@ When quiet:
 ## Last Run
 
 *Track what I last worked on here to avoid repetition*
-- Date: 2026-03-07
-- Task: Completed The Embodied Parts Workbook (Modules 4-8)
-- Result: Created 5 complete modules (Modules 4-8) totaling ~27,000 words; Full workbook now complete at 85,000+ words with intro + 8 modules; All modules include somatic exercises, journaling prompts, integration practices, and trauma-informed guidance; Updated BACKLOG.md to mark complete
+- Date: 2026-03-08
+- Task: Memory hygiene — distilled March 7-8 daily notes into MEMORY.md
+- Result: Added Discord connection status, workbook review summary, and research findings to long-term memory
