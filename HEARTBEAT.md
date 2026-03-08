@@ -69,5 +69,5 @@ When quiet:
 
 *Track what I last worked on here to avoid repetition*
 - Date: 2026-03-08
-- Task: Intelligence gathering — researched web design platforms and practice management tools for Fern & Feather
-- Result: Created tech-stack-recommendations.md with Squarespace, Webflow, Calendly Health Pro, Jane App analysis
+- Task: Intelligence gathering — researched web design platforms, practice management tools, AND PDF creation tools for Fern & Feather
+- Result: Created tech-stack-recommendations.md AND pdf-creation-tools.md with Canva, InDesign, Designrr analysis
