@@ -69,5 +69,5 @@ When quiet:
 
 *Track what I last worked on here to avoid repetition*
 - Date: 2026-03-08
-- Task: Intelligence gathering — researched web design platforms, practice management tools, AND PDF creation tools for Fern & Feather
-- Result: Created tech-stack-recommendations.md AND pdf-creation-tools.md with Canva, InDesign, Designrr analysis
+- Task: Intelligence gathering — researched web platforms, practice management, PDF tools, AND automation workflows for Fern & Feather
+- Result: Created tech-stack-recommendations.md, pdf-creation-tools.md, AND automation-tools.md with Zapier, Make, n8n analysis
