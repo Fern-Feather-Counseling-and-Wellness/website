@@ -69,5 +69,5 @@ When quiet:
 
 *Track what I last worked on here to avoid repetition*
 - Date: 2026-03-12
-- Task: Tier 3 Intelligence — gathered 2025 trauma-informed therapy research, created intelligence brief
-- Result: 5 recent studies documented, strategic implications for Fern & Feather identified, committed to research/
+- Task: System onboarding completion — removed BOOTSTRAP.md, committed workspace state changes
+- Result: Onboarding finalized, repo clean, daily log updated
