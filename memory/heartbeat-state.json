@@ -1,18 +1,21 @@
 {
   "lastChecks": {
-    "backlog": 1741050840,
+    "backlog": 1741559100,
     "business_doc": 1740969600,
     "competitor_research": null,
-    "content_drafting": null,
+    "content_drafting": 1741547700,
     "email": null,
     "calendar": null,
     "weather": null,
-    "clawhub_skills": null,
+    "clawhub_skills": 1741529100,
     "mcp_servers": null,
-    "subagent_review": null
+    "subagent_review": null,
+    "tiktok_trends": 1741536300,
+    "memory_hygiene": 1741551300,
+    "research_updates": 1741562100
   },
   "lastHeartbeatTask": {
-    "date": "2026-03-04",
-    "task": "Created BACKLOG.md with prioritized task list"
+    "date": "2026-03-09",
+    "task": "Tier 3 Intelligence — Latest: 37th Boston Trauma Conference 2026 (Bessel van der Kolk), new somatic interventions article published"
   }
 }

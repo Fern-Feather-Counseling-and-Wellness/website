@@ -83,13 +83,15 @@
 
 ---
 
-## Immediate Priorities (as of March 1)
+## Immediate Priorities (as of March 9, 2026)
 
-1. Fix web search or find workaround for research needs
-2. Create lead magnet: "5 Somatic Practices for Immediate Anxiety Relief"
-3. Build Fern & Feather Master Business Document
-4. Start planning digital products (Attachment Biology Workbook as first)
-5. Help with TikTok content strategy (justice-oriented + funny therapist)
+1. **TikTok content execution** — 30-day calendar done, need to start filming/tracking performance
+2. **Workbook refinement** — Nicole's 85k word workbook needs: APA citations, crisis resources, exercise consolidation
+3. **Digital product PDF layout** — Content complete, needs graphic design polish for sale-ready products
+4. **Scheduling system selection** — Need to evaluate SimplePractice, TherapyNotes, or similar for 2027 launch
+5. **Website/landing page copy** — Fern & Feather needs web presence for lead capture
+
+**Completed since March 1:** ✅ Web search fixed, ✅ Lead magnet written, ✅ Master business doc, ✅ All core digital products drafted, ✅ TikTok calendar, ✅ Intake system, ✅ Email sequences
 
 ---
 
@@ -219,6 +221,24 @@ All three core products are **production-ready** with complete prose, exercises,
 - Digital product refinement
 - Operations setup (scheduling, payments)
 - Soft marketing (lead magnet, email list)
+
+---
+
+## March 8, 2026 — Discord Connected + Workbook Review Complete
+
+**Discord:** Now primary mobile communication channel. OAuth2 troubleshooting resolved.
+
+**"The Anxious Nervous System Workbook" Review:**
+- 85,000+ word comprehensive guide reviewed
+- **Strengths:** Solid scientific grounding, clear non-pathologizing tone
+- **Issues found:** Redundancy ("not broken" appears 3+ times), missing APA citations, 70/30 read/exercise ratio should be 40/60
+- **Action items:** Add crisis resources, fix HTML encoding, consolidate redundancy, add more active exercises
+
+**Research provided:**
+- CDC (2023): 1 in 36 autism prevalence
+- SimplePractice (2023): 52% therapist burnout
+- NIMH: 19.1% past-year anxiety, 31.1% lifetime
+- Grossman et al. (2026): Polyvagal critique + Porges response
 
 ---
 

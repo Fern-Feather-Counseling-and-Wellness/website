@@ -80,4 +80,16 @@
 
 ---
 
-*Last updated: 2026-03-04*
+*Last updated: 2026-03-09*
+
+## Notes
+
+### Skills Reviewed (March 9, 2026)
+Relevant skills for Fern & Feather:
+- **nano-pdf** — Natural language PDF editing (for tweaking workbook layouts)
+- **sag** — ElevenLabs TTS with voice tags like `[whispers]`, `[excited]`, `[sarcastic]`
+- **openai-image-gen** — Image generation for marketing materials
+- **github** — Already in use for sync
+- **notion** — Potential wiki/documentation platform
+
+**Opportunity:** sag could generate voice versions of TikTok scripts or audiobook content. Requires ELEVENLABS_API_KEY.
