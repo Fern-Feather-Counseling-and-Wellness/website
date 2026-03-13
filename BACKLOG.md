@@ -100,3 +100,10 @@ Completed research on high-demand therapy certifications for marketing/positioni
 - **Quick win:** ERP certification ($2K, 6-12 months) — underserved OCD niche
 - **Strategic fit:** IFS Level 1 — exploding demand, aligns with somatic approach
 - **Full analysis:** `research/certification-demand-analysis.md`
+
+### Safety Systems Research (March 13, 2026)
+Completed research on panic button/safety systems for therapy offices:
+- **Top recommendation:** Flic smart buttons ($22 each, no monthly fees) for room-based alerts
+- **Individual protection:** Silent Beacon wearables ($100 + $20/month) for personal safety
+- **Best for Fern & Feather:** Start with Flic 6-pack ($130) for multi-room coverage
+- **Full analysis:** `research/therapy-office-safety-systems.md`
