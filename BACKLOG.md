@@ -93,3 +93,10 @@ Relevant skills for Fern & Feather:
 - **notion** — Potential wiki/documentation platform
 
 **Opportunity:** sag could generate voice versions of TikTok scripts or audiobook content. Requires ELEVENLABS_API_KEY.
+
+### Certification Research (March 13, 2026)
+Completed research on high-demand therapy certifications for marketing/positioning:
+- **Top recommendations:** EMDR, IFS, ERP for OCD, Somatic Experiencing, Brainspotting
+- **Quick win:** ERP certification ($2K, 6-12 months) — underserved OCD niche
+- **Strategic fit:** IFS Level 1 — exploding demand, aligns with somatic approach
+- **Full analysis:** `research/certification-demand-analysis.md`
