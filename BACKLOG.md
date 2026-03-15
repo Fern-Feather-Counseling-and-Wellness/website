@@ -107,3 +107,11 @@ Completed research on panic button/safety systems for therapy offices:
 - **Individual protection:** Silent Beacon wearables ($100 + $20/month) for personal safety
 - **Best for Fern & Feather:** Start with Flic 6-pack ($130) for multi-room coverage
 - **Full analysis:** `research/therapy-office-safety-systems.md`
+
+### Marketing Playbook (March 15, 2026)
+Created comprehensive 2025-2026 marketing strategy for Fern & Feather:
+- **3-phase approach:** Pre-launch (build audience) → Launch (fill slots) → Growth (scale revenue)
+- **Revenue projection:** $147K Year 1 with diversification model
+- **Key insight:** High-earning therapists specialize narrowly, market consistently, diversify revenue
+- **90-day action plan:** Specific tasks starting now through pre-launch
+- **Full playbook:** `marketing/fern-feather-marketing-playbook-2025-2026.md`
