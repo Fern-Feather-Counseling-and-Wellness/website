@@ -242,4 +242,75 @@ All three core products are **production-ready** with complete prose, exercises,
 
 ---
 
+## March 9, 2026 — Skills Review & Google Drive Integration
+
+**Skills Identified for Fern & Feather:**
+- **nano-pdf** — Natural language PDF editing for workbook layouts
+- **sag** — ElevenLabs TTS with voice tags (`[whispers]`, `[excited]`, `[sarcastic]`)
+- **openai-image-gen** — Image generation for marketing materials
+- **github** — Already in use for sync
+- **notion** — Potential wiki/documentation platform
+
+**Google Drive Integration Attempt:**
+- Created service account: `ronda-drive@fern-and-feather.iam.gserviceaccount.com`
+- **Blocker:** Service accounts can't upload to regular Drive folders, only shared drives
+- Nicole's "Fern & Feather Wellness Center" folder cannot be upgraded to shared drive
+- OAuth credentials have invalid project_id — needs correct Google Cloud project
+
+**Status:** Drive integration blocked pending correct OAuth credentials from Nicole.
+
+---
+
+## March 13, 2026 — Certification & Safety Research
+
+### Therapy Certification Demand Analysis
+**Top recommendations for Nicole:**
+- **EMDR** — Gold standard for trauma, high demand
+- **IFS (Internal Family Systems)** — Exploding popularity, aligns with somatic approach
+- **ERP (Exposure Response Prevention)** — Underserved OCD niche, quick certification ($2K, 6-12 months)
+- **Somatic Experiencing** — Fits brand, 3-year training
+- **Brainspotting** — Growing interest, shorter training than EMDR
+
+**Strategic insight:** ERP certification = quick win in underserved OCD market. IFS Level 1 = long-term positioning.
+
+### Therapy Office Safety Systems
+**Recommendations for Fern & Feather physical space:**
+- **Flic smart buttons** ($22 each, no monthly fees) — Room-based panic alerts
+- **Silent Beacon wearables** ($100 + $20/month) — Personal protection for Nicole
+- **Best starting point:** Flic 6-pack ($130) for multi-room coverage
+
+**Why it matters:** Solo practitioners need safety protocols. These systems provide discreet alert capabilities without monthly fees.
+
+---
+
+## March 15, 2026 — Marketing Playbook Complete
+
+**Created comprehensive 2025-2026 marketing strategy:**
+
+**3-Phase Approach:**
+1. **Pre-launch (Now → March 2027):** Build audience, establish authority
+2. **Launch (March-June 2027):** Fill initial client slots
+3. **Growth (July 2027+):** Scale revenue through diversification
+
+**Revenue Projection:** $147K Year 1 with diversified model
+
+**Key Insight:** High-earning therapists (>$150K) share three traits:
+- Specialize narrowly (don't try to treat everyone)
+- Market consistently (not sporadically)
+- Diversify revenue (not just 1:1 sessions)
+
+**90-Day Action Plan:** Specific tasks starting now through pre-launch, including TikTok content schedule, email list building, and referral network development.
+
+**Full playbook:** `marketing/fern-feather-marketing-playbook-2025-2026.md`
+
+---
+
+## Ongoing Blockers
+
+| Issue | Status | Notes |
+|-------|--------|-------|
+| Google Drive upload | `[?]` | OAuth credentials have invalid project_id. Need correct Google Cloud project credentials from Nicole. |
+
+---
+
 *First memory. First trust. Make it count.*
