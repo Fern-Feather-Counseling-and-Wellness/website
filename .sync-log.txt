@@ -1,0 +1,214 @@
+2026/03/19 23:37:14 INFO  : fern-feather-operations-manual.md: Copied (new)
+2026/03/19 23:37:14 INFO  : Pricing Calculator & Financial Projections.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-pricing-calculator.md: Deleted
+2026/03/19 23:37:14 INFO  : Fern & Feather - Master Business Plan.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-master-plan.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-product-strategy.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents: Removing directory
+2026/03/19 23:37:15 INFO  : 
+Transferred:   	   12.420 KiB / 12.420 KiB, 100%, 12.412 KiB/s, ETA 0s
+Checks:                 5 / 5, 100%
+Deleted:                5 (files), 1 (dirs)
+Transferred:            1 / 1, 100%
+Elapsed time:         2.5s
+
+2026/03/19 23:37:16 INFO  : attachment-biology-workbook-outline.md: Copied (new)
+2026/03/19 23:37:16 INFO  : convert_to_docx.py: Copied (new)
+2026/03/19 23:37:16 INFO  : grounding-technique-cards.md: Copied (new)
+2026/03/19 23:37:16 INFO  : fern-feather-printable-toolkit.md: Copied (new)
+2026/03/19 23:37:17 INFO  : printable-somatic-toolkit-spec.md: Copied (new)
+2026/03/19 23:37:17 INFO  : embodied-parts-workbook/embodied-parts-workbook-intro.md: Copied (new)
+2026/03/19 23:37:17 INFO  : printable-toolkit-spec.md: Copied (new)
+2026/03/19 23:37:17 INFO  : embodied-parts-workbook/module-1-foundations.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-2-protectors.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-4-self-energy.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-3-exiles.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-5-relationships.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-6-trauma.md: Copied (new)
+2026/03/19 23:37:19 INFO  : embodied-parts-workbook/module-7-integration.md: Copied (new)
+2026/03/19 23:37:19 INFO  : embodied-parts-workbook/module-8-continuing.md: Copied (new)
+2026/03/19 23:37:19 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/00 - Introduction.md: Deleted
+2026/03/19 23:37:19 INFO  : Nervous System 101 - Mini Course Outline.md: Deleted
+2026/03/19 23:37:19 INFO  : Design Briefs & Assets/Image Generation Brief.md: Deleted
+2026/03/19 23:37:19 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/02 - Module 2 - Working with Protectors.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/08 - Module 8 - Continuing the Journey.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/07 - Module 7 - Integration and Daily Practice.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/05 - Module 5 - Parts in Relationships.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/04 - Module 4 - Self-Energy and Leadership.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/lead-magnet-design-brief.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/Lead Magnet - Design Brief.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/06 - Module 6 - Healing Trauma with IFS.md: Deleted
+2026/03/19 23:37:20 INFO  : Attachment Biology Workbook.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/canva-layout-visual-guide.html: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/image-generation-brief.md: Deleted
+2026/03/19 23:37:20 INFO  : Lead Magnet - 5 Somatic Practices for Anxiety Relief.md: Deleted
+2026/03/19 23:37:20 INFO  : Somatic Interventions Therapist Toolkit.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/01 - Module 1 - Foundations of Internal Family Systems.md: Deleted
+2026/03/19 23:37:21 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/03 - Module 3 - Meeting Your Exiles.md: Deleted
+2026/03/19 23:37:21 INFO  : The Embodied Parts Workbook (8-Week IFS Program): Removing directory
+2026/03/19 23:37:21 INFO  : Design Briefs & Assets: Removing directory
+2026/03/19 23:37:21 INFO  : 
+Transferred:   	  239.174 KiB / 239.174 KiB, 100%, 39.852 KiB/s, ETA 0s
+Checks:                18 / 18, 100%
+Deleted:               18 (files), 2 (dirs)
+Transferred:           15 / 15, 100%
+Elapsed time:         6.5s
+
+2026/03/19 23:37:22 INFO  : There was nothing to transfer
+2026/03/19 23:37:22 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.8s
+
+2026/03/19 23:37:24 INFO  : blog-anxiety-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-emdr-therapy-explained.md: Copied (new)
+2026/03/19 23:37:24 INFO  : attachment-style-quiz-lead-magnet.md: Copied (new)
+2026/03/19 23:37:24 INFO  : 30-day-content-calendar.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-polyvagal-theory-explained.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-seo-somatic-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-ifs-therapy-explained.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-experiencing-guide.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-therapy-guide.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-trauma-informed-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-therapy-anxiety.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-window-of-tolerance-guide.md: Copied (new)
+2026/03/19 23:37:26 INFO  : content-production-system.md: Copied (new)
+2026/03/19 23:37:26 INFO  : group-therapy-program-structure.md: Copied (new)
+2026/03/19 23:37:26 INFO  : fern-feather-newsletter-template.md: Copied (new)
+2026/03/19 23:37:26 INFO  : grounding-technique-cards.md: Copied (new)
+2026/03/19 23:37:26 INFO  : instagram-carousel-attachment-styles.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-find-therapist.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-march-19.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-grounding-techniques.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-nervous-system-signs.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousel-posts.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousels.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousel-window-tolerance.md: Copied (new)
+2026/03/19 23:37:28 INFO  : lead-magnet-landing-page.md: Copied (new)
+2026/03/19 23:37:28 INFO  : mood-energy-tracker.md: Copied (new)
+2026/03/19 23:37:28 INFO  : nervous-system-101-course.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-april-2026.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-march-2026.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-template.md: Copied (new)
+2026/03/19 23:37:29 INFO  : referral-network.md: Copied (new)
+2026/03/19 23:37:29 INFO  : science-says-research-compilation.md: Copied (new)
+2026/03/19 23:37:30 INFO  : science-says-series-outline.md: Copied (new)
+2026/03/19 23:37:30 INFO  : somatic-habit-tracker.md: Copied (new)
+2026/03/19 23:37:30 INFO  : sublease-agreement-templates.md: Copied (new)
+2026/03/19 23:37:30 INFO  : supervision-curriculum.md: Copied (new)
+2026/03/19 23:37:30 INFO  : tiktok-batch-march-18.md: Copied (new)
+2026/03/19 23:37:30 INFO  : tiktok-batch-march-19-evening.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-batch-march-19-late.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-batch-march-19.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-current-events-mental-health.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-nicole-april-calendar.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-nicole-noface.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-content-calendar.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-10.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-11.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-12.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-15-fern-feather-educational.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-7.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-13.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-14-nicole-voice.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-batch-9.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-batch-8.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-science-says-batch2.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-week-march-16.md: Copied (new)
+2026/03/19 23:37:35 INFO  : window-of-tolerance-tracker.md: Copied (new)
+2026/03/19 23:37:35 INFO  : trauma-informed-yoga-workshop.md: Copied (new)
+2026/03/19 23:37:35 INFO  : tiktok-scripts-week1.md: Copied (new)
+2026/03/19 23:37:35 INFO  : drafts/science-of-anxious-nervous-system.md: Copied (new)
+2026/03/19 23:37:36 INFO  : instagram/carousel-attachment-biology.md: Copied (new)
+2026/03/19 23:37:36 INFO  : lead-magnets/5-somatic-practices-anxiety-relief.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : email-sequences/welcome-sequence-5-emails.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : email-sequences/welcome-sequence-5-emails.md: Copied (new)
+2026/03/19 23:37:37 INFO  : lead-magnets/5-somatic-practices-anxiety-relief.md: Copied (new)
+2026/03/19 23:37:37 INFO  : products/somatic-interventions-therapist-toolkit.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : products/attachment-biology-workbook.md: Copied (new)
+2026/03/19 23:37:38 INFO  : products/attachment-biology-workbook.docx: Copied (new)
+2026/03/19 23:37:38 INFO  : products/somatic-interventions-therapist-toolkit.md: Copied (new)
+2026/03/19 23:37:38 INFO  : Marketing Strategy/fern-feather-marketing-playbook-2025-2026.md: Deleted
+2026/03/19 23:37:38 INFO  : Science Says - Research Compilation.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok - 30-Day Content Calendar.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok - Week 1 Scripts.md: Deleted
+2026/03/19 23:37:38 INFO  : Email Sequences/Welcome Sequence - 5 Emails.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok Scripts/tiktok-scripts-science-says-batch2.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok Scripts: Removing directory
+2026/03/19 23:37:39 INFO  : Marketing Strategy: Removing directory
+2026/03/19 23:37:39 INFO  : Email Sequences: Removing directory
+2026/03/19 23:37:39 INFO  : 
+Transferred:   	  737.998 KiB / 737.998 KiB, 100%, 46.120 KiB/s, ETA 0s
+Checks:                 6 / 6, 100%
+Deleted:                6 (files), 3 (dirs)
+Transferred:           68 / 68, 100%
+Elapsed time:        17.0s
+
+2026/03/19 23:37:41 INFO  : fern-feather-marketing-playbook-2025-2026.md: Copied (new)
+2026/03/19 23:37:41 INFO  : 
+Transferred:   	   11.020 KiB / 11.020 KiB, 100%, 11.012 KiB/s, ETA 0s
+Transferred:            1 / 1, 100%
+Elapsed time:         1.9s
+
+2026/03/19 23:37:43 INFO  : 01-client-intake-form.md: Copied (new)
+2026/03/19 23:37:43 INFO  : 04-release-of-information.md: Copied (new)
+2026/03/19 23:37:43 INFO  : 03-privacy-practices.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 02-informed-consent.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 05-financial-agreement.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 
+Transferred:   	   33.424 KiB / 33.424 KiB, 100%, 29.053 KiB/s, ETA 0s
+Transferred:            5 / 5, 100%
+Elapsed time:         2.6s
+
+2026/03/19 23:37:46 INFO  : burnout-recovery-therapists-workshop.md: Copied (new)
+2026/03/19 23:37:46 INFO  : couples-coregulation-weekend.md: Copied (new)
+2026/03/19 23:37:46 INFO  : attachment-repair-group-curriculum.md: Copied (new)
+2026/03/19 23:37:46 INFO  : nervous-system-reset-course.md: Copied (new)
+2026/03/19 23:37:47 INFO  : parenting-neurodivergent-kids-course.md: Copied (new)
+2026/03/19 23:37:47 INFO  : somatic-self-compassion-retreat.md: Copied (new)
+2026/03/19 23:37:47 INFO  : 
+Transferred:   	   98.870 KiB / 98.870 KiB, 100%, 72.738 KiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+Elapsed time:         2.6s
+
+2026/03/19 23:37:48 INFO  : operations-manual-template.md: Copied (new)
+2026/03/19 23:37:48 INFO  : Sublease Agreement Templates.md: Deleted
+2026/03/19 23:37:48 INFO  : Referral Network Framework.md: Deleted
+2026/03/19 23:37:48 INFO  : Google Workspace Setup Guide.md: Deleted
+2026/03/19 23:37:48 INFO  : 
+Transferred:   	   10.440 KiB / 10.440 KiB, 100%, 10.434 KiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Deleted:                3 (files), 0 (dirs)
+Transferred:            1 / 1, 100%
+Elapsed time:         1.5s
+
+2026/03/19 23:37:49 INFO  : open-source-tools-github.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : tech-stack-recommendations.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : platform-comparison.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : pdf-creation-tools.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : automation-tools.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : retreat-venues-georgia-nc.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : digital-product-sales-strategy.md: Copied (new)
+2026/03/19 23:37:49 INFO  : certification-demand-analysis.md: Copied (new)
+2026/03/19 23:37:49 INFO  : intelligence-brief-2026-03-09.md: Copied (new)
+2026/03/19 23:37:50 INFO  : client-pain-points-2026.md: Copied (new)
+2026/03/19 23:37:50 INFO  : intelligence-brief-2026-03-12.md: Copied (new)
+2026/03/19 23:37:50 INFO  : open-viking-deep-dive-report.md: Copied (new)
+2026/03/19 23:37:50 INFO  : tiktok-trends-march-2025.md: Copied (new)
+2026/03/19 23:37:50 INFO  : therapy-office-safety-systems.md: Copied (new)
+2026/03/19 23:37:51 INFO  : tool-integration-requirements.md: Copied (new)
+2026/03/19 23:37:51 INFO  : Market Intelligence/intelligence-brief-2026-03-09.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/certification-demand-analysis.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/digital-product-sales-strategy.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/intelligence-brief-2026-03-12.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/therapy-office-safety-systems.md: Deleted
+2026/03/19 23:37:51 INFO  : Archive/full-backup-2026-03-15.tar.gz: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/tool-integration-requirements.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence: Removing directory
+2026/03/19 23:37:52 INFO  : Archive: Removing directory
+2026/03/19 23:37:52 INFO  : 
+Transferred:   	   65.217 KiB / 65.217 KiB, 100%, 21.730 KiB/s, ETA 0s
+Checks:                14 / 14, 100%
+Deleted:                7 (files), 2 (dirs)
+Transferred:            9 / 9, 100%
+Elapsed time:         4.1s
+

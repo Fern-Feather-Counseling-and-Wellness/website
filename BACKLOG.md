@@ -98,6 +98,7 @@
 | Create TikTok Content Batch (Late March 19) | 2026-03-19 | 4 fresh TikTok concepts: 2 for Nicole's personal brand (no-face CapCut style), 2 for Fern & Feather (professional educational); includes hooks, visual concepts, timing, audio, hashtags, posting strategy; see `content/tiktok-batch-march-19-late.md` |
 | Research TikTok Therapy Trends 2026 | 2026-03-19 | Comprehensive analysis of TikTok therapy trends, risks, opportunities, and strategic recommendations for Fern & Feather; includes data on teen screen time, algorithm dynamics, EMDR mainstreaming, body‑based modalities, and misinformation rates; see `research/tiktok-therapy-trends-2026.md` |
 | Fix Google Drive Integration Permanently | 2026-03-19 | Created rclone-based sync system replacing broken gws CLI; includes organized folder sync, single-file upload, and full backup; uploaded test file successfully to `Fern & Feather Wellness Center/06 - Research & Development/`; see `DRIVE-PERMANENT-FIX.md` |
+| Create Lead Magnet: 30-Day Somatic Self-Check Tracker | 2026-03-19 | Complete printable daily nervous system tracking journal with morning/evening check-ins, trigger/resource tracking, somatic practice log, sleep monitoring, and weekly reflection pages; 30 daily pages + 4 weekly reflections + nervous system reference guide; see `products/somatic-self-check-30-day-tracker.md` |
 
 ---
 

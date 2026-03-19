@@ -137,5 +137,5 @@ When quiet or waiting on Nicole:
 
 *Track what I last worked on here to avoid repetition*
 - Date: 2026-03-19
-- Task: TikTok Therapy Trends Research & Strategic Analysis
-- Result: Created comprehensive report "TikTok Therapy Trends 2026" analyzing teen screen time, algorithm dynamics, EMDR mainstreaming, body‑based modalities, misinformation rates, and strategic recommendations for Fern & Feather; see `research/tiktok-therapy-trends-2026.md`
+- Task: Digital Product — 30-Day Somatic Self-Check Tracker
+- Result: Created complete printable lead magnet with 30 daily tracking pages, morning/evening nervous system check-ins, trigger/resource tracking, somatic practice log, sleep monitoring, weekly reflections, and nervous system state reference guide; see `products/somatic-self-check-30-day-tracker.md`
