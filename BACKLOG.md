@@ -58,6 +58,12 @@
 | Develop supervision curriculum/materials | `[x]` | Complete 24-month curriculum with phases, evaluation rubrics, agreement templates, business model |
 | Research podcast guest opportunities | `[x]` | 4-podcast targeted pitch list with message templates, bio and talking points
 | Build referral network list | `[x]` | Complete framework with 12 categories, research criteria, tracking template, best practices, action items
+| Create "Nervous System Reset" digital course | `[x]` | COMPLETE — Full 6-week online course with video scripts (6 lessons, 2+ hours), 18 worksheets, 6 guided audio practices, bonus materials, marketing funnel, revenue projections ($49K Year 1); see `courses/nervous-system-reset-course.md`
+| Design "Attachment Repair" group therapy curriculum | `[x]` | COMPLETE — Full 12-week curriculum with session plans, homework, facilitator guide, marketing materials; see `courses/attachment-repair-group-curriculum.md`
+| Build "Somatic Self-Compassion" workshop (travel retreat) | `[x]` | COMPLETE — Full 3-day retreat curriculum with detailed itinerary, facilitator guides, pricing, marketing copy, revenue projections; ready for venue research and pilot planning; see `courses/somatic-self-compassion-retreat.md`
+| Develop "Parenting Neurodivergent Kids" course | `[x]` | COMPLETE — Full 8-module course outline with video scripts, worksheets, marketing funnel; targets parents of ADHD/autistic children; see `courses/parenting-neurodivergent-kids-course.md`
+| Create "Burnout Recovery for Therapists" CEU workshop | `[x]` | COMPLETE — Full 6-hour workshop with session plans, participant workbook, CEU learning objectives, marketing materials; see `courses/burnout-recovery-therapists-workshop.md`
+| Design "Couples Nervous System Co-Regulation" weekend | `[x]` | COMPLETE — Full 2-day couples retreat with schedule, experiential exercises, take-home kit, facilitator guide, marketing materials; see `courses/couples-coregulation-weekend.md`
 
 ---
 
@@ -67,7 +73,31 @@
 |------|------|--------|
 | Create HEARTBEAT.md | 2026-03-03 | Rotation system active |
 | Create Fern & Feather product strategy doc | 2026-03-03 | 6-phase launch roadmap complete |
-| (Add completed tasks here with date + link to work) | | |
+| Create Fern & Feather Printable Toolkit | 2026-03-18 | 10 evidence-based printable tools including mood tracker, window of tolerance worksheet, 4 grounding cards, habit tracker, somatic check-in, sleep tracker, trigger log, self-care menu, weekly reflection, crisis safety plan; see `products/fern-feather-printable-toolkit.md` |
+| Create Instagram Carousel Posts | 2026-03-18 | 6 carousel post packages with captions, slide content, visual guides; topics: somatic therapy, nervous system dysregulation signs, window of tolerance, attachment styles, first therapy session, self-regulation techniques; see `content/instagram-carousel-posts.md` |
+| Create TikTok Content Batch | 2026-03-18 | 6 fresh TikTok scripts (3 personal brand, 3 Fern & Feather) — no-face CapCut-ready format with hooks, timing, visual notes, hashtags; see `content/tiktok-batch-march-18.md` |
+| Create SEO Blog Post | 2026-03-18 | SEO-optimized article "What Is Somatic Therapy? A Complete Guide for Alpharetta Residents" — ~1,200 words, targets local keywords, ready for publishing; see `content/blog-seo-somatic-therapy-alpharetta.md` |
+| Create TikTok Content Batch March 19 | 2026-03-19 | 4 fresh TikTok scripts (2 personal brand, 2 Fern & Feather) — no-face CapCut-ready with hooks, timing, visual notes, posting strategy; see `content/tiktok-batch-march-19.md` |
+| Create TikTok Therapy Concepts Batch | 2026-03-19 | 5 educational TikTok scripts explaining IFS, polyvagal theory, somatic experiencing, window of tolerance, and therapy misconceptions — no-face CapCut-ready with hooks, visual concepts, CTAs, hashtags; see `content/tiktok-batch-march-19-evening.md` |
+| Create Email Newsletter Templates | 2026-03-19 | 5 complete email templates (welcome sequence, educational, promotional, resource sharing, footer) with subject lines, body copy, formatting notes, and best practices; see `content/fern-feather-newsletter-template.md` |
+| Create Instagram Carousel: Nervous System Dysregulation | 2026-03-19 | 6-slide educational carousel covering 5 signs of nervous system dysregulation with actionable tips, visual notes, hashtags, and posting strategy; see `content/instagram-carousel-march-19.md` |
+| Create Instagram Carousel: Grounding Techniques for Anxiety | 2026-03-19 | 7-slide educational carousel with 5 evidence-based grounding techniques, neuroscience explanations, visual notes, and lead magnet CTA; see `content/instagram-carousel-grounding-techniques.md` |
+| Create Attachment Style Quiz Lead Magnet | 2026-03-19 | Complete interactive quiz with 15 questions, scoring system, 4 attachment style results, personalized recommendations, and email sequence integration; ready for Typeform/Interact implementation; see `content/attachment-style-quiz-lead-magnet.md` |
+| Create Grounding Technique Cards Lead Magnet | 2026-03-19 | Complete set of 8 printable grounding cards with evidence-based techniques, neuroscience explanations, and implementation guide; ready for design and production; see `products/grounding-technique-cards.md` |
+| Create Instagram Carousel: Window of Tolerance | 2026-03-19 | 7-slide educational carousel explaining the Window of Tolerance concept with neuroscience backing, visual notes, captions, and posting strategy; see `content/instagram-carousel-window-tolerance.md` |
+| Create Client Pain Points Research | 2026-03-19 | Comprehensive analysis of 20+ client pain points with marketing, service design, and content implications; see `research/client-pain-points-2026.md` |
+| Create Fern & Feather Operations Manual | 2026-03-19 | Complete operations manual covering mission, physical space, client operations, financial systems, clinical standards, marketing, HR, technology, quality assurance, sustainability, emergency procedures, and onboarding; see `business/fern-feather-operations-manual.md` |
+| Create April 2026 Newsletter: Spring Nervous System Reset | 2026-03-19 | Complete newsletter with seasonal nervous system reset guidance, three-phase approach, gentle practices, and Fern & Feather updates; see `content/newsletter-april-2026.md` |
+| Research Open Viking Tool | 2026-03-19 | Complete deep-dive: installed and tested client (✅ working), discovered native OpenClaw Memory Plugin, compared to Mem0/Zep/LangMem; recommendation: implement OpenViking for automatic conversation memory; see `research/open-viking-deep-dive-report.md` |
+| Create OpenViking Setup Guides | 2026-03-19 | Complete installation guides: detailed walkthrough (`open-viking-setup-guide.md`) + quick reference for Mac (`open-viking-quickstart-mac.md`) and Windows (`open-viking-quickstart-windows.md`); ready for Nicole to follow |
+| Create Blog Post: Polyvagal Theory Explained (2026 Update) | 2026-03-19 | Comprehensive blog post explaining polyvagal theory, 2024-2026 scientific controversy, and evidence-based nervous system regulation tools; see `content/blog-polyvagal-theory-explained.md` |
+| Create Blog Post: Window of Tolerance Guide | 2026-03-19 | Comprehensive blog post explaining the window of tolerance concept, neuroscience, regulation strategies, and practical applications; see `content/blog-window-of-tolerance-guide.md` |
+| Create Blog Post: IFS Therapy Explained | 2026-03-19 | Comprehensive blog post explaining Internal Family Systems, parts work for anxiety, neuroscience, and practical applications; SEO-optimized for "IFS therapy Alpharetta"; see `content/blog-ifs-therapy-explained.md` |
+| Create Blog Post: Somatic Experiencing Guide | 2026-03-19 | Comprehensive guide to Somatic Experiencing therapy for trauma recovery, including neuroscience, clinical process, and evidence base; SEO-optimized for "somatic experiencing Alpharetta"; see `content/blog-somatic-experiencing-guide.md` |
+| Create Blog Post: EMDR Therapy Explained | 2026-03-19 | Comprehensive guide to EMDR therapy for trauma recovery, including 8-phase process, scientific evidence, and local Alpharetta resources; SEO-optimized for "EMDR therapy Alpharetta"; see `content/blog-emdr-therapy-explained.md` |
+| Create TikTok Content Batch (Late March 19) | 2026-03-19 | 4 fresh TikTok concepts: 2 for Nicole's personal brand (no-face CapCut style), 2 for Fern & Feather (professional educational); includes hooks, visual concepts, timing, audio, hashtags, posting strategy; see `content/tiktok-batch-march-19-late.md` |
+| Research TikTok Therapy Trends 2026 | 2026-03-19 | Comprehensive analysis of TikTok therapy trends, risks, opportunities, and strategic recommendations for Fern & Feather; includes data on teen screen time, algorithm dynamics, EMDR mainstreaming, body‑based modalities, and misinformation rates; see `research/tiktok-therapy-trends-2026.md` |
+| Fix Google Drive Integration Permanently | 2026-03-19 | Created rclone-based sync system replacing broken gws CLI; includes organized folder sync, single-file upload, and full backup; uploaded test file successfully to `Fern & Feather Wellness Center/06 - Research & Development/`; see `DRIVE-PERMANENT-FIX.md` |
 
 ---
 
@@ -80,7 +110,7 @@
 
 ---
 
-*Last updated: 2026-03-09*
+*Last updated: 2026-03-19*
 
 ## Notes
 
