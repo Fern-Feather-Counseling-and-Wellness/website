@@ -702,6 +702,26 @@ By the end of this course, participants will:
 
 ---
 
+## References
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+LeDoux, J. E. (2015). *Anxious: Using the brain to understand and treat fear and anxiety*. Viking.
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+McEwen, B. S. (2007). Physiology and neurobiology of stress and adaptation: Central role of the brain. *Physiological Reviews, 87*(3), 873–904. https://doi.org/10.1152/physrev.00041.2006
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Porges, S. W. (2021). *Polyvagal safety: Attachment, communication, self-regulation*. W. W. Norton & Company.
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.
+
+---
+
 ## Production Notes
 
 ### Video Recording

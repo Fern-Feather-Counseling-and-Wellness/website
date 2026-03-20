@@ -412,7 +412,7 @@ Date: ______ Energy: □□□□□□□□□□ Calm: □□□□□□□�
 
 **Created by:** Fern & Feather Wellness Center  
 **Designed for:** Anyone building nervous system awareness  
-**Based on:** Polyvagal Theory, somatic experiencing principles, and self-regulation research
+**Based on:** Polyvagal Theory (Porges, 2011), somatic experiencing principles (Levine, 2010), and self-regulation research (Schore, 2001; Siegel, 1999)
 
 **Remember:**
 - There are no wrong answers
@@ -423,6 +423,18 @@ Date: ______ Energy: □□□□□□□□□□ Calm: □□□□□□□�
 
 **Questions or support:**  
 Visit www.fernandfeatherwellness.com or contact your therapist
+
+---
+
+## References
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Schore, A. N. (2001). Effects of a secure attachment relationship on right brain development, affect regulation, and infant mental health. *Infant Mental Health Journal, 22*(1-2), 7–66. https://doi.org/10.1002/1097-0355(200101/04)22:1<7::AID-IMHJ2>3.0.CO;2-N
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.
 
 ---
 

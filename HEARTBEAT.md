@@ -129,13 +129,13 @@ When quiet or waiting on Nicole:
 
 **Timezone:** All scheduling, session times, and time references are in **US Eastern (EST/EDT)** unless explicitly stated otherwise.
 
-**Current Date/Time Reference:** Thursday, March 19th, 2026 at 6:24 PM Eastern Time
+**Current Date/Time Reference:** Friday, March 20th, 2026 at 7:02 AM Eastern Time (Friday, March 20th, 2026 at 11:02 AM UTC)
 
 ---
 
 ## Last Run
 
 *Track what I last worked on here to avoid repetition*
-- Date: 2026-03-19
-- Task: Digital Product — 30-Day Somatic Self-Check Tracker
-- Result: Created complete printable lead magnet with 30 daily tracking pages, morning/evening nervous system check-ins, trigger/resource tracking, somatic practice log, sleep monitoring, weekly reflections, and nervous system state reference guide; see `products/somatic-self-check-30-day-tracker.md`
+- Date: 2026-03-20
+- Task: Instagram Carousel Creation — Polyvagal Theory Explained
+- Result: Created 7-slide educational carousel explaining polyvagal theory for nervous system regulation, covering three states (ventral vagal, sympathetic, dorsal vagal), state shifts, practical applications, and scientific context; includes visuals, captions, hashtags, and posting strategy; see `content/instagram-carousel-polyvagal-theory.md`

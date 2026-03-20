@@ -628,5 +628,23 @@ These templates can be:
 
 ---
 
-*Fern & Feather Wellness Center | Where Biology Meets Being Human*
+## References
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+Hofmann, S. G., & Gómez, A. F. (2017). Mindfulness-based interventions for anxiety and depression. *Psychiatric Clinics of North America, 40*(4), 739–749. https://doi.org/10.1016/j.psc.2017.08.008
+
+Linehan, M. M. (1993). *Cognitive-behavioral treatment of borderline personality disorder*. Guilford Press.
+
+Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the body: A sensorimotor approach to psychotherapy*. W. W. Norton & Company.
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.
+
+---
+
+*Fern & Feather Wellness Center | Where Biology Meets Being Human*  
 *These tools are for educational and therapeutic support purposes and do not replace professional mental health treatment.*

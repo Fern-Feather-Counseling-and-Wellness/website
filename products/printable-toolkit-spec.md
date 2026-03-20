@@ -397,3 +397,19 @@ All 12 tools + bonus "Getting Started Guide" PDF
 
 *Created: March 16, 2026*  
 *Status: Ready for design phase*
+
+---
+
+## References
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+Hofmann, S. G., & Gómez, A. F. (2017). Mindfulness-based interventions for anxiety and depression. *Psychiatric Clinics of North America, 40*(4), 739-749. https://doi.org/10.1016/j.psc.2017.08.008
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+Mehling, W. E., Gopisetty, V., Daubenmier, J., Price, C. J., Hecht, F. M., & Stewart, A. (2009). Body awareness: Construct and self-report measures. *PLoS ONE, 4*(5), e5614. https://doi.org/10.1371/journal.pone.0005614
+
+Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the body: A sensorimotor approach to psychotherapy*. W. W. Norton & Company.
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.

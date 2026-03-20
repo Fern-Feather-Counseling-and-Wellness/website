@@ -37,11 +37,11 @@ Unlike traditional talk therapy, which primarily focuses on thoughts, beliefs, a
 
 ### The Core Premise
 
-Somatic therapy operates on a few key principles:
+Somatic therapy operates on a few key principles supported by research in psychophysiology and trauma studies:
 
-1. **The body keeps the score.** Trauma, stress, and anxiety don't just live in your thoughts—they create lasting changes in your nervous system, muscles, and physiology.
+1. **The body keeps the score.** Trauma, stress, and anxiety don't just live in your thoughts—they create lasting changes in your nervous system, muscles, and physiology (van der Kolk, 2014).
 
-2. **Anxiety is a body state before it's a mental state.** By the time you're thinking anxious thoughts, your body has already activated its threat response. Working with the body can interrupt this cycle earlier.
+2. **Anxiety is a body state before it's a mental state.** By the time you're thinking anxious thoughts, your body has already activated its threat response. Working with the body can interrupt this cycle earlier (Damasio, 2006; LeDoux, 2015).
 
 3. **The body has innate wisdom.** Your body knows how to regulate itself; somatic therapy helps remove the blocks to that natural capacity.
 
@@ -51,11 +51,11 @@ Somatic therapy operates on a few key principles:
 
 Several distinct therapeutic approaches fall under the somatic umbrella:
 
-**Somatic Experiencing (SE)** — Developed by Peter Levine, SE focuses on releasing traumatic activation through titrated exposure to body sensations and completion of defensive responses.
+**Somatic Experiencing (SE)** — Developed by Peter Levine, SE focuses on releasing traumatic activation through titrated exposure to body sensations and completion of defensive responses (Levine, 2010).
 
-**Sensorimotor Psychotherapy** — Developed by Pat Ogden, this approach integrates body awareness with traditional psychotherapy, focusing on how movement and posture reflect psychological patterns.
+**Sensorimotor Psychotherapy** — Developed by Pat Ogden, this approach integrates body awareness with traditional psychotherapy, focusing on how movement and posture reflect psychological patterns (Ogden et al., 2006).
 
-**Hakomi** — A mindfulness-based somatic therapy that uses the body as a gateway to core beliefs and unconscious material.
+**Hakomi** — A mindfulness-based somatic therapy that uses the body as a gateway to core beliefs and unconscious material (Kurtz, 1990).
 
 **Trauma-Sensitive Yoga** — Specifically designed for trauma survivors, this yoga practice emphasizes choice, safety, and interoceptive awareness.
 
@@ -76,7 +76,7 @@ Traditional anxiety treatment typically involves:
 
 These approaches can be effective, and they have strong research support. But they also have limitations:
 
-**CBT requires cognitive capacity.** When you're in a full anxiety spiral, your prefrontal cortex (the thinking brain) is largely offline. Trying to "think your way out" is like trying to reason with a fire alarm.
+**CBT requires cognitive capacity.** When you're in a full anxiety spiral, your prefrontal cortex (the thinking brain) is largely offline—research shows reduced activity in executive function areas during acute anxiety (LeDoux, 2015; Arnsten, 2009). Trying to "think your way out" is neurologically difficult when anxiety is high.
 
 **Exposure can be retraumatizing.** Without adequate body-based regulation skills, facing feared situations can reinforce anxiety rather than resolve it.
 
@@ -223,6 +223,24 @@ Many therapists integrate somatic techniques without having a specific certifica
 Anxiety isn't just in your mind—it's in your nervous system, your muscles, your breath. Somatic therapy offers a way to work directly with these physical patterns, building regulation from the bottom up rather than trying to think your way out.
 
 If you've been struggling with anxiety that doesn't seem to respond to traditional approaches, somatic therapy might be the missing piece. By learning to listen to your body's wisdom and work with your nervous system rather than against it, you can build lasting capacity for calm, connection, and resilience.
+
+---
+
+## References
+
+Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. *Nature Reviews Neuroscience, 10*(6), 410–422. https://doi.org/10.1038/nrn2648
+
+Damasio, A. R. (2006). *Descartes' error: Emotion, reason, and the human brain* (Rev. ed.). Vintage Books.
+
+Kurtz, R. (1990). *Body-centered psychotherapy: The Hakomi method*. LifeRhythm.
+
+LeDoux, J. E. (2015). *Anxious: Using the brain to understand and treat fear and anxiety*. Viking.
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the body: A sensorimotor approach to psychotherapy*. W. W. Norton & Company.
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.
 
 ---
 

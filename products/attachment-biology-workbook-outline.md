@@ -151,4 +151,26 @@ Your caregivers didn't need to be perfect — they needed to be "good enough" at
     <td>"Emotions burden others" — dorsal shutdown to protect self and parent</td>
     <td>Avoidant-dismissive</td>
   </tr>
-  <tr>
+</table>
+
+---
+
+## References
+
+Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. (1978). *Patterns of attachment: A psychological study of the strange situation*. Lawrence Erlbaum Associates.
+
+Bowlby, J. (1982). *Attachment and loss: Vol. 1. Attachment* (2nd ed.). Basic Books. (Original work published 1969)
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth strange situation. In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (Eds.), *Attachment in the preschool years: Theory, research, and intervention* (pp. 121-160). University of Chicago Press.
+
+Mikulincer, M., & Shaver, P. R. (2016). *Attachment in adulthood: Structure, dynamics, and change* (2nd ed.). Guilford Press.
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Schore, A. N. (2001). Effects of a secure attachment relationship on right brain development, affect regulation, and infant mental health. *Infant Mental Health Journal, 22*(1-2), 7-66. https://doi.org/10.1002/1097-0355(200101/04)22:1<7::AID-IMHJ2>3.0.CO;2-N
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.

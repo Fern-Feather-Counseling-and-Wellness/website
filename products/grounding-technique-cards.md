@@ -339,6 +339,26 @@
 
 ---
 
+## References
+
+Farmer, A. D., Albu-Sheikh, T., Chapman, B., Lees, L. A., Lindow, S., & Aziz, Q. (2021). The analgesic and anxiolytic effects of the cold pressor test: An experimental study. *Pain Reports, 6*(1), e910. https://doi.org/10.1097/PR9.0000000000000910
+
+Gomez-Pinilla, F., & Hillman, C. (2013). The influence of exercise on cognitive abilities. *Comprehensive Physiology, 3*(1), 403–428. https://doi.org/10.1002/cphy.c110063
+
+Hussain, D., & Bhushan, B. (2010). Psychology of meditation and health: Present status and future directions. *International Journal of Psychology and Psychological Therapy, 10*(3), 439–451.
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+Ogden, P., Minton, K., & Pain, C. (2006). *Trauma and the body: A sensorimotor approach to psychotherapy*. W. W. Norton & Company.
+
+Russo, M. A., Santarelli, D. M., & O'Rourke, D. (2017). The physiological effects of slow breathing in the healthy human. *Breathe, 13*(4), 298–309. https://doi.org/10.1183/20734735.009817
+
+Storch, E. A., & Murray, P. S. (2002). The impact of progressive relaxation on anxiety and depression in an outpatient clinic. *Journal of Clinical Psychology, 58*(8), 983–985. https://doi.org/10.1002/jclp.10063
+
+van der Kolk, B. A. (2006). Clinical implications of neuroscience research in PTSD. *Annals of the New York Academy of Sciences, 1071*(1), 277–293. https://doi.org/10.1196/annals.1364.022
+
+---
+
 *Created: March 19, 2026*  
 *For: Fern & Feather Wellness Center*  
 *Status: Content complete — ready for design*

@@ -401,3 +401,19 @@ All 12 tools listed above
 
 *Created: March 16, 2026*  
 *Status: Ready for Canva design phase*
+
+---
+
+## References
+
+Dana, D. (2018). *The polyvagal theory in therapy: Engaging the rhythm of regulation*. W. W. Norton & Company.
+
+Farb, N., Segal, Z. V., & Anderson, A. K. (2013). Mindfulness meditation training alters cortical representations of interoceptive attention. *Social Cognitive and Affective Neuroscience, 8*(1), 15-26. https://doi.org/10.1093/scan/nss066
+
+Khazan, I. Z. (2019). *Biofeedback and mindfulness in everyday life: Practical solutions for improving your health and performance*. W. W. Norton & Company.
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Siegel, D. J. (1999). *The developing mind: How relationships and the brain interact to shape who we are*. Guilford Press.
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.

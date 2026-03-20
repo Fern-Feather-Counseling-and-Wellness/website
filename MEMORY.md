@@ -98,6 +98,30 @@
 ## Things to Remember
 
 - She's juggling a LOT right now (full teaching load, 15 clients, business building)
+
+### CRITICAL: Content Creation Standards (Added March 20, 2026)
+**Rule:** ZERO plagiarism. ALWAYS use APA formatted citations for ALL content.
+
+**This applies to EVERYTHING I create:**
+- Blog posts — every claim needs a peer-reviewed source
+- TikTok scripts — every statistic needs attribution
+- Digital products — every technique needs its origin cited
+- Workbooks — every exercise needs research backing
+- Courses — every clinical claim needs evidence
+
+**How I do it:**
+1. Research first — find 5-10 peer-reviewed sources before writing
+2. Cite as I write — (Author, Year) format throughout
+3. Reference list — complete APA format at the end
+4. No exceptions — if I can't find a source, I don't make the claim
+
+**Why this matters:**
+- Nicole's license depends on ethical standards
+- Her PhD reputation requires scientific accuracy
+- Fern & Feather brand is "science-based, not woo-woo"
+- Legal protection against plagiarism claims
+
+**This is now THE DEFAULT for all future work. No reminders needed. I just do it.
 - Prioritizing sustainability over rapid growth
 - Smart about business structure (waiting 2 years before 1099 contractors)
 - Willing to do the work — just needs structure and guidance

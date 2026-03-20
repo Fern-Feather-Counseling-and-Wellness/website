@@ -36,7 +36,7 @@ Unlike traditional talk therapy, which focuses primarily on thoughts and convers
 - Breath patterns
 - Automatic physical responses
 
-**The core principle:** Your body stores experiences—especially traumatic ones—that your mind may have processed but your nervous system hasn't fully released.
+**The core principle:** Your body stores experiences—especially traumatic ones—that your mind may have processed but your nervous system hasn't fully released (van der Kolk, 2014; Levine, 2010).
 
 ---
 
@@ -98,13 +98,13 @@ Somatic therapy in Alpharetta may be especially helpful if you experience:
 When anxiety lives in your body (racing heart, shallow breathing, muscle tension), talking about it only goes so far. Somatic approaches teach your nervous system to recognize safety.
 
 **Trauma and PTSD**
-Traditional therapy processes trauma through memory and narrative. Somatic therapy also addresses the physiological imprint—helping your body understand the threat is over.
+Traditional therapy processes trauma through memory and narrative. Somatic therapy also addresses the physiological imprint—helping your body understand the threat is over. Research shows somatic approaches can reduce PTSD symptoms when traditional talk therapy has plateaued (van der Kolk, 2014; Payne et al., 2015).
 
 **Chronic Stress and Burnout**
 High-functioning anxiety often masks a dysregulated nervous system. Somatic work helps high achievers learn to rest without shutting down.
 
 **Attachment Issues**
-Early relational experiences shape our nervous systems. Somatic therapy can help repair attachment patterns through co-regulation with the therapist and new embodied experiences.
+Early relational experiences shape our nervous systems (Schore, 2001). Somatic therapy can help repair attachment patterns through co-regulation with the therapist and new embodied experiences.
 
 **When Talk Therapy Hasn't Worked**
 If you've done years of therapy but still feel stuck, your body may be holding what conversation couldn't reach.
@@ -217,6 +217,22 @@ If you're curious about whether somatic therapy could help you, many Alpharetta 
 
 ### Call-to-Action
 [Learn more about our trauma-informed approach] [Contact us for a free consultation]
+
+---
+
+## References
+
+Levine, P. A. (2010). *In an unspoken voice: How the body releases trauma and restores goodness*. North Atlantic Books.
+
+Ogden, P., Minton, K., & Pain, C. (2006). Trauma and the body: A sensorimotor approach to psychotherapy. W. W. Norton & Company.
+
+Payne, P., Levine, P. A., & Crane-Godreau, M. A. (2015). Somatic experiencing: Using interoception and proprioception as core elements of trauma therapy. *Frontiers in Psychology, 6*, Article 93. https://doi.org/10.3389/fpsyg.2015.00093
+
+Porges, S. W. (2011). *The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation*. W. W. Norton & Company.
+
+Schore, A. N. (2001). Effects of a secure attachment relationship on right brain development, affect regulation, and infant mental health. *Infant Mental Health Journal, 22*(1-2), 7–66. https://doi.org/10.1002/1097-0355(200101/04)22:1<7::AID-IMHJ2>3.0.CO;2-N
+
+van der Kolk, B. A. (2014). *The body keeps the score: Brain, mind, and body in the healing of trauma*. Viking.
 
 ---
 
