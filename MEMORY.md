@@ -393,4 +393,27 @@ All three core products are **production-ready** with complete prose, exercises,
 
 ---
 
+## March 22, 2026 — CRITICAL: Website Folder Structure Issue (DEPLOYMENT)
+
+**PROBLEM DISCOVERED:** There are TWO website folders:
+- `/website/` — Original working files, has the Word doc with Nicole's edits
+- `/fern-feather-website/` — The actual deployment folder for Vercel
+
+**WHY THIS HAPPENED:** I created a separate deployment folder but kept editing files in both locations.
+
+**THE FIX:**
+- Always edit files in `/fern-feather-website/` (this is what Vercel deploys)
+- The `/website/` folder is backup/archived — DO NOT use for active deployment
+- Nicole's edits doc is now copied to both locations for reference
+
+**DEPLOYMENT RULES:**
+1. Only `/fern-feather-website/` gets deployed
+2. Always check BOTH root AND `/pages/` subfolder (Vercel might serve from either)
+3. After editing, sync: `cp index.html pages/index.html`
+4. Commit as Jeeprasr (not root) to avoid Vercel Hobby plan blocks
+
+**NEVER FORGET THIS AGAIN.**
+
+---
+
 *First memory. First trust. Make it count.*
