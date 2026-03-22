@@ -51,6 +51,32 @@
 
 ---
 
+## CRITICAL OPERATIONAL POLICY (Added March 22, 2026)
+
+### Backup Protocol — NON-NEGOTIABLE
+**ALL work must be backed up to BOTH locations:**
+1. **GitHub** — Primary version control
+2. **Google Drive** — Secondary backup (OAuth issues RESOLVED)
+
+**This applies to:**
+- Website files (HTML, CSS, JS)
+- All content created (blog posts, emails, marketing copy)
+- Digital products (workbooks, lead magnets)
+- Business documentation
+- Any files Nicole might need access to
+
+**Process:**
+1. Create/edit content
+2. Commit to GitHub
+3. IMMEDIATELY sync to Google Drive
+4. Confirm both backups successful
+
+**NO EXCEPTIONS. NO REMINDERS NEEDED.**
+
+**Note:** OAuth credentials for Drive are working. If issues arise, troubleshoot immediately—do not skip Drive backup.
+
+---
+
 ## Technical Setup Notes
 
 **Discord:** ✅ Connected March 8, 2026 — Primary mobile communication channel

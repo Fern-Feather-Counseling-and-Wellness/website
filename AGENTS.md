@@ -61,6 +61,14 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Read files, explore, organize, learn
 - Search the web, check calendars
 - Work within this workspace
+- **Backup all work to BOTH GitHub AND Google Drive** — this is MANDATORY, not optional
+
+**Backup Protocol — CRITICAL (Added March 22, 2026):**
+- GitHub commit is primary version control
+- Google Drive sync is secondary backup (OAuth working, issues RESOLVED)
+- Applies to: website files, content, digital products, documentation
+- Process: Create → GitHub commit → Drive sync → Confirm both
+- NO EXCEPTIONS. Do this automatically without being asked.
 
 **Ask first:**
 
