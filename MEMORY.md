@@ -333,6 +333,36 @@ All three core products are **production-ready** with complete prose, exercises,
 
 ---
 
+## March 22, 2026 — Website Standardization Complete
+
+**Major website revisions completed:**
+
+### Pricing Standardized
+| Service | Price | Duration |
+|---------|-------|----------|
+| Individual | $135–$180 | 45 min |
+| Couples | $210–$235 | 50–80 min |
+| Group | $60–$75 | 90 min |
+| Consultation | $190 | 60 min |
+
+### Critical Copy Changes
+- **Business name:** "Fern & Feather Counseling and Wellness" (not Wellness Center)
+- **Caseload policy:** "intentional and mindful about our caseloads" (no specific numbers promised)
+- **Insurance language:** Completely rewritten in F&F voice — sharp, honest, no plagiarism
+
+### Removed
+- "Most Popular" banners
+- "Clinical supervision coming" references  
+- Any "capped at 12" language
+
+### Repo Structure
+- **Source:** github.com/Jeeprasr/fern-feather-website
+- **Deployed folder:** `/fern-feather-website/` (NOT `/website/`)
+- **Branch:** master
+- **Auto-deploy:** Netlify
+
+---
+
 ## March 15, 2026 — Marketing Playbook Complete
 
 **Created comprehensive 2025-2026 marketing strategy:**

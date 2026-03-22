@@ -5,7 +5,22 @@
         "primary": "openrouter/moonshotai/kimi-k2.5:online"
       },
       "thinkingDefault": "off",
-      "verboseDefault": "off"
+      "verboseDefault": "off",
+      "heartbeat": {
+        "model": "openrouter/google/gemini-2.5-flash-lite"
+      },
+      "subagents": {
+        "model": "openrouter/google/gemini-2.5-flash-lite",
+        "maxConcurrent": 2,
+        "maxChildrenPerAgent": 3
+      },
+      "compaction": {
+        "mode": "default",
+        "maxHistoryShare": 0.5,
+        "memoryFlush": {
+          "enabled": true
+        }
+      }
     }
   },
   "models": {
