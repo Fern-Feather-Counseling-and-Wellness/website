@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Fern & Feather Counseling and Wellness</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Assuming CSS is in a parent css folder -->
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        .page-header { background-color: #e8f5e9; /* soft green */ padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { color: #2e7d32; /* dark green */ margin-bottom: 0.5rem; }
+        .page-header p.tagline { color: #388e3c; /* medium green */ font-size: 1.2rem; margin-bottom: 1.5rem; }
+        .content { padding: 3rem 2rem; max-width: 800px; margin: 2rem auto; }
+        .faq-item { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0; }
+        .faq-question { font-weight: bold; color: #1b5e20; /* forest green */ cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question::after { content: '+'; font-size: 1.5rem; }
+        .faq-question.active::after { content: '−'; }
+        .faq-answer { display: none; padding-left: 1rem; }
+        .faq-answer p { margin-bottom: 1rem; }
+        .collaboration-section { background-color: #e0f2f1; /* teal background */ padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid #00796b; /* teal border */ }
+        .collaboration-section h3 { color: #00796b; /* teal */ margin-top: 0; }
+        footer { background-color: #1b5e20; /* forest green */ color: white; text-align: center; padding: 1rem; margin-top: 3rem; }
+
+        /* Accordion functionality would typically be handled by JS, but this structure supports it */
+        .faq-question.active + .faq-answer { display: block; }
+    </style>
+</head>
+<body>
+
+    <header class="page-header">
+        <h1>Frequently Asked Questions</h1>
+        <p class="tagline">Rooted and Rising</p>
+        <p>Fern & Feather Counseling and Wellness</p>
+    </header>
+
+    <main class="content">
+
+        <div class="faq-item">
+            <h3 class="faq-question">Do you accept my insurance?</h3>
+            <div class="faq-answer">
+                <p>Managed care companies were created to "manage" and contain escalating health care costs. Their bottom line is to reduce costs and raise profits; it is not to increase the quality of care professionals provide or your quality of life.</p>
+                <p>Managed care companies often choose to limit what services are offered, can restrict what is discussed in session, and may decide which clients can be seen and for how long.</p>
+                <p>Typically, only those services deemed medically necessary—which is defined as being literally about life and death and the treatment of illness—are covered. This means that they require a diagnosis of mental illness. This diagnosis remains on your record.</p>
+                <p>At Fern & Feather Counseling and Wellness, we are solution-focused on quality of life and personal goals.</p>
+                <p>Our work focuses on prevention, exploration, and personal growth rather than simply survival. Therefore, we have chosen to remain a <span class="highlight">concierge practice</span>. This means that you pay out of pocket for our services and we provide you with the necessary paperwork (a "superbill") to submit to your insurance provider for reimbursement if you so choose.</p>
+                <p><strong>Be aware</strong> that should you choose to submit a superbill, you are releasing medical information that is protected by law. This means you are waiving some of your rights to privacy and confidentiality.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">What services do you offer?</h3>
+            <div class="faq-answer">
+                <p>We provide individual therapy, couples therapy, group therapy, and trauma-informed yoga and somatic workshops. We offer both in-person sessions in Alpharetta, GA and telehealth services throughout Georgia.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">Do you offer clinical supervision?</h3>
+            <div class="faq-answer">
+                <p>We do not currently offer clinical supervision, as we are not yet licensed to provide that service. However, we do offer consultation services for fellow practitioners.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">What issues do you work with?</h3>
+            <div class="faq-answer">
+                <p>We support people through trauma, anxiety, depression, OCD, relationship challenges, parenting struggles, life transitions, and more. This is not an exhaustive list—if you're wondering whether we're a fit, we're happy to have a conversation.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">Are you inclusive?</h3>
+            <div class="faq-answer">
+                <p>We are committed to creating an affirming and welcoming space for all adults. We welcome individuals of all identities, backgrounds, and relationship structures—including all races, ethnicities, gender identities, sexual orientations, and relationship configurations (such as monogamous, polyamorous, or other consensual arrangements).</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">What is your therapeutic approach?</h3>
+            <div class="faq-answer">
+                <p>We combine evidence-based therapeutic methods with genuine compassion and a holistic perspective. We see you as a whole person—mind, body, and experience.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <h3 class="faq-question">What do I need to know about Nicole's background?</h3>
+            <div class="faq-answer">
+                <p>Nicole holds a PhD in Biology alongside her training in clinical counseling. She brings a distinctive perspective that weaves together an understanding of physiology, the nervous system, and therapeutic practice—exploring how biological processes shape our emotional and psychological experiences.</p>
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <h3 class="faq-question">How many clients do you see?</h3>
+            <div class="faq-answer">
+                <p>We intentionally limit our practice size to preserve the quality of care and presence we bring to every session.</p>
+            </div>
+        </div>
+
+        <div class="collaboration-section">
+            <h3>Collaboration with Other Providers</h3>
+            <p>At Fern & Feather Counseling and Wellness, we believe in a collaborative approach to your wellbeing. We regularly coordinate with psychiatrists, primary care physicians, nutritionists, acupuncturists, and other wellness practitioners (with your written consent) to ensure you receive comprehensive, integrated care that honors all aspects of your health.</p>
+        </div>
+
+        <p style="margin-top: 3rem; text-align: center;">Have more questions?</p>
+        <p style="text-align: center;"><a href="contact.html" style="display: inline-block; background-color: #388e3c; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Contact Us</a></p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p>Proudly serving Alpharetta, GA and clients throughout Georgia via telehealth.</p>
+    </footer>
+
+</body>
+</html>
