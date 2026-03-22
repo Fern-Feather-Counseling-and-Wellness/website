@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Somatic Practices for Immediate Anxiety Relief | Fern & Feather Wellness</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+
+        /* Header */
+        .brand {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .brand-name {
+            font-size: 14px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #718096;
+            margin-bottom: 8px;
+        }
+
+        .logo-mark {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .headline {
+            font-size: clamp(28px, 5vw, 40px);
+            line-height: 1.2;
+            color: #1a202c;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .headline em {
+            color: #2f855a;
+            font-style: italic;
+        }
+
+        .subheadline {
+            font-size: 18px;
+            color: #4a5568;
+            max-width: 540px;
+            margin: 0 auto 32px;
+        }
+
+        /* Value Props */
+        .value-props {
+            background: white;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .value-props h3 {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #2f855a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .value-list {
+            list-style: none;
+        }
+
+        .value-list li {
+            padding: 12px 0;
+            padding-left: 36px;
+            position: relative;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .value-list li:last-child {
+            border-bottom: none;
+        }
+
+        .value-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2f855a;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Form Section */
+        .form-section {
+            background: white;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .form-header {
+            margin-bottom: 28px;
+        }
+
+        .form-header h2 {
+            font-size: 22px;
+            color: #1a202c;
+            margin-bottom: 8px;
+            font-weight: 400;
+        }
+
+        .form-header p {
+            color: #718096;
+            font-size: 15px;
+        }
+
+        .email-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .email-form input {
+            padding: 16px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .email-form input:focus {
+            outline: none;
+            border-color: #2f855a;
+        }
+
+        .email-form input::placeholder {
+            color: #a0aec0;
+        }
+
+        .submit-btn {
+            background: #2f855a;
+            color: white;
+            border: none;
+            padding: 18px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .submit-btn:hover {
+            background: #276749;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(47, 133, 90, 0.3);
+        }
+
+        /* Trust Section */
+        .trust-section {
+            margin-top: 48px;
+            padding-top: 40px;
+            border-top: 1px solid #e2e8f0;
+            text-align: center;
+        }
+
+        .about-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #c6f6d5 0%, #9ae6b4 100%);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+        }
+
+        .about-text h3 {
+            font-size: 18px;
+            color: #1a202c;
+            margin-bottom: 8px;
+            font-weight: 400;
+        }
+
+        .about-text .credentials {
+            font-size: 13px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .about-text p {
+            font-size: 15px;
+            color: #4a5568;
+            max-width: 480px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+
+        /* Privacy */
+        .privacy-note {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #a0aec0;
+        }
+
+        .privacy-note a {
+            color: #718096;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        footer p {
+            font-size: 13px;
+            color: #a0aec0;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            .value-props,
+            .form-section {
+                padding: 28px 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Brand Header -->
+        <div class="brand">
+            <div class="logo-mark">🌿</div>
+            <div class="brand-name">Fern & Feather Wellness Center</div>
+        </div>
+
+        <!-- Hero -->
+        <div class="hero">
+            <h1 class="headline">
+                5 Somatic Practices for <em>Immediate</em> Anxiety Relief
+            </h1>
+            <p class="subheadline">
+                Science-based body techniques you can use anywhere — no special equipment, no hour-long meditation, just your nervous system and 5 minutes.
+            </p>
+        </div>
+
+        <!-- Value Propositions -->
+        <div class="value-props">
+            <h3>What's Inside</h3>
+            <ul class="value-list">
+                <li><strong>5 evidence-based techniques</strong> — each backed by polyvagal theory and somatic research</li>
+                <li><strong>Step-by-step instructions</strong> — clear enough to follow during an anxiety spike</li>
+                <li><strong>When to use each one</strong> — morning dread vs. 3am panic vs. social anxiety</li>
+                <li><strong>Why they work</strong> — brief science explainers (in plain English)</li>
+                <li><strong>Practice tracker</strong> — to build the habit that actually sticks</li>
+            </ul>
+        </div>
+
+        <!-- Email Capture Form -->
+        <div class="form-section">
+            <div class="form-header">
+                <h2>Get the free guide</h2>
+                <p>Delivered to your inbox. No spam, unsubscribe anytime.</p>
+            </div>
+
+            <!-- 
+                IMPORTANT: Replace the form action with your email service
+                Options:
+                - ConvertKit: https://api.convertkit.com/v3/forms/YOUR_FORM_ID/subscribe
+                - Mailchimp: Use their embedded form code
+                - Beehiiv: Their subscribe URL
+                - Or just collect emails and send manually to start
+            -->
+            <form class="email-form" action="#YOUR_EMAIL_SERVICE_URL" method="POST">
+                <input 
+                    type="text" 
+                    name="first_name" 
+                    placeholder="First name" 
+                    required
+                >
+                <input 
+                    type="email" 
+                    name="email" 
+                    placeholder="Your email address" 
+                    required
+                >
+                <button type="submit" class="submit-btn">
+                    Send Me the Guide →
+                </button>
+            </form>
+
+            <p class="privacy-note">
+                🔒 Your email is safe. I don't sell lists or spam.<br>
+                <a href="#privacy">Privacy Policy</a>
+            </p>
+        </div>
+
+        <!-- About / Trust Section -->
+        <div class="trust-section">
+            <div class="about-photo">🌿</div>
+            <div class="about-text">
+                <h3>Hi, I'm Nicole</h3>
+                <div class="credentials">PhD Biology • APC • Certified Yoga Instructor</div>
+                <p>
+                    I help people understand their anxiety through the lens of nervous system science. 
+                    No toxic positivity. No "just breathe" platitudes. Just practical tools grounded 
+                    in biology and clinical practice.
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>© 2026 Fern & Feather Wellness Center. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- 
+        Optional: Add your email service analytics/tracking here
+        Examples:
+        - Google Analytics
+        - Fathom Analytics
+        - Plausible Analytics
+    -->
+</body>
+</html>

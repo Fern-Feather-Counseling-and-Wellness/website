@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌿 Fern & Feather - Website Preview</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #f6f7f4 0%, #e8ebe4 100%);
+      min-height: 100vh;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(107, 127, 90, 0.1);
+      margin-bottom: 2rem;
+    }
+    h1 {
+      color: #526345;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .subtitle {
+      color: #6b7f5a;
+      font-size: 1.1rem;
+    }
+    .pages-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .page-card {
+      background: white;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 15px rgba(107, 127, 90, 0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .page-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(107, 127, 90, 0.15);
+    }
+    .page-card h3 {
+      color: #526345;
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .page-card p {
+      color: #8a9b78;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .page-card a {
+      display: inline-block;
+      background: #6b7f5a;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .page-card a:hover {
+      background: #526345;
+    }
+    .status {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-left: 0.5rem;
+    }
+    .status.ready {
+      background: #d4edda;
+      color: #155724;
+    }
+    .status.placeholder {
+      background: #fff3cd;
+      color: #856404;
+    }
+    .info-box {
+      background: white;
+      border-radius: 15px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(107, 127, 90, 0.1);
+      margin-top: 2rem;
+    }
+    .info-box h2 {
+      color: #526345;
+      margin-bottom: 1rem;
+    }
+    .info-box ul {
+      list-style: none;
+      color: #6b7f5a;
+    }
+    .info-box li {
+      padding: 0.5rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+    }
+    .info-box li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #6b7f5a;
+      font-weight: bold;
+    }
+    code {
+      background: #f6f7f4;
+      padding: 0.25rem 0.5rem;
+      border-radius: 5px;
+      font-family: 'Monaco', 'Menlo', monospace;
+      color: #526345;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🌿 Fern & Feather Counseling and Wellness</h1>
+      <p class="subtitle">Website Preview Dashboard</p>
+    </header>
+
+    <div class="pages-grid">
+      <div class="page-card">
+        <h3>Homepage<span class="status ready">Ready</span></h3>
+        <p>Main landing page with hero, services, testimonials, FAQ</p>
+        <a href="website/index.html" target="_blank">View Page →</a>
+      </div>
+
+      <div class="page-card">
+        <h3>About<span class="status ready">Ready</span></h3>
+        <p>Overview of both therapists and the practice story</p>
+        <a href="website/about.html" target="_blank">View Page →</a>
+      </div>
+
+      <div class="page-card">
+        <h3>Nicole<span class="status ready">Ready</span></h3>
+        <p>Full profile: couples, anxiety, OCD, trauma, neurodivergence</p>
+        <a href="website/nicole.html" target="_blank">View Page →</a>
+      </div>
+
+      <div class="page-card">
+        <h3>Kiera<span class="status ready">Ready</span></h3>
+        <p>Full profile: art therapy, adult women, anxiety, grief</p>
+        <a href="website/kiera.html" target="_blank">View Page →</a>
+      </div>
+
+      <div class="page-card">
+        <h3>Services<span class="status ready">Ready</span></h3>
+        <p>Detailed services and pricing information</p>
+        <a href="website/services.html" target="_blank">View Page →</a>
+      </div>
+
+      <div class="page-card">
+        <h3>Resources<span class="status ready">Ready</span></h3>
+        <p>Free downloads, blog posts, crisis resources</p>
+        <a href="website/resources.html" target="_blank">View Page →</a>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h2>📋 What's Included</h2>
+      <ul>
+        <li>6 complete HTML pages with cottage core aesthetic</li>
+        <li>Responsive design (works on mobile, tablet, desktop)</li>
+        <li>SEO optimization (meta tags, schema markup)</li>
+        <li>Individual therapist pages with full specialties</li>
+        <li>Pricing and services information</li>
+        <li>Lead capture form on homepage</li>
+        <li>FAQ accordion functionality</li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h2>🚀 How to Preview</h2>
+      <p style="color: #6b7f5a; margin-bottom: 1rem;">
+        Click any "View Page" button above to see that page in a new tab.
+      </p>
+      <p style="color: #6b7f5a;">
+        <strong>To view all pages properly with navigation:</strong>
+      </p>
+      <ol style="color: #6b7f5a; margin-left: 1.5rem; margin-top: 0.5rem;">
+        <li>Open a terminal in your workspace</li>
+        <li>Run: <code>./preview-website.sh</code></li>
+        <li>Open browser to: <code>http://localhost:8000</code></li>
+      </ol>
+    </div>
+
+    <div class="info-box">
+      <h2>📝 Next Steps Before Going Live</h2>
+      <ul>
+        <li>Replace placeholder photos with real headshots</li>
+        <li>Add actual phone number and email</li>
+        <li>Add office address when you have one</li>
+        <li>Create Privacy Policy and Terms pages</li>
+        <li>Set up contact form backend (or use Formspree)</li>
+        <li>Deploy to hosting (Netlify recommended)</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>

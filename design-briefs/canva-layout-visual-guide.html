@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: #f5f5f0; padding: 40px; }
+
+/* Cover Page Mockup */
+.cover-page {
+  width: 600px;
+  height: 800px;
+  background: linear-gradient(135deg, #f5f5f0 0%, #e8dfd0 100%);
+  margin: 0 auto 40px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+/* Decorative fern elements */
+.fern-top-left {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 200px;
+  height: 200px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 100 Q30 70 20 40 Q15 25 25 15 Q35 5 50 0 Q65 5 75 15 Q85 25 80 40 Q70 70 50 100" fill="%232d5a3d" opacity="0.3"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-15deg);
+}
+
+.fern-bottom-right {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  width: 250px;
+  height: 250px;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M50 0 Q70 30 80 60 Q85 75 75 85 Q65 95 50 100 Q35 95 25 85 Q15 75 20 60 Q30 30 50 0" fill="%232d5a3d" opacity="0.25"/></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(165deg);
+}
+
+/* Illustration placeholder */
+.illustration-area {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 400px;
+  height: 280px;
+  background: rgba(168, 197, 168, 0.3);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2d5a3d;
+  font-size: 14px;
+  text-align: center;
+  border: 2px dashed #2d5a3d;
+}
+
+/* Title area */
+.title-area {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+}
+
+.main-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a3a2a;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #6b6b6b;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Author area */
+.author-area {
+  position: absolute;
+  bottom: 100px;
+  left: 50px;
+  right: 50px;
+  text-align: center;
+}
+
+.author-name {
+  font-size: 14px;
+  color: #2c2c2c;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  font-size: 12px;
+  color: #c67b5c;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+/* Practice Page Mockup */
+.practice-page {
+  width: 600px;
+  height: 800px;
+  background: white;
+  margin: 0 auto 40px;
+  position: relative;
+  padding: 60px 50px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e8dfd0;
+}
+
+.practice-number {
+  width: 50px;
+  height: 50px;
+  background: #2d5a3d;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.practice-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 28px;
+  color: #1a3a2a;
+}
+
+.practice-subtitle {
+  font-size: 14px;
+  color: #6b6b6b;
+  margin-top: 5px;
+}
+
+.content-section {
+  margin-bottom: 30px;
+}
+
+.section-header {
+  font-size: 12px;
+  font-weight: 600;
+  color: #c67b5c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.section-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #2c2c2c;
+}
+
+.steps-container {
+  background: #f5f5f0;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.step-number {
+  width: 28px;
+  height: 28px;
+  background: #2d5a3d;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.step-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #2c2c2c;
+}
+
+.tips-box {
+  background: #e8dfd0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+  border-left: 4px solid #c67b5c;
+}
+
+.tips-header {
+  font-weight: 600;
+  color: #1a3a2a;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.tips-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #2c2c2c;
+}
+
+/* Notes */
+.notes {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.notes h3 {
+  color: #1a3a2a;
+  margin-bottom: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.notes ul {
+  margin-left: 20px;
+  color: #2c2c2c;
+  line-height: 1.8;
+}
+
+.notes li {
+  margin-bottom: 8px;
+}
+
+code {
+  background: #f5f5f0;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #c67b5c;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align: center; color: #1a3a2a; margin-bottom: 10px; font-family: 'Playfair Display', serif;">Cover Page Layout</h2>
+
+<div class="cover-page">
+  <div class="fern-top-left"></div>
+  <div class="fern-bottom-right"></div>
+  
+  <div class="illustration-area">
+    [AI-Generated Illustration]<br>
+    Person in grounding pose<br>
+    Surrounded by ferns
+  </div>
+  
+  <div class="title-area">
+    <div class="main-title">5 Somatic Practices for Immediate Anxiety Relief</div>
+    <div class="subtitle">Evidence-Based Techniques to Regulate Your Nervous System</div>
+  </div>
+  
+  <div class="author-area">
+    <div class="author-name">Nicole Browning, PhD, M.S., APC</div>
+    <div class="tagline">Where Biology Meets Being Human</div>
+  </div>
+</div>
+
+<h2 style="text-align: center; color: #1a3a2a; margin-bottom: 10px; font-family: 'Playfair Display', serif;">Practice Page Layout</h2>
+
+<div class="practice-page">
+  <div class="page-header">
+    <div class="practice-number">1</div>
+    <div>
+      <div class="practice-title">Grounding Through the Senses</div>
+      <div class="practice-subtitle">The 5-4-3-2-1 Technique</div>
+    </div>
+  </div>
+  
+  <div class="content-section">
+    <div class="section-header">What It Is</div>
+    <div class="section-text">A grounding technique that uses your five senses to anchor you in the present moment when anxiety feels overwhelming.</div>
+  </div>
+  
+  <div class="content-section">
+    <div class="section-header">The Science</div>
+    <div class="section-text">This practice activates your parasympathetic nervous system, signaling safety to your brain through sensory input.</div>
+  </div>
+  
+  <div class="steps-container">
+    <div class="step">
+      <div class="step-number">1</div>
+      <div class="step-text"><strong>See:</strong> Name 5 things you can see right now</div>
+    </div>
+    <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-text"><strong>Hear:</strong> Name 4 things you can hear</div>
+    </div>
+    <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-text"><strong>Touch:</strong> Name 3 things you can feel</div>
+    </div>
+  </div>
+  
+  <div class="tips-box">
+    <div class="tips-header">💡 Practice Tips</div>
+    <div class="tips-text">Use this technique when you feel anxiety building. It works anywhere—in your car, at work, or in a crowded room.</div>
+  </div>
+</div>
+
+<div class="notes">
+  <h3>Canva Setup Instructions:</h3>
+  <ul>
+    <li><strong>Document Size:</strong> US Letter (8.5" × 11") or 600×800px for web</li>
+    <li><strong>Colors:</strong> Use the hex codes shown in the design brief</li>
+    <li><strong>Fonts:</strong> Playfair Display (headers), Inter (body)</li>
+    <li><strong>Elements:</strong> Search "fern" and "feather" in Canva Elements</li>
+    <li><strong>Images:</strong> Use Magic Media with prompts from the image generation brief</li>
+  </ul>
+</div>
+
+</body>
+</html>

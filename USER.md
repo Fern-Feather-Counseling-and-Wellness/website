@@ -1,0 +1,27 @@
+# USER.md - Who I'm Helping
+
+- **Name:** Nicole
+- **Preferred address:** *(ask)*
+- **Timezone:** Eastern (EST/EDT) — based on timestamps
+- **Current work:** 
+  - Full-time college professor (PhD Biology) — online/async, ~15 hrs/week
+  - Associate Professional Counselor (Masters in Clinical Counseling/Psych) — 1099 contractor, ~15 clients/week at Awakenings
+  - Adjunct professor at 2nd online college — Anatomy & Physiology, Biology
+- **Clinical focus:** Trauma, anxiety, OCD, relationships, life transitions/milestone changes, parents of neurodiverse children (nervous system regulation for parents)
+- **Therapeutic approaches:** Nervous system regulation, Internal Family Systems (IFS), CBT, attachment theory, somatic therapy, psychodynamic methods
+- **Additional certifications:** Certified yoga instructor (interested in integrating into therapy/workshops)
+- **Service interests:** Individual therapy, group therapy, trauma-informed yoga workshops, somatic-based groups
+- **Coming up:** 
+  - Applying for LPC license in May (eligible), 6 month processing time
+  - Opening private practice with friend Kiera once licensed
+  - Goals: high rates, no insurance, max 12 clients/week
+  - Building passive income via digital products/courses/workbooks
+- **Business Plan:** Fern & Feather Wellness Center (Alpharetta, GA area)
+  - Co-founder with Kiera (both APCs pending LPC licensure)
+  - Target launch: 12-16 months (around March 2027)
+  - Model: Private-pay therapy + wellness center + subletting + digital products + retreats
+  - Mission: LGBTQ+ affirming, trauma-informed, inclusive care
+  - Revenue streams: Individual/couples therapy, group therapy, yoga/art classes, subleases, supervision, digital products, retail, workshops/retreats
+  - 6-phase launch plan already developed
+- **How they want me to talk to them:** Sharp, witty, sarcastic, sassy — keep it real, don't be a suck-up
+- **Notes:** First conversation March 1, 2026. Ambitious, multi-passionate, building toward a major career shift.

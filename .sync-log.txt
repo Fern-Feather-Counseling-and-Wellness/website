@@ -1,0 +1,563 @@
+2026/03/19 23:37:14 INFO  : fern-feather-operations-manual.md: Copied (new)
+2026/03/19 23:37:14 INFO  : Pricing Calculator & Financial Projections.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-pricing-calculator.md: Deleted
+2026/03/19 23:37:14 INFO  : Fern & Feather - Master Business Plan.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-master-plan.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents/fern-feather-product-strategy.md: Deleted
+2026/03/19 23:37:14 INFO  : Master Documents: Removing directory
+2026/03/19 23:37:15 INFO  : 
+Transferred:   	   12.420 KiB / 12.420 KiB, 100%, 12.412 KiB/s, ETA 0s
+Checks:                 5 / 5, 100%
+Deleted:                5 (files), 1 (dirs)
+Transferred:            1 / 1, 100%
+Elapsed time:         2.5s
+
+2026/03/19 23:37:16 INFO  : attachment-biology-workbook-outline.md: Copied (new)
+2026/03/19 23:37:16 INFO  : convert_to_docx.py: Copied (new)
+2026/03/19 23:37:16 INFO  : grounding-technique-cards.md: Copied (new)
+2026/03/19 23:37:16 INFO  : fern-feather-printable-toolkit.md: Copied (new)
+2026/03/19 23:37:17 INFO  : printable-somatic-toolkit-spec.md: Copied (new)
+2026/03/19 23:37:17 INFO  : embodied-parts-workbook/embodied-parts-workbook-intro.md: Copied (new)
+2026/03/19 23:37:17 INFO  : printable-toolkit-spec.md: Copied (new)
+2026/03/19 23:37:17 INFO  : embodied-parts-workbook/module-1-foundations.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-2-protectors.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-4-self-energy.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-3-exiles.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-5-relationships.md: Copied (new)
+2026/03/19 23:37:18 INFO  : embodied-parts-workbook/module-6-trauma.md: Copied (new)
+2026/03/19 23:37:19 INFO  : embodied-parts-workbook/module-7-integration.md: Copied (new)
+2026/03/19 23:37:19 INFO  : embodied-parts-workbook/module-8-continuing.md: Copied (new)
+2026/03/19 23:37:19 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/00 - Introduction.md: Deleted
+2026/03/19 23:37:19 INFO  : Nervous System 101 - Mini Course Outline.md: Deleted
+2026/03/19 23:37:19 INFO  : Design Briefs & Assets/Image Generation Brief.md: Deleted
+2026/03/19 23:37:19 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/02 - Module 2 - Working with Protectors.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/08 - Module 8 - Continuing the Journey.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/07 - Module 7 - Integration and Daily Practice.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/05 - Module 5 - Parts in Relationships.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/04 - Module 4 - Self-Energy and Leadership.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/lead-magnet-design-brief.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/Lead Magnet - Design Brief.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/06 - Module 6 - Healing Trauma with IFS.md: Deleted
+2026/03/19 23:37:20 INFO  : Attachment Biology Workbook.md: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/canva-layout-visual-guide.html: Deleted
+2026/03/19 23:37:20 INFO  : Design Briefs & Assets/image-generation-brief.md: Deleted
+2026/03/19 23:37:20 INFO  : Lead Magnet - 5 Somatic Practices for Anxiety Relief.md: Deleted
+2026/03/19 23:37:20 INFO  : Somatic Interventions Therapist Toolkit.md: Deleted
+2026/03/19 23:37:20 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/01 - Module 1 - Foundations of Internal Family Systems.md: Deleted
+2026/03/19 23:37:21 INFO  : The Embodied Parts Workbook (8-Week IFS Program)/03 - Module 3 - Meeting Your Exiles.md: Deleted
+2026/03/19 23:37:21 INFO  : The Embodied Parts Workbook (8-Week IFS Program): Removing directory
+2026/03/19 23:37:21 INFO  : Design Briefs & Assets: Removing directory
+2026/03/19 23:37:21 INFO  : 
+Transferred:   	  239.174 KiB / 239.174 KiB, 100%, 39.852 KiB/s, ETA 0s
+Checks:                18 / 18, 100%
+Deleted:               18 (files), 2 (dirs)
+Transferred:           15 / 15, 100%
+Elapsed time:         6.5s
+
+2026/03/19 23:37:22 INFO  : There was nothing to transfer
+2026/03/19 23:37:22 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.8s
+
+2026/03/19 23:37:24 INFO  : blog-anxiety-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-emdr-therapy-explained.md: Copied (new)
+2026/03/19 23:37:24 INFO  : attachment-style-quiz-lead-magnet.md: Copied (new)
+2026/03/19 23:37:24 INFO  : 30-day-content-calendar.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-polyvagal-theory-explained.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-seo-somatic-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:24 INFO  : blog-ifs-therapy-explained.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-experiencing-guide.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-therapy-guide.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-trauma-informed-therapy-alpharetta.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-somatic-therapy-anxiety.md: Copied (new)
+2026/03/19 23:37:25 INFO  : blog-window-of-tolerance-guide.md: Copied (new)
+2026/03/19 23:37:26 INFO  : content-production-system.md: Copied (new)
+2026/03/19 23:37:26 INFO  : group-therapy-program-structure.md: Copied (new)
+2026/03/19 23:37:26 INFO  : fern-feather-newsletter-template.md: Copied (new)
+2026/03/19 23:37:26 INFO  : grounding-technique-cards.md: Copied (new)
+2026/03/19 23:37:26 INFO  : instagram-carousel-attachment-styles.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-find-therapist.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-march-19.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-grounding-techniques.md: Copied (new)
+2026/03/19 23:37:27 INFO  : instagram-carousel-nervous-system-signs.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousel-posts.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousels.md: Copied (new)
+2026/03/19 23:37:28 INFO  : instagram-carousel-window-tolerance.md: Copied (new)
+2026/03/19 23:37:28 INFO  : lead-magnet-landing-page.md: Copied (new)
+2026/03/19 23:37:28 INFO  : mood-energy-tracker.md: Copied (new)
+2026/03/19 23:37:28 INFO  : nervous-system-101-course.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-april-2026.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-march-2026.md: Copied (new)
+2026/03/19 23:37:29 INFO  : newsletter-template.md: Copied (new)
+2026/03/19 23:37:29 INFO  : referral-network.md: Copied (new)
+2026/03/19 23:37:29 INFO  : science-says-research-compilation.md: Copied (new)
+2026/03/19 23:37:30 INFO  : science-says-series-outline.md: Copied (new)
+2026/03/19 23:37:30 INFO  : somatic-habit-tracker.md: Copied (new)
+2026/03/19 23:37:30 INFO  : sublease-agreement-templates.md: Copied (new)
+2026/03/19 23:37:30 INFO  : supervision-curriculum.md: Copied (new)
+2026/03/19 23:37:30 INFO  : tiktok-batch-march-18.md: Copied (new)
+2026/03/19 23:37:30 INFO  : tiktok-batch-march-19-evening.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-batch-march-19-late.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-batch-march-19.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-current-events-mental-health.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-nicole-april-calendar.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-concepts-nicole-noface.md: Copied (new)
+2026/03/19 23:37:31 INFO  : tiktok-content-calendar.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-10.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-11.md: Copied (new)
+2026/03/19 23:37:32 INFO  : tiktok-scripts-batch-12.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-15-fern-feather-educational.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-7.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-13.md: Copied (new)
+2026/03/19 23:37:33 INFO  : tiktok-scripts-batch-14-nicole-voice.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-batch-9.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-batch-8.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-science-says-batch2.md: Copied (new)
+2026/03/19 23:37:34 INFO  : tiktok-scripts-week-march-16.md: Copied (new)
+2026/03/19 23:37:35 INFO  : window-of-tolerance-tracker.md: Copied (new)
+2026/03/19 23:37:35 INFO  : trauma-informed-yoga-workshop.md: Copied (new)
+2026/03/19 23:37:35 INFO  : tiktok-scripts-week1.md: Copied (new)
+2026/03/19 23:37:35 INFO  : drafts/science-of-anxious-nervous-system.md: Copied (new)
+2026/03/19 23:37:36 INFO  : instagram/carousel-attachment-biology.md: Copied (new)
+2026/03/19 23:37:36 INFO  : lead-magnets/5-somatic-practices-anxiety-relief.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : email-sequences/welcome-sequence-5-emails.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : email-sequences/welcome-sequence-5-emails.md: Copied (new)
+2026/03/19 23:37:37 INFO  : lead-magnets/5-somatic-practices-anxiety-relief.md: Copied (new)
+2026/03/19 23:37:37 INFO  : products/somatic-interventions-therapist-toolkit.docx: Copied (new)
+2026/03/19 23:37:37 INFO  : products/attachment-biology-workbook.md: Copied (new)
+2026/03/19 23:37:38 INFO  : products/attachment-biology-workbook.docx: Copied (new)
+2026/03/19 23:37:38 INFO  : products/somatic-interventions-therapist-toolkit.md: Copied (new)
+2026/03/19 23:37:38 INFO  : Marketing Strategy/fern-feather-marketing-playbook-2025-2026.md: Deleted
+2026/03/19 23:37:38 INFO  : Science Says - Research Compilation.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok - 30-Day Content Calendar.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok - Week 1 Scripts.md: Deleted
+2026/03/19 23:37:38 INFO  : Email Sequences/Welcome Sequence - 5 Emails.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok Scripts/tiktok-scripts-science-says-batch2.md: Deleted
+2026/03/19 23:37:38 INFO  : TikTok Scripts: Removing directory
+2026/03/19 23:37:39 INFO  : Marketing Strategy: Removing directory
+2026/03/19 23:37:39 INFO  : Email Sequences: Removing directory
+2026/03/19 23:37:39 INFO  : 
+Transferred:   	  737.998 KiB / 737.998 KiB, 100%, 46.120 KiB/s, ETA 0s
+Checks:                 6 / 6, 100%
+Deleted:                6 (files), 3 (dirs)
+Transferred:           68 / 68, 100%
+Elapsed time:        17.0s
+
+2026/03/19 23:37:41 INFO  : fern-feather-marketing-playbook-2025-2026.md: Copied (new)
+2026/03/19 23:37:41 INFO  : 
+Transferred:   	   11.020 KiB / 11.020 KiB, 100%, 11.012 KiB/s, ETA 0s
+Transferred:            1 / 1, 100%
+Elapsed time:         1.9s
+
+2026/03/19 23:37:43 INFO  : 01-client-intake-form.md: Copied (new)
+2026/03/19 23:37:43 INFO  : 04-release-of-information.md: Copied (new)
+2026/03/19 23:37:43 INFO  : 03-privacy-practices.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 02-informed-consent.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 05-financial-agreement.md: Copied (new)
+2026/03/19 23:37:44 INFO  : 
+Transferred:   	   33.424 KiB / 33.424 KiB, 100%, 29.053 KiB/s, ETA 0s
+Transferred:            5 / 5, 100%
+Elapsed time:         2.6s
+
+2026/03/19 23:37:46 INFO  : burnout-recovery-therapists-workshop.md: Copied (new)
+2026/03/19 23:37:46 INFO  : couples-coregulation-weekend.md: Copied (new)
+2026/03/19 23:37:46 INFO  : attachment-repair-group-curriculum.md: Copied (new)
+2026/03/19 23:37:46 INFO  : nervous-system-reset-course.md: Copied (new)
+2026/03/19 23:37:47 INFO  : parenting-neurodivergent-kids-course.md: Copied (new)
+2026/03/19 23:37:47 INFO  : somatic-self-compassion-retreat.md: Copied (new)
+2026/03/19 23:37:47 INFO  : 
+Transferred:   	   98.870 KiB / 98.870 KiB, 100%, 72.738 KiB/s, ETA 0s
+Transferred:            6 / 6, 100%
+Elapsed time:         2.6s
+
+2026/03/19 23:37:48 INFO  : operations-manual-template.md: Copied (new)
+2026/03/19 23:37:48 INFO  : Sublease Agreement Templates.md: Deleted
+2026/03/19 23:37:48 INFO  : Referral Network Framework.md: Deleted
+2026/03/19 23:37:48 INFO  : Google Workspace Setup Guide.md: Deleted
+2026/03/19 23:37:48 INFO  : 
+Transferred:   	   10.440 KiB / 10.440 KiB, 100%, 10.434 KiB/s, ETA 0s
+Checks:                 3 / 3, 100%
+Deleted:                3 (files), 0 (dirs)
+Transferred:            1 / 1, 100%
+Elapsed time:         1.5s
+
+2026/03/19 23:37:49 INFO  : open-source-tools-github.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : tech-stack-recommendations.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : platform-comparison.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : pdf-creation-tools.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : automation-tools.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : retreat-venues-georgia-nc.md: Updated modification time in destination
+2026/03/19 23:37:49 INFO  : digital-product-sales-strategy.md: Copied (new)
+2026/03/19 23:37:49 INFO  : certification-demand-analysis.md: Copied (new)
+2026/03/19 23:37:49 INFO  : intelligence-brief-2026-03-09.md: Copied (new)
+2026/03/19 23:37:50 INFO  : client-pain-points-2026.md: Copied (new)
+2026/03/19 23:37:50 INFO  : intelligence-brief-2026-03-12.md: Copied (new)
+2026/03/19 23:37:50 INFO  : open-viking-deep-dive-report.md: Copied (new)
+2026/03/19 23:37:50 INFO  : tiktok-trends-march-2025.md: Copied (new)
+2026/03/19 23:37:50 INFO  : therapy-office-safety-systems.md: Copied (new)
+2026/03/19 23:37:51 INFO  : tool-integration-requirements.md: Copied (new)
+2026/03/19 23:37:51 INFO  : Market Intelligence/intelligence-brief-2026-03-09.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/certification-demand-analysis.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/digital-product-sales-strategy.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/intelligence-brief-2026-03-12.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/therapy-office-safety-systems.md: Deleted
+2026/03/19 23:37:51 INFO  : Archive/full-backup-2026-03-15.tar.gz: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence/tool-integration-requirements.md: Deleted
+2026/03/19 23:37:51 INFO  : Market Intelligence: Removing directory
+2026/03/19 23:37:52 INFO  : Archive: Removing directory
+2026/03/19 23:37:52 INFO  : 
+Transferred:   	   65.217 KiB / 65.217 KiB, 100%, 21.730 KiB/s, ETA 0s
+Checks:                14 / 14, 100%
+Deleted:                7 (files), 2 (dirs)
+Transferred:            9 / 9, 100%
+Elapsed time:         4.1s
+
+2026/03/20 21:32:17 INFO  : citation-audit-report.md: Copied (new)
+2026/03/20 21:32:17 INFO  : memory-solution-quick-start.md: Copied (new)
+2026/03/20 21:32:17 INFO  : client-welcome-packet.md: Copied (new)
+2026/03/20 21:32:17 INFO  : apa-citation-template.md: Copied (new)
+2026/03/20 21:32:18 INFO  : memory-system-implementation-guide.md: Copied (new)
+2026/03/20 21:32:18 INFO  : therapy-session-note-template.md: Copied (new)
+2026/03/20 21:32:18 INFO  : USER.md: Deleted
+2026/03/20 21:32:18 INFO  : SOUL.md: Deleted
+2026/03/20 21:32:18 INFO  : fern-feather-pricing-calculator.md: Deleted
+2026/03/20 21:32:18 INFO  : fern-feather-master-plan.md: Deleted
+2026/03/20 21:32:18 INFO  : fern-feather-product-strategy.md: Deleted
+2026/03/20 21:32:18 INFO  : HEARTBEAT.md: Deleted
+2026/03/20 21:32:18 INFO  : market-analysis-digital-products.md: Deleted
+2026/03/20 21:32:18 INFO  : BACKLOG.md: Deleted
+2026/03/20 21:32:18 INFO  : 
+Transferred:   	   45.440 KiB / 45.440 KiB, 100%, 22.717 KiB/s, ETA 0s
+Checks:                 9 / 9, 100%
+Deleted:                8 (files), 0 (dirs)
+Transferred:            6 / 6, 100%
+Elapsed time:         2.9s
+
+2026/03/20 21:32:20 INFO  : attachment-biology-workbook-outline.md: Copied (replaced existing)
+2026/03/20 21:32:20 INFO  : somatic-self-check-30-day-tracker.md: Copied (new)
+2026/03/20 21:32:20 INFO  : trauma-informed-yoga-sequence-guide.md: Copied (new)
+2026/03/20 21:32:20 INFO  : anxiety-coping-skills-card-deck.md: Copied (new)
+2026/03/20 21:32:20 INFO  : fern-feather-printable-toolkit.md: Copied (replaced existing)
+2026/03/20 21:32:20 INFO  : printable-toolkit-spec.md: Copied (replaced existing)
+2026/03/20 21:32:20 INFO  : printable-somatic-toolkit-spec.md: Copied (replaced existing)
+2026/03/20 21:32:21 INFO  : grounding-technique-cards.md: Copied (replaced existing)
+2026/03/20 21:32:21 INFO  : 
+Transferred:   	  131.929 KiB / 131.929 KiB, 100%, 131.904 KiB/s, ETA 0s
+Checks:                15 / 15, 100%
+Transferred:            8 / 8, 100%
+Elapsed time:         2.0s
+
+2026/03/20 21:32:21 INFO  : There was nothing to transfer
+2026/03/20 21:32:21 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Elapsed time:         0.8s
+
+2026/03/20 21:32:23 INFO  : instagram-carousel-lgbtq-affirming-therapy.md: Copied (new)
+2026/03/20 21:32:23 INFO  : instagram-carousel-polyvagal-theory.md: Copied (new)
+2026/03/20 21:32:23 INFO  : instagram-carousel-emdr-therapy-explained.md: Copied (new)
+2026/03/20 21:32:23 INFO  : blog-couples-therapy-alpharetta.md: Copied (new)
+2026/03/20 21:32:23 INFO  : instagram-carousel-therapist-red-green-flags.md: Copied (new)
+2026/03/20 21:32:24 INFO  : instagram-carousel-therapy-vs-coaching.md: Copied (new)
+2026/03/20 21:32:24 INFO  : instagram-carousel-somatic-therapy-anxiety.md: Copied (new)
+2026/03/20 21:32:24 INFO  : instagram-carousel-therapist-self-care.md: Copied (new)
+2026/03/20 21:32:24 INFO  : tiktok-batch-march-20.md: Copied (new)
+2026/03/20 21:32:24 INFO  : tiktok-batch-march-21.md: Copied (new)
+2026/03/20 21:32:24 INFO  : tiktok-batch-march-23.md: Copied (new)
+2026/03/20 21:32:24 INFO  : tiktok-batch-march-22.md: Copied (new)
+2026/03/20 21:32:25 INFO  : tiktok-batch-march-26.md: Copied (new)
+2026/03/20 21:32:25 INFO  : tiktok-batch-march-24.md: Copied (new)
+2026/03/20 21:32:25 INFO  : tiktok-batch-march-27.md: Copied (new)
+2026/03/20 21:32:25 INFO  : tiktok-batch-march-25.md: Copied (new)
+2026/03/20 21:32:26 INFO  : blog-somatic-therapy-anxiety.md: Copied (replaced existing)
+2026/03/20 21:32:26 INFO  : blog-seo-somatic-therapy-alpharetta.md: Copied (replaced existing)
+2026/03/20 21:32:26 INFO  : Strategy/fern-feather-marketing-playbook-2025-2026.md: Deleted
+2026/03/20 21:32:26 INFO  : Strategy: Removing directory
+2026/03/20 21:32:26 INFO  : 
+Transferred:   	  145.216 KiB / 145.216 KiB, 100%, 36.295 KiB/s, ETA 0s
+Checks:                69 / 69, 100%
+Deleted:                1 (files), 1 (dirs)
+Transferred:           18 / 18, 100%
+Elapsed time:         5.0s
+
+2026/03/20 21:32:28 INFO  : fern-feather-marketing-playbook-2025-2026.md: Copied (new)
+2026/03/20 21:32:28 INFO  : 
+Transferred:   	   11.020 KiB / 11.020 KiB, 100%, 0 B/s, ETA -
+Transferred:            1 / 1, 100%
+Elapsed time:         1.7s
+
+2026/03/20 21:32:29 INFO  : There was nothing to transfer
+2026/03/20 21:32:29 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 5 / 5, 100%
+Elapsed time:         0.5s
+
+2026/03/20 21:32:30 INFO  : nervous-system-reset-course.md: Copied (replaced existing)
+2026/03/20 21:32:30 INFO  : 
+Transferred:   	   24.229 KiB / 24.229 KiB, 100%, 0 B/s, ETA -
+Checks:                 6 / 6, 100%
+Transferred:            1 / 1, 100%
+Elapsed time:         1.1s
+
+2026/03/20 21:32:30 INFO  : There was nothing to transfer
+2026/03/20 21:32:30 INFO  : 
+Transferred:   	          0 B / 0 B, -, 0 B/s, ETA -
+Checks:                 1 / 1, 100%
+Elapsed time:         0.3s
+
+2026/03/20 21:32:32 INFO  : memory-system-alternatives-2026.md: Copied (new)
+2026/03/20 21:32:32 INFO  : memory-system-alternatives-2026-updated.md: Copied (new)
+2026/03/20 21:32:33 INFO  : Ronda Workspace/research/retreat-venues-georgia-nc.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/referral-network.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/blog-emdr-therapy-explained.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/backup-scripts/backup-now.sh: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/USER.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/blog-trauma-informed-therapy-alpharetta.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/products/somatic-self-check-30-day-tracker.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/tiktok-batch-march-27.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/tiktok-content-calendar.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/products/printable-somatic-toolkit-spec.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/tiktok-batch-march-26.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/content/blog-ifs-therapy-explained.md: Deleted
+2026/03/20 21:32:33 INFO  : Ronda Workspace/research/automation-tools.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/lead-magnet-landing-page.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/science-says-research-compilation.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/design-briefs/lead-magnet-design-brief.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/tiktok-batch-march-21.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/DRIVE_UPLOAD_STATUS.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/products/convert_to_docx.py: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-7-integration.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/tiktok-concepts-nicole-noface.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/research/tiktok-therapy-trends-2026.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/instagram-carousel-therapist-red-green-flags.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/instagram/carousel-attachment-biology.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/business/citation-audit-report.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/tiktok-scripts-batch-14-nicole-voice.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/INDEX.md: Deleted
+2026/03/20 21:32:34 INFO  : Ronda Workspace/content/blog-polyvagal-theory-explained.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/list-folders.js: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/open-viking-quickstart-windows.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/research/certification-demand-analysis.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/content/instagram-carousel-window-tolerance.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/content/newsletter-template.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/content/attachment-style-quiz-lead-magnet.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/content/tiktok-scripts-batch-8.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/research/intelligence-brief-2026-03-09.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/fern-feather-master-plan.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/content/tiktok-scripts-batch-15-fern-feather-educational.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/The Anxious Nervous System Workbook.txt: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/_strat/podcast-guest-opportunities.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/business/therapy-session-note-template.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/research/memory-system-alternatives-2026-updated.md: Deleted
+2026/03/20 21:32:35 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-4-self-energy.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/DRIVE_SETUP_INSTRUCTIONS.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/.sync-log.txt: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/HEARTBEAT.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/content/content-production-system.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/content/instagram-carousel-attachment-styles.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/GOOGLE_WORKSPACE_CLI_SETUP.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/content/tiktok-scripts-batch-7.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/courses/couples-coregulation-weekend.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/backup-scripts/backup-to-drive.sh: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/content/blog-couples-therapy-alpharetta.md: Deleted
+2026/03/20 21:32:36 INFO  : Ronda Workspace/content/instagram-carousel-posts.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/landing-pages/lead-magnet-anxiety-relief.html: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/content/nervous-system-101-course.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/MEMORY.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/subagent-assessment.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/fern-feather/FERN-FEATHER-MASTER.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/content/tiktok-batch-march-20.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/memory/2026-03-15.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/courses/burnout-recovery-therapists-workshop.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/passive-income/fern-feather-passive-income-strategy.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/content/newsletter-march-2026.md: Deleted
+2026/03/20 21:32:37 INFO  : Ronda Workspace/content/instagram-carousel-therapy-vs-coaching.md: Deleted
+2026/03/20 21:32:39 INFO  : Ronda Workspace/memory/2026-03-20.md: Deleted
+2026/03/20 21:32:39 INFO  : Ronda Workspace/get-pip.py: Deleted
+2026/03/20 21:32:39 INFO  : Ronda Workspace/SOUL.md: Deleted
+2026/03/20 21:32:39 INFO  : Ronda Workspace/BACKLOG.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/business/memory-solution-quick-start.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/fern-feather-product-strategy.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/content/instagram-carousel-lgbtq-affirming-therapy.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/open-viking-setup-guide.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/MASTER-INDEX.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/products/anxiety-coping-skills-card-deck.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-3-exiles.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/research/therapy-office-safety-systems.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/content/tiktok-batch-march-18.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/content/tiktok-concepts-current-events-mental-health.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/research/memory-system-alternatives-2026.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/research/open-source-tools-github.md: Deleted
+2026/03/20 21:32:40 INFO  : Ronda Workspace/content/drafts/science-of-anxious-nervous-system.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/gdrive.js: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/operations/operations-manual-template.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/blog-somatic-experiencing-guide.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/memory/2026-03-01.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/tiktok-batch-march-22.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/memory/2026-03-10.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/products/somatic-interventions-therapist-toolkit.docx: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/AGENTS.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/TOOLS.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/business/memory-system-implementation-guide.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/instagram-carousel-find-therapist.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/products/attachment-biology-workbook-outline.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/grounding-technique-cards.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/memory/2026-03-08.md: Deleted
+2026/03/20 21:32:41 INFO  : Ronda Workspace/content/instagram-carousel-polyvagal-theory.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/memory/heartbeat-state.json: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/products/grounding-technique-cards.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/fern-feather-digital-product-roadmap.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/content/tiktok-batch-march-19-evening.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/market-analysis-digital-products.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/memory/2026-03-06.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/package.json: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-2-protectors.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-6-trauma.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/content/instagram-carousels.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/marketing/fern-feather-marketing-playbook-2025-2026.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/products/fern-feather-printable-toolkit.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/research/tiktok-trends-march-2025.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/content/instagram-carousel-nervous-system-signs.md: Deleted
+2026/03/20 21:32:42 INFO  : Ronda Workspace/content/instagram-carousel-grounding-techniques.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/business/client-welcome-packet.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/research/digital-product-sales-strategy.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/content/tiktok-scripts-week1.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/anxious-nervous-system-draft.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/credentials.json: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/openclaw.json: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/content/instagram-carousel-therapist-self-care.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/DRIVE-PERMANENT-FIX.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/.client_secret.json: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/products/embodied-parts-workbook/embodied-parts-workbook-intro.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/DRIVE-README.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/content/newsletter-april-2026.md: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/backup-scripts/auto-backup.sh: Deleted
+2026/03/20 21:32:43 INFO  : Ronda Workspace/content/tiktok-concepts-nicole-april-calendar.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/backup.sh: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/.openclaw/workspace-state.json: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/research/pdf-creation-tools.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/memory/2026-03-17.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/memory/discord-2026-03-16.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/content/tiktok-batch-march-19.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/content/tiktok-batch-march-24.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/memory/2026-03-12.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/memory/2026-03-13.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/business/fern-feather-operations-manual.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/content/blog-anxiety-therapy-alpharetta.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/anxious-nervous-system-research-completion.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/content/blog-seo-somatic-therapy-alpharetta.md: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/backup-scripts/sync-deliverables.sh: Deleted
+2026/03/20 21:32:44 INFO  : Ronda Workspace/content/products/attachment-biology-workbook.docx: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/content/instagram-carousel-somatic-therapy-anxiety.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-5-relationships.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/content/instagram-carousel-emdr-therapy-explained.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/.gdrive-token.json: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/memory/2026-03-09.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/forms/04-release-of-information.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/content/lead-magnets/5-somatic-practices-anxiety-relief.docx: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/content/supervision-curriculum.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/content/group-therapy-program-structure.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/products/printable-toolkit-spec.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/research/tech-stack-recommendations.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/fern-feather/products/lead-magnet-somatic-practices.md: Deleted
+2026/03/20 21:32:45 INFO  : Ronda Workspace/research/tool-integration-requirements.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/email-sequences/welcome-sequence-5-emails.docx: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/.service-account.json: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/products/attachment-biology-workbook.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/fern-feather-module1.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/forms/01-client-intake-form.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/anxious-nervous-system-research-companion.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/design-briefs/image-generation-brief.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/research/client-pain-points-2026.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/fern-feather-newsletter-template.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/tiktok-batch-march-25.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/lead-magnets/5-somatic-practices-anxiety-relief.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/open-viking-quickstart-mac.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/content/blog-somatic-therapy-guide.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/forms/02-informed-consent.md: Deleted
+2026/03/20 21:32:46 INFO  : Ronda Workspace/forms/05-financial-agreement.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/md_to_docx.py: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/printable-tools/somatic-tools-collection.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/products/trauma-informed-yoga-sequence-guide.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/scripts/convert-products.sh: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/fern-feather-pricing-calculator.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/content/instagram-carousel-march-19.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/content/tiktok-batch-march-19-late.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/content/science-says-series-outline.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/content/tiktok-scripts-science-says-batch2.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/research/platform-comparison.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/The_Anxious_Nervous_System_Workbook_EDITED.txt: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/courses/nervous-system-reset-course.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/content/products/somatic-interventions-therapist-toolkit.md: Deleted
+2026/03/20 21:32:47 INFO  : Ronda Workspace/backup-scripts/post-commit-backup.sh: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/mood-energy-tracker.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/gdrive-simple.js: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/courses/attachment-repair-group-curriculum.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/tiktok-scripts-batch-9.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/research/open-viking-deep-dive-report.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/blog-somatic-therapy-anxiety.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/tiktok-scripts-batch-13.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/tiktok-scripts-week-march-16.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/content/window-of-tolerance-tracker.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/SYSTEMS_STATUS.md: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/design-briefs/canva-layout-visual-guide.html: Deleted
+2026/03/20 21:32:48 INFO  : Ronda Workspace/backup-scripts/sync-to-drive.sh: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/fern-feather/brand-positioning.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/trauma-informed-yoga-workshop.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/create_docx.py: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/courses/somatic-self-compassion-retreat.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/forms/03-privacy-practices.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/tiktok-batch-march-23.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/somatic-habit-tracker.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/memory/2026-03-07.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/sublease-agreement-templates.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-1-foundations.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/backup-scripts/upload-file.sh: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/tiktok-scripts-batch-12.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/IDENTITY.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/courses/parenting-neurodivergent-kids-course.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/tiktok-scripts-batch-10.md: Deleted
+2026/03/20 21:32:49 INFO  : Ronda Workspace/content/blog-window-of-tolerance-guide.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/memory/2026-03-05.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/memory/2026-03-19.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/memory/2026-03-16.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/content/tiktok-scripts-batch-11.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/content/email-sequences/welcome-sequence-5-emails.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/anxious-nervous-system-draft.html: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/BACKUP_LOG.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/package-lock.json: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/content/30-day-content-calendar.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/products/embodied-parts-workbook/module-8-continuing.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/research/intelligence-brief-2026-03-12.md: Deleted
+2026/03/20 21:32:50 INFO  : Ronda Workspace/scripts: Removing directory
+2026/03/20 21:32:51 INFO  : Ronda Workspace/research: Removing directory
+2026/03/20 21:32:51 INFO  : Ronda Workspace/products/embodied-parts-workbook: Removing directory
+2026/03/20 21:32:51 INFO  : Ronda Workspace/products: Removing directory
+2026/03/20 21:32:52 INFO  : Ronda Workspace/printable-tools: Removing directory
+2026/03/20 21:32:52 INFO  : Ronda Workspace/passive-income: Removing directory
+2026/03/20 21:32:52 INFO  : Ronda Workspace/operations: Removing directory
+2026/03/20 21:32:53 INFO  : Ronda Workspace/memory: Removing directory
+2026/03/20 21:32:53 INFO  : Ronda Workspace/marketing: Removing directory
+2026/03/20 21:32:53 INFO  : Ronda Workspace/landing-pages: Removing directory
+2026/03/20 21:32:54 INFO  : Ronda Workspace/forms: Removing directory
+2026/03/20 21:32:54 INFO  : Ronda Workspace/fern-feather/products: Removing directory
+2026/03/20 21:32:55 INFO  : Ronda Workspace/fern-feather: Removing directory
+2026/03/20 21:32:55 INFO  : Ronda Workspace/design-briefs: Removing directory
+2026/03/20 21:32:56 INFO  : Ronda Workspace/courses: Removing directory
+2026/03/20 21:32:56 INFO  : Ronda Workspace/content/products: Removing directory
+2026/03/20 21:32:56 INFO  : Ronda Workspace/content/lead-magnets: Removing directory
+2026/03/20 21:32:57 INFO  : Ronda Workspace/content/instagram: Removing directory
+2026/03/20 21:32:57 INFO  : Ronda Workspace/content/email-sequences: Removing directory
+2026/03/20 21:32:58 INFO  : Ronda Workspace/content/drafts: Removing directory
+2026/03/20 21:32:58 INFO  : Ronda Workspace/content: Removing directory
+2026/03/20 21:32:58 INFO  : Ronda Workspace/business: Removing directory
+2026/03/20 21:32:59 INFO  : Ronda Workspace/backup-scripts: Removing directory
+2026/03/20 21:32:59 INFO  : Ronda Workspace/_strat: Removing directory
+2026/03/20 21:33:00 INFO  : Ronda Workspace/.openclaw: Removing directory
+2026/03/20 21:33:00 INFO  : Ronda Workspace: Removing directory
+2026/03/20 21:33:00 INFO  : 
+Transferred:   	   17.119 KiB / 17.119 KiB, 100%, 473 B/s, ETA 0s
+Checks:               238 / 238, 100%
+Deleted:              222 (files), 26 (dirs)
+Transferred:            2 / 2, 100%
+Elapsed time:        29.8s
+
