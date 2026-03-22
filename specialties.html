@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Specialties | Fern & Feather Wellness Center</title>
+  <meta name="description" content="Fern & Feather specializes in trauma, anxiety, depression, relationships, OCD, burnout, and LGBTQ+ affirming care. Science-based, integrative therapy in Alpharetta, GA.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .specialties-hero {
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 100%);
+      padding-top: 100px;
+      text-align: center;
+    }
+    .specialties-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+    .specialty-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 20px;
+      box-shadow: var(--shadow-soft);
+      transition: var(--transition-smooth);
+      text-align: center;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .specialty-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+    .specialty-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .specialty-card h3 {
+      color: var(--sage-700);
+      margin-bottom: 1rem;
+    }
+    .specialty-card p {
+      color: var(--sage-600);
+      font-size: 0.95rem;
+    }
+    .approach-banner {
+      background: var(--sage-600);
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+    }
+    .approach-banner h2 {
+      color: white;
+      margin-bottom: 1rem;
+    }
+    .approach-banner p {
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 5C20 5 10 15 10 25C10 30 14 35 20 35C26 35 30 30 30 25C30 15 20 5 20 5Z" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <path d="M20 35V15M20 15C20 15 15 12 15 8M20 15C20 15 25 12 25 8" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <circle cx="20" cy="8" r="2" fill="#6b7f5a"/>
+        </svg>
+        Fern & Feather
+      </a>
+      <ul class="nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="specialties.html">Specialties</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="nicole.html">Nicole</a></li>
+        <li><a href="kiera.html">Kiera</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Schedule Consult</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="specialties-hero">
+    <div class="container">
+      <div class="section-header">
+        <h1>Areas We Specialize In</h1>
+        <p>We provide compassionate, evidence-based care for a variety of mental health concerns. Click on any specialty to learn more about our approach.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specialties Grid -->
+  <section class="services">
+    <div class="container">
+      <div class="specialties-grid">
+        <a href="specialties/anxiety.html" class="specialty-card">
+          <div class="specialty-icon">🌊</div>
+          <h3>Anxiety & Panic</h3>
+          <p>Break free from worry, racing thoughts, and physical anxiety symptoms. Learn practical tools to calm your nervous system.</p>
+        </a>
+        
+        <a href="specialties/trauma.html" class="specialty-card">
+          <div class="specialty-icon">🌱</div>
+          <h3>Trauma & PTSD</h3>
+          <p>Process past experiences, reduce triggers, and reclaim your sense of safety with trauma-informed care.</p>
+        </a>
+        
+        <a href="specialties/depression.html" class="specialty-card">
+          <div class="specialty-icon">☀️</div>
+          <h3>Depression</h3>
+          <p>Find your way back to hope and vitality. We address the biological, psychological, and social factors of depression.</p>
+        </a>
+        
+        <a href="specialties/relationships.html" class="specialty-card">
+          <div class="specialty-icon">💕</div>
+          <h3>Relationships</h3>
+          <p>Build stronger connections, improve communication, and navigate challenges in couples or individual work.</p>
+        </a>
+        
+        <a href="specialties/ocd.html" class="specialty-card">
+          <div class="specialty-icon">🌀</div>
+          <h3>OCD</h3>
+          <p>Evidence-based ERP and ACT techniques to help you break free from intrusive thoughts and compulsive behaviors.</p>
+        </a>
+        
+        <a href="specialties/burnout.html" class="specialty-card">
+          <div class="specialty-icon">🔥</div>
+          <h3>Burnout & Stress</h3>
+          <p>Recover from professional burnout, set healthy boundaries, and rediscover your passion and energy.</p>
+        </a>
+        
+        <a href="specialties/parenting.html" class="specialty-card">
+          <div class="specialty-icon">👨‍👩‍👧‍👦</div>
+          <h3>Parenting Support</h3>
+          <p>Specialized support for parents of neurodivergent children. Find your balance and regulate your nervous system.</p>
+        </a>
+        
+        <a href="specialties/identity.html" class="specialty-card">
+          <div class="specialty-icon">🌈</div>
+          <h3>Identity & LGBTQ+</h3>
+          <p>Affirming care for exploring gender, sexuality, and authentic self-expression in a safe, judgment-free space.</p>
+        </a>
+        
+        <a href="specialties/life-transitions.html" class="specialty-card">
+          <div class="specialty-icon">🦋</div>
+          <h3>Life Transitions</h3>
+          <p>Navigate major changes—career shifts, moves, relationships ending—with support and clarity.</p>
+        </a>
+        
+        <a href="specialties/grief.html" class="specialty-card">
+          <div class="specialty-icon">🕊️</div>
+          <h3>Grief & Loss</h3>
+          <p>Honor your loss while finding a path forward. Process complicated grief with compassionate guidance.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approach Section -->
+  <section class="approach-banner">
+    <div class="container">
+      <h2>Our Integrative Approach</h2>
+      <p>We draw from multiple evidence-based modalities including IFS (Internal Family Systems), EMDR, somatic experiencing, ACT, Gottman Method for couples, and nervous system regulation techniques. Our approach is tailored to your unique needs and goals.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Wellness Center. All rights reserved.</p>
+        <p>Proudly serving Alpharetta, GA and clients throughout Georgia via telehealth.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

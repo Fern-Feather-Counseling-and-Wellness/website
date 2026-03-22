@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rates & Insurance | Fern & Feather Wellness Center</title>
+  <meta name="description" content="Transparent pricing for therapy services at Fern & Feather Wellness Center. Individual, couples, and group therapy rates in Alpharetta, GA.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .rates-hero {
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 100%);
+      padding-top: 100px;
+      text-align: center;
+    }
+    .rates-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+    .rate-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 20px;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      transition: var(--transition-smooth);
+      position: relative;
+      overflow: hidden;
+    }
+    .rate-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+    .rate-card.featured::before {
+      content: 'Most Popular';
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: var(--fern);
+      color: white;
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 0 0 0 10px;
+    }
+    .rate-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .rate-price {
+      font-family: var(--font-heading);
+      font-size: 2.5rem;
+      color: var(--sage-700);
+      margin: 1rem 0;
+    }
+    .rate-price span {
+      font-size: 1rem;
+      color: var(--sage-500);
+    }
+    .insurance-section {
+      background: white;
+      padding: 4rem 0;
+    }
+    .insurance-box {
+      background: var(--sage-50);
+      padding: 3rem;
+      border-radius: 20px;
+      border-left: 5px solid var(--fern);
+    }
+    .insurance-box h3 {
+      color: var(--sage-800);
+      margin-bottom: 1rem;
+    }
+    .insurance-box p {
+      color: var(--sage-600);
+      margin-bottom: 1rem;
+    }
+    .faq-item {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      margin-bottom: 1rem;
+      box-shadow: var(--shadow-soft);
+    }
+    .faq-item h4 {
+      color: var(--sage-700);
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 5C20 5 10 15 10 25C10 30 14 35 20 35C26 35 30 30 30 25C30 15 20 5 20 5Z" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <path d="M20 35V15M20 15C20 15 15 12 15 8M20 15C20 15 25 12 25 8" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <circle cx="20" cy="8" r="2" fill="#6b7f5a"/>
+        </svg>
+        Fern & Feather
+      </a>
+      <ul class="nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="specialties.html">Specialties</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="nicole.html">Nicole</a></li>
+        <li><a href="kiera.html">Kiera</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Schedule Consult</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="rates-hero">
+    <div class="container">
+      <div class="section-header">
+        <h1>Investment in Your Wellbeing</h1>
+        <p>Transparent pricing for quality mental health care. We intentionally keep our practice small to ensure every client receives the attention and care they deserve.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rates Section -->
+  <section class="services">
+    <div class="container">
+      <div class="rates-grid">
+        <div class="rate-card">
+          <div class="rate-icon">🌱</div>
+          <h3>Individual Therapy</h3>
+          <div class="rate-price">$135–$180<span>/session</span></div>
+          <p class="duration" style="color: var(--sage-500); margin-bottom: 1rem;">45-minute session</p>
+          <p>One-on-one therapy tailored to your goals—whether you're navigating trauma, anxiety, depression, life transitions, or seeking personal growth.</p>
+        </div>
+        
+        <div class="rate-card featured">
+          <div class="rate-icon">🌿</div>
+          <h3>Couples Therapy</h3>
+          <div class="rate-price">$210–$235<span>/session</span></div>
+          <p class="duration" style="color: var(--sage-500); margin-bottom: 1rem;">50–80 minute session</p>
+          <p>Relationship work for partners seeking deeper connection, improved communication, or support through difficult seasons. Session length tailored to your needs.</p>
+        </div>
+        
+        <div class="rate-card">
+          <div class="rate-icon">🍃</div>
+          <h3>Group Therapy</h3>
+          <div class="rate-price">$60–$75<span>/session</span></div>
+          <p class="duration" style="color: var(--sage-500); margin-bottom: 1rem;">Per session</p>
+          <p>Somatic groups, trauma-informed yoga, and therapeutic workshops designed to foster connection and healing in community. Groups rotate seasonally.</p>
+        </div>
+      </div>
+      
+      <p style="text-align: center; color: var(--sage-600); margin-top: 2rem; font-style: italic;">Your exact fee will be discussed and set individually based on your specific needs and the provider you work with.</p>
+    </div>
+  </section>
+
+  <!-- Insurance Section -->
+  <section class="insurance-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Insurance & Payment</h2>
+      </div>
+      
+      <div class="insurance-box">
+        <h3>Why We Don't Accept Insurance Directly</h3>
+        <p>Managed care companies were created to "manage" and contain escalating health care costs. Their bottom line is to reduce costs and raise profits—not to increase the quality of care professionals provide or your quality of life.</p>
+        <p>Managed care companies often choose to limit what services are offered, can restrict what is discussed in session, and may decide which clients can be seen and for how long.</p>
+        <p>Typically, only those services deemed medically necessary—which is defined as being literally about life and death and the treatment of illness—are covered. This means they require a diagnosis of mental illness that remains on your record.</p>
+        <p><strong>At Fern & Feather, we are solution-focused on quality of life and personal goals.</strong></p>
+        <p>Our work focuses on prevention, exploration, and personal growth rather than simply survival. Therefore, we have chosen to remain a <strong>concierge practice</strong>. You pay out of pocket for our services and we provide you with the necessary paperwork (a "superbill") to submit to your insurance provider for reimbursement if you so choose.</p>
+        <p style="background: var(--blush); padding: 1rem; border-radius: 10px; margin-top: 1rem;"><strong>Important:</strong> Should you choose to submit a superbill, you are releasing medical information that is protected by law, waiving some of your rights to privacy and confidentiality.</p>
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <p style="color: var(--sage-600); font-style: italic; margin-bottom: 2rem;">Under the No Surprises Act, you have the right to receive a Good Faith Estimate explaining how much your medical care will cost. We are happy to provide this upon request.</p>
+        <a href="index.html#contact" class="btn btn-primary">Schedule a Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Wellness Center. All rights reserved.</p>
+        <p>Proudly serving Alpharetta, GA and clients throughout Georgia via telehealth.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services & Fees | Fern & Feather Wellness Center</title>
+  <meta name="description" content="Individual therapy, couples counseling, group therapy, and clinical supervision in Alpharetta, GA. Private pay, LGBTQ+ affirming, trauma-informed care.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .pricing-card {
+      background: white;
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      position: relative;
+      transition: var(--transition-smooth);
+    }
+    .pricing-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+    .pricing-card.featured {
+      border: 3px solid var(--sage-400);
+      transform: scale(1.05);
+    }
+    .pricing-card.featured:hover {
+      transform: scale(1.05) translateY(-5px);
+    }
+    .price {
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--sage-700);
+      font-family: var(--font-heading);
+    }
+    .price span {
+      font-size: 1rem;
+      color: var(--sage-500);
+      font-weight: 400;
+    }
+    .service-detail {
+      background: white;
+      border-radius: 20px;
+      padding: 3rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow-soft);
+    }
+    .service-detail h3 {
+      color: var(--sage-700);
+      margin-bottom: 1rem;
+    }
+    .service-meta {
+      display: flex;
+      gap: 2rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+    .service-meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--sage-600);
+    }
+    .approach-list {
+      list-style: none;
+      margin: 1.5rem 0;
+    }
+    .approach-list li {
+      padding: 0.75rem 0;
+      padding-left: 1.5rem;
+      position: relative;
+      border-bottom: 1px solid var(--sage-100);
+    }
+    .approach-list li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--fern);
+    }
+    .faq-small {
+      margin-top: 2rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--sage-200);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 5C20 5 10 15 10 25C10 30 14 35 20 35C26 35 30 30 30 25C30 15 20 5 20 5Z" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <path d="M20 35V15M20 15C20 15 15 12 15 8M20 15C20 15 25 12 25 8" stroke="#6b7f5a" stroke-width="2" fill="none"/>
+          <circle cx="20" cy="8" r="2" fill="#6b7f5a"/>
+        </svg>
+        Fern & Feather
+      </a>
+      <ul class="nav-links">
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="specialties.html">Specialties</a></li>
+        <li><a href="rates.html">Rates</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="nicole.html">Nicole</a></li>
+        <li><a href="kiera.html">Kiera</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Schedule Consult</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" style="min-height: 60vh; padding-top: 120px;">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Our Services</h1>
+        <p class="hero-subtitle">Individual therapy, couples counseling, group work, and clinical supervision. All trauma-informed, LGBTQ+ affirming, and grounded in science.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="services" style="background: var(--cream);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Investment in Your Wellness</h2>
+        <p>We are a private-pay practice. This allows us to provide the highest quality care without insurance companies dictating your treatment.</p>
+      </div>
+      <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+        <div class="pricing-card">
+          <h3>Individual Therapy</h3>
+          <div class="price">$200<span>/session</span></div>
+          <p style="color: var(--sage-600); margin: 1rem 0;">50-minute sessions</p>
+          <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+            <li style="padding: 0.5rem 0;">✓ One-on-one support</li>
+            <li style="padding: 0.5rem 0;">✓ Personalized treatment plan</li>
+            <li style="padding: 0.5rem 0;">✓ In-person or telehealth</li>
+            <li style="padding: 0.5rem 0;">✓ Sliding scale available</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-primary" style="width: 100%;">Get Started</a>
+        </div>
+        
+        <div class="pricing-card featured">
+          <div style="background: var(--fern); color: white; padding: 0.5rem 1rem; border-radius: 50px; font-size: 0.85rem; font-weight: 600; position: absolute; top: -12px; left: 50%; transform: translateX(-50%);">Most Popular</div>
+          <h3>Couples Therapy</h3>
+          <div class="price">$250<span>/session</span></div>
+          <p style="color: var(--sage-600); margin: 1rem 0;">75-minute sessions</p>
+          <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+            <li style="padding: 0.5rem 0;">✓ Both partners included</li>
+            <li style="padding: 0.5rem 0;">✓ Communication focus</li>
+            <li style="padding: 0.5rem 0;">✓ All relationship types</li>
+            <li style="padding: 0.5rem 0;">✓ Extended time for depth</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-primary" style="width: 100%;">Book Couples Session</a>
+        </div>
+        
+        <div class="pricing-card">
+          <h3>Group Therapy</h3>
+          <div class="price">$75<span>/session</span></div>
+          <p style="color: var(--sage-600); margin: 1rem 0;">90-minute sessions</p>
+          <ul style="list-style: none; text-align: left; margin: 1.5rem 0;">
+            <li style="padding: 0.5rem 0;">✓ Small groups (6-8 people)</li>
+            <li style="padding: 0.5rem 0;">✓ Weekly meetings</li>
+            <li style="padding: 0.5rem 0;">✓ Theme-based (anxiety, trauma, etc.)</li>
+            <li style="padding: 0.5rem 0;">✓ Community & connection</li>
+          </ul>
+          <a href="index.html#contact" class="btn btn-primary" style="width: 100%;">Join Waitlist</a>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: white; border-radius: 15px;">
+        <h3 style="margin-bottom: 1rem;">Sliding Scale & Supervision</h3>
+        <p style="color: var(--sage-600);">We reserve sliding scale spots for marginalized communities. Clinical supervision for APCs is $150/hour. <a href="index.html#contact" style="color: var(--fern); font-weight: 600;">Contact us</a> to learn more.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Details -->
+  <section class="why-us" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <h2>What to Expect</h2>
+      </div>
+      
+      <!-- Individual Therapy -->
+      <article class="service-detail">
+        <h3>🧠 Individual Therapy</h3>
+        <p style="color: var(--sage-600); font-size: 1.1rem;">One-on-one support tailored to your unique needs and goals.</p>
+        
+        <div class="service-meta">
+          <div class="service-meta-item">
+            <span>⏱️</span> 50 minutes
+          </div>
+          <div class="service-meta-item">
+            <span>📍</span> In-person or telehealth
+          </div>
+          <div class="service-meta-item">
+            <span>💰</span> $200/session
+          </div>
+        </div>
+        
+        <p><strong>Who it's for:</strong> Adults dealing with anxiety, depression, trauma, life transitions, relationship issues, or anyone seeking personal growth and deeper self-understanding.</p>
+        
+        <p><strong>What we address:</strong></p>
+        <ul class="approach-list">
+          <li>Anxiety and panic disorders</li>
+          <li>Trauma and PTSD</li>
+          <li>Depression and mood issues</li>
+          <li>Life transitions (career, relationships, identity)</li>
+          <li>Grief and loss</li>
+          <li>Self-esteem and identity</li>
+          <li>Stress and burnout</li>
+          <li>Perfectionism and people-pleasing</li>
+        </ul>
+        
+        <p><strong>Our approach:</strong> We draw from multiple evidence-based modalities including Internal Family Systems (IFS), somatic therapy, EMDR, CBT, and attachment-based therapy. We tailor our approach to what works best for you.</p>
+        
+        <div class="faq-small">
+          <p style="font-weight: 600; margin-bottom: 0.5rem;">How long will I need therapy?</p>
+          <p style="color: var(--sage-600);">It varies. Some people find significant relief in 8-12 sessions. Others prefer ongoing support for deeper work. We'll check in regularly about your progress and adjust as needed.</p>
+        </div>
+      </article>
+      
+      <!-- Couples Therapy -->
+      <article class="service-detail">
+        <h3>💕 Couples Therapy</h3>
+        <p style="color: var(--sage-600); font-size: 1.1rem;">Strengthen your relationship through better communication and deeper connection.</p>
+        
+        <div class="service-meta">
+          <div class="service-meta-item">
+            <span>⏱️</span> 75 minutes
+          </div>
+          <div class="service-meta-item">
+            <span>📍</span> In-person or telehealth
+          </div>
+          <div class="service-meta-item">
+            <span>💰</span> $250/session
+          </div>
+        </div>
+        
+        <p><strong>Who it's for:</strong> Couples at any stage — dating, engaged, married, separating, or anything in between. All relationship structures welcome (monogamous, polyamorous, LGBTQ+, etc.).</p>
+        
+        <p><strong>What we address:</strong></p>
+        <ul class="approach-list">
+          <li>Communication breakdowns</li>
+          <li>Conflict resolution</li>
+          <li>Trust and betrayal</li>
+          <li>Intimacy and connection</li>
+          <li>Life transitions (moving, kids, career changes)</li>
+          <li>Navigating different needs and desires</li>
+          <li>Pre-marital preparation</li>
+          <li>Conscious uncoupling (if separation is the path)</li>
+        </ul>
+        
+        <p><strong>Our approach:</strong> We use Emotionally Focused Therapy (EFT) and Gottman Method principles to help you understand your attachment patterns, communicate effectively, and rebuild connection.</p>
+        
+        <div class="faq-small">
+          <p style="font-weight: 600; margin-bottom: 0.5rem;">Do we both need to want therapy?</p>
+          <p style="color: var(--sage-600);">Ideally, yes. But if one partner is hesitant, we can start with the willing partner and work toward joint sessions when ready.</p>
+        </div>
+      </article>
+      
+      <!-- Group Therapy -->
+      <article class="service-detail">
+        <h3>🌿 Group Therapy</h3>
+        <p style="color: var(--sage-600); font-size: 1.1rem;">Heal in community. You're not alone, and group therapy proves it.</p>
+        
+        <div class="service-meta">
+          <div class="service-meta-item">
+            <span>⏱️</span> 90 minutes
+          </div>
+          <div class="service-meta-item">
+            <span>📍</span> In-person
+          </div>
+          <div class="service-meta-item">
+            <span>💰</span> $75/session
+          </div>
+          <div class="service-meta-item">
+            <span>👥</span> 6-8 members
+          </div>
+        </div>
+        
+        <p><strong>Who it's for:</strong> People who want the benefits of therapy plus the power of community. Great for those who feel isolated in their struggles or learn well from others' experiences.</p>
+        
+        <p><strong>Current & upcoming groups:</strong></p>
+        <ul class="approach-list">
+          <li><strong>Anxiety Support Group</strong> — Learn coping skills while connecting with others who understand</li>
+          <li><strong>Trauma Recovery Group</strong> — Safe space for healing with trauma-informed facilitation</li>
+          <li><strong>LGBTQ+ Process Group</strong> — Identity exploration and community connection</li>
+          <li><strong>New Parents Group</strong> — Navigate the transition to parenthood together</li>
+        </ul>
+        
+        <p><strong>Format:</strong> Groups meet weekly for 8-12 week cycles. Each session includes education, skill-building, and process time. Facilitated by Nicole or Kiera with a trauma-informed approach.</p>
+        
+        <div class="faq-small">
+          <p style="font-weight: 600; margin-bottom: 0.5rem;">Is group therapy confidential?</p>
+          <p style="color: var(--sage-600);">Absolutely. All members sign confidentiality agreements. What's shared in group stays in group.</p>
+        </div>
+      </article>
+      
+      <!-- Clinical Supervision -->
+      <article class="service-detail">
+        <h3>🎓 Clinical Supervision</h3>
+        <p style="color: var(--sage-600); font-size: 1.1rem;">Support for associate professionals working toward LPC licensure.</p>
+        
+        <div class="service-meta">
+          <div class="service-meta-item">
+            <span>⏱️</span> 60 minutes
+          </div>
+          <div class="service-meta-item">
+            <span>📍</span> Telehealth
+          </div>
+          <div class="service-meta-item">
+            <span>💰</span> $150/session
+          </div>
+        </div>
+        
+        <p><strong>Who it's for:</strong> APCs (Associate Professional Counselors) in Georgia working toward full LPC licensure who want supportive, educational supervision.</p>
+        
+        <p><strong>What we cover:</strong></p>
+        <ul class="approach-list">
+          <li>Case conceptualization and treatment planning</li>
+          <li>Ethical decision-making</li>
+          <li>Trauma-informed practice</li>
+          <li>Self-care and preventing burnout</li>
+          <li>Documentation and clinical notes</li>
+          <li>Licensure exam preparation</li>
+          <li>Building your private practice</li>
+        </ul>
+        
+        <p><strong>Our approach:</strong> We believe supervision should be supportive, not scary. You'll get constructive feedback, case consultation, and mentorship from therapists who've been there.</p>
+        
+        <div class="faq-small">
+          <p style="font-weight: 600; margin-bottom: 0.5rem;">Do you offer group supervision?</p>
+          <p style="color: var(--sage-600);">Yes! Group supervision is $75/person for 90-minute sessions. <a href="index.html#contact" style="color: var(--fern);">Contact us</a> to learn about current group availability.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Insurance Info -->
+  <section class="services" style="background: var(--sage-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Insurance</h2>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto; background: white; padding: 3rem; border-radius: 20px;">
+        <p style="font-size: 1.1rem; margin-bottom: 1.5rem;"><strong>We are a private-pay practice.</strong> This means we don't bill insurance directly. Here's why, and what that means for you:</p>
+        
+        <h3 style="margin: 2rem 0 1rem; color: var(--sage-700);">Why We Don't Take Insurance</h3>
+        <ul style="list-style: none; margin-bottom: 2rem;">
+          <li style="padding: 0.75rem 0; padding-left: 1.5rem; position: relative;">
+            <span style="position: absolute; left: 0; color: var(--fern);">✓</span>
+            <strong>No diagnosis required</strong> — Insurance companies require a mental health diagnosis to pay for therapy. Private pay means you don't need a label to get help.
+          </li>
+          <li style="padding: 0.75rem 0; padding-left: 1.5rem; position: relative;">
+            <span style="position: absolute; left: 0; color: var(--fern);">✓</span>
+            <strong>Treatment on your terms</strong> — Insurance companies dictate how many sessions you can have and what type of therapy is covered. We work with you to decide what's best.
+          </li>
+          <li style="padding: 0.75rem 0; padding-left: 1.5rem; position: relative;">
+            <span style="position: absolute; left: 0; color: var(--fern);">✓</span>
+            <strong>Complete privacy</strong> — No insurance records of your mental health care. Your treatment stays between us.
+          </li>
+          <li style="padding: 0.75rem 0; padding-left: 1.5rem; position: relative;">
+            <span style="position: absolute; left: 0; color: var(--fern);">✓</span>
+            <strong>Better care</strong> — We cap our caseloads at 12 clients each. Insurance-based practices often require 25-30+ clients to stay profitable.
+          </li>
+        </ul>
+        
+        <h3 style="margin: 2rem 0 1rem; color: var(--sage-700);">Out-of-Network Reimbursement</h3>
+        <p>Many insurance plans offer out-of-network benefits. We can provide superbills (receipts with diagnostic codes) that you submit to your insurance for partial reimbursement. Check with your insurance provider about your out-of-network mental health benefits.</p>
+        
+        <h3 style="margin: 2rem 0 1rem; color: var(--sage-700);">Sliding Scale</h3>
+        <p>We believe therapy should be accessible. We reserve sliding scale spots for clients who need them, with priority given to marginalized communities. <a href="index.html#contact" style="color: var(--fern); font-weight: 600;">Contact us</a> to discuss sliding scale availability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="lead-magnet">
+    <div class="container" style="text-align: center;">
+      <h2>Ready to Get Started?</h2>
+      <p style="max-width: 600px; margin: 1rem auto 2rem;">Book a free 15-minute consultation to see if we're the right fit for you. No pressure, no commitment.</p>
+      <a href="index.html#contact" class="btn btn-primary" style="background: white; color: var(--sage-700);">Schedule Your Free Consult</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Fern & Feather Wellness Center</h3>
+          <p>Where science meets compassion. Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">🎵</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 Alpharetta, GA</li>
+            <li>📧 hello@fernfeatherwellness.com</li>
+            <li><a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Now</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Wellness Center</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
