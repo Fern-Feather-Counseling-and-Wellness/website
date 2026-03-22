@@ -19,6 +19,24 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Repository Boundaries (CRITICAL - March 22, 2026)
+
+**Two repos, two purposes. Never mix them up.**
+
+### 1. fern-feather-website (THIS workspace)
+- **Path:** `/root/.openclaw/workspace`
+- **Purpose:** Website files ONLY
+- **Contents:** HTML, CSS, JS, images, deployment configs
+
+### 2. Rondas-Space (Content workspace)
+- **Path:** `/root/workspace-rondas`
+- **Purpose:** Everything ELSE
+- **Contents:** Content, products, business docs, research, memory, etc.
+
+**Before creating any file, ask:** Is this for the live website? If yes → here. If no → Rondas-Space.
+
+See `REPO_SEPARATION.md` in Rondas-Space for full details.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
