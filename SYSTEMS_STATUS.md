@@ -15,6 +15,12 @@
 | **Discord Integration** | ✅ Working | Mar 8 | Primary communication channel | Mar 19, 2026 |
 | **HEARTBEAT System** | ✅ Working | Mar 3 | Rotation active | Mar 19, 2026 |
 | **Memory Logging** | ✅ Working | Mar 19 | Daily logs in `memory/` | Mar 19, 2026 |
+| **Vercel Website Deploy** | ✅ Working | Mar 22 | Deploys from ROOT folder (not fern-feather-website/) | Mar 22, 2026 |
+
+### ⚠️ CRITICAL: Vercel Deploys From Root
+**Edit files in `/root/.openclaw/workspace/` (where .git is)**  
+**NOT in `fern-feather-website/` subfolder**  
+**See `VERCEL-DEPLOYMENT-STRUCTURE.md` for details**
 
 ### Working Commands Reference
 ```bash
@@ -53,6 +59,8 @@ git add -A && git commit -m "message" && git push
 
 | Date | System | Change |
 |------|--------|--------|
+| Mar 22 | Vercel | **CRITICAL DISCOVERY:** Website deploys from ROOT folder, NOT `fern-feather-website/` subfolder. Fixed multiple times editing wrong location. Created `VERCEL-DEPLOYMENT-STRUCTURE.md` |
+| Mar 22 | Deployment | Documented failed solutions in `memory/2026-03-22-deployment-issues.md` (Netlify, GH Pages cache-busting) |
 | Mar 19 | rclone | Created organized sync scripts (`sync-to-drive.sh`, `upload-file.sh`) |
 | Mar 19 | SYSTEMS_STATUS | Created this tracking file |
 | Mar 15 | rclone | Initial backup system operational |
