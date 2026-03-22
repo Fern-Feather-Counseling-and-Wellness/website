@@ -129,13 +129,14 @@ When quiet or waiting on Nicole:
 
 **Timezone:** All scheduling, session times, and time references are in **US Eastern (EST/EDT)** unless explicitly stated otherwise.
 
-**Current Date/Time Reference:** Friday, March 20th, 2026 at 7:02 AM Eastern Time (Friday, March 20th, 2026 at 11:02 AM UTC)
+**Current Date/Time Reference:** Sunday, March 22nd, 2026 at 1:02 PM Eastern Time (Sunday, March 22nd, 2026 at 5:02 PM UTC)
 
 ---
 
 ## Last Run
 
 *Track what I last worked on here to avoid repetition*
-- Date: 2026-03-20
-- Task: Instagram Carousel Creation — Polyvagal Theory Explained
-- Result: Created 7-slide educational carousel explaining polyvagal theory for nervous system regulation, covering three states (ventral vagal, sympathetic, dorsal vagal), state shifts, practical applications, and scientific context; includes visuals, captions, hashtags, and posting strategy; see `content/instagram-carousel-polyvagal-theory.md`
+- Date: 2026-03-22
+- Task: Lead Magnet Creation — Nervous System 101 Quick Reference Guide
+- Result: Created 2-page printable lead magnet covering Window of Tolerance, autonomic states (ventral vagal, sympathetic, dorsal), and quick regulation practices. Includes full APA citations from 12 peer-reviewed sources. Ready for Fern & Feather client acquisition funnel. Committed to GitHub.
+- File: `content/lead-magnet-nervous-system-101.md`
