@@ -35,7 +35,13 @@
 ### Content Calendar
 - [ ] 30-day TikTok calendar completion
 - [ ] Blog post: "Trauma-informed therapy Alpharetta" (SEO focus)
-- [ ] Blog post: "Somatic therapy for anxiety" (SEO focus)
+- [x] **Blog Post:** "Somatic Therapy for Anxiety: Releasing Tension, Finding Calm"
+  - Explores mind-body connection for anxiety relief
+  - Details SE, Sensorimotor, EMDR, and Trauma-Informed Yoga for anxiety
+  - SEO optimized for "somatic therapy for anxiety"
+  - Includes Fern & Feather's approach and consultation call-to-action
+  - APA citations provided
+
 
 ### Business Systems
 - [ ] Intake workflow automation
