@@ -216,7 +216,3 @@ window.FernFeather = {
   debounce,
   throttle
 };
-  openBookingModal,
-  debounce,
-  throttle
-};
