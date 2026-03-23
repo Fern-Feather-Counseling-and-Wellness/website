@@ -5,6 +5,28 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   
+  // --- Navigation Dropdown Functionality ---
+  const dropdowns = document.querySelectorAll('.dropdown');
+  
+  dropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    const menu = dropdown.querySelector('.dropdown-menu');
+    
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default link behavior
+      e.stopPropagation(); // Prevent event from bubbling up to the document
+      dropdown.classList.toggle('active');
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('active');
+      }
+    });
+  });
+  // --- End Navigation Dropdown Functionality ---
+
   // FAQ Accordion
   const faqItems = document.querySelectorAll('.faq-item');
   
@@ -122,24 +144,11 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(el);
   });
   
-  // Mobile menu toggle
+  // Mobile menu toggle (placeholder for future implementation)
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-  const navLinks = document.querySelector('.nav-links');
-  
-  if (mobileMenuBtn && navLinks) {
+  if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
-      mobileMenuBtn.classList.toggle('active');
-      navLinks.classList.toggle('active');
-      document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
-    });
-    
-    // Close menu when clicking a link
-    navLinks.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenuBtn.classList.remove('active');
-        navLinks.classList.remove('active');
-        document.body.style.overflow = '';
-      });
+      document.querySelector('.nav-links').classList.toggle('mobile-open');
     });
   }
   
@@ -203,6 +212,10 @@ function openBookingModal() {
 // Export for global access
 window.FernFeather = {
   trackEvent,
+  openBookingModal,
+  debounce,
+  throttle
+};
   openBookingModal,
   debounce,
   throttle
