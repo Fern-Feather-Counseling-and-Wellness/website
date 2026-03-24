@@ -39,20 +39,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const toggle = dropdown.querySelector('.dropdown-toggle');
     const menu = dropdown.querySelector('.dropdown-menu');
     
+    // Ensure toggle has ARIA attributes
+    if (toggle) {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-haspopup', 'true');
+    }
+
     toggle.addEventListener('click', function(e) {
       e.preventDefault(); // Prevent default link behavior
       e.stopPropagation(); // Prevent event from bubbling up to the document
       // Toggle active class
-      dropdown.classList.toggle('active');
+      const isActive = dropdown.classList.toggle('active');
 
-      // Defensive fallback: force display if CSS is overridden or not applied
+      // Update ARIA state
+      try {
+        toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false');
+      } catch (err) { /* ignore */ }
+
+      // Defensive fallback: remove any inline display so CSS controls layout
       try {
         const menu = dropdown.querySelector('.dropdown-menu');
-        if (dropdown.classList.contains('active')) {
-          menu.style.display = 'block';
-        } else {
-          menu.style.display = '';
-        }
+        if (menu && menu.style) menu.style.removeProperty('display');
       } catch (err) {
         console.warn('Dropdown fallback failed', err);
       }

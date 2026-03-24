@@ -301,10 +301,14 @@
         const toggle = dropdown.querySelector('.dropdown-toggle');
         const menu = dropdown.querySelector('.dropdown-menu');
         if (toggle) {
+          // Ensure ARIA attributes
+          try { toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-haspopup', 'true'); } catch(e){}
+
           toggle.addEventListener('click', function(e){
             e.preventDefault(); e.stopPropagation();
-            dropdown.classList.toggle('active');
-            try { menu.style.display = dropdown.classList.contains('active') ? 'block' : ''; } catch(e){}
+            const isActive = dropdown.classList.toggle('active');
+            try { toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false'); } catch(e){}
+            try { if (menu && menu.style) menu.style.removeProperty('display'); } catch(e){}
           });
         }
         document.addEventListener('click', function(e){ if (!dropdown.contains(e.target)) { dropdown.classList.remove('active'); try { menu.style.display = ''; } catch(e){} } });
