@@ -52,9 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const isActive = dropdown.classList.toggle('active');
 
       // Update ARIA state
-      try {
-        toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false');
-      } catch (err) { /* ignore */ }
+      try { toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false'); } catch (err) { /* ignore */ }
 
       // Defensive fallback: remove any inline display so CSS controls layout
       try {
@@ -71,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dropdown.classList.remove('active');
         try {
           const menu = dropdown.querySelector('.dropdown-menu');
-          if (menu && menu.style) menu.style.removeProperty('display');
+          menu.style.display = '';
         } catch (err) { /* ignore */ }
       }
     });
