@@ -264,5 +264,46 @@
   </footer>
 
   <script src="js/main.js"></script>
+
+  <!-- Inline dropdown fail-safe: ensures About dropdown exists and responds to clicks even if external JS is blocked -->
+  <script>
+  (function(){
+    try {
+      const nav = document.querySelector('.nav-links');
+      if (!nav) return;
+      let dropdown = nav.querySelector('.dropdown');
+      if (!dropdown) {
+        const aboutAnchor = Array.from(nav.querySelectorAll('a')).find(a => /\babout\b/i.test(a.textContent));
+        if (aboutAnchor) {
+          const parent = aboutAnchor.parentElement;
+          const li = document.createElement('li');
+          li.className = 'dropdown';
+          li.innerHTML = '<a href="#" class="dropdown-toggle">' + aboutAnchor.textContent.trim() + '</a>' +
+            '<ul class="dropdown-menu">' +
+            '<li><a href="about.html">About Our Practice</a></li>' +
+            '<li><a href="nicole.html">Nicole</a></li>' +
+            '<li><a href="kiera.html">Kiera</a></li>' +
+            '<li><a href="faqs.html">FAQs</a></li>' +
+            '</ul>';
+          nav.replaceChild(li, parent);
+          dropdown = li;
+        }
+      }
+
+      if (dropdown) {
+        const toggle = dropdown.querySelector('.dropdown-toggle');
+        const menu = dropdown.querySelector('.dropdown-menu');
+        if (toggle) {
+          toggle.addEventListener('click', function(e){
+            e.preventDefault(); e.stopPropagation();
+            dropdown.classList.toggle('active');
+            try { menu.style.display = dropdown.classList.contains('active') ? 'block' : ''; } catch(e){}
+          });
+        }
+        document.addEventListener('click', function(e){ if (!dropdown.contains(e.target)) { dropdown.classList.remove('active'); try { menu.style.display = ''; } catch(e){} } });
+      }
+    } catch (err) { console.warn('inline dropdown fail-safe error', err); }
+  })();
+  </script>
 </body>
 </html>
