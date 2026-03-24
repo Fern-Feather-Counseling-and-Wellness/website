@@ -15,13 +15,30 @@ document.addEventListener('DOMContentLoaded', function() {
     toggle.addEventListener('click', function(e) {
       e.preventDefault(); // Prevent default link behavior
       e.stopPropagation(); // Prevent event from bubbling up to the document
+      // Toggle active class
       dropdown.classList.toggle('active');
+
+      // Defensive fallback: force display if CSS is overridden or not applied
+      try {
+        const menu = dropdown.querySelector('.dropdown-menu');
+        if (dropdown.classList.contains('active')) {
+          menu.style.display = 'block';
+        } else {
+          menu.style.display = '';
+        }
+      } catch (err) {
+        console.warn('Dropdown fallback failed', err);
+      }
     });
     
     // Close dropdown when clicking outside
     document.addEventListener('click', function(e) {
       if (!dropdown.contains(e.target)) {
         dropdown.classList.remove('active');
+        try {
+          const menu = dropdown.querySelector('.dropdown-menu');
+          menu.style.display = '';
+        } catch (err) { /* ignore */ }
       }
     });
   });
