@@ -117,10 +117,12 @@ a:hover {
   height: 40px;
 }
 
+/* Desktop nav */
 .nav-links {
   display: flex;
   gap: 2.5rem;
   list-style: none;
+  align-items: center;
 }
 
 .nav-links a {
@@ -141,6 +143,42 @@ a:hover {
 .nav-cta:hover {
   background: var(--sage-700);
   transform: translateY(-2px);
+}
+
+/* Mobile hamburger (hidden on desktop) */
+.mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.mobile-menu-btn .hamburger {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background: var(--sage-700);
+  position: relative;
+}
+
+.mobile-menu-btn .hamburger::before,
+.mobile-menu-btn .hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 28px;
+  height: 2px;
+  background: var(--sage-700);
+}
+
+.mobile-menu-btn .hamburger::before {
+  top: -8px;
+}
+
+.mobile-menu-btn .hamburger::after {
+  top: 8px;
 }
 
 /* Hero Section */
@@ -758,34 +796,67 @@ section {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+  /* Hide desktop nav links and show hamburger */
   .nav-links {
     display: none;
   }
-  
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  /* When mobile menu is open */
+  .nav-links.mobile-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgba(253, 252, 251, 0.98);
+    padding: 1rem 2rem;
+    gap: 1rem;
+    box-shadow: var(--shadow-soft);
+    z-index: 1000;
+  }
+
+  .nav-links.mobile-open a {
+    text-transform: none;
+    font-size: 1rem;
+    color: var(--sage-700);
+    padding: 0.5rem 0;
+    display: block;
+  }
+
+  .nav-links.mobile-open .nav-cta {
+    align-self: start;
+    margin-top: 0.5rem;
+  }
+
   .hero .container,
   .about .container,
   .lead-magnet .container {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  
+
   .hero-content {
     order: 2;
   }
-  
+
   .hero-image {
     order: 1;
   }
-  
+
   .hero-buttons {
     justify-content: center;
   }
-  
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  
+
   .footer-bottom {
     flex-direction: column;
     text-align: center;
@@ -843,7 +914,7 @@ section {
 }
 
 .dropdown-menu {
-  display: none;
+  display: none; /* hidden by default */
   position: absolute;
   top: 100%;
   left: 0;
@@ -855,6 +926,16 @@ section {
   list-style: none;
   min-width: 200px;
   z-index: 1001; /* Ensure dropdown is above other content */
+  display: none;
+}
+
+/* Desktop: show as horizontal inline list to avoid stacked items */
+.dropdown:hover .dropdown-menu,
+.dropdown.active .dropdown-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .dropdown-menu li {
@@ -863,27 +944,19 @@ section {
 
 .dropdown-menu a {
   display: block;
-  padding: 0.75rem 1.5rem;
-  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
   font-weight: 500;
   text-transform: none;
   letter-spacing: 0;
   color: var(--sage-600);
+  white-space: nowrap;
 }
 
 .dropdown-menu a:hover {
   background-color: var(--sage-50);
   color: var(--fern);
-}
-
-/* Show dropdown on hover/focus */
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
-
-/* Also show dropdown when activated via JS (click/tap) */
-.dropdown.active .dropdown-menu {
-  display: block;
+  border-radius: 6px;
 }
 
 /* Responsive Adjustments for Navigation */
@@ -895,16 +968,31 @@ section {
     gap: 0.5rem;
   }
   
+  /* On mobile, dropdown becomes a stacked block inside the mobile nav */
   .dropdown-menu {
+    display: none; /* keep hidden until active */
     position: static;
     box-shadow: none;
     border-radius: 0;
     margin-top: 0;
     background-color: rgba(253, 252, 251, 0.95);
     padding: 0.5rem 1rem;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+  }
+  
+  /* When active on mobile, show stacked */
+  .dropdown.active .dropdown-menu,
+  .dropdown .dropdown-menu[style*="display: block"] {
+    display: flex;
+    flex-direction: column;
   }
   
   .dropdown-menu a {
-    padding: 0.5rem 1rem;
+    padding: 0.75rem 0.5rem;
   }
 }
+
+/* Utility */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }

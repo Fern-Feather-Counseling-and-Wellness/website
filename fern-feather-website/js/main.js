@@ -188,12 +188,43 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(el);
   });
   
-  // Mobile menu toggle (placeholder for future implementation)
+  // Mobile menu toggle - opens/closes the collapsed nav on small screens
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-  if (mobileMenuBtn) {
-    mobileMenuBtn.addEventListener('click', () => {
-      document.querySelector('.nav-links').classList.toggle('mobile-open');
+  const navLinksEl = document.querySelector('.nav-links');
+  if (mobileMenuBtn && navLinksEl) {
+    mobileMenuBtn.addEventListener('click', (e) => {
+      const isOpen = navLinksEl.classList.toggle('mobile-open');
+      mobileMenuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
+
+    // Close mobile menu when a link is clicked (improves UX)
+    navLinksEl.addEventListener('click', (e) => {
+      const target = e.target.closest('a');
+      if (!target) return;
+      // if it's an in-page link or normal navigation, close the menu
+      if (navLinksEl.classList.contains('mobile-open')) {
+        navLinksEl.classList.remove('mobile-open');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!navLinksEl.classList.contains('mobile-open')) return;
+      const withinNav = e.target.closest('.nav-links') || e.target.closest('.mobile-menu-btn');
+      if (!withinNav) {
+        navLinksEl.classList.remove('mobile-open');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Ensure menu state resets on resize to desktop
+    window.addEventListener('resize', debounce(() => {
+      if (window.innerWidth > 768 && navLinksEl.classList.contains('mobile-open')) {
+        navLinksEl.classList.remove('mobile-open');
+        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+      }
+    }, 150));
   }
   
   // Lazy load images (placeholder for when images are added)
