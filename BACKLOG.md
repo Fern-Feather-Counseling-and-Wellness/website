@@ -41,7 +41,7 @@
 
 ## In Progress
 
-- [~] **Website Content:** Services page rework (see services-page-rework-plan.md)
+- [x] **Website Content:** Services page rework (see services-page-rework-plan.md)
 
 ## Backlog (Next Up)
 
