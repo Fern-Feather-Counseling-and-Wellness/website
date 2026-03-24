@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "fern-feather-website/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/fern-feather-website/$1" }
+  ]
+}
