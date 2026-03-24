@@ -1,0 +1,9 @@
+[build]
+  publish = "fern-feather-website"
+  command = ""
+
+[context.production.environment]
+  NODE_ENV = "production"
+
+# Notes: This config tells Netlify to deploy the static site from the fern-feather-website folder.
+# When importing the repo into Netlify, select the branch `ff/preview-deploy` and leave the build command empty.
