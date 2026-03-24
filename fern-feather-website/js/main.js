@@ -5,6 +5,33 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   
+  // Ensure dropdown markup exists (fixes cases where deployed HTML lacks the .dropdown structure)
+  (function ensureDropdown() {
+    try {
+      const nav = document.querySelector('.nav-links');
+      if (!nav) return;
+      const aboutAnchor = Array.from(nav.querySelectorAll('a')).find(a => /\babout\b/i.test(a.textContent));
+      if (!aboutAnchor) return;
+      const parent = aboutAnchor.parentElement;
+      if (parent && parent.classList.contains('dropdown')) return; // already dropdown
+
+      const li = document.createElement('li');
+      li.className = 'dropdown';
+      li.innerHTML = `
+        <a href="#" class="dropdown-toggle">${aboutAnchor.textContent.trim()}</a>
+        <ul class="dropdown-menu">
+          <li><a href="about.html">About Our Practice</a></li>
+          <li><a href="nicole.html">Nicole</a></li>
+          <li><a href="kiera.html">Kiera</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>`;
+
+      nav.replaceChild(li, parent);
+    } catch (e) {
+      console.warn('ensureDropdown failed', e);
+    }
+  })();
+
   // --- Navigation Dropdown Functionality ---
   const dropdowns = document.querySelectorAll('.dropdown');
   
