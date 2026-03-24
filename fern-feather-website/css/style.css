@@ -881,6 +881,11 @@ section {
   display: block;
 }
 
+/* Also show dropdown when activated via JS (click/tap) */
+.dropdown.active .dropdown-menu {
+  display: block;
+}
+
 /* Responsive Adjustments for Navigation */
 @media (max-width: 768px) {
   .dropdown-toggle {
