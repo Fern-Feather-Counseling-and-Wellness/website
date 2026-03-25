@@ -36,9 +36,43 @@
           <div class="lead">Science-forward, trauma-informed therapy — direct, humane, and queer-affirming.</div>
         </div>
       </div>
-      <nav aria-label="Primary">
-        <a href="#about">About</a> • <a href="#services">Services</a> • <a href="#rates">Rates</a> • <a href="#resources">Resources</a>
-      </nav>
+      <nav class="site-nav" aria-label="Primary navigation">
+  <style>
+    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
+    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
+    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
+    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#6b7f5a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
+    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
+    .site-nav .nav-links .dropdown{position:relative}
+    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
+    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0}
+    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
+    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
+  </style>
+  <div class="container">
+    <a href="/" class="logo" aria-label="Fern & Feather homepage">
+      <div class="mark">F&F</div>
+      <span>Fern & Feather</span>
+    </a>
+    <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
+    <ul class="nav-links">
+      <li class="dropdown"><a href="/about.html">About ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/about.html">About the practice</a></li>
+          <li><a href="/nicole.html">Nicole</a></li>
+          <li><a href="/kiera.html">Kiera</a></li>
+          <li><a href="/faq.html">FAQs</a></li>
+        </ul>
+      </li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/rates.html">Rates</a></li>
+      <li><a href="/resources.html">Resources</a></li>
+      <li><a href="/contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
+    </ul>
+  </div>
+</nav>
+
     </header>
 
     <section class="hero" role="banner">
