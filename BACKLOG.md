@@ -47,7 +47,7 @@
 
 - [x] Instagram carousel: Signs of emotional neglect in childhood
 - [ ] Lead magnet: Grounding technique cards (physical product concept)
-- [ ] Blog post: How attachment wounds show up in adult relationships
+- [~] Blog post: How attachment wounds show up in adult relationships
 - [ ] TikTok batch: March 30-April 5
 - [ ] Email sequence: Welcome series refinement
 
