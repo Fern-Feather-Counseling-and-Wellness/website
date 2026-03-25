@@ -1,321 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fern & Feather Counseling and Wellness | LGBTQ+ Affirming Therapy in Alpharetta, GA</title>
-  
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="Fern & Feather Counseling and Wellness offers trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA. Individual, couples, and group therapy with Rooted and Rising approach.">
-  <meta name="keywords" content="therapy Alpharetta, LGBTQ affirming therapist, trauma therapy, anxiety counseling, Fern and Feather, progressive therapy">
-  <meta name="author" content="Fern & Feather Counseling and Wellness">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Open Graph -->
-  <meta property="og:title" content="Fern & Feather Counseling and Wellness | Rooted and Rising">
-  <meta property="og:description" content="Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fernfeatherwellness.com">
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Fern & Feather Counseling and Wellness">
-  <meta name="twitter:description" content="Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA">
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
-  
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/style.css?v=910fbe1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fern & Feather Counseling and Wellness</title>
+  <style>
+    :root{--accent:#6b7f5a;--muted:#666;--bg:#fff;--card:#f7f7f6}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;color:#222;margin:0;background:linear-gradient(180deg,#ffffff 0%,#fbfbfa 100%)}
+    .container{max-width:980px;margin:0 auto;padding:32px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .logo{display:flex;gap:12px;align-items:center}
+    .logo .mark{width:56px;height:56px;border-radius:12px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+    h1{margin:0;font-size:22px}
+    p.lead{color:var(--muted);margin-top:8px}
+    .hero{background:var(--card);padding:28px;border-radius:12px;margin:24px 0;display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:center}
+    .cta{display:flex;flex-direction:column;gap:12px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:8px;background:var(--accent);color:#fff;text-decoration:none}
+    .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:18px}
+    .card{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,20,0.04)}
+    footer{margin-top:28px;padding-top:18px;border-top:1px solid #eee;color:var(--muted)}
+    small{color:var(--muted)}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding:20px}.hero .aside{order:2}}
+  </style>
 </head>
 <body>
-  <!-- Navigation -->
-  <nav class="navbar">
-    <div class="container">
-      <a href="index.html" class="logo" aria-label="Fern & Feather homepage">
-        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 5C20 5 10 15 10 25C10 30 14 35 20 35C26 35 30 30 30 25C30 15 20 5 20 5Z" stroke="#6b7f5a" stroke-width="2" fill="none"/>
-          <path d="M20 35V15M20 15C20 15 15 12 15 8M20 15C20 15 25 12 25 8" stroke="#6b7f5a" stroke-width="2" fill="none"/>
-          <circle cx="20" cy="8" r="2" fill="#6b7f5a"/>
-        </svg>
-        Fern & Feather
-      </a>
-
-      <!-- Mobile menu button (visible on small screens) -->
-      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
-        <span class="hamburger"></span>
-      </button>
-
-      <ul class="nav-links">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle">About</a>
-          <ul class="dropdown-menu">
-            <li><a href="about.html">About Our Practice</a></li>
-            <li><a href="nicole.html">Nicole</a></li>
-            <li><a href="kiera.html">Kiera</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-          </ul>
-        </li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="pages/rates.html">Rates</a></li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="#contact" class="nav-cta">Schedule Consult</a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <span class="hero-badge">Now Accepting New Clients</span>
-        <h1>Fern & Feather Counseling and Wellness</h1>
-        <p class="hero-tagline">Rooted and Rising</p>
-        <p class="hero-subtitle">Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA. We combine evidence-based methods with genuine compassion to help you heal and thrive.</p>
-        <div class="hero-buttons">
-          <a href="#contact" class="btn btn-primary">Book Free Consultation</a>
-          <a href="#services" class="btn btn-secondary">Explore Services</a>
-          <a href="#portal" class="btn btn-outline">Client Portal</a>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="mark">F&F</div>
+        <div>
+          <h1>Fern & Feather Counseling and Wellness</h1>
+          <div class="lead">Science-forward, trauma-informed therapy — direct, humane, and queer-affirming.</div>
         </div>
       </div>
-      <div class="hero-image">
-        <div class="hero-image-placeholder"></div>
-      </div>
-    </div>
-  </section>
+      <nav aria-label="Primary">
+        <a href="#services">Services</a> • <a href="#about">About</a> • <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <!-- Services Section -->
-  <section class="services" id="services">
-    <div class="container">
-      <div class="section-header">
-        <h2>How We Can Help</h2>
-        <p>We offer a range of therapeutic services designed to meet you where you are.</p>
+    <section class="hero" role="banner">
+      <div>
+        <h2 style="margin-top:0">Therapy that respects your biology and your story.</h2>
+        <p>We combine modern neuroscience with real human care. No fluff. No gaslighting. Just evidence-informed therapy for anxiety, trauma, OCD, and relationships.</p>
+        <div class="cta">
+          <a class="btn" href="#contact">Request a consult</a>
+          <small>45–80 minute sessions • Private-pay • LGBTQ+ affirming</small>
+        </div>
       </div>
-      <div class="services-grid">
-        <article class="service-card">
-          <div class="service-icon">🧠</div>
-          <h3>Individual Therapy</h3>
-          <p>One-on-one support for anxiety, trauma, depression, life transitions, and personal growth.</p>
-          <a href="services.html#individual" class="learn-more">Learn more →</a>
-        </article>
-        
-        <article class="service-card">
-          <div class="service-icon">💕</div>
-          <h3>Couples Therapy</h3>
-          <p>Relationship counseling for better communication, trust, and connection. LGBTQ+ affirming.</p>
-          <a href="services.html#couples" class="learn-more">Learn more →</a>
-        </article>
-        
-        <article class="service-card">
-          <div class="service-icon">🌿</div>
-          <h3>Group Therapy</h3>
-          <p>Connect with others who understand. Safe, facilitated community for shared healing.</p>
-          <a href="services.html#group" class="learn-more">Learn more →</a>
-        </article>
-        
-        <article class="service-card">
-          <div class="service-icon">🧘</div>
-          <h3>Trauma-Informed Yoga</h3>
-          <p>Reconnect with your body, regulate your nervous system, release stored trauma gently.</p>
-          <a href="services.html#yoga" class="learn-more">Learn more →</a>
-        </article>
-        
-        <article class="service-card">
-          <div class="service-icon">📚</div>
-          <h3>Professional Consultation</h3>
-          <p>Consultation and support for fellow therapists and wellness professionals.</p>
-          <a href="services.html#consultation" class="learn-more">Learn more →</a>
-        </article>
-        
-        <article class="service-card">
-          <div class="service-icon">🎓</div>
-          <h3>Workshops & Retreats</h3>
-          <p>Immersive experiences for deeper healing and accelerated growth.</p>
-          <a href="services.html#workshops" class="learn-more">Learn more →</a>
-        </article>
-      </div>
-    </div>
-  </section>
+      <aside class="aside card">
+        <h3 style="margin-top:0">Quick info</h3>
+        <p><strong>Location:</strong> Alpharetta, GA (telehealth available)</p>
+        <p><strong>Fees:</strong> Individual $135–$180 • Couples $210–$235</p>
+        <p><strong>Approaches:</strong> IFS, CBT, somatic regulation, ERP for OCD</p>
+        <small>Licensing & scheduling info provided on request.</small>
+      </aside>
+    </section>
 
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="container">
-      <div class="about-image">
-        <div class="about-image-placeholder">🌱</div>
+    <section id="services">
+      <h3>What we offer</h3>
+      <div class="services">
+        <div class="card">
+          <h4>Individual Therapy</h4>
+          <p>Trauma-informed care for nervous system dysregulation, anxiety, and life transitions. Science-first, human always.</p>
+        </div>
+        <div class="card">
+          <h4>Couples Therapy</h4>
+          <p>Repair, re-connection, and communication work with concrete tools rooted in attachment biology.</p>
+        </div>
+        <div class="card">
+          <h4>Group Programs & Workshops</h4>
+          <p>Somatic regulation groups, trauma-informed yoga workshops, and parent-focused nervous-system training.</p>
+        </div>
+        <div class="card">
+          <h4>Digital Tools</h4>
+          <p>Workbooks, printable practices, and mini-courses designed to extend therapy beyond the hour.</p>
+        </div>
       </div>
-      <div class="about-content">
-        <h2>Meet Your Therapists</h2>
-        <p>We're Nicole and Kiera — friends, colleagues, and co-founders of Fern & Feather. With combined 20+ years of clinical experience, we created this space to offer something different.</p>
-        <p>Nicole brings her PhD in Biology and clinical training. Kiera contributes deep expertise in trauma work. Together, we believe therapy should be evidence-based and deeply human.</p>
-        <a href="about.html" class="btn btn-primary">Get to Know Us</a>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Why Choose Us -->
-  <section class="why-us" id="approach">
-    <div class="container">
-      <div class="section-header">
-        <h2>Why Fern & Feather?</h2>
-        <p>We're not your typical therapy practice. Here's what sets us apart.</p>
+    <section id="about" style="margin-top:20px">
+      <h3>About Nicole</h3>
+      <div class="card">
+        <p>Nicole is a PhD-trained biologist and licensed clinical counselor (APC). She blends rigorous science with compassionate clinical care — skeptical of oversimplified models, enthusiastic about real change.</p>
+        <p>She focuses on trauma, anxiety, OCD, and parenting neurodivergent children. She's sharp, direct, and not here to coddle your avoidance.</p>
       </div>
-      <div class="features-grid">
-        <div class="feature-item">
-          <div class="feature-icon">🌿</div>
-          <h3>Holistic</h3>
-          <p>We collaborate with massage therapists, nutritionists, dance therapists, and other wellness providers for whole-person care.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">🔬</div>
-          <h3>Science-Based</h3>
-          <p>Grounded in research, not trends. Interventions proven to work.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">🏳️‍🌈</div>
-          <h3>Truly Affirming</h3>
-          <p>LGBTQ+ owned and operated. We celebrate diversity.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">🤝</div>
-          <h3>Collaborative</h3>
-          <p>You're the expert on your life. We bring clinical expertise.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">💡</div>
-          <h3>Innovative</h3>
-          <p>EMDR, somatic therapy, IFS — cutting-edge methods for lasting results.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">❤️</div>
-          <h3>Compassionate</h3>
-          <p>Warmth and humor included. Therapy doesn't have to feel cold.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">🌱</div>
-          <h3>Integrative Care</h3>
-          <p>Treating the whole person through collaboration with specialists.</p>
-        </div>
-        <div class="feature-item">
-          <div class="feature-icon">🕊️</div>
-          <h3>Trauma-Informed</h3>
-          <p>Safety and trust first. Every interaction supports healing.</p>
-        </div>
+    </section>
+
+    <section id="contact" style="margin-top:20px">
+      <h3>Contact & scheduling</h3>
+      <div class="card">
+        <p>Prefer email? <a href="mailto:hello@fernfeatherwellness.com">hello@fernfeatherwellness.com</a></p>
+        <p>Want me to handle booking? Tell me how many sessions you want and a rough availability window — I'll take care of the rest.</p>
+        <p><strong>Note:</strong> We are private-pay only; insurance claims are handled by clients.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FAQ Section -->
-  <section class="faq" id="faq">
-    <div class="container">
-      <div class="section-header">
-        <h2>Common Questions</h2>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <div class="faq-question">How do I know if therapy is right for me?</div>
-          <div class="faq-answer">
-            If you're struggling and your usual coping strategies aren't working, therapy can help. We offer a free 15-minute consultation.
-          </div>
-        </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">Do you take insurance?</div>
-          <div class="faq-answer">
-            We're private pay only, which allows individualized care without insurance constraints. We can provide superbills for out-of-network reimbursement.
-          </div>
-        </div>
-        
-        <div class="faq-item">
-          <div class="faq-question">Do you offer virtual sessions?</div>
-          <div class="faq-answer">
-            Yes! Secure, HIPAA-compliant telehealth throughout Georgia.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>Fern & Feather Counseling and Wellness</h3>
-          <p>Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
-        </div>
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="services.html#individual">Individual Therapy</a></li>
-            <li><a href="services.html#couples">Couples Therapy</a></li>
-            <li><a href="services.html#group">Group Therapy</a></li>
-            <li><a href="services.html#consultation">Professional Consultation</a></li>
-          </ul>
-        </div>
-        <div class="footer-column">
-          <h4>Contact</h4>
-          <ul>
-            <li>📍 Alpharetta, GA</li>
-            <li>📧 hello@fernfeatherwellness.com</li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
-
-  <!-- Inline dropdown fail-safe: ensures About dropdown exists and responds to clicks even if external JS is blocked -->
-  <script>
-  (function(){
-    try {
-      const nav = document.querySelector('.nav-links');
-      if (!nav) return;
-      let dropdown = nav.querySelector('.dropdown');
-      if (!dropdown) {
-        const aboutAnchor = Array.from(nav.querySelectorAll('a')).find(a => /\babout\b/i.test(a.textContent));
-        if (aboutAnchor) {
-          const parent = aboutAnchor.parentElement;
-          const li = document.createElement('li');
-          li.className = 'dropdown';
-          li.innerHTML = '<a href="#" class="dropdown-toggle">' + aboutAnchor.textContent.trim() + '</a>' +
-            '<ul class="dropdown-menu">' +
-            '<li><a href="about.html">About Our Practice</a></li>' +
-            '<li><a href="nicole.html">Nicole</a></li>' +
-            '<li><a href="kiera.html">Kiera</a></li>' +
-            '<li><a href="faqs.html">FAQs</a></li>' +
-            '</ul>';
-          nav.replaceChild(li, parent);
-          dropdown = li;
-        }
-      }
-
-      if (dropdown) {
-        const toggle = dropdown.querySelector('.dropdown-toggle');
-        const menu = dropdown.querySelector('.dropdown-menu');
-        if (toggle) {
-          // Ensure ARIA attributes
-          try { toggle.setAttribute('aria-expanded', 'false'); toggle.setAttribute('aria-haspopup', 'true'); } catch(e){}
-
-          toggle.addEventListener('click', function(e){
-            e.preventDefault(); e.stopPropagation();
-            const isActive = dropdown.classList.toggle('active');
-            try { toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false'); } catch(e){}
-            try { if (menu && menu.style) menu.style.removeProperty('display'); } catch(e){}
-          });
-        }
-        document.addEventListener('click', function(e){ if (!dropdown.contains(e.target)) { dropdown.classList.remove('active'); try { menu.style.display = ''; } catch(e){} } });
-      }
-    } catch (err) { console.warn('inline dropdown fail-safe error', err); }
-  })();
-  </script>
+    <footer>
+      <small>Fern & Feather Counseling and Wellness — Alpharetta, GA • Science-based, trauma-informed</small>
+    </footer>
+  </div>
 </body>
 </html>
