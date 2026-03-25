@@ -65,7 +65,7 @@
   <!-- Navigation -->
   <nav class="navbar">
     <div class="container">
-      <a href="#" class="logo">
+      <a href="index.html" class="logo" aria-label="Fern & Feather homepage">
         <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M20 5C20 5 10 15 10 25C10 30 14 35 20 35C26 35 30 30 30 25C30 15 20 5 20 5Z" stroke="#6b7f5a" stroke-width="2" fill="none"/>
           <path d="M20 35V15M20 15C20 15 15 12 15 8M20 15C20 15 25 12 25 8" stroke="#6b7f5a" stroke-width="2" fill="none"/>
@@ -73,6 +73,12 @@
         </svg>
         Fern & Feather
       </a>
+
+      <!-- Mobile menu button (visible on small screens) -->
+      <button class="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+        <span class="hamburger"></span>
+      </button>
+
       <ul class="nav-links">
         <li><a href="services.html">Services</a></li>
         <li class="dropdown">
@@ -83,10 +89,6 @@
             <li><a href="kiera.html">Kiera</a></li>
             <li><a href="faqs.html">FAQs</a></li>
           </ul>
-        </li>
-        <li><a href="resources.html">Resources</a></li>
-        <li><a href="#contact" class="nav-cta">Schedule Consult</a></li>
-      </ul>
         </li>
         <li><a href="resources.html">Resources</a></li>
         <li><a href="#contact" class="nav-cta">Schedule Consult</a></li>
