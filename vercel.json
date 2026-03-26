@@ -1,5 +1,0 @@
-{
-  "redirects": [
-    { "source": "/resources/:path*", "destination": "/:path*" }
-  ]
-}
