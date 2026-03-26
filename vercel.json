@@ -1,0 +1,6 @@
+{
+  "build": {
+    "output": "public"
+  },
+  "cleanurls": false
+}
