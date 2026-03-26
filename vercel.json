@@ -1,6 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/resources/tools", "destination": "/tools.html" },
-    { "source": "/resources/blog", "destination": "/blog.html" }
+  "redirects": [
+    { "source": "/resources/:path*", "destination": "/:path*" }
   ]
 }
