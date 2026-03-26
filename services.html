@@ -6,6 +6,40 @@
   <title>Our Services | Fern & Feather Counseling and Wellness</title>
   <meta name="description" content="Individual therapy, couples counseling, group therapy, and professional consultation in Alpharetta, GA.">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    .services-detail { padding: 4rem 1rem; }
+    .services-detail.alt { background: #f9f9f9; }
+    .services-detail h2 { font-family: 'Playfair Display', serif; color: #2e5a2e; font-size: 2rem; margin-bottom: 1rem; }
+    .services-detail p { color: #444; line-height: 1.7; margin-bottom: 1rem; }
+    .services-detail ul { margin: 1rem 0; padding-left: 1.5rem; }
+    .services-detail li { margin-bottom: 0.5rem; color: #555; }
+    .framework-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .framework-tag { background: #e8f5e9; color: #2e5a2e; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; }
+    .uses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .use-item { background: #f5f3ff; padding: 1rem; border-radius: 8px; }
+    .use-item strong { color: #5a4a8b; display: block; margin-bottom: 0.25rem; }
+    .use-item span { font-size: 0.9rem; color: #555; }
+    .group-types { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+    .group-type { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+    .group-type h3 { color: #2e5a2e; font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .group-type p { font-size: 0.9rem; margin: 0; }
+    .workshop-examples { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+    .workshop-card { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); padding: 1.5rem; border-radius: 12px; }
+    .workshop-card h3 { color: #2e5a2e; margin-bottom: 0.5rem; }
+    .workshop-card p { margin: 0; font-size: 0.95rem; }
+    .interest-form { background: #f5f3ff; padding: 2rem; border-radius: 12px; margin-top: 3rem; }
+    .interest-form h2 { color: #2e5a2e; margin-bottom: 0.5rem; }
+    .interest-form p { margin-bottom: 1.5rem; }
+    .form-group { margin-bottom: 1rem; }
+    .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; color: #333; }
+    .form-group input, .form-group textarea, .form-group select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 1rem; }
+    .form-group textarea { min-height: 100px; }
+    .checkbox-group { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem; margin: 1rem 0; }
+    .checkbox-item { display: flex; align-items: center; gap: 0.5rem; }
+    .checkbox-item input { width: auto; }
+    .checkbox-item label { margin: 0; font-weight: normal; }
+    .check-back-note { background: #fff9c4; padding: 1rem; border-radius: 8px; margin-top: 1.5rem; font-size: 0.9rem; color: #666; }
+  </style>
 </head>
 <body>
   <nav class="site-nav" aria-label="Primary navigation">
@@ -39,14 +73,17 @@
       </li>
       <li><a href="/services.html">Services</a></li>
       <li><a href="/rates.html">Rates</a></li>
-      <li><a href="/resources.html">Resources</a></li>
+      <li class="dropdown"><a href="/resources.html">Resources ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="/crisis.html">Crisis Resources</a></li>
+          <li><a href="/tools.html">Free Tools</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+        </ul>
+      </li>
       <li><a href="/contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
     </ul>
   </div>
-</nav>
-
-
-
+  </nav>
 
   <section class="page-hero">
     <div class="container">
@@ -58,51 +95,253 @@
   <section class="services-detail" id="individual">
     <div class="container">
       <h2>Individual Therapy</h2>
-      <p>One-on-one support for anxiety, trauma, depression, life transitions, and personal growth. We integrate IFS, somatic therapy, EMDR, CBT and other evidence-based approaches to create a tailored plan that fits your goals.</p>
-      <ul>
-        <li>Typical length: 45 minutes</li>
-        <li>Common uses: anxiety, trauma processing, relationship work, nervous-system regulation</li>
-        <li>Private pay; superbills provided</li>
-      </ul>
-      <a href="index.html#contact" class="btn btn-primary">Book a Consultation</a>
+      <p>In individual therapy, we work together as partners. I'm not here to fix you — I'm here to walk beside you as you uncover your own path to healing. Think of me as a guide who knows the terrain, but you are the one who chooses the trail.</p>
+      <p>Every person brings a unique story, and therapy works best when we honor your autonomy while also bringing in tools that have real science behind them. Here's how I approach this:</p>
+      
+      <div class="framework-list">
+        <span class="framework-tag">Internal Family Systems (IFS)</span>
+        <span class="framework-tag">Somatic Therapy</span>
+        <span class="framework-tag">EMDR</span>
+        <span class="framework-tag">CBT</span>
+        <span class="framework-tag">Attachment-Based Therapy</span>
+        <span class="framework-tag">Psychodynamic Exploration</span>
+        <span class="framework-tag">Trauma-Informed Yoga</span>
+        <span class="framework-tag">Mindfulness-Based Approaches</span>
+      </div>
+      
+      <p>What brings people to individual therapy? More than you'd think. Here are some of the reasons folks walk through our door:</p>
+      
+      <div class="uses-grid">
+        <div class="use-item">
+          <strong>Parenting & Family Dynamics</strong>
+          <span>Navigating the challenges of raising neurodiverse children, co-parenting after separation, or healing from your own upbringing</span>
+        </div>
+        <div class="use-item">
+          <strong>Anxiety & Panic</strong>
+          <span>Understanding the nervous system, learning to regulate, and breaking free from the cycle of worry</span>
+        </div>
+        <div class="use-item">
+          <strong>Trauma & PTSD</strong>
+          <span>Processing single-event trauma, developmental trauma, or relational wounds in a safe, supported space</span>
+        </div>
+        <div class="use-item">
+          <strong>Depression & Low Mood</strong>
+          <span>Finding motivation again, exploring what's underneath, and rebuilding connection to life</span>
+        </div>
+        <div class="use-item">
+          <strong>Relationships & Connection</strong>
+          <span>Attachment patterns, communication skills, boundary-setting, and deepening intimacy</span>
+        </div>
+        <div class="use-item">
+          <strong>Becoming a Healthier Version of Yourself</strong>
+          <span>Self-discovery, personal growth, exploring identity, values clarification — whatever "more" means to you</span>
+        </div>
+        <div class="use-item">
+          <strong>Life Transitions</strong>
+          <span>Career changes, becoming a parent, grief and loss, retirement, relocating — transitions bring up so much</span>
+        </div>
+        <div class="use-item">
+          <strong>Burnout & Professional Caregivers</strong>
+          <span>For those in helping professions who are giving so much they're losing themselves</span>
+        </div>
+      </div>
+      
+      <p><strong>Typical session:</strong> 45 minutes | <strong>Frequency:</strong> Weekly, biweekly, or as needed based on your goals</p>
+      <a href="/contact.html" class="btn btn-primary">Book a Consultation</a>
     </div>
   </section>
 
   <section class="services-detail alt" id="couples">
     <div class="container">
       <h2>Couples Therapy</h2>
-      <p>Strengthen communication, repair attachment ruptures, and find practical ways to reconnect. LGBTQ+ affirming and inclusive of all relationship structures.</p>
+      <p>Relationships are hard. Two people, each with their own history, trying to build something together — it takes work. But it doesn't have to feel like a constant struggle.</p>
+      <p>In couples therapy, we look at the patterns that keep you stuck and build new ones that help you thrive. Whether you're dealing with communication breakdowns, trust issues, intimacy concerns, or just feeling like you've lost your way together, we can get there.</p>
+      <p>I'm LGBTQ+ affirming and affirming of all relationship structures. Your relationship doesn't have to look like anyone else's to be valid.</p>
+      
+      <p><strong>Common focuses include:</strong></p>
       <ul>
-        <li>Typical session: 50–80 minutes</li>
-        <li>Common focus: conflict resolution, attachment repair, rebuilding trust</li>
-        <li>We offer structured tools and dyadic somatic practices when helpful</li>
+        <li>Conflict resolution and healthy argument skills</li>
+        <li>Attachment repair and earning secure connection</li>
+        <li>Rebuilding trust after betrayal or betrayal</li>
+        <li>Intimacy — emotional, physical, and everything in between</li>
+        <li>Navigating life transitions as a team</li>
+        <li>Co-regulating in moments of dysregulation</li>
       </ul>
-      <a href="index.html#contact" class="btn btn-primary">Book a Consultation</a>
+      
+      <p><strong>Typical session:</strong> 50–80 minutes (we'll figure out what works for you)</p>
+      <a href="/contact.html" class="btn btn-primary">Book a Consultation</a>
     </div>
   </section>
 
   <section class="services-detail" id="group">
     <div class="container">
       <h2>Group Therapy</h2>
-      <p>Connect with others who understand. Our trauma-informed groups combine psychoeducation, somatic practice, and peer support in a safe, facilitated environment.</p>
+      <p>There's something powerful about being in a room with others who just *get it*. Group therapy combines the expertise of a trained facilitator with the healing power of community. You don't have to do this alone.</p>
+      <p>We offer several different types of groups, each with a different focus:</p>
+      
+      <div class="group-types">
+        <div class="group-type">
+          <h3>Support Groups</h3>
+          <p>Peer-led or facilitated spaces where people share experiences, validate each other's feelings, and build community. Great for those who want connection without a clinical focus.</p>
+        </div>
+        <div class="group-type">
+          <h3>Therapeutic Groups</h3>
+          <p>More structured groups focused on specific issues — think of these as part group therapy, part psychoeducation. Great for anxiety, depression, or processing trauma in community.</p>
+        </div>
+        <div class="group-type">
+          <h3>Psychoeducational Groups</h3>
+          <p>Learn the "why" behind what you feel. We teach about the nervous system, attachment patterns, boundary psychology — science-backed content in a group format.</p>
+        </div>
+        <div class="group-type">
+          <h3>Skills-Based Groups</h3>
+          <p>Want concrete tools? These groups teach practical skills like emotion regulation, mindfulness, communication, and boundary-setting.</p>
+        </div>
+      </div>
+      
+      <p>Here are some of the groups we're considering — and we want to hear which ones interest YOU:</p>
       <ul>
-        <li>Typical group length: 90 minutes</li>
-        <li>Sliding group formats: open groups and closed cohorts</li>
-        <li>Community-focused with clear facilitator boundaries and crisis protocols</li>
+        <li><strong>Chronic Pain Support Group</strong> — For those managing pain conditions who need community and coping strategies</li>
+        <li><strong>Parenting Support Group</strong> — Especially for parents of neurodiverse children navigating the system</li>
+        <li><strong>Caregiver Support Group</strong> — For those caring for aging parents, disabled partners, or sick loved ones</li>
+        <li><strong>Anxiety Skills Group</strong> — Practical tools for managing anxiety, panic, and worry</li>
+        <li><strong>Boundary Work Group</strong> — Learning to say no, set limits, and protect your energy</li>
+        <li><strong>Women's Support Circle</strong> — A space for women to explore identity, relationships, and growth</li>
       </ul>
-      <a href="index.html#contact" class="btn btn-primary">Inquire About Groups</a>
+      
+      <div class="check-back-note">
+        <strong>Groups rotate seasonally</strong> — not all groups run at all times. Check back often or give us a call to see what's currently being offered.
+      </div>
+      
+      <p><strong>Typical group session:</strong> 90 minutes | <strong>Format:</strong> Open groups (drop-in friendly) and closed cohorts (sign up for a series)</p>
+      <a href="/contact.html" class="btn btn-primary">Inquire About Groups</a>
     </div>
   </section>
 
-  <section class="services-detail alt" id="consultation">
+  <section class="services-detail alt" id="workshops">
+    <div class="container">
+      <h2>Workshops & Retreats</h2>
+      <p>Sometimes growth happens outside the therapy room. Our workshops and retreats offer immersive experiences in trauma-informed, body-based healing — think yoga, art, nature, and deep group connection.</p>
+      
+      <div class="workshop-examples">
+        <div class="workshop-card">
+          <h3>Trauma-Informed Yoga</h3>
+          <p>Movement as medicine. A gentle, trauma-aware yoga practice paired with somatic tracking and nervous system regulation. No yoga experience required — just an open mind.</p>
+        </div>
+        <div class="workshop-card">
+          <h3>Art Therapy Workshops</h3>
+          <p>Express what words can't hold. Guided art-making processes that tap into creativity for healing. For those who want to explore without the pressure of "being artistic."</p>
+        </div>
+        <div class="workshop-card">
+          <h3>Women's Empowerment Retreats</h3>
+          <p>Weekend intensives in beautiful natural settings. Yoga, journaling, group process, meditation, and time to just *be* — away from the demands of daily life.</p>
+        </div>
+        <div class="workshop-card">
+          <h3>Couples Co-Regulation Retreats</h3>
+          <p>Intensive weekends for couples who want to go deeper. Learn the neuroscience of connection, practice somatic exercises together, and rebuild your bond.</p>
+        </div>
+        <div class="workshop-card">
+          <h3>Boundary-Building Intensives</h3>
+          <p>A full-day workshop dedicated to one thing: learning to protect your energy. Real tools, role-play, and embodied practices for people-pleasers and caregivers.</p>
+        </div>
+        <div class="workshop-card">
+          <h3>Nature-Based Healing</h3>
+          <p>Forest bathing, ecotherapy, and outdoor practices that tap into the regulating power of nature. For those who feel most alive outside four walls.</p>
+        </div>
+      </div>
+      
+      <div class="check-back-note">
+        <strong>Workshops and retreats are announced seasonally.</strong> Some are one-time events, others are part of a series. Check back often or give us a call to learn about upcoming offerings.
+      </div>
+      
+      <a href="/contact.html" class="btn btn-primary">Get on the List for Updates</a>
+    </div>
+  </section>
+
+  <section class="services-detail" id="consultation">
     <div class="container">
       <h2>Professional Consultation</h2>
-      <p>Support and guidance for fellow therapists and wellness professionals. Case consultation, professional development, and practice-building support.</p>
+      <p>For fellow therapists and wellness professionals who want support in their own clinical work. I offer case consultation, professional development, and practice-building guidance.</p>
+      <p>Whether you're an early-career clinician looking for supervision or an experienced therapist wanting to dive into a new modality, we can make it work.</p>
+      
       <ul>
-        <li>Typical session: 60 minutes</li>
-        <li>Format: case review, clinical skills, or practice operations</li>
+        <li><strong>Case Consultation</strong> — Bring your tough cases. We'll think through conceptualization, treatment planning, and ethical considerations.</li>
+        <li><strong>Modalities</strong> — Want to learn IFS, EMDR, or somatic approaches? I can help you integrate these into your practice.</li>
+        <li><strong>Practice Building</strong> — For those starting out or looking to grow — business fundamentals, marketing, documentation, and sustainable caseload management.</li>
       </ul>
-      <a href="index.html#contact" class="btn btn-primary">Schedule Consultation</a>
+      
+      <p><strong>Typical session:</strong> 60 minutes | <strong>Format:</strong> In-person or telehealth</p>
+      <a href="/contact.html" class="btn btn-primary">Schedule Consultation</a>
+    </div>
+  </section>
+
+  <section class="services-detail alt">
+    <div class="container">
+      <div class="interest-form">
+        <h2>Tell Us What You Want</h2>
+        <p>We're building out our groups and workshops based on what the community needs. Take a moment to tell us what would bring YOU through the door — it helps us shape our offerings.</p>
+        
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="What should we call you?">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="So we can follow up">
+          </div>
+          
+          <div class="form-group">
+            <label>I'm interested in (check all that apply):</label>
+            <div class="checkbox-group">
+              <div class="checkbox-item">
+                <input type="checkbox" id="group-support" name="interest" value="support-group">
+                <label for="group-support">Support Groups</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="group-therapeutic" name="interest" value="therapeutic-group">
+                <label for="group-therapeutic">Therapeutic Groups</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="group-skills" name="interest" value="skills-group">
+                <label for="group-skills">Skills-Based Groups</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="group-psychoed" name="interest" value="psychoed-group">
+                <label for="group-psychoed">Psychoeducational Groups</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="workshop-yoga" name="interest" value="yoga-workshop">
+                <label for="workshop-yoga">Trauma-Informed Yoga</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="workshop-art" name="interest" value="art-workshop">
+                <label for="workshop-art">Art Therapy Workshop</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="workshop-retreat" name="interest" value="retreat">
+                <label for="workshop-retreat">Weekend Retreat</label>
+              </div>
+              <div class="checkbox-item">
+                <input type="checkbox" id="workshop-boundaries" name="interest" value="boundaries">
+                <label for="workshop-boundaries">Boundary-Building Workshop</label>
+              </div>
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="topics">What topics would you like to see covered?</label>
+            <textarea id="topics" name="topics" placeholder="Tell us what you want to learn about, work through, or explore..."></textarea>
+          </div>
+          
+          <div class="form-group">
+            <label for="other">Anything else you want us to know?</label>
+            <textarea id="other" name="other" placeholder="Other ideas, questions, or feedback..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="background:#6b7f5a;color:#fff;padding:12px 24px;border-radius:8px;border:none;font-size:1rem;font-weight:500;cursor:pointer;">Submit Your Interests</button>
+        </form>
+      </div>
     </div>
   </section>
 
