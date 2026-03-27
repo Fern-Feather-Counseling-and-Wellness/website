@@ -2,136 +2,160 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1.0">
   <title>Free Tools | Fern & Feather Counseling and Wellness</title>
-  <meta name="description" content="Free downloadable resources for your healing journey — grounding exercises, worksheets, and self-regulation tools.">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  
+  <link rel="stylesheet" href="../../css/style.css">
   <style>
-    .page-hero { background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); padding: 80px 20px; text-align: center; }
-    .page-hero h1 { font-family: 'Playfair Display', serif; font-size: 3rem; color: #2e5a2e; margin-bottom: 0.5rem; }
-    .page-hero p { font-size: 1.25rem; color: #388e3c; font-weight: 400; }
-    .tools-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; padding: 3rem 1rem; }
-    .tool-card { background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
-    .tool-card h3 { color: #2e5a2e; font-family: 'Playfair Display', serif; font-size: 1.35rem; margin-bottom: 0.75rem; }
-    .tool-card p { color: #555; line-height: 1.6; margin-bottom: 1.5rem; }
-    .tool-card .icon { font-size: 3rem; margin-bottom: 1rem; display: block; }
-    .tool-btn { display: inline-block; background: #6b7f5a; color: white; padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 500; }
-    .tool-btn:hover { background: #5a6a4b; }
+    .tools-hero { background: linear-gradient(135deg, #dcfce7, #bbf7d0); padding: 80px 20px; text-align: center; }
+    .tools-hero h1 { color: #166534; font-size: 2.5rem; margin-bottom: 1rem; }
+    .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #14532d; }
+    .tools-section { padding: 60px 20px; background: #f0fdf4; }
+    .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+    .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
+    .tool-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .tool-card h3 { color: #14532d; margin-bottom: 0.75rem; }
+    .tool-card p { color: #4b5563; margin-bottom: 1.5rem; }
+    .tool-btn { display: inline-block; background: #6b7f5a; color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; }
+    .tool-btn:hover { background: #556b46; }
   </style>
 </head>
 <body>
   <nav class="site-nav" aria-label="Primary navigation">
-  <style>
-    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
-    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#6b7f5a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
-    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
-    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
-    .site-nav .nav-links .dropdown{position:relative}
-    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0;white-space:nowrap}
-    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
-  </style>
-  <div class="container">
-    <a href="/" class="logo" aria-label="Fern & Feather homepage">
-      <div class="mark">F&F</div>
-      <span>Fern & Feather</span>
-    </a>
-    <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
-    <ul class="nav-links">
-      <li class="dropdown"><a href="/about.html">About ▾</a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="/about.html">About Our Practice</a></li>
-          <li><a href="/nicole.html">Nicole</a></li>
-          <li><a href="/kiera.html">Kiera</a></li>
-          <li><a href="/faq.html">FAQs</a></li>
-        </ul>
-      </li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/rates.html">Rates</a></li>
-      <li class="dropdown"><a href="/resources.html">Resources ▾</a>
-        <ul class="dropdown-menu">
-          <li><a href="/crisis.html">Crisis Resources</a></li>
-          <li><a href="/tools.html">Free Tools</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-        </ul>
-      </li>
-      <li><a href="/contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
-    </ul>
-  </div>
+    <style>
+      .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; background: white; border-bottom: 1px solid #eee; }
+      .site-nav .container { max-width: 980px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
+      .site-nav .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-weight: 700; }
+      .site-nav .logo .mark { width: 44px; height: 44px; border-radius: 10px; background: #6b7f5a; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; }
+      .site-nav .nav-links { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; align-items: center; }
+      .site-nav .nav-links a { color: inherit; text-decoration: none; padding: 6px 8px; border-radius: 6px; }
+      .site-nav .nav-links .dropdown { position: relative; }
+      .site-nav .nav-links .dropdown .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #eee; padding: 8px; margin-top: 6px; list-style: none; min-width: 200px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); z-index: 1000; }
+      .site-nav .nav-links .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+    <div class="container">
+      <a href="/" class="logo" aria-label="Fern & Feather homepage">
+        <div class="mark">F&F</div>
+        <span>Fern & Feather</span>
+      </a>
+      <ul class="nav-links">
+        <li class="dropdown"><a href="/about.html">About ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="/about.html">About the practice</a></li>
+            <li><a href="/nicole.html">Nicole</a></li>
+            <li><a href="/kiera.html">Kiera</a></li>
+            <li><a href="/faq.html">FAQs</a></li>
+          </ul>
+        </li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/rates.html">Rates</a></li>
+        <li class="dropdown"><a href="/resources.html">Resources ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="/resources/crisis.html">Crisis Resources</a></li>
+            <li><a href="/resources/tools.html">Free Tools</a></li>
+            <li><a href="/resources/blog.html">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="/contact.html" style="background: #6b7f5a; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <section class="page-hero">
-    <div class="container">
-      <h1>Free Tools</h1>
-      <p>Downloadable resources for your healing journey</p>
+  <section class="tools-hero">
+    <h1>Free Tools</h1>
+    <p>Practical resources you can use right now. No email required — though we'd love to stay in touch.</p>
+  </section>
+
+  <section class="tools-section">
+    <div class="tools-grid">
+      <div class="tool-card">
+        <div class="tool-icon">🧘</div>
+        <h3>Grounding Techniques Guide</h3>
+        <p>Step-by-step instructions for 10 somatic grounding practices. Perfect for anxiety, dissociation, or when you need to come back to the present.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
+      
+      <div class="tool-card">
+        <div class="tool-icon">📝</div>
+        <h3>Nervous System Check-In</h3>
+        <p>Daily tracking worksheet to identify your nervous system state and patterns. Build self-awareness with evidence-based tools.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
+      
+      <div class="tool-card">
+        <div class="tool-icon">💭</div>
+        <h3>Thought Reframing Worksheet</h3>
+        <p>Cognitive restructuring exercises to help you identify and challenge unhelpful thought patterns.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
+      
+      <div class="tool-card">
+        <div class="tool-icon">🌡️</div>
+        <h3>Window of Tolerance Chart</h3>
+        <p>Visual guide to understanding your window of tolerance and practical strategies for expanding it.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
+      
+      <div class="tool-card">
+        <div class="tool-icon">🤝</div>
+        <h3>Boundary Scripts</h3>
+        <p>Word-for-word phrases for setting boundaries with family, partners, and coworkers. Because "no" is a complete sentence.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
+      
+      <div class="tool-card">
+        <div class="tool-icon">😴</div>
+        <h3>Sleep Hygiene Checklist</h3>
+        <p>Evidence-based strategies for improving sleep quality. Because rest is not optional.</p>
+        <a href="#" class="tool-btn">Download Free</a>
+      </div>
     </div>
   </section>
 
-  <div class="tools-grid">
-    <div class="tool-card">
-      <span class="icon">🧘</span>
-      <h3>Grounding Technique Cards</h3>
-      <p>5 quick exercises to regulate your nervous system when anxiety spikes. Print and keep handy.</p>
-      <a href="#" class="tool-btn">Coming Soon</a>
-    </div>
-    <div class="tool-card">
-      <span class="icon">📋</span>
-      <h3>Nervous System Check-In</h3>
-      <p>Daily worksheet to track your window of tolerance, triggers, and regulation strategies.</p>
-      <a href="#" class="tool-btn">Coming Soon</a>
-    </div>
-    <div class="tool-card">
-      <span class="icon">💬</span>
-      <h3>Attachment Style Quiz</h3>
-      <p>Discover your attachment style and what it means for your relationships.</p>
-      <a href="#" class="tool-btn">Coming Soon</a>
-    </div>
-    <div class="tool-card">
-      <span class="icon">🌿</span>
-      <h3>5 Somatic Practices</h3>
-      <p>Evidence-based body-based techniques for trauma recovery and self-regulation.</p>
-      <a href="#" class="tool-btn">Coming Soon</a>
-    </div>
-  </div>
-
-  <section class="lead-magnet" style="background: #f5f3ff; padding: 4rem 1rem; text-align: center;">
-    <div class="container">
-      <h2>Want to Go Deeper?</h2>
-      <p style="max-width: 600px; margin: 1rem auto 2rem;">These free tools are just the beginning. Book a consultation to explore how therapy can support your unique journey.</p>
-      <a href="/contact.html" class="btn btn-primary" style="display:inline-block;background:#6b7f5a;color:#fff;padding:12px 24px;border-radius:8px;text-decoration:none;font-weight:500;">Schedule Free Consult</a>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 2rem;">
-        <div>
-          <h3 style="color: white; margin-bottom: 1rem;">Fern & Feather Counseling and Wellness</h3>
-          <p style="color: rgba(255,255,255,0.7);">Where science meets compassion. Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
+  <footer style="background: #2d3a2d; color: white; padding: 3rem 2rem; margin-top: 4rem;">
+    <div class="container" style="max-width: 980px; margin: 0 auto;">
+      <div class="footer-grid" style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem;">
+        <div class="footer-brand">
+          <h3 style="color: white; margin-bottom: 0.5rem;">Fern & Feather Counseling and Wellness</h3>
+          <p style="color: rgba(255,255,255,0.7);">A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care in Alpharetta, GA and throughout Georgia via telehealth.</p>
         </div>
-        <div>
-          <h4 style="color: white; margin-bottom: 0.75rem;">Quick Links</h4>
-          <ul style="list-style: none; padding: 0; color: rgba(255,255,255,0.7);">
-            <li><a href="/about.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">About</a></li>
-            <li><a href="/services.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Services</a></li>
-            <li><a href="/rates.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Rates</a></li>
+        
+        <div class="footer-column">
+          <h4 style="color: white; margin-bottom: 0.75rem;">Services</h4>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><a href="/services.html#individual" style="color: rgba(255,255,255,0.7); text-decoration: none;">Individual Therapy</a></li>
+            <li><a href="/services.html#couples" style="color: rgba(255,255,255,0.7); text-decoration: none;">Couples Therapy</a></li>
+            <li><a href="/services.html#group" style="color: rgba(255,255,255,0.7); text-decoration: none;">Group Therapy</a></li>
+            <li><a href="/services.html#supervision" style="color: rgba(255,255,255,0.7); text-decoration: none;">Clinical Supervision</a></li>
           </ul>
         </div>
-        <div>
+        
+        <div class="footer-column">
+          <h4 style="color: white; margin-bottom: 0.75rem;">Resources</h4>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><a href="/blog.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Blog</a></li>
+            <li><a href="/tools.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Free Toolkit</a></li>
+            <li><a href="/crisis.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Crisis Resources</a></li>
+            <li><a href="/faq.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
           <h4 style="color: white; margin-bottom: 0.75rem;">Contact</h4>
-          <p style="color: rgba(255,255,255,0.7);">📍 Alpharetta, GA<br>📧 hello@fernfeatherwellness.com</p>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li style="color: rgba(255,255,255,0.7);">📍 Alpharetta, GA</li>
+            <li><a href="mailto:hello@fernfeatherwellness.com" style="color: rgba(255,255,255,0.7); text-decoration: none;">hello@fernfeatherwellness.com</a></li>
+            <li style="color: rgba(255,255,255,0.7);">📱 (XXX) XXX-XXXX</li>
+          </ul>
         </div>
       </div>
+      
       <div style="border-top: 1px solid rgba(255,255,255,0.2); margin-top: 2rem; padding-top: 1rem; text-align: center; color: rgba(255,255,255,0.5);">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p style="color: rgba(255,255,255,0.5);">
+          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy Policy</a> | 
+          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms of Service</a> | 
+          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Accessibility</a>
+        </p>
       </div>
     </div>
   </footer>
