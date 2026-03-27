@@ -725,6 +725,12 @@ section {
   color: var(--sage-800);
   font-size: 1.1rem;
   list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--sage-200);
+}
+
+.faq-question:hover {
+  color: var(--sage-600);
 }
 
 .faq-question::-webkit-details-marker {
@@ -745,7 +751,7 @@ details[open] .faq-question::after {
 
 .faq-answer {
   color: var(--sage-600);
-  padding-top: 0.5rem;
+  padding: 1rem 0;
   line-height: 1.7;
 }
 
