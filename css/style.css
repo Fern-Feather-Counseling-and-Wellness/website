@@ -724,6 +724,7 @@ section {
   transition: max-height 0.3s ease;
   color: var(--sage-600);
   padding-top: 0;
+  display: none;
 }
 
 .faq-item.active .faq-answer {
