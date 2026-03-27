@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
-  <!-- Background circle -->
-  <circle cx="50" cy="50" r="45" fill="#6b7f5a" opacity="0.15"/>
+  <!-- Light background circle -->
+  <circle cx="50" cy="50" r="45" fill="#e8f0e0"/>
   
-  <!-- Feather -->
+  <!-- Feather - warm gold/cream -->
   <path d="M55 20 Q75 35 70 55 Q65 75 50 85 Q35 75 30 55 Q25 35 45 20 Q50 15 55 20" 
-        fill="#8B4513" opacity="0.9"/>
-  <path d="M50 25 Q60 40 55 60" stroke="#D2691E" stroke-width="2" fill="none"/>
+        fill="#f5deb3" stroke="#d4a574" stroke-width="1"/>
+  <path d="M50 28 Q60 42 55 60" stroke="#c9a86c" stroke-width="2" fill="none"/>
   
-  <!-- Fern leaf -->
+  <!-- Fern leaf - bright green -->
   <path d="M45 80 Q30 70 25 50 Q20 30 35 25 Q40 30 42 40 Q45 35 48 30 Q52 25 55 30 Q58 35 60 45 Q65 35 70 30 Q75 35 72 50 Q65 70 50 80" 
-        fill="#2E8B57"/>
+        fill="#4a9c5d"/>
   <!-- Fern stem -->
-  <path d="M48 80 Q50 60 50 40" stroke="#228B22" stroke-width="2" fill="none"/>
+  <path d="M48 80 Q50 60 50 40" stroke="#2d6b3a" stroke-width="2" fill="none"/>
 </svg>
