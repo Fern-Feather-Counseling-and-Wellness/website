@@ -321,6 +321,11 @@ a:hover {
   text-align: center;
   padding: 2rem;
   min-height: 400px;
+  background-color: transparent !important;
+}
+
+.hero-logo img {
+  background-color: transparent !important;
 }
 
 .hero-logo .logo-mark {
