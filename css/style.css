@@ -232,6 +232,7 @@ a:hover {
 .hero h1 {
   margin-bottom: 1.5rem;
   color: var(--sage-800);
+  font-family: var(--font-heading);
 }
 
 .hero h1 em {
