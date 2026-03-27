@@ -729,6 +729,7 @@ section {
 .faq-item.active .faq-answer {
   max-height: 500px;
   padding-top: 1rem;
+  display: block;
 }
 
 /* Footer */
