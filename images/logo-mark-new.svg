@@ -2,19 +2,24 @@
   <!-- Light background -->
   <circle cx="50" cy="50" r="45" fill="#e8f5e9"/>
   
-  <!-- Feather - right side, curved with barbs -->
-  <path d="M65 15 Q80 30 75 55 Q70 80 50 90 Q45 85 48 75" fill="#f0e68c" stroke="#d4a574" stroke-width="1"/>
-  <!-- Feather rachis (central shaft) -->
-  <path d="M60 20 Q70 40 60 75" stroke="#c9a86c" stroke-width="2" fill="none"/>
-  <!-- Feather barbs -->
-  <path d="M60 25 Q68 28 72 32" stroke="#d4a574" stroke-width="1" fill="none"/>
-  <path d="M58 35 Q66 38 70 42" stroke="#d4a574" stroke-width="1" fill="none"/>
-  <path d="M56 45 Q64 48 68 52" stroke="#d4a574" stroke-width="1" fill="none"/>
-  <path d="M54 55 Q60 58 62 62" stroke="#d4a574" stroke-width="1" fill="none"/>
+  <!-- Feather - right side -->
+  <path d="M68 18 Q82 32 78 55 Q74 78 52 88 Q48 84 52 76" fill="#f0e68c" stroke="#d4a574" stroke-width="1"/>
+  <path d="M62 22 Q72 42 62 72" stroke="#c9a86c" stroke-width="2" fill="none"/>
+  <path d="M60 28 Q68 30 72 34" stroke="#d4a574" stroke-width="1" fill="none"/>
+  <path d="M58 38 Q66 40 70 44" stroke="#d4a574" stroke-width="1" fill="none"/>
+  <path d="M56 48 Q62 50 64 54" stroke="#d4a574" stroke-width="1" fill="none"/>
+  <path d="M54 58 Q60 60 60 64" stroke="#d4a574" stroke-width="1" fill="none"/>
   
-  <!-- Fern - left side, classic fern leaf shape -->
-  <path d="M40 85 Q25 75 20 55 Q15 35 30 25 Q35 30 38 40 Q32 35 28 30 Q35 22 45 20 Q50 25 48 35 Q52 30 55 28 Q62 25 65 30 Q70 40 65 55 Q60 70 50 80" 
-        fill="#4a9c5d"/>
-  <!-- Fern stem curve -->
-  <path d="M42 82 Q30 65 30 45" stroke="#2d6b3a" stroke-width="2" fill="none"/>
+  <!-- Delicate fern - left side with wispy leaflets -->
+  <path d="M38 82 Q22 72 18 52 Q14 32 32 22" stroke="#2d6b3a" stroke-width="2" fill="none"/>
+  <!-- Upper leaflets -->
+  <path d="M30 28 Q22 24 18 20" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M28 32 Q18 28 14 24" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M26 38 Q14 34 10 28" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M24 44 Q12 40 8 34" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M24 50 Q12 46 10 40" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M26 56 Q14 52 12 46" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M28 62 Q18 58 16 52" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M32 68 Q22 64 20 58" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
+  <path d="M36 74 Q28 70 26 64" stroke="#4a9c5d" stroke-width="1.5" fill="none"/>
 </svg>
