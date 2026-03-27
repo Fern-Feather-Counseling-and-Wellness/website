@@ -312,6 +312,26 @@ a:hover {
   opacity: 0.3;
 }
 
+/* Page Hero (Services, FAQ, etc.) */
+.page-hero {
+  background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 50%, var(--blush) 100%);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.page-hero h1 {
+  font-family: var(--font-heading);
+  color: var(--sage-800);
+  margin-bottom: 1rem;
+}
+
+.page-hero p {
+  font-size: 1.25rem;
+  color: var(--sage-600);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /* Section Styling */
 section {
   padding: var(--section-padding) 0;

@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - Fern & Feather Counseling and Wellness</title>
-    <link rel="stylesheet" href="../css/style.css"> <!-- Assuming CSS is in a parent css folder -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        .page-header { background-color: #e8f5e9; /* soft green */ padding: 3rem 2rem; text-align: center; }
-        .page-header h1 { color: #2e7d32; /* dark green */ margin-bottom: 0.5rem; }
-        .page-header p.tagline { color: #388e3c; /* medium green */ font-size: 1.2rem; margin-bottom: 1.5rem; }
+        body { font-family: var(--font-body); line-height: 1.6; margin: 0; padding: 0; }
+        .page-hero { background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 3rem 2rem; text-align: center; }
+        .page-hero h1 { color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem; }
+        .page-hero p { color: var(--sage-600); font-size: 1.2rem; margin-bottom: 1.5rem; }
         .content { padding: 3rem 2rem; max-width: 800px; margin: 2rem auto; }
         .faq-item { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0; }
-        .faq-question { font-weight: bold; color: #1b5e20; /* forest green */ cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question { font-weight: bold; color: var(--sage-700); cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
         .faq-question::after { content: '+'; font-size: 1.5rem; }
         .faq-question.active::after { content: '−'; }
         .faq-answer { display: none; padding-left: 1rem; }
         .faq-answer p { margin-bottom: 1rem; }
-        .collaboration-section { background-color: #e0f2f1; /* teal background */ padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid #00796b; /* teal border */ }
-        .collaboration-section h3 { color: #00796b; /* teal */ margin-top: 0; }
-        footer { background-color: #1b5e20; /* forest green */ color: white; text-align: center; padding: 1rem; margin-top: 3rem; }
-
-        /* Accordion functionality would typically be handled by JS, but this structure supports it */
+        .collaboration-section { background-color: var(--sage-100); padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid var(--fern); }
+        .collaboration-section h3 { color: var(--sage-700); margin-top: 0; }
         .faq-question.active + .faq-answer { display: block; }
     </style>
 </head>
@@ -72,7 +71,7 @@
 </nav>
 
 
-    <header class="page-header">
+    <header class="page-hero">
         <h1>Frequently Asked Questions</h1>
         <p class="tagline">Rooted and Rising</p>
         <p>Fern & Feather Counseling and Wellness</p>
