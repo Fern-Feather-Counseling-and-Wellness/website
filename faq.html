@@ -164,12 +164,7 @@
             </div>
         </div>
 
-        <div class="faq-item">
-            <h3 class="faq-question">What do I need to know about Nicole's background?</h3>
-            <div class="faq-answer">
-                <p>Nicole holds a PhD in Biology alongside her training in clinical counseling. She brings a distinctive perspective that weaves together an understanding of physiology, the nervous system, and therapeutic practice—exploring how biological processes shape our emotional and psychological experiences.</p>
-            </div>
-        </div>
+        
         
         <div class="faq-item">
             <h3 class="faq-question">How many clients do you see?</h3>
@@ -244,6 +239,14 @@
       </div>
     </div>
   </footer>
+
+<script>
+  document.querySelectorAll('.faq-question').forEach(function(q) {
+    q.addEventListener('click', function() {
+      this.classList.toggle('active');
+    });
+  });
+</script>
 
 </body>
 </html>
