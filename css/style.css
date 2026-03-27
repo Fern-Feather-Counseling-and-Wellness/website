@@ -950,13 +950,10 @@ section {
   display: none;
 }
 
-/* Desktop: show as horizontal inline list to avoid stacked items */
+/* Desktop: show dropdown on hover */
 .dropdown:hover .dropdown-menu,
 .dropdown.active .dropdown-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 0.5rem;
+  display: block;
 }
 
 .dropdown-menu li {
