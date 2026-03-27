@@ -220,8 +220,6 @@
     document.querySelectorAll('.faq-question').forEach(function(q) {
       q.addEventListener('click', function() {
         this.classList.toggle('active');
-        var answer = this.nextElementSibling;
-        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
       });
     });
   </script>
