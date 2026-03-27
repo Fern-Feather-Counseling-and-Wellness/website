@@ -94,3 +94,47 @@ git push origin master:main
 
 - [ ] Domain not resolving from workspace (DNS likely not pointed yet)
 - [ ] Some pages need content population (blog.html, tools.html)
+
+---
+
+## ⚠️ COMMON PROBLEM: Broken `/resources/` Links
+
+### Symptom
+Pages return 404 errors when clicked from the main site, even though the file exists.
+
+### Root Cause
+**NEVER use `/resources/` in links.** All pages live at the ROOT level, not in a `/resources/` subfolder.
+
+❌ **Broken:**
+- `/resources/tools.html`
+- `/resources/blog.html`
+- `/resources/crisis.html`
+
+✅ **Correct:**
+- `/tools.html`
+- `/blog.html`
+- `/crisis.html`
+
+### Why This Happens
+During early site development, some pages were temporarily placed in `pages/resources/`. When they were moved to the root level, the old links weren't updated everywhere.
+
+### How to Find & Fix
+```bash
+# Find all broken /resources/ links
+grep -rn "/resources/" *.html
+
+# Fix in place
+# Replace /resources/tools.html → /tools.html
+# Replace /resources/blog.html → /blog.html
+# etc.
+```
+
+### Files That Commonly Have This Issue
+- blog.html
+- crisis.html
+- tools.html
+- resources.html
+
+---
+
+**TL;DR:** If a page exists but shows 404, check if the link has `/resources/` in it. Remove it.
