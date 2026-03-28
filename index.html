@@ -36,10 +36,10 @@
   <link rel="stylesheet" href="css/style.css?v=1774725873">
   <!-- Critical mobile styles - loaded after external CSS -->
   <style>
-    @media(max-width:480px){
+    @media(max-width:999px){
       .nav-links{display:none !important}
       .mobile-menu-btn{display:inline-block !important}
-      .nav-links.mobile-open{display:flex !important}
+      .nav-links.mobile-open{display:flex !important;flex-direction:column;position:absolute;top:60px;left:0;right:0;background:white;padding:20px;box-shadow:0 4px 10px rgba(0,0,0,0.2);z-index:999;}
     }
   </style>
   
@@ -98,7 +98,7 @@
       <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" type="button">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" type="button" onclick="document.querySelector('.nav-links').classList.toggle('mobile-open'); this.classList.toggle('active');">☰</button>
     <ul class="nav-links">
       <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
         <ul class="dropdown-menu" role="menu">
