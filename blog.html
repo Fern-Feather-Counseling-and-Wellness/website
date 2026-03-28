@@ -2,43 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog | Fern & Feather Counseling and Wellness</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    .blog-hero { background: linear-gradient(135deg, #e0e7ff, #c7d2fe); padding: 80px 20px; text-align: center; }
-    .blog-hero h1 { color: #3730a3; font-size: 2.5rem; margin-bottom: 1rem; }
-    .blog-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #312e81; }
-    .blog-section { padding: 60px 20px; background: #f5f3ff; }
-    .blog-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem; }
-    .blog-card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-    .blog-card-image { height: 180px; background: linear-gradient(135deg, #a5b4fc, #818cf8); display: flex; align-items: center; justify-content: center; font-size: 3rem; }
-    .blog-card-content { padding: 1.5rem; }
-    .blog-card-meta { font-size: 0.85rem; color: #6b7280; margin-bottom: 0.5rem; }
-    .blog-card h3 { color: #1f2937; margin-bottom: 0.75rem; font-size: 1.25rem; }
-    .blog-card p { color: #4b5563; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; }
-    .blog-card a { color: #6b7f5a; font-weight: 500; text-decoration: none; }
-    .blog-card a:hover { text-decoration: underline; }
-    @media (max-width: 768px) {
-      .blog-hero { padding: 50px 16px; text-align: left; }
-      .blog-hero h1 { font-size: 1.75rem; }
-      .blog-hero p { font-size: 1rem; }
-      .blog-section { padding: 30px 16px; }
-      .blog-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-      .blog-card-content { padding: 1rem; }
-      .blog-hero .container { max-width: 100%; padding: 0 16px; margin: 0; }
-    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 0; }
   </style>
 </head>
 <body>
   <nav class="site-nav" aria-label="Primary navigation">
     <style>
-      .site-nav { font-family: var(--font-body); background: white; border-bottom: 1px solid #eee; }
+      .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; background: white; border-bottom: 1px solid #eee; }
       .site-nav .container { max-width: 980px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
-      .site-nav .logo { font-family: var(--font-heading); font-size: 1.5rem; color: var(--sage-700); display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-weight: 700; }
-      .site-nav .logo .mark { width: 44px; height: 44px; border-radius: 10px; background: #b0bda3; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; }
+      .site-nav .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-weight: 700; }
+      .site-nav .logo .mark { width: 44px; height: 44px; border-radius: 10px; background: #6b7f5a; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; }
       .site-nav .nav-links { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; align-items: center; }
       .site-nav .nav-links a { color: inherit; text-decoration: none; padding: 6px 8px; border-radius: 6px; }
       .site-nav .nav-links .dropdown { position: relative; }
@@ -47,155 +25,59 @@
     </style>
     <div class="container">
       <a href="/" class="logo" aria-label="Fern & Feather homepage">
-        <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
+        <div class="mark">F&F</div>
         <span>Fern & Feather</span>
       </a>
       <ul class="nav-links">
-        <li class="dropdown"><a href="/about.html">About ▾</a>
+        <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
           <ul class="dropdown-menu">
             <li><a href="/about.html">About the practice</a></li>
             <li><a href="/nicole.html">Nicole</a></li>
             <li><a href="/kiera.html">Kiera</a></li>
-            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="/faq.html">FAQs</a></li>
           </ul>
         </li>
         <li><a href="/services.html">Services</a></li>
         <li><a href="/rates.html">Rates</a></li>
-        <li class="dropdown"><a href="resources.html">Resources ▾</a>
+        <li class="dropdown"><a href="/resources.html" class="dropdown-toggle">Resources ▾</a>
           <ul class="dropdown-menu">
             <li><a href="/resources/crisis.html">Crisis Resources</a></li>
-            <li><a href="tools.html">Free Tools</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="/resources/tools.html">Free Tools</a></li>
+            <li><a href="/resources/blog.html">Blog</a></li>
           </ul>
         </li>
-        <li><a href="/contact.html" style="background: #b0bda3; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
+        <li><a href="/contact.html" style="background: #6b7f5a; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
       </ul>
       <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
     </div>
   </nav>
-  <style>
-    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
-  </style>
 
-  <section class="blog-hero" style="padding: 80px 20px; text-align: center;">
-    <div style="max-width: 800px; margin: 0 auto;">
-      <h1 style="color: #3730a3; font-size: 2.5rem; margin-bottom: 1rem;">From the Blog</h1>
-      <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #312e81;">Deep dives into mental health topics, therapy insights, and wellness tips. Grounded in science, written with heart.</p>
-    </div>
-  </section>
+  <div style="background: linear-gradient(135deg, #e0e7ff, #c7d2fe); padding: 60px 16px; text-align: center;">
+    <h1 style="color: #3730a3; margin: 0 0 10px 0;">From the Blog</h1>
+    <p style="color: #312e81; margin: 0;">Deep dives into mental health topics.</p>
+  </div>
 
-  <section class="blog-section" style="padding: 60px 20px;">
-    <div class="blog-grid" style="max-width: 1000px; margin: 0 auto;">
-      <article class="blog-card">
-        <div class="blog-card-image">🧠</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Anxiety • 8 min read</div>
-          <h3>High-Functioning Anxiety: The Hidden Struggle</h3>
-          <p>You have it all together on the outside. But inside? You're drowning. Here's what high-functioning anxiety looks like and why traditional self-care isn't enough.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-      
-      <article class="blog-card">
-        <div class="blog-card-image">🫁</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Somatic Therapy • 10 min read</div>
-          <h3>Somatic Therapy for Anxiety: Releasing Tension, Finding Calm</h3>
-          <p>Why talking isn't enough sometimes — and how working with your body can unlock healing that therapy talk alone can't reach.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-      
-      <article class="blog-card">
-        <div class="blog-card-image">💔</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Relationships • 7 min read</div>
-          <h3>How Attachment Wounds Show Up in Adult Relationships</h3>
-          <p>That pattern you keep repeating? It's not coincidence. Understanding your attachment style can transform how you connect.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-      
-      <article class="blog-card">
-        <div class="blog-card-image">🔄</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Nervous System • 6 min read</div>
-          <h3>Understanding Your Nervous System: A Beginner's Guide</h3>
-          <p>Window of tolerance, ventral vagal, sympathetic arousal — what it all means and how to work with your nervous system instead of against it.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-      
-      <article class="blog-card">
-        <div class="blog-card-image">🌱</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Trauma • 9 min read</div>
-          <h3>What Is Trauma-Informed Therapy?</h3>
-          <p>Trauma isn't just the big T events. Here's how trauma-informed therapy works and why it matters for everyone.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-      
-      <article class="blog-card">
-        <div class="blog-card-image">✨</div>
-        <div class="blog-card-content">
-          <div class="blog-card-meta">Therapy • 5 min read</div>
-          <h3>What to Expect in Your First Therapy Session</h3>
-          <p>Nervous about your first appointment? Here's exactly what happens — and why there's nothing to fear.</p>
-          <a href="#">Read more →</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
-  <footer style="background: #2d3a2d; color: white; padding: 3rem 20px; margin-top: 4rem; text-align: center;">
-    <div class="container" style="max-width: 980px; margin: 0 auto; text-align: center;">
-      <div class="footer-grid" style="display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2rem;">
-        <div class="footer-brand">
-          <h3 style="color: white; margin-bottom: 0.5rem;">Fern & Feather Counseling and Wellness</h3>
-          <p style="color: rgba(255,255,255,0.7);">A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care in Alpharetta, GA and throughout Georgia via telehealth.</p>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Services</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li><a href="/services.html#individual" style="color: rgba(255,255,255,0.7); text-decoration: none;">Individual Therapy</a></li>
-            <li><a href="/services.html#couples" style="color: rgba(255,255,255,0.7); text-decoration: none;">Couples Therapy</a></li>
-            <li><a href="/services.html#group" style="color: rgba(255,255,255,0.7); text-decoration: none;">Group Therapy</a></li>
-            <li><a href="/services.html#supervision" style="color: rgba(255,255,255,0.7); text-decoration: none;">Clinical Supervision</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Resources</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li><a href="blog.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Blog</a></li>
-            <li><a href="tools.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Free Toolkit</a></li>
-            <li><a href="crisis.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Crisis Resources</a></li>
-            <li><a href="faq.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">FAQ</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Contact</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="color: rgba(255,255,255,0.7);">📍 Alpharetta, GA</li>
-            <li><a href="mailto:hello@fernfeatherwellness.com" style="color: rgba(255,255,255,0.7); text-decoration: none;">hello@fernfeatherwellness.com</a></li>
-            <li style="color: rgba(255,255,255,0.7);">📱 (XXX) XXX-XXXX</li>
-          </ul>
-        </div>
+  <div style="padding: 40px 16px; max-width: 800px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: 1fr; gap: 20px;">
+      <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="color: #6b7280; margin: 0 0 8px 0; font-size: 14px;">January 15, 2026</p>
+        <h3 style="margin: 0 0 10px 0; color: #1f2937;">Somatic Therapy for Anxiety</h3>
+        <p style="margin: 0 0 15px 0; color: #4b5563;">Exploring mind-body connection for anxiety relief...</p>
+        <a href="#" style="color: #6b7f5a; font-weight: 500; text-decoration: none;">Read More →</a>
       </div>
-      
-      <div style="border-top: 1px solid rgba(255,255,255,0.2); margin-top: 2rem; padding-top: 1rem; text-align: center; color: rgba(255,255,255,0.5);">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-        <p style="color: rgba(255,255,255,0.5);">
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy Policy</a> | 
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms of Service</a> | 
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Accessibility</a>
-        </p>
+      <div style="background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+        <p style="color: #6b7280; margin: 0 0 8px 0; font-size: 14px;">January 8, 2026</p>
+        <h3 style="margin: 0 0 10px 0; color: #1f2937;">High-Functioning Anxiety</h3>
+        <p style="margin: 0 0 15px 0; color: #4b5563;">The hidden struggle of appearing put-together while...</p>
+        <a href="#" style="color: #6b7f5a; font-weight: 500; text-decoration: none;">Read More →</a>
       </div>
     </div>
+  </div>
+
+  <footer style="background: #2d3a2d; color: white; padding: 30px 16px; text-align: center;">
+    <p style="margin: 0;">© 2026 Fern & Feather Counseling and Wellness</p>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 </html>
