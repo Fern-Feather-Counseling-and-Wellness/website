@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device=1.0">
+  <meta name="viewport" content="width=device-width">
   <title>Rates & Fees | Fern & Feather Counseling and Wellness</title>
   <meta name="description" content="View our therapy rates and fees. Private pay practice in Alpharetta, GA with superbills for out-of-network reimbursement.">
   
@@ -17,7 +17,7 @@
     .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
     .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
     .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#6b7f5a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
     .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
     .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
     .site-nav .nav-links .dropdown{position:relative}
@@ -28,7 +28,7 @@
   </style>
   <div class="container">
     <a href="/" class="logo" aria-label="Fern & Feather homepage">
-      <div class="mark">F&F</div>
+      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
     <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
@@ -38,116 +38,184 @@
           <li><a href="/about.html">About the practice</a></li>
           <li><a href="/nicole.html">Nicole</a></li>
           <li><a href="/kiera.html">Kiera</a></li>
-          <li><a href="/faq.html">FAQs</a></li>
+          <li><a href="faq.html">FAQs</a></li>
         </ul>
       </li>
       <li><a href="/services.html">Services</a></li>
       <li><a href="/rates.html">Rates</a></li>
-      <li><a href="/resources.html">Resources</a></li>
-      <li><a href="/contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a href="/contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
     </ul>
   </div>
 </nav>
 
-  <section class="page-hero">
+  <section class="page-hero" style="background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center;">
     <div class="container">
-      <h1>Rates & Fees</h1>
-      <p>Transparent pricing. No surprise bills.</p>
+      <h1 style="color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem;">Rates & Fees</h1>
+      <p style="color: var(--sage-600); font-size: 1.2rem;">Transparent pricing. No surprise bills. Just therapy that works for you.</p>
     </div>
   </section>
 
-  <section class="services-summary container">
-    <div class="container">
-      <h2>Our Fees (Private Pay)</h2>
-      <p>We are a private-pay practice, which means we don't accept insurance. This allows us to maintain your privacy, offer longer sessions, and focus on your needs rather than insurance-imposed limits. We provide superbills for out-of-network reimbursement if you'd like to pursue that option.</p>
+  <section class="container" style="padding: 4rem 2rem;">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center; margin-bottom: 3rem;">
+      <h2 style="color: var(--sage-700); margin-bottom: 1rem;">Private Pay, Full Transparency</h2>
+      <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal);">We're a private-pay practice, which means we don't accept insurance. This allows us to maintain your privacy, offer longer sessions, and focus on your needs rather than insurance-imposed limits. We provide superbills for out-of-network reimbursement if you'd like to pursue that option.</p>
+    </div>
 
-      <div class="pricing-grid">
-        <div class="price-card">
-          <h3>Individual Therapy</h3>
-          <p><strong>$135–$180</strong> • 45 minutes</p>
-        </div>
-        <div class="price-card">
-          <h3>Couples Therapy</h3>
-          <p><strong>$210–$235</strong> • 50–80 minutes</p>
-        </div>
-        <div class="price-card">
-          <h3>Group Therapy</h3>
-          <p><strong>$60–$75</strong> • 90 minutes</p>
-        </div>
-        <div class="price-card">
-          <h3>Professional Consultation</h3>
-          <p><strong>$190</strong> • 60 minutes</p>
-        </div>
+    <div class="pricing-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 900px; margin: 0 auto;">
+      
+      <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-400);">
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🧠</div>
+        <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Individual Therapy</h3>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$135–$180</p>
+        <p style="color: var(--sage-600);">45 minutes</p>
+        <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">One-on-one sessions focused on anxiety, trauma, relationships, or personal growth.</p>
       </div>
 
-      <p class="small" style="margin-top: 2rem;">Sliding scale spots may be available for those with financial need. During your free consultation, we can discuss options.</p>
+      <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-500);">
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">💑</div>
+        <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Couples Therapy</h3>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$210–$235</p>
+        <p style="color: var(--sage-600);">50–80 minutes</p>
+        <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">Relationship counseling for partners looking to deepen connection and improve communication.</p>
+      </div>
+
+      <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-600);">
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">👥</div>
+        <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Group Therapy</h3>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$60–$75</p>
+        <p style="color: var(--sage-600);">90 minutes</p>
+        <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">Small group sessions on topics like trauma recovery, somatic practice, or relationship skills.</p>
+      </div>
+
+      <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-700);">
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📚</div>
+        <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Consultation</h3>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$190</p>
+        <p style="color: var(--sage-600);">60 minutes</p>
+        <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">Professional consultation for clinicians seeking supervision or peer support.</p>
+      </div>
+
+    </div>
+
+    <div style="text-align: center; margin-top: 3rem; padding: 1.5rem; background: var(--sage-50); border-radius: 12px; max-width: 600px; margin-left: auto; margin-right: auto;">
+      <p style="font-size: 1rem; color: var(--sage-700);">🌱 <strong>Sliding Scale Available</strong></p>
+      <p style="color: #666; margin-top: 0.5rem;">We keep a few spots open for those with financial need. During your free consultation, we can discuss options.</p>
     </div>
   </section>
 
-  <section class="why-us" style="background: var(--cream);">
+  <section style="background: var(--sage-100); padding: 4rem 2rem;">
     <div class="container">
-      <div class="section-header">
-        <h2>Why No Insurance?</h2>
-      </div>
-      <div style="max-width: 700px; margin: 0 auto;">
-        <div style="background: white; padding: 2rem; border-radius: 12px; text-align: left;">
-          <p><strong>Do we take insurance?</strong></p>
-          <p>Short answer: No. Longer answer:</p>
-          <p>We chose private-pay because we prioritize <strong>your privacy</strong> and <strong>your goals</strong> over insurance company rules.</p>
-          <p>When insurance pays for therapy, they require a diagnosis code — something that goes on your permanent medical record. Even if you're just working through a life transition or wanting to understand yourself better, insurance wants a label. We don't think you need one to deserve support.</p>
-          <p>Insurers also decide how many sessions you "need" and what treatment modalities are "covered." That often means shorter sessions, stricter timelines, and a case manager who doesn't know you making decisions about your care. We don't play that game.</p>
-          <p>Going private-pay means:</p>
+      <div style="max-width: 750px; margin: 0 auto;">
+        <h2 style="text-align: center; color: var(--sage-700); margin-bottom: 2rem;">Why No Insurance?</h2>
+        
+        <div style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: var(--shadow-soft);">
+          <p style="font-size: 1.1rem; margin-bottom: 1.5rem;"><strong>Do we take insurance?</strong> — Short answer: No. Here's why we chose private-pay:</p>
+          
           <ul style="list-style: none; padding: 0;">
-            <li style="padding: 0.5rem 0;">✓ <strong>Privacy</strong> — Your records stay between us</li>
-            <li style="padding: 0.5rem 0;">✓ <strong>Flexibility</strong> — We decide session length together</li>
-            <li style="padding: 0.5rem 0;">✓ <strong>Control</strong> — You choose how often to meet</li>
-            <li style="padding: 0.5rem 0;">✓ <strong>Focus</strong> — We treat you, not a diagnosis code</li>
+            <li style="padding: 1rem 0; border-bottom: 1px solid var(--sage-200); display: flex; align-items: flex-start; gap: 1rem;">
+              <span style="font-size: 1.5rem;">🔒</span>
+              <div>
+                <strong style="color: var(--sage-700);">Privacy — Your records stay between us</strong>
+                <p style="color: #666; margin-top: 0.25rem;">Insurance requires a diagnosis code that goes on your permanent medical record. We don't think you need a label to deserve support.</p>
+              </div>
+            </li>
+            <li style="padding: 1rem 0; border-bottom: 1px solid var(--sage-200); display: flex; align-items: flex-start; gap: 1rem;">
+              <span style="font-size: 1.5rem;">🎯</span>
+              <div>
+                <strong style="color: var(--sage-700);">Flexibility — We decide session length together</strong>
+                <p style="color: #666; margin-top: 0.25rem;">No insurance case manager telling us how many sessions you "need." We tailor our work to your goals.</p>
+              </div>
+            </li>
+            <li style="padding: 1rem 0; border-bottom: 1px solid var(--sage-200); display: flex; align-items: flex-start; gap: 1rem;">
+              <span style="font-size: 1.5rem;">🤝</span>
+              <div>
+                <strong style="color: var(--sage-700);">Control — You choose how often to meet</strong>
+                <p style="color: #666; margin-top: 0.25rem;">Weekly, biweekly, monthly — whatever supports your journey. No imposed timelines.</p>
+              </div>
+            </li>
+            <li style="padding: 1rem 0; display: flex; align-items: flex-start; gap: 1rem;">
+              <span style="font-size: 1.5rem;">✨</span>
+              <div>
+                <strong style="color: var(--sage-700);">Focus — We treat you, not a diagnosis code</strong>
+                <p style="color: #666; margin-top: 0.25rem;">We prioritize your goals, not what an insurer decides is "medically necessary."</p>
+              </div>
+            </li>
           </ul>
-          <p>Have out-of-network benefits? We can provide a superbill for you to submit yourself. Just know that sending it to your insurer means they get access to your diagnosis and treatment details — that's your call.</p>
-          <p>We also keep a few sliding scale spots available. Support shouldn't be a luxury, and we don't think privacy should cost you either.</p>
+
+          <div style="margin-top: 2rem; padding: 1.5rem; background: var(--sage-50); border-radius: 8px;">
+            <p style="margin-bottom: 0.5rem;"><strong>Out-of-Network Benefits</strong></p>
+            <p style="color: #666; font-size: 0.95rem;">Have out-of-network benefits? We can provide a superbill for you to submit yourself. Just know that sending it to your insurer means they get access to your diagnosis and treatment details — that's your call.</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="container" style="padding: 2rem 1rem;">
-    <p style="font-style: italic; color: #666; text-align: center;">Under the No Surprises Act, you have the right to receive a Good Faith Estimate explaining how much your medical care will cost. We are happy to provide this upon request.</p>
+  <section class="container" style="padding: 3rem 2rem; text-align: center;">
+    <p style="font-style: italic; color: #888;">📄 Under the No Surprises Act, you have the right to receive a Good Faith Estimate explaining how much your care will cost. We're happy to provide this upon request.</p>
   </section>
 
-  <section class="lead-magnet">
-    <div class="container" style="text-align: center;">
-      <h2>Questions About Pricing?</h2>
-      <p style="max-width: 600px; margin: 1rem auto 2rem;">Book a free 15-minute consultation. We'll answer your questions and help you figure out the best fit.</p>
-      <a href="contact.html" class="btn btn-primary">Schedule Free Consult</a>
+  <section class="lead-magnet" style="background: linear-gradient(135deg, var(--sage-600), var(--sage-700)); padding: 4rem 2rem; color: white; text-align: center;">
+    <div class="container">
+      <h2 style="font-family: var(--font-heading); margin-bottom: 1rem;">Questions About Pricing?</h2>
+      <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem; opacity: 0.9;">Book a free 15-minute consultation. We'll answer your questions and help you find the best fit.</p>
+      <a href="contact.html" class="btn btn-primary" style="background: white; color: var(--sage-700); padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Schedule Free Consult</a>
     </div>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
           <h3>Fern & Feather Counseling and Wellness</h3>
-          <p>Rooted and Rising. Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
+          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Alpharetta, GA and throughout Georgia via telehealth.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          </div>
         </div>
+        
         <div class="footer-column">
-          <h4>Quick Links</h4>
+          <h4>Services</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="nicole.html">Nicole</a></li>
-            <li><a href="kiera.html">Kiera</a></li>
+            <li><a href="services.html#individual">Individual Therapy</a></li>
+            <li><a href="services.html#couples">Couples Therapy</a></li>
+            <li><a href="services.html#group">Group Therapy</a></li>
+            <li><a href="services.html">All Services</a></li>
           </ul>
         </div>
+        
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Free Toolkit</a></li>
+            <li><a href="crisis.html">Crisis Resources</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        
         <div class="footer-column">
           <h4>Contact</h4>
           <ul>
             <li>📍 Alpharetta, GA</li>
             <li>📧 hello@fernfeatherwellness.com</li>
+            <li>📱 (XXX) XXX-XXXX</li>
+            <li><a href="contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:0.5rem;">Book Consultation</a></li>
           </ul>
         </div>
       </div>
+      
       <div class="footer-bottom">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> | 
+          <a href="#">Terms of Service</a> | 
+          <a href="#">Accessibility</a>
+        </p>
       </div>
     </div>
   </footer>
