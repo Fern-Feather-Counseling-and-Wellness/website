@@ -63,21 +63,26 @@
 <body>
   <!-- DEPLOYED: 2025-03-22-V3 -->
   <!-- Navigation -->
-  <nav class="site-nav" aria-label="Primary navigation" style="max-width:100%;overflow-x:hidden">
+  <nav class="site-nav">
   <style>
-    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; max-width:100%;overflow-x:hidden }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
-    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
-    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
-    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
-    .site-nav .nav-links .dropdown{position:relative}
-    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0;white-space:nowrap}
-    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:768px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none!important}.site-nav .mobile-menu-btn{display:inline-block!important}.site-nav .nav-links.mobile-open{display:flex!important;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
+    @media(max-width:768px){
+      .sn-wrap{display:none;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}
+      .sn-wrap.show{display:flex!important}
+      .sn-ham{display:inline-block!important}
+    }
   </style>
-  <div class="container">
+  <div class="container" style="display:flex;justify-content:space-between;align-items:center;max-width:980px;margin:0 auto;padding:12px 16px">
+    <a href="/" class="logo" style="display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700"><img src="images/logo-mark-final.svg" alt="F&F" style="width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center"><span>Fern & Feather</span></a>
+    <button class="sn-ham" aria-label="Open menu" onclick="document.querySelector('.sn-wrap').classList.toggle('show')" style="display:none;border:0;background:transparent;font-size:24px;cursor:pointer">☰</button>
+  </div>
+  <ul class="sn-wrap" style="display:flex;gap:18px;list-style:none;margin:0;padding:0;align-items:center;justify-content:flex-end">
+    <li><a href="/about.html">About</a></li>
+    <li><a href="/services.html">Services</a></li>
+    <li><a href="/rates.html">Rates</a></li>
+    <li><a href="/contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none">Schedule Consult</a></li>
+  </ul>
+</nav>
+<div class="container">
     <a href="/" class="logo" aria-label="Fern & Feather homepage">
       <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
