@@ -1,6 +1,6 @@
 /**
  * Fern & Feather - Mobile Nav Fix
- * Dynamically adds hamburger button if missing
+ * Dynamically adds hamburger button if missing, handles toggle
  */
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Mobile nav fix loading...');
@@ -32,17 +32,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  // Add click handler
+  // Add click handler - handles BOTH dynamically created AND existing buttons
   hamburger.onclick = function(e) {
     e.preventDefault();
     const navLinks = document.querySelector('.nav-links');
     if (navLinks) {
       navLinks.classList.toggle('mobile-open');
       hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
+      console.log('Mobile menu toggled, mobile-open:', navLinks.classList.contains('mobile-open'));
     }
   };
   
-  console.log('Mobile nav fix applied');
+  console.log('Mobile nav fix applied, hamburger:', hamburger);
 });
 
 // Inject mobile styles
