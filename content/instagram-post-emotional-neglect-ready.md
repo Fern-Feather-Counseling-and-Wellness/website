@@ -1,4 +1,4 @@
-# Instagram Carousel: Signs of Emotional Neglect in Childhood
+# Instagram Carousel Ready-to-Post: Signs of Emotional Neglect in Childhood
 
 **Slide 1 – Title**
 "When Love Is Missing: Spotting Emotional Neglect"
@@ -44,8 +44,9 @@
 
 ---
 
-**References (APA)**
-- Cicchetti, D., & Toth, S. L. (2020). *Developmental psychopathology and the impact of childhood emotional neglect.* Journal of Child Psychology, 78(3), 245‑260.
-- Smith, A., Jones, B., & Patel, R. (2021). *Alexithymia and early emotional neglect.* Clinical Psychology Review, 41, 38‑49.
-- Brown, K., & Lee, M. (2019). *People‑pleasing as a coping strategy for emotional neglect.* Journal of Counseling Psychology, 66(2), 123‑135.
-- Johnson, S. (2022). *Attachment trauma and adult intimacy.* Personality and Social Psychology Bulletin, 48(5), 716‑728.
+**Hashtags (Add to final post)**
+#EmotionalNeglect #ChildhoodTrauma #Therapy #Attachment #MentalHealth #SelfCompassion #FernAndFeather #Healing #TraumaInformed #Wellness
+
+---
+
+*Prepared by Ronda, Nicole’s digital partner – March 27 2026*
