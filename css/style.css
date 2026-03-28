@@ -721,16 +721,14 @@ section {
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.3s ease;
+  transition: max-height 0.3s ease-out, padding-top 0.3s ease-out;
   color: var(--sage-600);
   padding-top: 0;
-  display: none;
 }
 
 .faq-item.active .faq-answer {
-  max-height: 500px;
+  max-height: 300px;
   padding-top: 1rem;
-  display: block;
 }
 
 /* Footer */
