@@ -21,14 +21,12 @@
     .back-link { display: inline-block; margin-bottom: 2rem; color: #6b7f5a; text-decoration: none; }
     .back-link:hover { text-decoration: underline; }
     @media (max-width: 768px) {
-      .crisis-hero { padding: 50px 16px; text-align: left; }
+      .crisis-hero { padding: 50px 16px; }
       .crisis-hero h1 { font-size: 1.75rem; }
       .crisis-hero p { font-size: 1rem; }
       .crisis-section { padding: 30px 16px; }
       .crisis-card { padding: 1.5rem; }
       .crisis-number { font-size: 1.5rem; }
-      .crisis-grid { padding: 0 16px; }
-      .crisis-hero .container { max-width: 100%; padding: 0 16px; margin: 0; }
     }
   </style>
 </head>
@@ -70,22 +68,16 @@
         </li>
         <li><a href="/contact.html" style="background: #b0bda3; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
       </ul>
-      <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
     </div>
   </nav>
-  <style>
-    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
-  </style>
 
   <section class="crisis-hero">
-    <div style="max-width: 800px; margin: 0 auto;">
-      <h1>Crisis Resources</h1>
-      <p><strong>Important:</strong> Fern & Feather Counseling is not equipped to handle life-threatening emergencies. If you or someone you know is in immediate danger, please use the resources below right away.</p>
-    </div>
+    <h1>Crisis Resources</h1>
+    <p><strong>Important:</strong> Fern & Feather Counseling is not equipped to handle life-threatening emergencies. If you or someone you know is in immediate danger, please use the resources below right away.</p>
   </section>
 
-  <section class="crisis-section" style="padding: 60px 20px;">
-    <div class="crisis-grid" style="max-width: 800px; margin: 0 auto;">
+  <section class="crisis-section">
+    <div class="crisis-grid">
       <div class="crisis-card emergency">
         <h3>For Immediate Life-Threatening Emergencies</h3>
         <p class="crisis-number">Call 911</p>
@@ -124,28 +116,8 @@
     </div>
   </section>
 
-  <footer style="background: #2d3a2d; color: white; padding: 3rem 20px; text-align: center;">
-    <div style="max-width: 980px; margin: 0 auto;">
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; text-align: left; margin-bottom: 2rem;">
-        <div>
-          <h4 style="margin: 0 0 10px 0; color: #b0bda3;">Fern & Feather</h4>
-          <p style="margin: 0; opacity: 0.9;">Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
-        </div>
-        <div>
-          <h4 style="margin: 0 0 10px 0; color: #b0bda3;">Quick Links</h4>
-          <ul style="list-style: none; padding: 0; margin: 0; opacity: 0.9;">
-            <li><a href="/about.html" style="color: white; text-decoration: none;">About</a></li>
-            <li><a href="/services.html" style="color: white; text-decoration: none;">Services</a></li>
-            <li><a href="/rates.html" style="color: white; text-decoration: none;">Rates</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4 style="margin: 0 0 10px 0; color: #b0bda3;">Contact</h4>
-          <p style="margin: 0; opacity: 0.9;">fernfeatherwellness.com</p>
-        </div>
-      </div>
-      <p style="margin: 0; opacity: 0.7;">© 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-    </div>
+  <footer style="background: #2d3a2d; color: white; padding: 3rem 2rem; text-align: center; margin-top: 4rem;">
+    <p>© 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
   </footer>
 </body>
 </html>
