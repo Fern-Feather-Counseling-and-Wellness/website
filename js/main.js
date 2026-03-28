@@ -35,11 +35,15 @@ document.addEventListener('DOMContentLoaded', function() {
   // Add click handler - handles BOTH dynamically created AND existing buttons
   hamburger.onclick = function(e) {
     e.preventDefault();
+    e.stopPropagation();
+    alert('Hamburger clicked! hamburger elem: ' + hamburger);
     const navLinks = document.querySelector('.nav-links');
     if (navLinks) {
       navLinks.classList.toggle('mobile-open');
       hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
       console.log('Mobile menu toggled, mobile-open:', navLinks.classList.contains('mobile-open'));
+    } else {
+      alert('No nav-links found!');
     }
   };
   
