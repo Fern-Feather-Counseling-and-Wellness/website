@@ -9,8 +9,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
     .tools-hero { background: linear-gradient(135deg, #dcfce7, #bbf7d0); padding: 80px 20px; text-align: center; }
+    .tools-hero > div { max-width: 800px; margin: 0 auto; text-align: center; }
     .tools-hero h1 { color: #166534; font-size: 2.5rem; margin-bottom: 1rem; }
     .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #14532d; }
+    @media (max-width: 480px) {
+      .tools-hero { padding: 40px 15px; }
+      .tools-hero h1 { font-size: 1.5rem; }
+      .tools-hero p { font-size: 0.9rem; }
+    }
     .tools-section { padding: 60px 20px; background: #f0fdf4; }
     .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
     .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
