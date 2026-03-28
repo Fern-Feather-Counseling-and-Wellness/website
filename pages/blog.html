@@ -46,6 +46,19 @@
   </style>
 </head>
 <body>
+  <!-- EMERGENCY MOBILE FIXES -->
+  <style>
+    @media screen and (max-width:999px) {
+      .nav-links { display:none !important; } 
+      .mobile-menu-btn { display:inline-block !important; } 
+      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
+    }
+    @media screen and (max-width:600px) {
+      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
+      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
+      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
+    }
+  </style>
   <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
   <style>
     @media screen and (max-width:999px) {
@@ -76,10 +89,10 @@
         <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
         <span>Fern & Feather</span>
       </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       <ul class="nav-links">
         <li class="dropdown"><a href="/about.html">About ▾</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
           <ul class="dropdown-menu">
             <li><a href="/about.html">About the practice</a></li>
             <li><a href="/nicole.html">Nicole</a></li>
@@ -90,7 +103,7 @@
         <li><a href="/services.html">Services</a></li>
         <li><a href="/rates.html">Rates</a></li>
         <li class="dropdown"><a href="resources.html">Resources ▾</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
           <ul class="dropdown-menu">
             <li><a href="/resources/crisis.html">Crisis Resources</a></li>
             <li><a href="tools.html">Free Tools</a></li>
@@ -118,7 +131,7 @@
           <h3>High-Functioning Anxiety: The Hidden Struggle</h3>
           <p>You have it all together on the outside. But inside? You're drowning. Here's what high-functioning anxiety looks like and why traditional self-care isn't enough.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
       
@@ -129,7 +142,7 @@
           <h3>Somatic Therapy for Anxiety: Releasing Tension, Finding Calm</h3>
           <p>Why talking isn't enough sometimes — and how working with your body can unlock healing that therapy talk alone can't reach.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
       
@@ -140,7 +153,7 @@
           <h3>How Attachment Wounds Show Up in Adult Relationships</h3>
           <p>That pattern you keep repeating? It's not coincidence. Understanding your attachment style can transform how you connect.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
       
@@ -151,7 +164,7 @@
           <h3>Understanding Your Nervous System: A Beginner's Guide</h3>
           <p>Window of tolerance, ventral vagal, sympathetic arousal — what it all means and how to work with your nervous system instead of against it.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
       
@@ -162,7 +175,7 @@
           <h3>What Is Trauma-Informed Therapy?</h3>
           <p>Trauma isn't just the big T events. Here's how trauma-informed therapy works and why it matters for everyone.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
       
@@ -173,7 +186,7 @@
           <h3>What to Expect in Your First Therapy Session</h3>
           <p>Nervous about your first appointment? Here's exactly what happens — and why there's nothing to fear.</p>
           <a href="#">Read more →</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </div>
       </article>
     </div>
@@ -223,7 +236,7 @@
           <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy Policy</a> | 
           <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms of Service</a> | 
           <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Accessibility</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         </p>
       </div>
     </div>

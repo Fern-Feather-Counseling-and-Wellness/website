@@ -98,6 +98,19 @@
   </style>
 </head>
 <body>
+  <!-- EMERGENCY MOBILE FIXES -->
+  <style>
+    @media screen and (max-width:999px) {
+      .nav-links { display:none !important; } 
+      .mobile-menu-btn { display:inline-block !important; } 
+      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
+    }
+    @media screen and (max-width:600px) {
+      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
+      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
+      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
+    }
+  </style>
   <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
   <style>
     @media screen and (max-width:999px) {
@@ -131,11 +144,11 @@
       <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
     <ul class="nav-links">
       <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
         <ul class="dropdown-menu" role="menu">
           <li><a href="/about.html">About the practice</a></li>
           <li><a href="/nicole.html">Nicole</a></li>
@@ -182,7 +195,7 @@
         </div>
         
         <a href="index.html#contact" class="btn btn-primary">Work With Me</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       </div>
     </div>
   </section>
@@ -493,7 +506,7 @@
           <li style="padding: 0.5rem 0;">✓ Sliding scale available for qualifying clients</li>
         </ul>
         <a href="index.html#contact" class="btn btn-primary">Schedule a Free Consult</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       </div>
     </div>
   </section>
@@ -504,7 +517,7 @@
       <h2>Ready to Find Your Way?</h2>
       <p style="max-width: 600px; margin: 1rem auto 2rem;">Whether you're curious about therapy or ready to dive in, I'm here to help. Free 15-minute consultation — no pressure, just a conversation to see if we're a good fit.</p>
       <a href="index.html#contact" class="btn btn-primary" style="background: white; color: var(--sage-700);">Book Your Free Consultation</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
     </div>
   </section>
 
@@ -517,11 +530,11 @@
           <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Alpharetta, GA and throughout Georgia via telehealth.</p>
           <div class="footer-social">
             <a href="#" class="social-link">📷</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
             <a href="#" class="social-link">📘</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
             <a href="#" class="social-link">🎵</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
           </div>
         </div>
         <div class="footer-column">

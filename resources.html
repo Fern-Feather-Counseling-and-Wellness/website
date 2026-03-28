@@ -27,6 +27,19 @@
   </style>
 </head>
 <body>
+  <!-- EMERGENCY MOBILE FIXES -->
+  <style>
+    @media screen and (max-width:999px) {
+      .nav-links { display:none !important; } 
+      .mobile-menu-btn { display:inline-block !important; } 
+      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
+    }
+    @media screen and (max-width:600px) {
+      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
+      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
+      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
+    }
+  </style>
   <nav class="site-nav" aria-label="Primary navigation">
     <style>
       .site-nav { font-family: var(--font-body), -apple-system, "Segoe UI", Roboto, Helvetica, Arial; background: white; border-bottom: 1px solid #eee; }
@@ -44,10 +57,10 @@
         <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
         <span>Fern & Feather</span>
       </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       <ul class="nav-links">
         <li class="dropdown"><a href="/about.html">About ▾</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
           <ul class="dropdown-menu">
             <li><a href="/about.html">About the practice</a></li>
             <li><a href="/nicole.html">Nicole</a></li>
@@ -58,7 +71,7 @@
         <li><a href="/services.html">Services</a></li>
         <li><a href="/rates.html">Rates</a></li>
         <li class="dropdown"><a href="resources.html">Resources ▾</a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
           <ul class="dropdown-menu">
             <li><a href="crisis.html">Crisis Resources</a></li>
             <li><a href="tools.html">Free Tools</a></li>
@@ -83,7 +96,7 @@
         <p>If you're in crisis right now, here are free, confidential resources available 24/7 — including 911, 988, and specialized hotlines.</p>
         <span class="resource-btn">Get Help Now</span>
       </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       
       <a href="tools.html" class="resource-card" style="text-decoration: none; display: block;">
         <div class="resource-icon">🧰</div>
@@ -91,7 +104,7 @@
         <p>Practical worksheets, grounding techniques, trackers, and guides you can use right now. No email required.</p>
         <span class="resource-btn">Browse Tools</span>
       </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
       
       <a href="blog.html" class="resource-card" style="text-decoration: none; display: block;">
         <div class="resource-icon">📝</div>
@@ -99,7 +112,7 @@
         <p>Deep dives into mental health topics, therapy insights, and wellness tips. Grounded in science, written with heart.</p>
         <span class="resource-btn">Read the Blog</span>
       </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="var n=document.querySelector('.nav-links');if(n)n.classList.toggle('mobile-open')">☰</button>
     </div>
   </section>
 
