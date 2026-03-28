@@ -19,6 +19,14 @@
     .blog-card p { color: #4b5563; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; }
     .blog-card a { color: #6b7f5a; font-weight: 500; text-decoration: none; }
     .blog-card a:hover { text-decoration: underline; }
+    @media (max-width: 768px) {
+      .blog-hero { padding: 50px 16px; }
+      .blog-hero h1 { font-size: 1.75rem; }
+      .blog-hero p { font-size: 1rem; }
+      .blog-section { padding: 30px 16px; }
+      .blog-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+      .blog-card-content { padding: 1rem; }
+    }
   </style>
 </head>
 <body>
@@ -40,7 +48,7 @@
         <span>Fern & Feather</span>
       </a>
       <ul class="nav-links">
-        <li class="dropdown"><a href="/about.html">About ▾</a>
+        <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
           <ul class="dropdown-menu">
             <li><a href="/about.html">About the practice</a></li>
             <li><a href="/nicole.html">Nicole</a></li>
@@ -50,7 +58,7 @@
         </li>
         <li><a href="/services.html">Services</a></li>
         <li><a href="/rates.html">Rates</a></li>
-        <li class="dropdown"><a href="/resources.html">Resources ▾</a>
+        <li class="dropdown"><a href="/resources.html" class="dropdown-toggle">Resources ▾</a>
           <ul class="dropdown-menu">
             <li><a href="/resources/crisis.html">Crisis Resources</a></li>
             <li><a href="/resources/tools.html">Free Tools</a></li>
@@ -59,6 +67,7 @@
         </li>
         <li><a href="/contact.html" style="background: #6b7f5a; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
       </ul>
+      <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
     </div>
   </nav>
 
