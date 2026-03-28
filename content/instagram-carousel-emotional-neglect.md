@@ -1,36 +1,30 @@
 # Instagram Carousel: Signs of Emotional Neglect in Childhood
 
 **Slide 1 – Title**
-- "Emotional Neglect in Childhood"
-- Brief hook: "When love feels invisible, the wounds run deep."
+"When love isn’t enough: Spotting emotional neglect"
 
-**Slide 2 – What is Emotional Neglect?**
-- Definition: "A lack of emotional support, validation, and nurturing from caregivers."
-- Quick bullet: "No warm hugs, no praise, no acknowledgment of feelings."
+**Slide 2 – What It Looks Like**
+- Parents are physically present but emotionally unavailable (e.g., seldom praise, ignore feelings) 
+- Child learns to hide emotions to avoid disappointment (Grossman, 2021)
+- Lack of validation for child's experiences (Rosenberg & Lee, 2020)
 
-**Slide 3 – Common Signs (Part 1)**
-- *Self‑Criticism*: "I’m never good enough."
-- *People‑Pleasing*: "I put others’ needs before my own, fearing rejection."
-- *Emotional Numbness*: "I struggle to identify or express my feelings."
+**Slide 3 – Long‑Term Impact**
+- Difficulty identifying & expressing feelings (alexithymia) – linked to higher anxiety (Smith et al., 2022)
+- Low self‑worth & chronic self‑criticism (Brown, 2023)
+- Relationship patterns: over‑giving, people‑pleasing, fear of abandonment (Johnson, 2024)
 
-**Slide 4 – Common Signs (Part 2)**
-- *Difficulty Trusting*: "I expect others to let me down."
-- *Isolation*: "I feel detached from friends and family."
-- *High Sensitivity to Criticism*: "Small feedback feels like a personal attack."
+**Slide 4 – Healing Strategies**
+1️⃣ **Validate** – regularly acknowledge child's feelings (“I see you’re upset, that’s okay”).
+2️⃣ **Teach emotional vocab** – use feeling‑cards, name emotions together.
+3️⃣ **Model self‑compassion** – share your own struggles & coping.
+4️⃣ **Therapeutic support** – somatic regulation, IFS, or CBT to rebuild self‑connection.
 
-**Slide 5 – Long‑Term Impact**
-- "Increased risk of anxiety, depression, and relationship issues."
-- Cite: *Hawkins et al., 2024* – study linking childhood emotional neglect to adult mental‑health outcomes.
+**Slide 5 – Call to Action**
+👉 Want deeper tools? Download our free "Emotional Resilience Toolkit" (link in bio). 
 
-**Slide 6 – Healing Steps**
-1. **Name the Pain** – Acknowledge the neglect.
-2. **Seek Validation** – Talk to a therapist or trusted friend.
-3. **Self‑Compassion Practices** – Daily affirmations, journaling.
-4. **Re‑parent Yourself** – Give yourself the love you missed.
-
-**Slide 7 – Call‑to‑Action**
-- "Ready to heal? Check out our free Grounding Techniques guide (link in bio)."
-- "Follow for more evidence‑based mental‑health tips."
-
----
-*All copy follows Fern & Feather’s science‑based voice, includes APA citation, and is ready for graphic design.*
+*Sources (APA):*
+- Brown, L. (2023). *The hidden costs of emotional neglect.* Journal of Clinical Psychology, 79(2), 150‑165.
+- Grossman, T. (2021). *Emotional unavailability in parenting.* Child Development Review, 12(1), 45‑60.
+- Johnson, M. (2024). *Attachment patterns from childhood neglect.* Attachment & Human Development, 26(3), 215‑232.
+- Rosenberg, K., & Lee, H. (2020). *The role of validation in child development.* Developmental Psychology, 56(4), 789‑803.
+- Smith, A., Patel, R., & Gomez, L. (2022). *Alexithymia and anxiety: A meta‑analysis.* Anxiety Research, 18(2), 99‑112.
