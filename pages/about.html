@@ -1,1 +1,284 @@
-Fixed index.html nav
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Fern & Feather Counseling and Wellness</title>
+  <meta name="description" content="Meet Nicole and Kiera, licensed therapists and co-founders of Fern & Feather Counseling and Wellness. Science-based, trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .therapist-preview {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin: 3rem 0;
+    }
+    .therapist-card {
+      background: white;
+      border-radius: 20px;
+      padding: 2.5rem;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+      transition: var(--transition-smooth);
+    }
+    .therapist-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+    .therapist-avatar {
+      width: 150px;
+      height: 150px;
+      background: linear-gradient(135deg, var(--sage-200), var(--blush));
+      border-radius: 50%;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+    }
+    .therapist-card h3 {
+      margin-bottom: 0.5rem;
+    }
+    .therapist-card .credentials {
+      color: var(--sage-500);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    .therapist-card .specialties {
+      color: var(--sage-600);
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 768px) {
+      .therapist-preview {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Primary navigation">
+  <style>
+    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
+    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
+    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
+    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
+    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
+    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
+    .site-nav .nav-links .dropdown{position:relative}
+    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
+    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0;white-space:nowrap}
+    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
+    @media(max-width:768px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-menu-btn{display:inline-block}.site-nav .nav-links.mobile-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
+  </style>
+  <div class="container">
+    <a href="/" class="logo" aria-label="Fern & Feather homepage">
+      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
+      <span>Fern & Feather</span>
+    </a>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
+    <ul class="nav-links">
+      <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/about.html">About the practice</a></li>
+          <li><a href="/nicole.html">Nicole</a></li>
+          <li><a href="/kiera.html">Kiera</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/rates.html">Rates</a></li>
+      <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="crisis.html">Crisis Resources</a></li>
+          <li><a href="tools.html">Free Tools</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </li>
+      <li><a href="/contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+
+  <!-- Hero -->
+  <section class="hero" style="min-height: 60vh; padding-top: 80px;">
+  <style>
+    @media(max-width:768px){.hero{min-height:50vh !important;padding-top:60px !important;padding-bottom:2rem !important}.hero-content{text-align:center !important;max-width:100% !important}}
+  </style>
+    <div class="container">
+      <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <h1>About Fern & Feather</h1>
+        <p class="hero-subtitle">We're Nicole and Kiera — friends, colleagues, and the founders of Fern & Feather. We bring different strengths and specialties, united by one mission: helping you heal and thrive.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why We Started (moved to top) -->
+  <section class="services" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why We Started Fern & Feather</h2>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto;">
+        <p style="font-size: 1.2rem; color: var(--sage-700); margin-bottom: 2rem; line-height: 1.8;">
+          We met in graduate school and quickly realized we shared the same vision: mental health care that treats the whole person, not just a checklist of symptoms. We believed clients deserve more than clinical transactions — they deserve real relationships, genuine connection, and yes, even humor along the way. We wanted to create a practice that was inclusive and welcoming to all people, regardless of identity or background.
+        </p>
+        <p style="font-size: 1.2rem; color: var(--sage-700); margin-bottom: 2rem; line-height: 1.8;">
+          <strong>Why "Fern & Feather"?</strong> Ferns represent roots and groundedness — the stability and safety you need to heal. Feathers represent lightness, rising, and lifting toward your highest potential. Together, they capture what we hope therapy helps you achieve: rooted in healing, rising into who you're meant to be.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Therapists -->
+  <section class="services" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <h2>Meet Your Therapists</h2>
+        <p>Different approaches, complementary specialties, one shared commitment to your growth.</p>
+      </div>
+      
+      <div class="therapist-preview">
+        <div class="therapist-card">
+          <div class="therapist-avatar">👩‍🔬</div>
+          <h3>Nicole</h3>
+          <p class="credentials">PhD, LPC | Co-Founder</p>
+          <p class="specialties">Couples Therapy • Gottman Method • Anxiety • Trauma</p>
+          <p style="color: var(--sage-600); margin-bottom: 1.5rem;">The scientist-turned-therapist who helps couples reconnect and individuals heal using evidence-based approaches.</p>
+          <a href="nicole.html" class="btn btn-primary">Learn More About Nicole</a>
+        </div>
+        
+        <div class="therapist-card">
+          <div class="therapist-avatar">👩‍🦱</div>
+          <h3>Kiera</h3>
+          <p class="credentials">LPC | Co-Founder</p>
+          <p class="specialties">Holistic Approach • Adult Women • Anxiety • OCD • Depression • Grief • Life Transitions</p>
+          <p style="color: var(--sage-600); margin-bottom: 1.5rem;">A holistic therapist who blends creative approaches like art therapy with evidence-based modalities to help women navigate life's challenges.</p>
+          <a href="kiera.html" class="btn btn-primary">Learn More About Kiera</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why We Started (old position - now removed) -->
+
+  <!-- Our Values -->
+  <section class="why-us" style="background: var(--sage-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Core Values</h2>
+        <p>These aren't just words on a wall. They're how we actually show up.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">🔬</div>
+          <h3>Evidence-Based</h3>
+          <p>We use interventions that research shows actually work. No trendy techniques without backing.</p>
+        </div>
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">🏳️‍🌈</div>
+          <h3>Radically Inclusive</h3>
+          <p>LGBTQ+ affirming isn't a marketing slogan. It's who we are. We celebrate all identities.</p>
+        </div>
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">🤝</div>
+          <h3>Collaborative</h3>
+          <p>You're the expert on your life. We're the experts on therapy. Together, we create change.</p>
+        </div>
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">🌱</div>
+          <h3>Sustainable</h3>
+          <p>We are intentional and mindful about our caseloads so we can show up fully present for every session.</p>
+        </div>
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">❤️</div>
+          <h3>Compassionate</h3>
+          <p>Warmth, humor, and genuine care aren't optional. They're essential ingredients.</p>
+        </div>
+        <div class="service-card" style="background: white;">
+          <div class="service-icon">🔄</div>
+          <h3>Always Learning</h3>
+          <p>We pursue continuing education to offer you the best, most current care possible.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="lead-magnet">
+    <div class="container" style="text-align: center;">
+      <h2>Ready to Meet Us?</h2>
+      <p style="max-width: 600px; margin: 1rem auto 2rem;">Book a free 15-minute consultation with Nicole or Kiera. No pressure, no commitment. Just a chance to see if we're the right fit.</p>
+      <a href="index.html#contact" class="btn btn-primary" style="background: white; color: var(--sage-700);">Schedule Your Consultation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Fern & Feather Counseling and Wellness</h3>
+          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Alpharetta, GA and throughout Georgia via telehealth.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services.html#individual">Individual Therapy</a></li>
+            <li><a href="/services.html#couples">Couples Therapy</a></li>
+            <li><a href="/services.html#group">Group Therapy</a></li>
+            <li><a href="/services.html#supervision">Clinical Supervision</a></li>
+            <li><a href="/services.html#workshops">Workshops</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Free Toolkit</a></li>
+            <li><a href="crisis.html">Crisis Resources</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 Alpharetta, GA</li>
+            <li>📧 hello@fernfeatherwellness.com</li>
+            <li>📱 (XXX) XXX-XXXX</li>
+            <li><a href="#" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> | 
+          <a href="#">Terms of Service</a> | 
+          <a href="#">Accessibility</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
