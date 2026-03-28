@@ -34,6 +34,14 @@
   
   <!-- Styles -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Force mobile styles - loaded after external CSS -->
+  <style>
+    @media(max-width:768px){
+      .nav-links{display:none !important}
+      .mobile-menu-btn{display:inline-block !important}
+      .nav-links.mobile-open{display:flex !important}
+    }
+  </style>
   
   <!-- Schema.org markup -->
   <script type="application/ld+json">
