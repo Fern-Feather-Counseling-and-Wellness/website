@@ -77,19 +77,6 @@
       .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
     }
   </style>
-  <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-    @media screen and (max-width:600px) {
-      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
-      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
-      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
-    }
-  </style>
   <!-- DEPLOYED: 2025-03-22-V3 -->
   <!-- Navigation -->
   <nav class="site-nav" aria-label="Primary navigation">
@@ -111,7 +98,7 @@
       <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" type="button" style="border:0;background:transparent;font-size:24px;cursor:pointer;position:relative;z-index:1002;" onclick="document.querySelector('.nav-links').classList.toggle('mobile-open');">☰</button>
+    <button id="mobile-toggle" class="mobile-menu-btn" aria-label="Open menu" type="button" style="border:0;background:transparent;font-size:28px;cursor:pointer;padding:8px;position:relative;z-index:9999;">☰</button>
     <ul class="nav-links">
       <li class="dropdown"><a href="/about.html" class="dropdown-toggle">About ▾</a>
         <ul class="dropdown-menu" role="menu">
@@ -471,6 +458,16 @@
 
   <!-- JavaScript -->
   <script src="js/main.js?v=1774727534"></script>
+<script>
+  document.getElementById('mobile-toggle').addEventListener('click', function() {
+    var nav = document.querySelector('.nav-links');
+    if (nav.classList.contains('mobile-open')) {
+      nav.classList.remove('mobile-open');
+    } else {
+      nav.classList.add('mobile-open');
+    }
+  });
+</script>
 </body>
 </html>
 <!-- force rebuild Sat Mar 28 19:21:44 UTC 2026 -->
