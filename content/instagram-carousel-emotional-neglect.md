@@ -1,42 +1,31 @@
----
-title: Instagram Carousel – Signs of Emotional Neglect in Childhood
-author: Ronda
-date: 2026-03-28
----
+# Instagram Carousel: Signs of Emotional Neglect in Childhood
 
-**Slide 1 – Title**
-"Emotional Neglect in Childhood: Hidden Hurts, Visible Impacts"
+## Slide 1 – What is Emotional Neglect?
+"Emotional neglect is when a child's emotional needs aren't recognized or responded to. It’s the silent absence of empathy, warmth, and validation."
 
-**Slide 2 – What is Emotional Neglect?**
-- When a child’s emotional needs are consistently ignored or minimized.
-- Unlike abuse, it’s often invisible and hard to pinpoint.
-- *(Phelps, 2020)*
+## Slide 2 – Common Signs in Childhood
+- Frequently feels “invisible” or “unimportant”
+- Struggles to express emotions
+- Acts overly independent, avoids asking for help
+- Develops perfectionistic tendencies to earn love
+- Experiences chronic self‑criticism
 
-**Slide 3 – Common Signs**
-1️⃣ Feeling empty or detached – “I don’t know how to feel.”
-2️⃣ Struggling with self‑esteem – “I’m not worthy of love.”
-3️⃣ Difficulty asking for help – “I don’t want to be a burden.”
-4️⃣ Over‑reliance on logic – using facts to avoid feeling.
-5️⃣ Hyper‑independence – “I must do everything alone.”
+## Slide 3 – How It Shows Up in Adult Life
+- Difficulty forming close relationships
+- Fear of vulnerability and rejection
+- Over‑reliance on self‑validation (e.g., achievement‑focused)
+- Tendency to dismiss own feelings as “not a big deal”
+- Low self‑esteem despite external successes
 
-**Slide 4 – How It Shows Up in Adults**
-- Chronic loneliness despite social connections.
-- Trouble identifying and expressing emotions (alexithymia).
-- People‑pleasing or over‑compensating in relationships.
-- Higher susceptibility to anxiety, depression, and trauma triggers.
-*(Green & Sroufe, 2021)*
+## Slide 4 – Healing Steps
+1. **Acknowledge** the neglect without blame.
+2. **Name** the feelings you missed as a child.
+3. **Practice self‑compassion** – be the caring adult you needed.
+4. **Seek connection** – safe relationships can re‑wire emotional pathways.
+5. **Therapeutic support** – IFS, somatic therapy, or trauma‑informed counseling.
 
-**Slide 5 – Healing Pathways**
-🧠 **Somatic Awareness** – Grounding, body scans to reconnect with feeling.
-💬 **Therapeutic Dialogue** – Safe space to name unmet needs.
-🧩 **Attachment‑Based Work** – Re‑learning trust and co‑regulation.
-📚 **Psycho‑education** – Learning the impact normalizes experience.
-✨ **Self‑Compassion Practices** – Gentle inner dialogue (Kristeller, 2023).
-
-**Slide 6 – Call to Action**
-💡 *“If you recognize these patterns, you’re not alone. Let’s explore how to nurture the parts that were unheard.”*
-🔗 *Link in bio to schedule a free 15‑min consultation.*
+## Slide 5 – Call to Action
+💬 *Thinking you may have experienced emotional neglect?* DM or book a free consult with Fern & Feather. Let’s rebuild your emotional safety together.
 
 ---
-**Suggested Caption**
-"🚦 Emotional Neglect in Childhood: Hidden Hurts, Visible Impacts 🚦\n\nWhen a child’s emotional needs are consistently ignored, the effects can echo into adulthood. From feeling empty to chronic anxiety, the signs are real – and so are the pathways to healing.\n\nSlide through to see common signs, how they show up later, and concrete somatic and therapeutic tools you can start using today.\n\nIf any of this resonated, you’re not alone. Book a FREE 15‑minute consultation (link in bio) and let’s nurture the parts that were unheard. 🌿\n\n#EmotionalNeglect #ChildhoodTrauma #SomaticTherapy #AttachmentHealing #MentalHealthAwareness #TherapistTips #FernAndFeather #TraumaInformed #SelfCompassion"
+**Hashtags:** #EmotionalNeglect #Trauma #Therapy #FernAndFeather #MentalHealth #SelfCompassion #Healing #Psychology #LGBTQAffirming
