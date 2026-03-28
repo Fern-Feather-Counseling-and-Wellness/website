@@ -118,6 +118,10 @@ a:hover {
 }
 
 /* Desktop nav */
+.site-nav, .site-nav .container {
+  position: relative;
+}
+
 .nav-links {
   display: flex;
   gap: 2.5rem;
@@ -819,16 +823,16 @@ section {
 @media (max-width: 768px) {
   /* Hide desktop nav links and show hamburger */
   .nav-links {
-    display: none;
+    display: none !important;
   }
 
   .mobile-menu-btn {
-    display: block;
+    display: block !important;
   }
 
   /* When mobile menu is open */
   .nav-links.mobile-open {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     position: absolute;
     top: 100%;
