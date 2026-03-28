@@ -1,299 +1,57 @@
 /**
- * Fern & Feather Wellness Center
- * Main JavaScript functionality
+ * Fern & Feather - Mobile Nav Fix
+ * Dynamically adds hamburger button if missing
  */
-
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Mobile nav fix loading...');
   
-  // Ensure dropdown markup exists (fixes cases where deployed HTML lacks the .dropdown structure)
-  (function ensureDropdown() {
-    try {
-      const nav = document.querySelector('.nav-links');
-      if (!nav) return;
-      const aboutAnchor = Array.from(nav.querySelectorAll('a')).find(a => /\babout\b/i.test(a.textContent));
-      if (!aboutAnchor) return;
-      const parent = aboutAnchor.parentElement;
-      if (parent && parent.classList.contains('dropdown')) return; // already dropdown
-
-      const li = document.createElement('li');
-      li.className = 'dropdown';
-      li.innerHTML = `
-        <a href="#" class="dropdown-toggle">${aboutAnchor.textContent.trim()}</a>
-        <ul class="dropdown-menu">
-          <li><a href="about.html">About Our Practice</a></li>
-          <li><a href="nicole.html">Nicole</a></li>
-          <li><a href="kiera.html">Kiera</a></li>
-          <li><a href="faqs.html">FAQs</a></li>
-        </ul>`;
-
-      nav.replaceChild(li, parent);
-    } catch (e) {
-      console.warn('ensureDropdown failed', e);
-    }
-  })();
-
-  // --- Navigation Dropdown Functionality ---
-  const dropdowns = document.querySelectorAll('.dropdown');
-  
-  dropdowns.forEach(dropdown => {
-    const toggle = dropdown.querySelector('.dropdown-toggle');
-    const menu = dropdown.querySelector('.dropdown-menu');
-    
-    // Ensure toggle has ARIA attributes
-    if (toggle) {
-      toggle.setAttribute('aria-expanded', 'false');
-      toggle.setAttribute('aria-haspopup', 'true');
-    }
-
-    toggle.addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent default link behavior
-      e.stopPropagation(); // Prevent event from bubbling up to the document
-      // Toggle active class
-      const isActive = dropdown.classList.toggle('active');
-
-      // Update ARIA state
-      try {
-        toggle.setAttribute('aria-expanded', isActive ? 'true' : 'false');
-      } catch (err) { /* ignore */ }
-
-      // Defensive fallback: remove any inline display so CSS controls layout
-      try {
-        const menu = dropdown.querySelector('.dropdown-menu');
-        if (menu && menu.style) menu.style.removeProperty('display');
-      } catch (err) {
-        console.warn('Dropdown fallback failed', err);
-      }
-    });
-    
-    // Close dropdown when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!dropdown.contains(e.target)) {
-        dropdown.classList.remove('active');
-        try {
-          const menu = dropdown.querySelector('.dropdown-menu');
-          if (menu && menu.style) menu.style.removeProperty('display');
-        } catch (err) { /* ignore */ }
-      }
-    });
-  });
-  // --- End Navigation Dropdown Functionality ---
-
-  // FAQ Accordion
-  const faqItems = document.querySelectorAll('.faq-item');
-  
-  faqItems.forEach(item => {
-    const question = item.querySelector('.faq-question');
-    
-    question.addEventListener('click', () => {
-      // Close all other items
-      faqItems.forEach(otherItem => {
-        if (otherItem !== item && otherItem.classList.contains('active')) {
-          otherItem.classList.remove('active');
-        }
-      });
-      
-      // Toggle current item
-      item.classList.toggle('active');
-    });
-  });
-  
-  // Smooth scroll for navigation links
-  const navLinks = document.querySelectorAll('a[href^="#"]');
-  
-  navLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      
-      const targetId = this.getAttribute('href');
-      if (targetId === '#') return;
-      
-      const targetSection = document.querySelector(targetId);
-      if (targetSection) {
-        const navHeight = document.querySelector('.navbar').offsetHeight;
-        const targetPosition = targetSection.offsetTop - navHeight - 20;
-        
-        window.scrollTo({
-          top: targetPosition,
-          behavior: 'smooth'
-        });
-      }
-    });
-  });
-  
-  // Lead form handling
-  const leadForm = document.getElementById('leadForm');
-  
-  if (leadForm) {
-    leadForm.addEventListener('submit', function(e) {
-      e.preventDefault();
-      
-      const formData = new FormData(leadForm);
-      const name = formData.get('name');
-      const email = formData.get('email');
-      
-      // Store in localStorage for now (replace with actual backend integration)
-      const leads = JSON.parse(localStorage.getItem('ff_leads') || '[]');
-      leads.push({
-        name: name,
-        email: email,
-        date: new Date().toISOString(),
-        source: 'homepage_lead_magnet'
-      });
-      localStorage.setItem('ff_leads', JSON.stringify(leads));
-      
-      // Show success message
-      leadForm.innerHTML = `
-        <div style="text-align: center; padding: 2rem;">
-          <div style="font-size: 4rem; margin-bottom: 1rem;">🎉</div>
-          <h3 style="color: var(--sage-700); margin-bottom: 1rem;">You're In!</h3>
-          <p style="color: var(--sage-600);">Check your email for your free Anxiety Toolkit. Welcome to the Fern & Feather community!</p>
-        </div>
-      `;
-      
-      // Track conversion (placeholder for analytics)
-      console.log('Lead captured:', { name, email });
-    });
+  // Find the nav element
+  const nav = document.querySelector('.site-nav, nav');
+  if (!nav) {
+    console.log('No nav found');
+    return;
   }
   
-  // Navbar scroll effect
-  const navbar = document.querySelector('.navbar');
-  let lastScroll = 0;
+  // Check if hamburger already exists
+  let hamburger = nav.querySelector('.mobile-menu-btn');
   
-  window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
+  // If no hamburger, create one
+  if (!hamburger) {
+    hamburger = document.createElement('button');
+    hamburger.className = 'mobile-menu-btn';
+    hamburger.setAttribute('aria-label', 'Open menu');
+    hamburger.innerHTML = '☰';
+    hamburger.style.cssText = 'border:0;background:transparent;font-size:24px;cursor:pointer;margin-left:auto;';
     
-    // Add shadow on scroll
-    if (currentScroll > 50) {
-      navbar.style.boxShadow = '0 4px 20px rgba(107, 127, 90, 0.15)';
+    // Insert before nav-links
+    const navLinks = nav.querySelector('.nav-links');
+    if (navLinks) {
+      nav.insertBefore(hamburger, navLinks);
     } else {
-      navbar.style.boxShadow = '0 4px 20px rgba(107, 127, 90, 0.08)';
+      nav.appendChild(hamburger);
     }
-    
-    lastScroll = currentScroll;
-  });
+  }
   
-  // Animate elements on scroll
-  const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
+  // Add click handler
+  hamburger.onclick = function(e) {
+    e.preventDefault();
+    const navLinks = document.querySelector('.nav-links');
+    if (navLinks) {
+      navLinks.classList.toggle('mobile-open');
+      hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
+    }
   };
   
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('animate-in');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, observerOptions);
-  
-  // Observe service cards
-  document.querySelectorAll('.service-card, .feature-item, .testimonial-card').forEach(el => {
-    el.style.opacity = '0';
-    el.style.transform = 'translateY(30px)';
-    observer.observe(el);
-  });
-  
-  // Mobile menu toggle - Single reliable handler
-  const mobileBtn = document.querySelector('.mobile-menu-btn');
-  const navWrap = document.querySelector('.nav-links');
-  
-  if (mobileBtn && navWrap) {
-    mobileBtn.addEventListener('click', function(e) {
-      e.preventDefault();
-      navWrap.classList.toggle('mobile-open');
-      mobileBtn.setAttribute('aria-expanded', navWrap.classList.contains('mobile-open') ? 'true' : 'false');
-    });
-
-    // Close mobile menu when a link is clicked
-    navWrap.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navWrap.classList.remove('mobile-open');
-        mobileBtn.setAttribute('aria-expanded', 'false');
-      });
-    });
-
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!navWrap.classList.contains('mobile-open')) return;
-      const withinNav = e.target.closest('.nav-links') || e.target.closest('.mobile-menu-btn');
-      if (!withinNav) {
-        navWrap.classList.remove('mobile-open');
-        mobileBtn.setAttribute('aria-expanded', 'false');
-      }
-    });
-
-    // Reset on resize to desktop
-    window.addEventListener('resize', debounce(() => {
-      if (window.innerWidth > 768 && navWrap.classList.contains('mobile-open')) {
-        navWrap.classList.remove('mobile-open');
-        mobileBtn.setAttribute('aria-expanded', 'false');
-      }
-    }, 150));
-  }
-  
-  // Lazy load images (placeholder for when images are added)
-  if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          img.src = img.dataset.src;
-          img.classList.remove('lazy');
-          imageObserver.unobserve(img);
-        }
-      });
-    });
-    
-    document.querySelectorAll('img.lazy').forEach(img => {
-      imageObserver.observe(img);
-    });
-  }
-  
+  console.log('Mobile nav fix applied');
 });
 
-// Utility functions
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
-
-function throttle(func, limit) {
-  let inThrottle;
-  return function(...args) {
-    if (!inThrottle) {
-      func.apply(this, args);
-      inThrottle = true;
-      setTimeout(() => inThrottle = false, limit);
-    }
-  };
-}
-
-// Analytics placeholder (replace with actual analytics)
-function trackEvent(eventName, properties = {}) {
-  console.log('Event tracked:', eventName, properties);
-  // Example: gtag('event', eventName, properties);
-}
-
-// Booking widget integration placeholder
-function openBookingModal() {
-  // Integration with SimplePractice, TherapyNotes, etc.
-  console.log('Booking modal opened');
-  alert('Booking system integration coming soon! For now, please email us at hello@fernfeatherwellness.com');
-}
-
-// Export for global access
-window.FernFeather = {
-  trackEvent,
-  openBookingModal,
-  debounce,
-  throttle
-};
+// Inject mobile styles
+const style = document.createElement('style');
+style.textContent = `
+  @media(max-width:999px) {
+    .nav-links { display:none !important; }
+    .mobile-menu-btn { display:inline-block !important; }
+    .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
+  }
+`;
+document.head.appendChild(style);
