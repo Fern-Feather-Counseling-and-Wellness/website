@@ -60,3 +60,18 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
+/**
+ * FAQ Accordion Toggle
+ * Click on question to expand/collapse answer
+ */
+document.addEventListener('DOMContentLoaded', function() {
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  
+  faqQuestions.forEach(function(question) {
+    question.addEventListener('click', function() {
+      const faqItem = this.parentElement;
+      faqItem.classList.toggle('active');
+    });
+  });
+});
