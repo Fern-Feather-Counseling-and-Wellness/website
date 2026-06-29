@@ -2,319 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Services | Fern & Feather Counseling and Wellness</title>
   <meta name="description" content="Individual therapy, couples counseling, group therapy, and professional consultation in Alpharetta, GA.">
-  <link rel="stylesheet" href="css/style.css?v=1774725872">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- MOBILE FIXES -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-  </style>
-  <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-    @media screen and (max-width:600px) {
-      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
-      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
-      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
-    }
-  </style>
-  <nav class="site-nav" aria-label="Primary navigation">
-  <style>
-    .site-nav { font-family: var(--font-body); }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
-    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
-    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
-    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
-    .site-nav .nav-links .dropdown{position:relative}
-    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0}
-    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:768px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-menu-btn{display:inline-block}.site-nav .nav-links.mobile-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
-  </style>
-  <div class="container">
-    <a href="/" class="logo" aria-label="Fern & Feather homepage">
-      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
-      <span>Fern & Feather</span>
-    </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="this.nextElementSibling.classList.toggle('mobile-open')">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
-    <ul class="nav-links">
-      <li class="dropdown"><a href="/about.html">About ▾</a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="/about.html">About the Practice</a></li>
-          <li><a href="/nicole.html">Nicole</a></li>
-          <li><a href="/kiera.html">Kiera</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-        </ul>
-      </li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/rates.html">Rates</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="/contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
-    </ul>
-  </div>
-</nav>
-
-  <section class="page-hero" style="background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center;">
+  <nav class="navbar">
     <div class="container">
-      <h1 style="color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem;">Our Services</h1>
-      <p style="color: var(--sage-600); font-size: 1.2rem;">Evidence-based therapy tailored to your unique needs and goals.</p>
+      <a href="index.html" class="logo"><img src="images/logo.jpg" alt="Fern & Feather" class="logo-img"> Fern & Feather</a>
+      <ul class="nav-links">
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="nicole.html">Nicole</a></li>
+        <li><a href="kiera.html">Kiera</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Services</h1>
+      <p>Evidence-based therapy tailored to your unique needs.</p>
     </div>
   </section>
 
-  <!-- Individual Therapy -->
-  <section class="services-detail" id="individual" style="padding: 5rem 2rem; background: white;">
+  <section class="services-detail" id="individual">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div>
-          <div style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
-          <h2 style="color: var(--sage-700); margin-bottom: 1rem; font-family: var(--font-heading);">Individual Therapy</h2>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">One-on-one support designed around you. Whether you're navigating anxiety, processing trauma, exploring identity, or seeking personal growth, we create a tailored approach that honors your pace and goals.</p>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">We draw from multiple evidence-based modalities — including Internal Family Systems (IFS), somatic therapy, EMDR, CBT, and attachment-based approaches — to build a practice that fits your unique needs.</p>
-          
-          <div style="margin-top: 2rem;">
-            <h4 style="color: var(--sage-700); margin-bottom: 0.75rem;">What to Expect</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Session length:</strong> 45 minutes</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Frequency:</strong> Weekly, biweekly, or monthly — your call</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Common topics:</strong> anxiety, depression, trauma, relationship challenges, life transitions, nervous system regulation, self-worth</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Payment:</strong> Private pay; superbills available for out-of-network reimbursement</span>
-              </li>
-            </ul>
-          </div>
-          
-          <a href="contact.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Book a Free Consultation</a>
-        </div>
-        <div style="background: var(--sage-50); border-radius: 20px; padding: 3rem; text-align: center;">
-          <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Why Individual Therapy?</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">Sometimes you need a space that's just about you — where your story, your goals, and your healing are the center of everything. We create that space.</p>
-          <div style="margin-top: 2rem; text-align: left;">
-            <p style="margin-bottom: 1rem;"><strong>▸ Tailored to You</strong><br><span style="color: #666; font-size: 0.95rem;">No cookie-cutter approaches. Your therapy is built around your unique story, nervous system, and goals.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Deep Healing</strong><br><span style="color: #666; font-size: 0.95rem;">We don't just talk — we work with your body, your parts, and your whole self for lasting change.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Your Pace</strong><br><span style="color: #666; font-size: 0.95rem;">You decide the rhythm. Some folks want intensive weekly work; others check in monthly. Both are valid.</span></p>
-          </div>
-        </div>
-      </div>
+      <h2>Individual Therapy</h2>
+      <p>One-on-one support for anxiety, trauma, depression, life transitions, and personal growth. We use IFS, somatic therapy, EMDR, and evidence-based approaches tailored to you.</p>
+      <a href="index.html#contact" class="btn btn-primary">Schedule Consultation</a>
     </div>
   </section>
 
-  <!-- Couples Therapy -->
-  <section class="services-detail alt" id="couples" style="padding: 5rem 2rem; background: var(--sage-50);">
+  <section class="services-detail alt" id="couples">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center; order: 2;">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">💑</div>
-          <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Building Stronger Connections</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">Your relationship deserves space to heal, grow, and thrive. We help partners communicate better, repair attachment ruptures, and find practical tools to reconnect.</p>
-          <div style="margin-top: 2rem; text-align: left;">
-            <p style="margin-bottom: 1rem;"><strong>▸ Attachment-Focused</strong><br><span style="color: #666; font-size: 0.95rem;">We help you understand your relationship patterns and create secure connection.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Somatic Tools</strong><br><span style="color: #666; font-size: 0.95rem;">We bring your bodies into the room — using co-regulation exercises to shift your nervous systems together.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Practical Skills</strong><br><span style="color: #666; font-size: 0.95rem;">You'll leave each session with concrete communication tools you can use at home.</span></p>
-          </div>
-        </div>
-        <div>
-          <h2 style="color: var(--sage-700); margin-bottom: 1rem; font-family: var(--font-heading);">Couples Therapy</h2>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">Relationships are hard work — and they deserve professional support. Whether you're in crisis, navigating a life transition, or wanting to deepen your connection, we're here to help.</p>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">We work with all relationship structures — married, partnered, polyamorous, LGBTQ+. Our approach is affirming, evidence-based, and centered on your unique dynamics.</p>
-          
-          <div style="margin-top: 2rem;">
-            <h4 style="color: var(--sage-700); margin-bottom: 0.75rem;">Session Details</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Session length:</strong> 50–80 minutes</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Typical focus:</strong> conflict resolution, attachment repair, trust rebuilding, communication skills</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Format:</strong> In-person in Alpharetta or telehealth throughout Georgia</span>
-              </li>
-            </ul>
-          </div>
-          
-          <a href="contact.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Book a Free Consultation</a>
-        </div>
-      </div>
+      <h2>Couples Therapy</h2>
+      <p>Strengthen your relationship through better communication and deeper connection. LGBTQ+ affirming and inclusive of all relationship structures.</p>
+      <a href="index.html#contact" class="btn btn-primary">Schedule Consultation</a>
     </div>
   </section>
 
-  <!-- Group Therapy -->
-  <section class="services-detail" id="group" style="padding: 5rem 2rem; background: white;">
+  <section class="services-detail" id="group">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div>
-          <div style="font-size: 3rem; margin-bottom: 1rem;">👥</div>
-          <h2 style="color: var(--sage-700); margin-bottom: 1rem; font-family: var(--font-heading);">Group Therapy</h2>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">Healing happens in community. Our groups combine psychoeducation, somatic practices, and peer support in a safe, facilitated environment.</p>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">Groups are perfect if you're craving connection with others who get it — whether you're working through trauma, learning nervous system regulation, or building relationship skills.</p>
-          
-          <div style="margin-top: 2rem;">
-            <h4 style="color: var(--sage-700); margin-bottom: 0.75rem;">Current Group Offerings</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--sage-200);">
-                <strong style="color: var(--sage-700);">Somatic Self-Compassion (Ongoing)</strong><br>
-                <span style="color: #666; font-size: 0.95rem;">Weekly practice group combining IFS, somatic experiencing, and mindfulness</span>
-              </li>
-              <li style="padding: 0.75rem 0; border-bottom: 1px solid var(--sage-200);">
-                <strong style="color: var(--sage-700);">Attachment Repair (12-Week Closed Cohort)</strong><br>
-                <span style="color: #666; font-size: 0.95rem;">Deep-dive into attachment wounds with same-group peers</span>
-              </li>
-              <li style="padding: 0.75rem 0;">
-                <strong style="color: var(--sage-700);">Trauma-Informed Yoga (Quarterly)</strong><br>
-                <span style="color: #666; font-size: 0.95rem;">Movement-based healing for trauma survivors</span>
-              </li>
-            </ul>
-          </div>
-          
-          <a href="contact.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Inquire About Groups</a>
-        </div>
-        <div style="background: linear-gradient(135deg, var(--sage-100), var(--cream)); border-radius: 20px; padding: 3rem; text-align: center;">
-          <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Why Group Therapy?</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">You're not alone. Group therapy offers the power of peer connection with professional facilitation.</p>
-          <div style="margin-top: 2rem; text-align: left;">
-            <p style="margin-bottom: 1rem;"><strong>▸ Shared Understanding</strong><br><span style="color: #666; font-size: 0.95rem;">There's something powerful about being in a room with others who just get it.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Cost-Effective</strong><br><span style="color: #666; font-size: 0.95rem;">Groups cost less per session than individual therapy while offering unique support.</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Skill Building</strong><br><span style="color: #666; font-size: 0.95rem;">You'll learn tools you can practice at home and in daily life.</span></p>
-          </div>
-        </div>
-      </div>
+      <h2>Group Therapy</h2>
+      <p>Connect with others who understand. Trauma-informed groups providing community and shared healing.</p>
+      <a href="index.html#contact" class="btn btn-primary">Inquire About Groups</a>
     </div>
   </section>
 
-  <!-- Professional Consultation -->
-  <section class="services-detail alt" id="consultation" style="padding: 5rem 2rem; background: var(--sage-50);">
+  <section class="services-detail alt" id="consultation">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center; order: 2;">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
-          <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Professional Growth & Support</h3>
-          <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">Whether you're an associate working toward licensure or a seasoned clinician wanting peer consultation, we offer a supportive space to grow.</p>
-          <div style="margin-top: 2rem; text-align: left;">
-            <p style="margin-bottom: 1rem;"><strong>▸ Clinical Case Consultation</strong><br><span style="color: #666; font-size: 0.95rem;">Bring your toughest cases for collaborative problem-solving</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Professional Development</strong><br><span style="color: #666; font-size: 0.95rem;">Skill-building in modalities like IFS, EMDR, somatic therapy</span></p>
-            <p style="margin-bottom: 1rem;"><strong>▸ Practice Building</strong><br><span style="color: #666; font-size: 0.95rem;">Business guidance for building a sustainable private practice</span></p>
-          </div>
-        </div>
-        <div>
-          <h2 style="color: var(--sage-700); margin-bottom: 1rem; font-family: var(--font-heading);">Professional Consultation</h2>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">We offer support and guidance for fellow therapists and wellness professionals. Whether you're navigating complex cases, building your practice, or seeking clinical supervision hours, we're here to collaborate.</p>
-          <p style="font-size: 1.1rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">All clinicians welcome — no matter your modality or background. We prioritize a collaborative, non-judgmental space where everyone can grow.</p>
-          
-          <div style="margin-top: 2rem;">
-            <h4 style="color: var(--sage-700); margin-bottom: 0.75rem;">Consultation Details</h4>
-            <ul style="list-style: none; padding: 0;">
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Session length:</strong> 60 minutes</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Format:</strong> In-person (Alpharetta) or telehealth</span>
-              </li>
-              <li style="padding: 0.5rem 0; display: flex; align-items: flex-start; gap: 0.75rem;">
-                <span style="color: var(--sage-500);">▸</span>
-                <span><strong>Who it's for:</strong> LPCs, LAMFTs, APCs, social workers, counselors</span>
-              </li>
-            </ul>
-          </div>
-          
-          <a href="contact.html" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">Schedule Consultation</a>
-        </div>
-      </div>
+      <h2>Professional Consultation</h2>
+      <p>Support and guidance for fellow therapists and wellness professionals. Case consultation, professional development, and practice building.</p>
+      <a href="index.html#contact" class="btn btn-primary">Schedule Consultation</a>
     </div>
   </section>
 
-  <section style="padding: 4rem 2rem; background: linear-gradient(135deg, var(--sage-600), var(--sage-700)); color: white; text-align: center;">
+  <footer class="footer">
     <div class="container">
-      <h2 style="font-family: var(--font-heading); margin-bottom: 1rem;">Not Sure Which Service Is Right for You?</h2>
-      <p style="max-width: 600px; margin: 0 auto 2rem; font-size: 1.1rem; opacity: 0.9;">That's okay. Book a free 15-minute consultation and we'll help you figure out the best fit.</p>
-      <a href="contact.html" class="btn btn-primary" style="background: white; color: var(--sage-700); padding: 1rem 2rem; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block;">Schedule Free Consult</a>
-    </div>
-  </section>
-
-  <footer class="footer" id="contact">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>Fern & Feather Counseling and Wellness</h3>
-          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Alpharetta, GA and throughout Georgia via telehealth.</p>
-          <div class="footer-social">
-            <a href="#" class="social-link" aria-label="Instagram">📷</a>
-            <a href="#" class="social-link" aria-label="Facebook">📘</a>
-            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
-            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
-          </div>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="services.html#individual">Individual Therapy</a></li>
-            <li><a href="services.html#couples">Couples Therapy</a></li>
-            <li><a href="services.html#group">Group Therapy</a></li>
-            <li><a href="services.html#consultation">Consultation</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="tools.html">Free Toolkit</a></li>
-            <li><a href="crisis.html">Crisis Resources</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Contact</h4>
-          <ul>
-            <li>📍 Alpharetta, GA</li>
-            <li>📧 hello@fernfeatherwellness.com</li>
-            <li>📱 (XXX) XXX-XXXX</li>
-            <li><a href="contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:0.5rem;">Book Consultation</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-        <p>
-          <a href="#">Privacy Policy</a> | 
-          <a href="#">Terms of Service</a> | 
-          <a href="#">Accessibility</a>
-        </p>
-      </div>
+      <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
     </div>
   </footer>
-
-  <script src="js/main.js?v=1774727534"></script>
 </body>
 </html>

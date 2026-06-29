@@ -1,77 +1,218 @@
 /**
- * Fern & Feather - Mobile Nav Fix
- * Dynamically adds hamburger button if missing, handles toggle
+ * Fern & Feather Wellness Center
+ * Main JavaScript functionality
  */
+
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Mobile nav fix loading...');
   
-  // Find the nav element
-  const nav = document.querySelector('.site-nav, nav');
-  if (!nav) {
-    console.log('No nav found');
-    return;
-  }
+  // --- Navigation Dropdown Functionality ---
+  const dropdowns = document.querySelectorAll('.dropdown');
   
-  // Check if hamburger already exists
-  let hamburger = nav.querySelector('.mobile-menu-btn');
-  
-  // If no hamburger, create one
-  if (!hamburger) {
-    hamburger = document.createElement('button');
-    hamburger.className = 'mobile-menu-btn';
-    hamburger.setAttribute('aria-label', 'Open menu');
-    hamburger.innerHTML = '☰';
-    hamburger.style.cssText = 'border:0;background:transparent;font-size:24px;cursor:pointer;margin-left:auto;';
+  dropdowns.forEach(dropdown => {
+    const toggle = dropdown.querySelector('.dropdown-toggle');
+    const menu = dropdown.querySelector('.dropdown-menu');
     
-    // Insert before nav-links
-    const navLinks = nav.querySelector('.nav-links');
-    if (navLinks) {
-      nav.insertBefore(hamburger, navLinks);
-    } else {
-      nav.appendChild(hamburger);
-    }
-  }
-  
-  // Add click handler - handles BOTH dynamically created AND existing buttons
-  hamburger.onclick = function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    console.log('Hamburger clicked');
-    const navLinks = document.querySelector('.nav-links');
-    if (navLinks) {
-      navLinks.classList.toggle('mobile-open');
-      hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
-      console.log('Mobile menu toggled, mobile-open:', navLinks.classList.contains('mobile-open'));
-    } else {
-      console.log('No nav-links found');
-    }
-  };
-  
-  console.log('Mobile nav fix applied, hamburger:', hamburger);
-});
-
-// Inject mobile styles
-const style = document.createElement('style');
-style.textContent = `
-  @media(max-width:999px) {
-    .nav-links { display:none !important; }
-    .mobile-menu-btn { display:inline-block !important; }
-    .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-  }
-`;
-document.head.appendChild(style);
-
-/**
- * FAQ Accordion Toggle
- * Click on question to expand/collapse answer
- */
-document.addEventListener('DOMContentLoaded', function() {
-  const faqQuestions = document.querySelectorAll('.faq-question');
-  
-  faqQuestions.forEach(function(question) {
-    question.addEventListener('click', function() {
-      const faqItem = this.parentElement;
-      faqItem.classList.toggle('active');
+    toggle.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent default link behavior
+      e.stopPropagation(); // Prevent event from bubbling up to the document
+      dropdown.classList.toggle('active');
+    });
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!dropdown.contains(e.target)) {
+        dropdown.classList.remove('active');
+      }
     });
   });
+  // --- End Navigation Dropdown Functionality ---
+
+  // FAQ Accordion
+  const faqItems = document.querySelectorAll('.faq-item');
+  
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    
+    question.addEventListener('click', () => {
+      // Close all other items
+      faqItems.forEach(otherItem => {
+        if (otherItem !== item && otherItem.classList.contains('active')) {
+          otherItem.classList.remove('active');
+        }
+      });
+      
+      // Toggle current item
+      item.classList.toggle('active');
+    });
+  });
+  
+  // Smooth scroll for navigation links
+  const navLinks = document.querySelectorAll('a[href^="#"]');
+  
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const targetSection = document.querySelector(targetId);
+      if (targetSection) {
+        const navHeight = document.querySelector('.navbar').offsetHeight;
+        const targetPosition = targetSection.offsetTop - navHeight - 20;
+        
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
+      }
+    });
+  });
+  
+  // Lead form handling
+  const leadForm = document.getElementById('leadForm');
+  
+  if (leadForm) {
+    leadForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const formData = new FormData(leadForm);
+      const name = formData.get('name');
+      const email = formData.get('email');
+      
+      // Store in localStorage for now (replace with actual backend integration)
+      const leads = JSON.parse(localStorage.getItem('ff_leads') || '[]');
+      leads.push({
+        name: name,
+        email: email,
+        date: new Date().toISOString(),
+        source: 'homepage_lead_magnet'
+      });
+      localStorage.setItem('ff_leads', JSON.stringify(leads));
+      
+      // Show success message
+      leadForm.innerHTML = `
+        <div style="text-align: center; padding: 2rem;">
+          <div style="font-size: 4rem; margin-bottom: 1rem;">🎉</div>
+          <h3 style="color: var(--sage-700); margin-bottom: 1rem;">You're In!</h3>
+          <p style="color: var(--sage-600);">Check your email for your free Anxiety Toolkit. Welcome to the Fern & Feather community!</p>
+        </div>
+      `;
+      
+      // Track conversion (placeholder for analytics)
+      console.log('Lead captured:', { name, email });
+    });
+  }
+  
+  // Navbar scroll effect
+  const navbar = document.querySelector('.navbar');
+  let lastScroll = 0;
+  
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    
+    // Add shadow on scroll
+    if (currentScroll > 50) {
+      navbar.style.boxShadow = '0 4px 20px rgba(107, 127, 90, 0.15)';
+    } else {
+      navbar.style.boxShadow = '0 4px 20px rgba(107, 127, 90, 0.08)';
+    }
+    
+    lastScroll = currentScroll;
+  });
+  
+  // Animate elements on scroll
+  const observerOptions = {
+    root: null,
+    rootMargin: '0px',
+    threshold: 0.1
+  };
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  
+  // Observe service cards
+  document.querySelectorAll('.service-card, .feature-item, .testimonial-card').forEach(el => {
+    el.style.opacity = '0';
+    el.style.transform = 'translateY(30px)';
+    observer.observe(el);
+  });
+  
+  // Mobile menu toggle (placeholder for future implementation)
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  if (mobileMenuBtn) {
+    mobileMenuBtn.addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('mobile-open');
+    });
+  }
+  
+  // Lazy load images (placeholder for when images are added)
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          img.src = img.dataset.src;
+          img.classList.remove('lazy');
+          imageObserver.unobserve(img);
+        }
+      });
+    });
+    
+    document.querySelectorAll('img.lazy').forEach(img => {
+      imageObserver.observe(img);
+    });
+  }
+  
 });
+
+// Utility functions
+function debounce(func, wait) {
+  let timeout;
+  return function executedFunction(...args) {
+    const later = () => {
+      clearTimeout(timeout);
+      func(...args);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+  };
+}
+
+function throttle(func, limit) {
+  let inThrottle;
+  return function(...args) {
+    if (!inThrottle) {
+      func.apply(this, args);
+      inThrottle = true;
+      setTimeout(() => inThrottle = false, limit);
+    }
+  };
+}
+
+// Analytics placeholder (replace with actual analytics)
+function trackEvent(eventName, properties = {}) {
+  console.log('Event tracked:', eventName, properties);
+  // Example: gtag('event', eventName, properties);
+}
+
+// Booking widget integration placeholder
+function openBookingModal() {
+  // Integration with SimplePractice, TherapyNotes, etc.
+  console.log('Booking modal opened');
+  alert('Booking system integration coming soon! For now, please email us at hello@fernfeatherwellness.com');
+}
+
+// Export for global access
+window.FernFeather = {
+  trackEvent,
+  openBookingModal,
+  debounce,
+  throttle
+};

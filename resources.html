@@ -2,111 +2,355 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=1.0">
-  <title>Resources | Fern & Feather Counseling and Wellness</title>
-  <link rel="stylesheet" href="css/style.css?v=1774725872">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources & Blog | Fern & Feather Counseling and Wellness</title>
+  <meta name="description" content="Mental health resources, therapy insights, and wellness tips from Fern & Feather Counseling and Wellness. Evidence-based content for anxiety, trauma, and relationships.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <style>
-    .resources-hero { background: linear-gradient(135deg, #e8f5e9, #d1e7dd); padding: 80px 20px; text-align: center; }
-    .resources-hero h1 { color: var(--sage-800); font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 1rem; }
-    .resources-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #2e7d32; }
-    .resources-section { padding: 60px 20px; }
-    .resources-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-    .resource-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; transition: transform 0.2s; }
-    .resource-card:hover { transform: translateY(-5px); }
-    .resource-icon { font-size: 3.5rem; margin-bottom: 1rem; }
-    .resource-card h3 { color: #1b5e20; margin-bottom: 0.75rem; }
-    .resource-card p { color: #4b5563; margin-bottom: 1.5rem; }
-    .resource-btn { display: inline-block; background: #b0bda3; color: white; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 500; }
-    .resource-btn:hover { background: #556b46; }
-    .resource-card.crisis { background: #fef2f2; border: 2px solid #fecaca; }
-    .resource-card.crisis h3 { color: #991b1b; }
-    .resource-card.crisis .resource-btn { background: #dc2626; }
-    .resource-card.crisis .resource-btn:hover { background: #b91c1c; }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+    }
+    .blog-card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      transition: var(--transition-smooth);
+    }
+    .blog-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-medium);
+    }
+    .blog-image {
+      height: 200px;
+      background: linear-gradient(135deg, var(--sage-200), var(--blush));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+    }
+    .blog-content {
+      padding: 1.5rem;
+    }
+    .blog-meta {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: var(--sage-500);
+      margin-bottom: 0.75rem;
+    }
+    .blog-content h3 {
+      margin-bottom: 0.75rem;
+      font-size: 1.3rem;
+    }
+    .blog-content p {
+      color: var(--sage-600);
+      margin-bottom: 1rem;
+    }
+    .resource-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .resource-card {
+      background: white;
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: var(--shadow-soft);
+      text-align: center;
+    }
+    .resource-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .resource-card h3 {
+      margin-bottom: 0.75rem;
+    }
+    .resource-card p {
+      color: var(--sage-600);
+      margin-bottom: 1.5rem;
+    }
+    .category-filter {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
+    }
+    .category-btn {
+      padding: 0.5rem 1.5rem;
+      border: 2px solid var(--sage-300);
+      background: white;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      font-family: var(--font-body);
+      font-size: 1rem;
+    }
+    .category-btn:hover,
+    .category-btn.active {
+      background: var(--sage-600);
+      color: white;
+      border-color: var(--sage-600);
+    }
   </style>
 </head>
 <body>
-  <!-- MOBILE FIXES -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-  </style>
-  <nav class="site-nav" aria-label="Primary navigation">
-    <style>
-      .site-nav { font-family: var(--font-body), -apple-system, "Segoe UI", Roboto, Helvetica, Arial; background: white; border-bottom: 1px solid #eee; }
-      .site-nav .container { max-width: 980px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; justify-content: space-between; }
-      .site-nav .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; font-weight: 700; }
-      .site-nav .logo .mark { width: 44px; height: 44px; border-radius: 10px; background: #b0bda3; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; }
-      .site-nav .nav-links { list-style: none; display: flex; gap: 18px; margin: 0; padding: 0; align-items: center; }
-      .site-nav .nav-links a { color: inherit; text-decoration: none; padding: 6px 8px; border-radius: 6px; }
-      .site-nav .nav-links .dropdown { position: relative; }
-      .site-nav .nav-links .dropdown .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #eee; padding: 8px; margin-top: 6px; list-style: none; min-width: 200px; box-shadow: 0 8px 24px rgba(0,0,0,0.08); z-index: 1000; }
-      .site-nav .nav-links .dropdown:hover .dropdown-menu { display: block; }
-    </style>
+  <!-- Navigation -->
+  <nav class="navbar">
     <div class="container">
-      <a href="/" class="logo" aria-label="Fern & Feather homepage">
-        <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
-        <span>Fern & Feather</span>
+      <a href="index.html" class="logo">
+        <img src="images/logo.jpg" alt="Fern & Feather" class="logo-img">
+        Fern & Feather
       </a>
       <ul class="nav-links">
-        <li class="dropdown"><a href="/about.html">About ▾</a>
-          <ul class="dropdown-menu">
-            <li><a href="/about.html">About the Practice</a></li>
-            <li><a href="/nicole.html">Nicole</a></li>
-            <li><a href="/kiera.html">Kiera</a></li>
-            <li><a href="faq.html">FAQs</a></li>
-          </ul>
-        </li>
-        <li><a href="/services.html">Services</a></li>
-        <li><a href="/rates.html">Rates</a></li>
-        <li class="dropdown"><a href="resources.html">Resources ▾</a>
-          <ul class="dropdown-menu">
-            <li><a href="crisis.html">Crisis Resources</a></li>
-            <li><a href="tools.html">Free Tools</a></li>
-            <li><a href="blog.html">Blog</a></li>
-          </ul>
-        </li>
-        <li><a href="/contact.html" style="background: #b0bda3; color: #fff; padding: 8px 12px; border-radius: 8px;">Schedule Consult</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="index.html#contact" class="nav-cta">Schedule Consult</a></li>
       </ul>
     </div>
   </nav>
 
-  <section class="resources-hero">
-    <h1>Resources</h1>
-    <p>Free tools, insights, and support for your mental health journey. Everything you need to heal, grow, and thrive.</p>
-  </section>
-
-  <section class="resources-section">
-    <div class="resources-grid">
-      <a href="crisis.html" class="resource-card crisis" style="text-decoration: none; display: block;">
-        <div class="resource-icon">🚨</div>
-        <h3>Crisis Resources</h3>
-        <p>If you're in crisis right now, here are free, confidential resources available 24/7 — including 911, 988, and specialized hotlines.</p>
-        <span class="resource-btn">Get Help Now</span>
-      </a>
-      
-      <a href="tools.html" class="resource-card" style="text-decoration: none; display: block;">
-        <div class="resource-icon">🧰</div>
-        <h3>Free Tools</h3>
-        <p>Practical worksheets, grounding techniques, trackers, and guides you can use right now. No email required.</p>
-        <span class="resource-btn">Browse Tools</span>
-      </a>
-      
-      <a href="blog.html" class="resource-card" style="text-decoration: none; display: block;">
-        <div class="resource-icon">📝</div>
-        <h3>Blog</h3>
-        <p>Deep dives into mental health topics, therapy insights, and wellness tips. Grounded in science, written with heart.</p>
-        <span class="resource-btn">Read the Blog</span>
-      </a>
+  <!-- Hero -->
+  <section class="hero" style="min-height: 50vh; padding-top: 120px;">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Resources & Insights</h1>
+        <p class="hero-subtitle">Evidence-based content to support your mental health journey. Because knowledge is power, and you deserve to understand what's happening in your brain and body.</p>
+      </div>
     </div>
   </section>
 
-  <footer style="background: #2d3a2d; color: white; padding: 3rem 2rem; text-align: center; margin-top: 4rem;">
-    <p>© 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+  <!-- Free Resources -->
+  <section class="services" style="background: var(--cream);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Free Resources</h2>
+        <p>Practical tools you can use right now. No email required (though we'd love to stay in touch).</p>
+      </div>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <div class="resource-icon">🎴</div>
+          <h3>Anxiety Coping Cards</h3>
+          <p>12 printable cards with evidence-based techniques for managing anxiety. Keep them in your wallet, on your desk, or by your bed.</p>
+          <a href="#" class="btn btn-primary">Download Free</a>
+        </div>
+        
+        <div class="resource-card">
+          <div class="resource-icon">📝</div>
+          <h3>Symptom Tracker</h3>
+          <p>A 30-day tracker to help you identify patterns in your mood, anxiety, sleep, and triggers. Knowledge is the first step to change.</p>
+          <a href="#" class="btn btn-primary">Download Free</a>
+        </div>
+        
+        <div class="resource-card">
+          <div class="resource-icon">🧘</div>
+          <h3>Grounding Guide</h3>
+          <p>Step-by-step instructions for somatic grounding techniques. Perfect for dissociation, panic, or when you need to come back to the present.</p>
+          <a href="#" class="btn btn-primary">Download Free</a>
+        </div>
+        
+        <div class="resource-card">
+          <div class="resource-icon">🤝</div>
+          <h3>Communication Scripts</h3>
+          <p>Conversation starters and scripts for difficult discussions with partners, family, and friends. Because boundaries are hard.</p>
+          <a href="#" class="btn btn-primary">Download Free</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section class="why-us" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <h2>From the Blog</h2>
+        <p>Deep dives into mental health topics, therapy insights, and wellness tips. Written by our therapists, grounded in science.</p>
+      </div>
+      
+      <div class="category-filter">
+        <button class="category-btn active">All</button>
+        <button class="category-btn">Anxiety</button>
+        <button class="category-btn">Trauma</button>
+        <button class="category-btn">Relationships</button>
+        <button class="category-btn">Science</button>
+      </div>
+      
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="blog-image">🧠</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Anxiety</span>
+              <span>March 15, 2026</span>
+            </div>
+            <h3>The Science of Anxiety: Why Your Nervous System Does What It Does</h3>
+            <p>Understanding the biology behind anxiety can help you work with your body instead of against it. Here's what happens in your brain during a panic attack.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">💕</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Relationships</span>
+              <span>March 10, 2026</span>
+            </div>
+            <h3>Attachment Styles 101: How Your Childhood Shapes Your Love Life</h3>
+            <p>Secure, anxious, avoidant, or disorganized — understanding your attachment style is the first step to building healthier relationships.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🌿</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Trauma</span>
+              <span>March 5, 2026</span>
+            </div>
+            <h3>What Is EMDR and How Does It Work?</h3>
+            <p>Eye Movement Desensitization and Reprocessing is a powerful trauma treatment. Here's the science behind why it works.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🏳️‍🌈</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Science</span>
+              <span>February 28, 2026</span>
+            </div>
+            <h3>Minority Stress: The Hidden Health Impact of Discrimination</h3>
+            <p>Being LGBTQ+ in a heteronormative world takes a toll on your health. Here's what the research says about minority stress — and what you can do about it.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🧘</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Anxiety</span>
+              <span>February 20, 2026</span>
+            </div>
+            <h3>5-4-3-2-1 Grounding: A Technique That Actually Works</h3>
+            <p>Sensory grounding is one of the most effective tools for managing anxiety and dissociation. Here's how to do it right.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+        
+        <article class="blog-card">
+          <div class="blog-image">🔄</div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Science</span>
+              <span>February 15, 2026</span>
+            </div>
+            <h3>Internal Family Systems: Healing by Understanding Your Parts</h3>
+            <p>IFS therapy helps you understand the different "parts" of yourself — and why they sometimes conflict. Here's an introduction.</p>
+            <a href="#" class="learn-more">Read more</a>
+          </div>
+        </article>
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="#" class="btn btn-secondary">View All Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Crisis Resources -->
+  <section class="services" style="background: var(--sage-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2>Crisis Resources</h2>
+        <p>If you're in crisis, you don't have to wait for an appointment. Help is available right now.</p>
+      </div>
+      <div style="max-width: 800px; margin: 0 auto; background: white; padding: 3rem; border-radius: 20px;">
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">988 Suicide & Crisis Lifeline</h3>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--fern);">Call or text 988</p>
+          <p>Free, confidential support 24/7. Available nationwide.</p>
+        </div>
+        
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Crisis Text Line</h3>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--fern);">Text HOME to 741741</p>
+          <p>Free crisis support via text message.</p>
+        </div>
+        
+        <div style="margin-bottom: 2rem;">
+          <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">The Trevor Project (LGBTQ+)</h3>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--fern);">1-866-488-7386</p>
+          <p>Crisis support specifically for LGBTQ+ youth.</p>
+        </div>
+        
+        <div>
+          <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">National Sexual Assault Hotline</h3>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--fern);">1-800-656-4673</p>
+          <p>Support for survivors of sexual assault.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="lead-magnet">
+    <div class="container" style="text-align: center;">
+      <h2>Want More Resources?</h2>
+      <p style="max-width: 600px; margin: 1rem auto 2rem;">Join our email list for weekly mental health tips, new resources, and exclusive content. No spam, ever.</p>
+      <a href="index.html#contact" class="btn btn-primary" style="background: white; color: var(--sage-700);">Subscribe</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Fern & Feather Counseling and Wellness</h3>
+          <p>Where science meets compassion. Trauma-informed, LGBTQ+ affirming therapy in Alpharetta, GA.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">🎵</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resources.html">Resources</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 Alpharetta, GA</li>
+            <li>📧 hello@fernfeatherwellness.com</li>
+            <li><a href="index.html#contact" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Now</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

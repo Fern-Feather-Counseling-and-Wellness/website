@@ -4,74 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ - Fern & Feather Counseling and Wellness</title>
-    <link rel="stylesheet" href="css/style.css?v=1774725872">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"> <!-- Assuming CSS is in a parent css folder -->
     <style>
-        body { font-family: var(--font-body); line-height: 1.6; margin: 0; padding: 0; }
-        .page-hero { background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 3rem 2rem; text-align: center; }
-        .page-hero h1 { color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem; }
-        .page-hero p { color: var(--sage-600); font-size: 1.2rem; margin-bottom: 1.5rem; }
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+        .page-header { background-color: #e8f5e9; /* soft green */ padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { color: #2e7d32; /* dark green */ margin-bottom: 0.5rem; }
+        .page-header p.tagline { color: #388e3c; /* medium green */ font-size: 1.2rem; margin-bottom: 1.5rem; }
         .content { padding: 3rem 2rem; max-width: 800px; margin: 2rem auto; }
         .faq-item { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0; }
-        .faq-question { font-weight: bold; color: var(--sage-700); cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question { font-weight: bold; color: #1b5e20; /* forest green */ cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
         .faq-question::after { content: '+'; font-size: 1.5rem; }
         .faq-question.active::after { content: '−'; }
         .faq-answer { display: none; padding-left: 1rem; }
         .faq-answer p { margin-bottom: 1rem; }
-        .collaboration-section { background-color: var(--sage-100); padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid var(--fern); }
-        .collaboration-section h3 { color: var(--sage-700); margin-top: 0; }
+        .collaboration-section { background-color: #e0f2f1; /* teal background */ padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid #00796b; /* teal border */ }
+        .collaboration-section h3 { color: #00796b; /* teal */ margin-top: 0; }
+        footer { background-color: #1b5e20; /* forest green */ color: white; text-align: center; padding: 1rem; margin-top: 3rem; }
+
+        /* Accordion functionality would typically be handled by JS, but this structure supports it */
         .faq-question.active + .faq-answer { display: block; }
     </style>
 </head>
+<body>
+    <nav style="background-color: #1b5e20; padding: 1rem 2rem; text-align: center;">
+        <a href="index.html" style="color: white; text-decoration: none; margin: 0 15px;">Home</a>
+        <a href="about.html" style="color: white; text-decoration: none; margin: 0 15px;">About</a>
+        <a href="specialties.html" style="color: white; text-decoration: none; margin: 0 15px;">Specialties</a>
+        <a href="rates.html" style="color: white; text-decoration: none; margin: 0 15px;">Rates</a>
+        <a href="faq.html" style="color: white; text-decoration: none; margin: 0 15px; font-weight: bold;">FAQ</a>
+        <a href="nicole.html" style="color: white; text-decoration: none; margin: 0 15px;">Nicole</a>
+        <a href="kiera.html" style="color: white; text-decoration: none; margin: 0 15px;">Kiera</a>
+    </nav>
 
-
-
-    <nav class="site-nav" aria-label="Primary navigation">
-  <style>
-    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
-    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
-    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
-    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
-    .site-nav .nav-links .dropdown{position:relative}
-    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0}
-    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:768px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-menu-btn{display:inline-block}.site-nav .nav-links.mobile-open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
-  </style>
-  <div class="container">
-    <a href="/" class="logo" aria-label="Fern & Feather homepage">
-      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
-      <span>Fern & Feather</span>
-    </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="this.nextElementSibling.classList.toggle('mobile-open')">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
-    <ul class="nav-links">
-      <li class="dropdown"><a href="/about.html">About ▾</a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="/about.html">About Our Practice</a></li>
-          <li><a href="/nicole.html">Nicole</a></li>
-          <li><a href="/kiera.html">Kiera</a></li>
-          <li><a href="faq.html">FAQs</a></li>
-        </ul>
-      </li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/rates.html">Rates</a></li>
-      <li class="dropdown"><a href="resources.html">Resources ▾</a>
-        <ul class="dropdown-menu" role="menu">
-          <li><a href="crisis.html">Crisis Resources</a></li>
-          <li><a href="tools.html">Free Tools</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </li>
-      <li><a href="/contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
-    </ul>
-  </div>
-</nav>
-
-
-    <header class="page-hero">
+    <header class="page-header">
         <h1>Frequently Asked Questions</h1>
         <p class="tagline">Rooted and Rising</p>
         <p>Fern & Feather Counseling and Wellness</p>
@@ -132,7 +97,12 @@
             </div>
         </div>
 
-        
+        <div class="faq-item">
+            <h3 class="faq-question">What do I need to know about Nicole's background?</h3>
+            <div class="faq-answer">
+                <p>Nicole holds a PhD in Biology alongside her training in clinical counseling. She brings a distinctive perspective that weaves together an understanding of physiology, the nervous system, and therapeutic practice—exploring how biological processes shape our emotional and psychological experiences.</p>
+            </div>
+        </div>
         
         <div class="faq-item">
             <h3 class="faq-question">How many clients do you see?</h3>
@@ -151,77 +121,10 @@
 
     </main>
 
-  <footer class="footer" id="contact">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <h3>Fern & Feather Counseling and Wellness</h3>
-          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Alpharetta, GA and throughout Georgia via telehealth.</p>
-          <div class="footer-social">
-            <a href="#" class="social-link" aria-label="Instagram">📷</a>
-            <a href="#" class="social-link" aria-label="Facebook">📘</a>
-            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
-            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
-          </div>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Services</h4>
-          <ul>
-            <li><a href="services.html#individual">Individual Therapy</a></li>
-            <li><a href="services.html#couples">Couples Therapy</a></li>
-            <li><a href="services.html#group">Group Therapy</a></li>
-            <li><a href="services.html">Clinical Supervision</a></li>
-            <li><a href="services.html">Workshops</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Resources</h4>
-          <ul>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="tools.html">Free Toolkit</a></li>
-            <li><a href="crisis.html">Crisis Resources</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4>Contact</h4>
-          <ul>
-            <li>📍 Alpharetta, GA</li>
-            <li>📧 hello@fernfeatherwellness.com</li>
-            <li>📱 (XXX) XXX-XXXX</li>
-            <li><a href="#" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Consultation</a></li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="footer-bottom">
+    <footer>
         <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-        <p>
-          <a href="#">Privacy Policy</a> | 
-          <a href="#">Terms of Service</a> | 
-          <a href="#">Accessibility</a>
-        </p>
-      </div>
-    </div>
-  </footer>
+        <p>Proudly serving Alpharetta, GA and clients throughout Georgia via telehealth.</p>
+    </footer>
 
-<script>
-  document.querySelectorAll('.faq-question').forEach(function(q) {
-    q.addEventListener('click', function() {
-      this.classList.toggle('active');
-    });
-  });
-</script>
-
-<script>
-    document.querySelectorAll('.faq-question').forEach(function(q) {
-      q.addEventListener('click', function() {
-        this.parentElement.classList.toggle('active');
-      });
-    });
-  </script>
 </body>
 </html>
