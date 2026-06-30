@@ -14,7 +14,7 @@ Finding the right therapist can feel overwhelming, especially when you’re navi
 
 ## 3. Evaluate Logistics
 - **Location & Accessibility:** Virtual sessions are available through a HIPAA‑compliant platform; in‑person appointments are offered in Alpharetta.
-- **Cost & Payment:** As a private‑pay practice, we provide superbills for out‑of‑network reimbursement. Discuss rates upfront.
+- **Cost & Payment:** As a private‑pay practice, we provide receipts for out‑of‑network reimbursement. Discuss rates upfront.
 - **Availability:** Ask about waitlists and emergency contact options.
 
 ## 4. Trust Your Instincts
