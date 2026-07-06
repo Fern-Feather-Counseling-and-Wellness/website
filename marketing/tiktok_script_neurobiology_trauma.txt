@@ -1,0 +1,15 @@
+# TikTok Script – Neurobiology of Trauma CEU Course
+
+**Hook (0-5s)**: "Trauma isn’t just ‘in your head’ – your brain *rewires* it. Want to know how?" 
+
+**Body (5-25s)**:
+- Quick snap of brain imaging (amygdala, hippocampus) with caption: “Trauma spikes amygdala activity.”
+- Voice‑over: "When trauma hits, the amygdala goes into overdrive, the hippocampus struggles to store memories, and the pre‑frontal cortex loses its grip on regulation."
+- Cut to a simple breathing exercise visual, caption: "Regulate the nervous system."
+- Voice‑over: "I’ll show you the science‑backed somatic tools that actually calm those circuits."
+
+**Call‑to‑Action (25-30s)**:
+- Text overlay: "Earn 2.5 CEUs • 4‑hour self‑paced • Evidence‑based"
+- Voice‑over: "Swipe up to enroll and upgrade your practice with real neuroscience."
+
+**End Card**: Logo, @FernAndFeather, #TraumaScience #CEU #TherapistTools

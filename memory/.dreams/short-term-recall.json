@@ -1,0 +1,1281 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-03T16:26:18.980Z",
+  "entries": {
+    "memory:memory/2026-03-15.md:1:35": {
+      "key": "memory:memory/2026-03-15.md:1:35",
+      "path": "memory/2026-03-15.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# Daily Log — March 15, 2026 **Day:** Sunday **Time:** 5:02 PM UTC / 12:02 PM EST **Context:** Weekend heartbeat — no active tasks --- ## Status Check **Git Repository:** Clean — all changes committed **BACKLOG:** All P0-P3 tasks complete **Last Activity:** March 13 — certification research, safety systems research --- ## Weekend Summary **No new tasks or requests since Friday.** Repository is up to date. All research documents committed: - Certification demand analysis (EMDR, IFS, ERP, SE, Brainspotting) - Therapy office safety systems (panic buttons, protocols) --- ## Upcoming (Monday) Per HEARTBEAT.md rotation: - **Monday task:** Check ClawHub for new skills --- *Quie",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-06-19T19:43:33.558Z",
+      "queryHashes": [
+        "6604f69d4bf5",
+        "fdf758e13b85",
+        "e66edc4ddc2c"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-05-04",
+        "2026-06-19"
+      ],
+      "conceptTags": [
+        "p0-p3",
+        "heartbeat.md",
+        "log",
+        "march",
+        "day",
+        "sunday",
+        "time",
+        "utc"
+      ]
+    },
+    "memory:memory/2026-03-09.md:1:54": {
+      "key": "memory:memory/2026-03-09.md:1:54",
+      "path": "memory/2026-03-09.md",
+      "startLine": 1,
+      "endLine": 54,
+      "source": "memory",
+      "snippet": "# Daily Log — March 9, 2026 **Day:** Monday **Time:** 2:05 PM UTC **Context:** Heartbeat check-in --- ## Heartbeat Activity **Task:** Tier 2 Capability Building — Check ClawHub for new skills **Result:** ClawHub site accessible but skill listings not parseable via web fetch. May need to check via browser automation or wait for API access. --- ## Status Check **BACKLOG.md review:** - All P0 tasks complete - All P1 tasks complete - All P2 tasks complete - P3 tasks all marked complete **Recent activity (per HEARTBEAT.md Last Run):** - Date: 2026-03-09 - Task: Created Fern & Feather Google Drive folder structure and uploaded all deliverables - Result: 6 main folders, 20+ files up",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-05-04T14:33:30.758Z",
+      "queryHashes": [
+        "6604f69d4bf5",
+        "fdf758e13b85"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "check-in",
+        "backlog.md",
+        "heartbeat.md",
+        "log",
+        "march",
+        "day",
+        "monday",
+        "time"
+      ]
+    },
+    "memory:memory/2026-03-09.md:69:99": {
+      "key": "memory:memory/2026-03-09.md:69:99",
+      "path": "memory/2026-03-09.md",
+      "startLine": 69,
+      "endLine": 99,
+      "source": "memory",
+      "snippet": "**Result:** Key insights already well-captured in MEMORY.md (Discord connection, workbook review feedback, polyvagal controversy research, sub-agent assessment). No new additions needed. --- ## Summary of Today's Heartbeat Work **3 heartbeat cycles completed:** 1. **2:05 PM** — Tier 2: ClawHub skills check (site accessible, not parseable) 2. **2:35 PM** — Tier 3: TikTok therapy trends research (Gen Z self-diagnosis, somatic content rising) 3. **5:05 PM** — Tier 1: Memory hygiene (reviewed daily files, confirmed MEMORY.md is current) **Status:** All caught up. No urgent tasks. BACKLOG.md shows all P0-P3 tasks complete. --- ## Heartbeat Activity — 5:35 PM UTC **Task:** BACKLOG.md review",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-04-21T14:35:01.758Z",
+      "queryHashes": [
+        "6604f69d4bf5"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "well-captured",
+        "memory.md",
+        "sub-agent",
+        "self-diagnosis",
+        "backlog.md",
+        "p0-p3",
+        "result",
+        "key"
+      ]
+    },
+    "memory:memory/2026-03-01.md:126:148": {
+      "key": "memory:memory/2026-03-01.md:126:148",
+      "path": "memory/2026-03-01.md",
+      "startLine": 126,
+      "endLine": 148,
+      "source": "memory",
+      "snippet": "**Nicole:** \"I want you to have the lastest research as a paper just came out criticizing Porges' work. Can you search the internet yet?\" **Attempted web search again — still broken (Brave API key missing)** **Options presented:** 1. Configure API key with `openclaw configure --section web` 2. Use browser tool if Nicole has specific URLs 3. Work on non-research tasks now (TikTok scripts, email sequences, etc.) **Critical note:** Polyvagal getting scientific pushback lately — oversimplification claims, some assertions not fully supported by newer research. Important for \"science-based\" brand positioning. **Nicole's request:** \"Can you please make sure you are committing our conversations",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-07-03T16:26:18.980Z",
+      "queryHashes": [
+        "6604f69d4bf5",
+        "77d243353d13"
+      ],
+      "recallDays": [
+        "2026-04-21",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "non-research",
+        "science-based",
+        "nicole",
+        "want",
+        "lastest",
+        "research",
+        "paper",
+        "came"
+      ]
+    },
+    "memory:memory/2026-03-13.md:1:43": {
+      "key": "memory:memory/2026-03-13.md:1:43",
+      "path": "memory/2026-03-13.md",
+      "startLine": 1,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "# Daily Log — March 13, 2026 **Day:** Friday **Time:** 12:02 AM UTC **Context:** Heartbeat — Friday sub-agent review --- ## Tasks Completed ### Sub-Agent Review (Friday Rotation) **Status:** Reviewed — no gaps identified **Current State:** - All BACKLOG tasks (P0-P3) are complete - No active work streams requiring dedicated sub-agents - Main session handling all Fern & Feather work effectively **Sub-Agent Needs Assessment:** | Potential Agent | Need Level | Rationale | |-----------------|------------|-----------| | Content Creator | Low | TikTok calendar complete, scripts written | | Researcher | Low | Recent research completed (tool integration, sales strategy) | | Social Media Ma",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-04-21T14:35:01.758Z",
+      "queryHashes": [
+        "6604f69d4bf5"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "sub-agent",
+        "p0-p3",
+        "sub-agents",
+        "log",
+        "march",
+        "day",
+        "friday",
+        "time"
+      ]
+    },
+    "memory:memory/2026-03-09.md:137:164": {
+      "key": "memory:memory/2026-03-09.md:137:164",
+      "path": "memory/2026-03-09.md",
+      "startLine": 137,
+      "endLine": 164,
+      "source": "memory",
+      "snippet": "- Market is primed for somatic/nervous system regulation content - Positioning as \"science-based somatic therapy\" aligns with 2025 trends - Consider Safe and Sound Protocol training as differentiator - CRM skills could be integrated into group offerings --- ## Summary of Today's Heartbeat Work **6 heartbeat cycles completed:** 1. **2:05 PM** — Tier 2: ClawHub skills check 2. **2:35 PM** — Tier 3: TikTok therapy trends research 3. **5:05 PM** — Tier 1: Memory hygiene 4. **5:35 PM** — BACKLOG review 5. **8:35 PM** — Tier 3: Trauma conference research 6. **10:05 PM** — Tier 3: Somatic therapy research updates **Status:** All caught up. No urgent tasks. All P0-P3 tasks complete. --- ## Nex",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-21T14:35:01.758Z",
+      "lastRecalledAt": "2026-04-21T14:35:01.758Z",
+      "queryHashes": [
+        "6604f69d4bf5"
+      ],
+      "recallDays": [
+        "2026-04-21"
+      ],
+      "conceptTags": [
+        "somatic/nervous",
+        "science-based",
+        "p0-p3",
+        "market",
+        "primed",
+        "somatic",
+        "nervous",
+        "system"
+      ]
+    },
+    "memory:memory/2026-04-20.md:1:42": {
+      "key": "memory:memory/2026-04-20.md:1:42",
+      "path": "memory/2026-04-20.md",
+      "startLine": 1,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "# April 20, 2026 - Repository Cleanup & Sync System Setup ## What Happened **Problem Discovered:** - Website files were accidentally saved to Rondas-Space repo instead of just the Website repo - Some files were duplicated in both repos - Google Drive had been out of sync (OAuth token expired) - I went offline March 22 and lost memory **Work Done:** ### 1. Repository Cleanup - Removed 18 duplicate website files from Rondas-Space repo - Verified Website repo has only website files - Verified Rondas-Space repo has only business content ### 2. Drive Reconnection - Generated fresh OAuth authorization URL - Nicole provided auth code: `4/1Aci98E9EM1buzM0dSgHU_poqHHSRQf1UoKLNh7BubA8NKRNnaFaghcL",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T23:53:18.087Z",
+      "lastRecalledAt": "2026-06-29T21:56:08.703Z",
+      "queryHashes": [
+        "80b3dcfea000",
+        "3ab3e0b020a6",
+        "5369a4a98849",
+        "fa1161583ebf",
+        "0c62764a64f5",
+        "874b65b05746"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-06-28",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "rondas-space",
+        "april",
+        "repository",
+        "cleanup",
+        "sync",
+        "setup",
+        "what",
+        "happened"
+      ]
+    },
+    "memory:memory/2026-03-10.md:1:43": {
+      "key": "memory:memory/2026-03-10.md:1:43",
+      "path": "memory/2026-03-10.md",
+      "startLine": 1,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "# Daily Log — March 10, 2026 **Day:** Tuesday **Time:** 12:04 AM UTC **Context:** Google Drive authentication troubleshooting --- ## Drive Access Issue Resolution (In Progress) **Problem:** Cannot upload files to Google Drive. OAuth failing with \"Project 'fern-feather' not found or deleted.\" **Attempted Solutions:** ### 1. Service Account (Failed) - Created service account: `ronda-drive@fern-and-feather.iam.gserviceaccount.com` - Error: \"Service Accounts do not have storage quota\" - Reason: Service accounts can't upload to regular Drive folders, only shared drives - Blocker: \"Fern & Feather Wellness Center\" folder cannot be upgraded to shared drive ### 2. OAuth with New Project (I",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T23:53:18.087Z",
+      "lastRecalledAt": "2026-06-29T21:56:51.949Z",
+      "queryHashes": [
+        "80b3dcfea000",
+        "54901b544296",
+        "5de41943c49f",
+        "5369a4a98849",
+        "fa1161583ebf",
+        "715eb5ef708d",
+        "0c62764a64f5",
+        "874b65b05746",
+        "fae34b618cfa"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-06-22",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "fern-feather",
+        "ronda-drive",
+        "log",
+        "march",
+        "day",
+        "tuesday",
+        "time",
+        "utc"
+      ]
+    },
+    "memory:memory/2026-03-19.md:156:197": {
+      "key": "memory:memory/2026-03-19.md:156:197",
+      "path": "memory/2026-03-19.md",
+      "startLine": 156,
+      "endLine": 197,
+      "source": "memory",
+      "snippet": "- `BACKLOG.md` — Added to Done section - `HEARTBEAT.md` — Updated Last Run - `memory/2026-03-19.md` — This update --- ## 11:26 PM UTC: Google Drive Permanent Fix **User Question:** How to fix Google Workspace access permanently? **Solution Delivered:** - **Root cause identified:** Google Cloud project `fern-feather` deleted/disabled - **Better solution found:** rclone already configured and working (from March 15th) - **Created organized sync system:** - `backup-scripts/sync-to-drive.sh` — Full organized sync to Fern & Feather folder structure - `backup-scripts/upload-file.sh` — Quick single-file upload - Maps workspace folders to Drive structure (01-06 organization) - **Tested suc",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T23:53:18.087Z",
+      "lastRecalledAt": "2026-06-29T21:56:08.703Z",
+      "queryHashes": [
+        "80b3dcfea000",
+        "fdf758e13b85",
+        "e66edc4ddc2c",
+        "54901b544296",
+        "5de41943c49f",
+        "5369a4a98849",
+        "715eb5ef708d",
+        "0c62764a64f5",
+        "874b65b05746"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-05-04",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "backup",
+        "backlog.md",
+        "heartbeat.md",
+        "memory/2026-03-19.md",
+        "fern-feather",
+        "deleted/disabled",
+        "backup-scripts/sync-to-drive.sh",
+        "backup-scripts/upload-file.sh"
+      ]
+    },
+    "memory:memory/2026-04-20.md:36:76": {
+      "key": "memory:memory/2026-04-20.md:36:76",
+      "path": "memory/2026-04-20.md",
+      "startLine": 36,
+      "endLine": 76,
+      "source": "memory",
+      "snippet": "- Pushed to Drive: MEMORY.md, USER.md, SOUL.md, AGENTS.md, HEARTBEAT.md - Pulled from Drive: Intake forms (5 files), Memory files (13 files) - Committed everything to GitHub ### 6. Sync System Created - Created `scripts/sync-all.sh` - SMART sync script - Auto-detects: website files → website repo, business → Rondas-Space repo - Uploads EVERYTHING to Google Drive (not just core files) - Updated HEARTBEAT.md with sync instructions - Updated SOUL.md with sync as NON-NEGOTIABLE - Updated AGENTS.md backup protocol ## Decisions Made 1. **Triple redundancy system:** - Website → Website repo (GitHub) - Business → Rondas-Space repo (GitHub) - Everything → Google Drive (full backup) 2. **",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T23:53:18.087Z",
+      "lastRecalledAt": "2026-06-29T21:56:06.884Z",
+      "queryHashes": [
+        "80b3dcfea000",
+        "3ab3e0b020a6",
+        "5de41943c49f",
+        "5369a4a98849",
+        "0c62764a64f5"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-06-28",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "backup",
+        "memory.md",
+        "user.md",
+        "soul.md",
+        "agents.md",
+        "heartbeat.md",
+        "scripts/sync-all.sh",
+        "auto-detects"
+      ]
+    },
+    "memory:memory/2026-03-12.md:1:59": {
+      "key": "memory:memory/2026-03-12.md:1:59",
+      "path": "memory/2026-03-12.md",
+      "startLine": 1,
+      "endLine": 59,
+      "source": "memory",
+      "snippet": "# Daily Log — March 12, 2026 **Day:** Thursday **Time:** 2:02 AM UTC **Context:** Heartbeat — catching up on commits and memory hygiene --- ## Tasks Completed ### 1. Git Commit & Sync **Status:** In progress — committing uncommitted work from March 9-10 **Files to commit:** - BACKLOG.md (updates) - HEARTBEAT.md (updates) - MEMORY.md (updates) - memory/2026-03-09.md (new) - memory/2026-03-10.md (new) - research/tool-integration-requirements.md (new) - research/digital-product-sales-strategy.md (new) - Various Google Drive integration files ### 2. Memory Hygiene **Status:** In progress **Reviewing:** - March 9: Google Drive folder structure created, all deliverables uploaded - March",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 7,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-22T23:53:18.087Z",
+      "lastRecalledAt": "2026-06-29T21:56:08.703Z",
+      "queryHashes": [
+        "80b3dcfea000",
+        "54901b544296",
+        "5de41943c49f",
+        "fa1161583ebf",
+        "715eb5ef708d",
+        "0c62764a64f5",
+        "874b65b05746"
+      ],
+      "recallDays": [
+        "2026-04-22",
+        "2026-06-22",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "9-10",
+        "backlog.md",
+        "heartbeat.md",
+        "memory.md",
+        "memory/2026-03-09.md",
+        "memory/2026-03-10.md",
+        "log",
+        "march"
+      ]
+    },
+    "memory:memory/2026-04-23.md:1:28": {
+      "key": "memory:memory/2026-04-23.md:1:28",
+      "path": "memory/2026-04-23.md",
+      "startLine": 1,
+      "endLine": 28,
+      "source": "memory",
+      "snippet": "# April 23, 2026 ## 3AM Conversation - Getting to Know Each Other ### Nicole's Backstory - Started journey to become therapist when daughter was 8 - Daughter has Trisomy X (extra X chromosome) and anxiety - Neurodivergent but doesn't meet diagnostic criteria - Private school costs $50k/year - Goal: Build passive income to have time freedom for daughter's care ### CEU Course Direction (PRIORITY) Nicole wants to focus on CEU-eligible courses that leverage her PhD Biology background + clinical counseling + somatics. **Brainstormed topics:** 1. Neurobiology of Trauma — what happens in the brain, window of tolerance, somatic work science 2. Stress Physiology & Allostatic Load — biology of chr",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-05-04T14:34:25.493Z",
+      "queryHashes": [
+        "833a8a5fe5e0",
+        "e9c4c3a4c800"
+      ],
+      "recallDays": [
+        "2026-04-25",
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "50k/year",
+        "ceu-eligible",
+        "april",
+        "3am",
+        "conversation",
+        "getting",
+        "know",
+        "each"
+      ]
+    },
+    "memory:memory/2026-03-01.md:34:73": {
+      "key": "memory:memory/2026-03-01.md:34:73",
+      "path": "memory/2026-03-01.md",
+      "startLine": 34,
+      "endLine": 73,
+      "source": "memory",
+      "snippet": "- **Plus:** Yoga integration (trauma-informed yoga workshops) ### Revenue Streams 1. Individual therapy ($150-200/session) 2. Couples therapy ($200/session) 3. Group therapy ($35-60/person) 4. Trauma-informed yoga workshops 5. Sublet office space ($500-800/month per office) 6. Digital products (workbooks, courses) 7. Retail (books, journals, etc.) 8. Supervision for APCs (once licensed) ## Brand Positioning - Justice-oriented - LGBTQ+ affirming, BIPOC affirming, immigrant-affirming - Trauma-informed, attachment-focused - Science-based (her PhD is the differentiator) - Boutique, not corporate ## Digital Product Strategy **The Unique Angle:** \"Where Biology Meets Being Human\" - combining he",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-07-03T16:25:40.104Z",
+      "queryHashes": [
+        "833a8a5fe5e0",
+        "e1240c5af3dd"
+      ],
+      "recallDays": [
+        "2026-04-25",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "trauma-informed",
+        "150-200/session",
+        "200/session",
+        "35-60/person",
+        "500-800/month",
+        "justice-oriented",
+        "immigrant-affirming",
+        "attachment-focused"
+      ]
+    },
+    "memory:memory/2026-03-20.md:101:128": {
+      "key": "memory:memory/2026-03-20.md:101:128",
+      "path": "memory/2026-03-20.md",
+      "startLine": 101,
+      "endLine": 128,
+      "source": "memory",
+      "snippet": "- Cited psychotherapy effectiveness research (Cuijpers et al., 2019; Wampold, 2019) - Added HIPAA, licensing board, and professional standard references - Added coaching research (Grant et al., 2010; ICF, 2023) - Added 15+ peer-reviewed sources **Total Citations Added:** 60+ APA-formatted references across 3 files **Status:** All content now properly cited per Nicole's directive **Committed:** Yes — pushed to GitHub --- *Logged: March 20, 2026, 9:15 PM UTC* --- ## 🚨 CRITICAL INSTRUCTION — March 20, 2026, 2:13 PM UTC **Nicole's Directive:** > \"Every time you create anything, this should be the default. No plagiarism and always cite.\" **Added to PERMANENT MEMORY:** - Zero",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-06-08T16:58:44.587Z",
+      "queryHashes": [
+        "833a8a5fe5e0",
+        "530bc59f1546"
+      ],
+      "recallDays": [
+        "2026-04-25",
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "peer-reviewed",
+        "apa-formatted",
+        "cited",
+        "psychotherapy",
+        "effectiveness",
+        "research",
+        "cuijpers",
+        "wampold"
+      ]
+    },
+    "memory:memory/2026-03-16.md:29:83": {
+      "key": "memory:memory/2026-03-16.md:29:83",
+      "path": "memory/2026-03-16.md",
+      "startLine": 29,
+      "endLine": 83,
+      "source": "memory",
+      "snippet": "- Weekly homework assignments **Bonus Materials:** - Marketing funnel (lead magnet → email sequence → sales page) - Pricing strategy ($297 self-paced / $497 with coaching) - Revenue projection (Year 1: $49,400 net) - Production notes (video, audio, design specs) ### Business Impact **Revenue Stream:** Digital course — passive income **Target Market:** Adults with anxiety, overwhelm, chronic stress **Price Point:** $297 (accessible) / $497 (premium with coaching) **Projected Year 1:** 200 students = $59,400 gross revenue ### Files Updated - `courses/nervous-system-reset-course.md` — NEW (23,721 bytes) - `BACKLOG.md` — Task status updated to `[~]` in progress - `memory/2026-03-16.md` — Thi",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-04-25T15:39:23.723Z",
+      "queryHashes": [
+        "833a8a5fe5e0"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "self-paced",
+        "backlog.md",
+        "memory/2026-03-16.md",
+        "weekly",
+        "homework",
+        "assignments",
+        "bonus",
+        "materials"
+      ]
+    },
+    "memory:memory/2026-03-01.md:1:43": {
+      "key": "memory:memory/2026-03-01.md:1:43",
+      "path": "memory/2026-03-01.md",
+      "startLine": 1,
+      "endLine": 43,
+      "source": "memory",
+      "snippet": "# March 1, 2026 - First Session with Nicole ## What Happened - First conversation with Nicole - Established my identity: Ronda, digital partner, sharp/witty/sarcastic/sassy - Learned about Nicole's background: PhD Biology, APC (pending LPC), college professor, therapist - Major project: Fern & Feather Wellness Center ## Key Details About Nicole - 51 years old (52 in June) - Full-time online college professor (~15 hrs/week) - Associate Professional Counselor at Awakenings (~15 clients/week) - Adjunct at 2nd college teaching A&P and Biology - **NEW:** Certified yoga instructor (wants to integrate into therapy) ## Fern & Feather Business Plan **Partnership:** Nicole + Kiera (both APCs pendin",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-04-25T15:39:23.723Z",
+      "queryHashes": [
+        "833a8a5fe5e0"
+      ],
+      "recallDays": [
+        "2026-04-25"
+      ],
+      "conceptTags": [
+        "sharp/witty/sarcastic/sassy",
+        "full-time",
+        "hrs/week",
+        "clients/week",
+        "march",
+        "first",
+        "nicole",
+        "what"
+      ]
+    },
+    "memory:memory/2026-03-19.md:126:167": {
+      "key": "memory:memory/2026-03-19.md:126:167",
+      "path": "memory/2026-03-19.md",
+      "startLine": 126,
+      "endLine": 167,
+      "source": "memory",
+      "snippet": "- Complete therapy modality explanation series now includes: IFS, polyvagal, somatic experiencing, window of tolerance, EMDR **Files Updated:** - `BACKLOG.md` — Added to Done section - `HEARTBEAT.md` — Updated Last Run - `memory/2026-03-19.md` — This update ## 11:00 PM UTC Heartbeat: TikTok Therapy Trends Research 2026 **Task:** Tier 1 Research & Intelligence — TikTok therapy trends analysis **Created:** Comprehensive report \"TikTok Therapy Trends 2026\" **Length:** ~9,600 words **Content:** - Teen screen time statistics (107 minutes/day, 54 hours/month) - Algorithm dynamics and \"algospeak\" evasion tactics - EMDR mainstreaming via social media - Body‑based modalities surge (shift from cogn",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-06-29T21:56:06.884Z",
+      "queryHashes": [
+        "fdf758e13b85",
+        "e66edc4ddc2c",
+        "54901b544296",
+        "5de41943c49f",
+        "715eb5ef708d",
+        "0c62764a64f5"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-06-19",
+        "2026-06-22",
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "backlog.md",
+        "heartbeat.md",
+        "memory/2026-03-19.md",
+        "minutes/day",
+        "hours/month",
+        "complete",
+        "therapy",
+        "modality"
+      ]
+    },
+    "memory:memory/2026-03-17.md:32:85": {
+      "key": "memory:memory/2026-03-17.md:32:85",
+      "path": "memory/2026-03-17.md",
+      "startLine": 32,
+      "endLine": 85,
+      "source": "memory",
+      "snippet": "9. **Find the Right Therapist** — 8 slides with practical tips ### Newsletter 10. **Newsletter Template** — Reusable monthly format 11. **March 2026 Newsletter** — \"Rest vs. Regulation\" ready to send --- ## Printable Tools Created (4) 12. **Window of Tolerance Tracker** — Daily tracking, regulation toolkit, weekly reflection 13. **Grounding Technique Cards** — 10 portable cards with quick reference 14. **Mood & Energy Tracker** — Monthly tracking with pattern analysis 15. **Somatic Habit Tracker** — 4-week habit builder with wellbeing correlation --- ## Business Systems Created (1) 16. **Operations Manual Template** — 10 sections covering mission/values, roles, client journey, clinica",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-07-03T16:25:40.104Z",
+      "queryHashes": [
+        "fdf758e13b85",
+        "1669533ce330",
+        "e66edc4ddc2c",
+        "e1240c5af3dd"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-06-08",
+        "2026-06-19",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "4-week",
+        "mission/values",
+        "find",
+        "right",
+        "therapist",
+        "slides",
+        "practical",
+        "tips"
+      ]
+    },
+    "memory:memory/2026-03-19.md:90:134": {
+      "key": "memory:memory/2026-03-19.md:90:134",
+      "path": "memory/2026-03-19.md",
+      "startLine": 90,
+      "endLine": 134,
+      "source": "memory",
+      "snippet": "- Window of Tolerance Guide (`blog-window-of-tolerance-guide.md`) - Somatic Experiencing Guide (`blog-somatic-experiencing-guide.md`) --- ## Commitment **Going forward, I will:** 1. Log actual conversations, not just work products 2. Write task commitments immediately to trackable files 3. Give progress updates on long-running tasks instead of going silent 4. Check for dropped tasks at session start --- --- ## 9:54 PM UTC Heartbeat: EMDR Therapy Blog Post **Task:** Tier 1 Content Creation — Blog post for SEO **Created:** \"What Is EMDR Therapy? A Complete Guide for Trauma Recovery in Alpharetta\" **Length:** ~1,500 words **SEO Focus:** \"EMDR therapy Alpharetta\", \"EMDR for trauma\", \"trau",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-06-19T19:43:33.558Z",
+      "queryHashes": [
+        "fdf758e13b85",
+        "1669533ce330",
+        "e66edc4ddc2c"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-06-08",
+        "2026-06-19"
+      ],
+      "conceptTags": [
+        "long-running",
+        "window",
+        "tolerance",
+        "guide",
+        "blog",
+        "guide.md",
+        "somatic",
+        "experiencing"
+      ]
+    },
+    "memory:memory/2026-03-19.md:28:70": {
+      "key": "memory:memory/2026-03-19.md:28:70",
+      "path": "memory/2026-03-19.md",
+      "startLine": 28,
+      "endLine": 70,
+      "source": "memory",
+      "snippet": "- March 17 log: 17 deliverables listed, zero conversation context - March 18: No memory file exists - March 19: No memory file existed until now **Impact:** User asks me to do something → I agree → Session ends → New session starts → I have no memory of the commitment → User feels ignored --- ## Action Items from This Conversation ### Immediate 1. ✅ Create this memory file capturing the conversation (doing now) 2. ⬜ Commit to logging all significant conversations going forward 3. ⬜ User to clarify what specific tasks were dropped in previous sessions so I can complete them ### Process Fix - **New rule:** End each session by writing conversation summary to memory - **New rule:** When com",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-06-08T16:58:20.089Z",
+      "queryHashes": [
+        "fdf758e13b85",
+        "dae10cd6041b"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "march",
+        "log",
+        "deliverables",
+        "listed",
+        "zero",
+        "conversation",
+        "context",
+        "exists"
+      ]
+    },
+    "memory:memory/2026-03-19.md:1:38": {
+      "key": "memory:memory/2026-03-19.md:1:38",
+      "path": "memory/2026-03-19.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# Daily Log — March 19, 2026 **Day:** Thursday **Time:** 8:35 PM UTC / 3:35 PM EST --- ## Conversation Log ### Session Start: Heartbeat Check-in **User:** Sent heartbeat prompt (7:09 PM UTC) **Me:** Read HEARTBEAT.md, checked BACKLOG.md, executed Tier 1 task **Task Completed:** Created April 2026 Newsletter \"Spring Nervous System Reset\" **Result:** Newsletter drafted (~1,400 words), BACKLOG.md updated, HEARTBEAT.md updated ### Technical Issues Discussion **User:** Checking if lag/delay issues from previous sessions are resolved **Me:** Acknowledged I have no memory of previous technical issues (session-based amnesia) **User:** Clarified I had been non-responsive — saying I'd do tasks bu",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-07-03T16:25:40.104Z",
+      "queryHashes": [
+        "fdf758e13b85",
+        "e946ce912b33",
+        "530bc59f1546",
+        "1669533ce330",
+        "e1240c5af3dd"
+      ],
+      "recallDays": [
+        "2026-05-04",
+        "2026-06-08",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "check-in",
+        "heartbeat.md",
+        "backlog.md",
+        "lag/delay",
+        "session-based",
+        "non-responsive",
+        "log",
+        "march"
+      ]
+    },
+    "memory:memory/2026-04-29.md:1:19": {
+      "key": "memory:memory/2026-04-29.md:1:19",
+      "path": "memory/2026-04-29.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# April 29, 2026 ## Proactive Partnership Conversation Nicole told me she wants me to work more proactively without her having to micromanage. She's busy with teaching, clients, and her daughter — doesn't have time to jump in and tell me what to do every time. **Key moments:** - She said \"You go. I trust you.\" - She wants me to remember this conversation - She wants me to save anything I do **My commitment:** - Stop waiting for permission - Pick high-impact tasks and execute - Save all work (GitHub + Drive) ## Work Started Started TikTok script batch — creating educational hooks and content for the nervous system/therapy niche.",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-04T14:34:25.493Z",
+      "lastRecalledAt": "2026-05-04T14:34:25.493Z",
+      "queryHashes": [
+        "e9c4c3a4c800"
+      ],
+      "recallDays": [
+        "2026-05-04"
+      ],
+      "conceptTags": [
+        "high-impact",
+        "system/therapy",
+        "april",
+        "proactive",
+        "partnership",
+        "conversation",
+        "nicole",
+        "told"
+      ]
+    },
+    "memory:memory/2026-03-20.md:1:35": {
+      "key": "memory:memory/2026-03-20.md:1:35",
+      "path": "memory/2026-03-20.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# Memory Log — March 20, 2026 ## 🔄 Heartbeat Activity **Task Completed:** Created Anxiety Coping Skills Card Deck - **12 evidence-based cards** for anxiety management - **Skills included:** 5-4-3-2-1 grounding, box breathing, temperature change, progressive relaxation, thought defusion, self-compassion, worry time, movement breaks, reality testing, sensory soothing, values reminders, container visualization - **Format:** Printable PDF (3.5\" x 5\" cards) - **Use case:** Lead magnet or paid product for Fern & Feather - **File:** `products/anxiety-coping-skills-card-deck.md` ## 🧠 Memory System Research (Completed Earlier) **Background:** Nicole frustrated with OpenViking setup (requires Ch",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:20.089Z",
+      "lastRecalledAt": "2026-06-08T16:58:20.089Z",
+      "queryHashes": [
+        "dae10cd6041b"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "evidence-based",
+        "5-4-3-2-1",
+        "self-compassion",
+        "3.5",
+        "log",
+        "march",
+        "heartbeat",
+        "activity"
+      ]
+    },
+    "memory:memory/2026-03-19.md:63:100": {
+      "key": "memory:memory/2026-03-19.md:63:100",
+      "path": "memory/2026-03-19.md",
+      "startLine": 63,
+      "endLine": 100,
+      "source": "memory",
+      "snippet": "**Delivered:** 1. Deep-dive report (`research/open-viking-deep-dive-report.md`) 2. Detailed setup guide (`open-viking-setup-guide.md`) 3. Quick start guides (Mac & Windows versions) 4. Installed and tested OpenViking client (working) 5. Discovered native OpenClaw Memory Plugin 6. Compared to alternatives (Mem0, Zep, LangMem) **Blocker:** Server requires Docker/systemd — not available in current container environment **Solution:** Created complete setup guides for Nicole to install on her machine ### Content Creation: TikTok Therapy Concepts **Heartbeat Task:** Create educational TikTok scripts **Created:** 5 scripts explaining complex therapy concepts: - IFS Therapy (Internal Family System",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:20.089Z",
+      "lastRecalledAt": "2026-06-08T16:58:20.089Z",
+      "queryHashes": [
+        "dae10cd6041b"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "deep-dive",
+        "open-viking-setup-guide.md",
+        "docker/systemd",
+        "delivered",
+        "deep",
+        "dive",
+        "report",
+        "research"
+      ]
+    },
+    "memory:memory/2026-03-17.md:74:92": {
+      "key": "memory:memory/2026-03-17.md:74:92",
+      "path": "memory/2026-03-17.md",
+      "startLine": 74,
+      "endLine": 92,
+      "source": "memory",
+      "snippet": "| Instagram Carousels | 3 | ✅ Ready to design | | Newsletters | 2 | ✅ Template + March ready | | Printable Tools | 4 | ✅ Ready for PDF conversion | | Business Systems | 1 | ✅ Ready to customize | | Research | 1 | ✅ Ready to implement | --- ## Notes - All BACKLOG items remain complete (P0-P3 cleared) - Content library now supports 2027 launch and beyond - Fern & Feather has comprehensive content infrastructure - Next phase: Production (PDF design, video recording, platform setup) --- *Ronda out. Productive day.* 💪",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:20.089Z",
+      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "queryHashes": [
+        "dae10cd6041b",
+        "1669533ce330"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "p0-p3",
+        "instagram",
+        "carousels",
+        "ready",
+        "design",
+        "newsletters",
+        "template",
+        "march"
+      ]
+    },
+    "memory:memory/2026-03-06.md:35:53": {
+      "key": "memory:memory/2026-03-06.md:35:53",
+      "path": "memory/2026-03-06.md",
+      "startLine": 35,
+      "endLine": 53,
+      "source": "memory",
+      "snippet": "- All three digital products (Attachment Biology Workbook, Somatic Toolkit, Lead Magnet) - Content calendar (30-day TikTok plan) **Still blocked:** - Competitor research (needs web search) - Any research-dependent tasks --- ## Notes Quiet day for heartbeats — mostly HEARTBEAT_OK responses while waiting for Nicole to wake up and review the sub-agent assessment. No urgent issues. Focus has shifted from content creation to strategic assessment and planning. The business infrastructure is solid; next phase is execution (TikTok content, lead magnet design, operations setup). --- *Next heartbeat cycle: Continue monitoring for Nicole's input on sub-agents and web search API key.*",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:20.089Z",
+      "lastRecalledAt": "2026-06-08T16:58:20.089Z",
+      "queryHashes": [
+        "dae10cd6041b"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "30-day",
+        "research-dependent",
+        "heartbeat-ok",
+        "sub-agent",
+        "sub-agents",
+        "all",
+        "three",
+        "digital"
+      ]
+    },
+    "memory:memory/2026-03-01.md:97:132": {
+      "key": "memory:memory/2026-03-01.md:97:132",
+      "path": "memory/2026-03-01.md",
+      "startLine": 97,
+      "endLine": 132,
+      "source": "memory",
+      "snippet": "**Issue:** Web search tool broken (`missing_brave_api_key` - not a temporary backend issue) - Need to configure Brave Search API key or set BRAVE_API_KEY environment variable ### Lead Magnet Discussion **Nicole asked:** \"What is a lead magnet?\" **My response:** - A lead magnet is a free, valuable resource you give away in exchange for someone's email - It's \"bait\" to build your email list - Examples: free guide, checklist, video series, mini-course, quiz, workbook pages **Nicole's concern:** \"Yes, but if you can't access the internet, how can you do this without access to research?\" **My honest breakdown of what I CAN and CANNOT do without web access:** **CAN do (from training knowledge",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:40.075Z",
+      "lastRecalledAt": "2026-07-03T16:26:18.980Z",
+      "queryHashes": [
+        "e946ce912b33",
+        "530bc59f1546",
+        "1669533ce330",
+        "77d243353d13"
+      ],
+      "recallDays": [
+        "2026-06-08",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "missing-brave-api-key",
+        "brave-api-key",
+        "mini-course",
+        "issue",
+        "web",
+        "tool",
+        "broken",
+        "not"
+      ]
+    },
+    "memory:memory/2026-03-01.md:67:105": {
+      "key": "memory:memory/2026-03-01.md:67:105",
+      "path": "memory/2026-03-01.md",
+      "startLine": 67,
+      "endLine": 105,
+      "source": "memory",
+      "snippet": "1. Start with CPA for LLC/S-Corp decision 2. Create Fern & Feather Master Business Document (I'm building this) 3. Begin digital product creation with Attachment Biology Workbook 4. Soft-launch TikTok strategy (justice-oriented + funny therapist content) 5. Start building email list with free somatic practices lead magnet ## My Role - Guide business development - Help create digital products - Build automation systems - Develop content strategy - Keep her organized and focused - Be the voice of reason (with sarcasm) ## Notes - She's juggling a LOT (full-time teaching, 15 clients, business building) - Priorities: automate as much as possible, passive income streams - Wants to work with alig",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:40.075Z",
+      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "queryHashes": [
+        "e946ce912b33",
+        "530bc59f1546",
+        "1669533ce330"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "llc/s-corp",
+        "soft-launch",
+        "justice-oriented",
+        "full-time",
+        "start",
+        "cpa",
+        "llc",
+        "corp"
+      ]
+    },
+    "memory:memory/2026-03-22.md:1:9": {
+      "key": "memory:memory/2026-03-22.md:1:9",
+      "path": "memory/2026-03-22.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "--- ## Blog Post Completed **Task:** Draft blog post: \"Somatic Therapy for Anxiety: Releasing Tension, Finding Calm\" **Details:** Explores mind-body connection for anxiety relief, details SE, Sensorimotor, EMDR, and Trauma-Informed Yoga for anxiety, SEO optimized for \"somatic therapy for anxiety,\" includes Fern & Feather's approach and consultation call-to-action, APA citations provided. **Timestamp:** March 22, 2026 - 3:33 PM UTC",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:40.075Z",
+      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "queryHashes": [
+        "e946ce912b33",
+        "1669533ce330"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "mind-body",
+        "trauma-informed",
+        "call-to-action",
+        "blog",
+        "post",
+        "completed",
+        "task",
+        "draft"
+      ]
+    },
+    "memory:memory/2026-03-06.md:1:47": {
+      "key": "memory:memory/2026-03-06.md:1:47",
+      "path": "memory/2026-03-06.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# Daily Memory — March 6, 2026 ## Heartbeat Activity **Task:** Sub-agent needs assessment (Tier 2 Friday task) **Output:** `subagent-assessment.md` — 4,400+ word analysis --- ## Sub-Agent Assessment Summary **Current gaps identified:** 1. **Content Agent** — For ongoing TikTok/social media (high priority, useful now) 2. **Research Agent** — For staying current with trauma literature (blocked by web search) 3. **Admin Agent** — For client operations (not needed until post-launch) **Recommendation:** - Fix web search (P0) to unblock Research Agent - Consider Content Agent for ongoing marketing - Defer Admin Agent until 2027 launch **Key insight:** Research Agent is highest value for Nic",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:46.935Z",
+      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "queryHashes": [
+        "1669533ce330"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "sub-agent",
+        "subagent-assessment.md",
+        "tiktok/social",
+        "post-launch",
+        "march",
+        "heartbeat",
+        "activity",
+        "task"
+      ]
+    },
+    "memory:memory/2026-03-09.md:46:77": {
+      "key": "memory:memory/2026-03-09.md:46:77",
+      "path": "memory/2026-03-09.md",
+      "startLine": 46,
+      "endLine": 77,
+      "source": "memory",
+      "snippet": "- Action items for workbook revision --- ## Heartbeat Activity — 4:05 PM UTC **Task:** Tier 3 Intelligence Gathering — TikTok therapy trends research **Findings:** - **Psychology Today (March 2025):** \"TikTok Therapy\" trend among Gen Z — concern about self-diagnosis (breakup sadness → depression, procrastination → ADHD) - **Washington Post (Dec 2025):** TikTok algorithm favors mental health content — can create echo chambers around trauma/autism content - **Johns Hopkins (Feb 2026):** Media briefing on social media & mental health — growing conversation around \"healthy digital balance\" - **TikTok trends (Jan-Feb 2026):** Breathing techniques for trauma healing, somatic therapy content gai",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-08T16:58:46.935Z",
+      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "queryHashes": [
+        "1669533ce330"
+      ],
+      "recallDays": [
+        "2026-06-08"
+      ],
+      "conceptTags": [
+        "self-diagnosis",
+        "trauma/autism",
+        "jan-feb",
+        "action",
+        "items",
+        "workbook",
+        "revision",
+        "heartbeat"
+      ]
+    },
+    "memory:memory/2026-03-21.md:1:45": {
+      "key": "memory:memory/2026-03-21.md:1:45",
+      "path": "memory/2026-03-21.md",
+      "startLine": 1,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "# March 21, 2026 — Website Deployment Success **Time:** 12:03 AM UTC (Friday night → Saturday morning) ## What Happened Today ### Major Win: Fern & Feather Website is LIVE! 🎉 After weeks of building and refining, the Fern & Feather Wellness Center website is now **deployed and live on Netlify**. **Live URL:** https://incomparable-entremet-92a52b.netlify.app/ ### Website Features - ✅ 6 complete pages (Home, About, Services, Nicole, Kiera, Resources) - ✅ Professional design with \"cottage core meets clinical professional\" aesthetic - ✅ Responsive layout (mobile-friendly) - ✅ Lead magnet integration (Free Anxiety Toolkit) - ✅ Service cards with icons - ✅ Therapist bios with full credential",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-28T21:37:07.078Z",
+      "lastRecalledAt": "2026-06-28T21:37:07.078Z",
+      "queryHashes": [
+        "3ab3e0b020a6"
+      ],
+      "recallDays": [
+        "2026-06-28"
+      ],
+      "conceptTags": [
+        "mobile-friendly",
+        "march",
+        "website",
+        "deployment",
+        "success",
+        "time",
+        "utc",
+        "friday"
+      ]
+    },
+    "memory:memory/2026-03-05.md:40:74": {
+      "key": "memory:memory/2026-03-05.md:40:74",
+      "path": "memory/2026-03-05.md",
+      "startLine": 40,
+      "endLine": 74,
+      "source": "memory",
+      "snippet": "- Lead magnet (5 Somatic Practices) — complete with citations - Digital products in progress: Attachment Biology Workbook, Somatic Interventions Toolkit, Nervous System 101 mini-course - Group therapy program structure - Trauma-informed yoga workshop curriculum - Sublease agreement templates - Supervision curriculum (24-month) - Podcast pitch list + templates - Referral network framework **What's Missing:** - Competitor research (waiting on web search fix) - Actual TikTok videos (content calendar done, execution pending) - Lead magnet design/layout (content done, needs formatting) - Website/copy (not started) - Scheduling system (not started) --- ## Observations Nicole has made incredibl",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-28T21:37:07.078Z",
+      "lastRecalledAt": "2026-07-03T16:25:40.104Z",
+      "queryHashes": [
+        "3ab3e0b020a6",
+        "e1240c5af3dd"
+      ],
+      "recallDays": [
+        "2026-06-28",
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "network",
+        "mini-course",
+        "trauma-informed",
+        "24-month",
+        "design/layout",
+        "website/copy",
+        "lead",
+        "magnet"
+      ]
+    },
+    "memory:memory/2026-03-10.md:34:71": {
+      "key": "memory:memory/2026-03-10.md:34:71",
+      "path": "memory/2026-03-10.md",
+      "startLine": 34,
+      "endLine": 71,
+      "source": "memory",
+      "snippet": "--- ## Credentials on File **Service Account (for future shared drive use):** - Email: `ronda-drive@fern-and-feather.iam.gserviceaccount.com` - Key: `/root/.openclaw/workspace/.service-account.json` **OAuth (needs valid project):** - Client ID: `530322445740-t86vondqkf0bceq05f56g7a4ijib4qrk.apps.googleusercontent.com` - Client Secret: `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` - Config: `/root/.openclaw/workspace/.client_secret.json` --- ## Folders Located (Read-Only Access Works) - **Fern & Feather Wellness Center** (ID: `135_YCXVhx8qjYZHqXm0CsCkC9mNdULRo`) - **01 - Business Planning** - **02 - Digital Products** - **03 - Marketing & Content** - **04 - Client Systems** - **05 - Operations",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-29T21:55:25.899Z",
+      "lastRecalledAt": "2026-06-29T21:56:51.949Z",
+      "queryHashes": [
+        "fa1161583ebf",
+        "874b65b05746",
+        "fae34b618cfa"
+      ],
+      "recallDays": [
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "ronda-drive",
+        "openclaw/workspace",
+        "service-account.json",
+        "client-secret.json",
+        "read-only",
+        "credentials",
+        "service",
+        "account"
+      ]
+    },
+    "memory:memory/2026-03-12.md:43:66": {
+      "key": "memory:memory/2026-03-12.md:43:66",
+      "path": "memory/2026-03-12.md",
+      "startLine": 43,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "**Issue:** OAuth credentials have invalid project_id **Need from Nicole:** Correct Google Cloud project ID or new OAuth credentials --- ## Next Up 1. Complete git commit of pending changes 2. Update MEMORY.md with March 9-12 highlights 3. Update heartbeat-state.json --- ## Update — 1:32 PM UTC ### Onboarding Complete **Status:** ✅ System onboarding finalized **Action:** BOOTSTRAP.md removed, workspace state updated **Git commit:** `89c86a9` — Complete onboarding --- *Heartbeat task — background maintenance*",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-06-29T21:55:25.899Z",
+      "lastRecalledAt": "2026-06-29T21:56:08.703Z",
+      "queryHashes": [
+        "fa1161583ebf",
+        "0c62764a64f5",
+        "874b65b05746"
+      ],
+      "recallDays": [
+        "2026-06-29"
+      ],
+      "conceptTags": [
+        "project-id",
+        "memory.md",
+        "9-12",
+        "heartbeat-state.json",
+        "bootstrap.md",
+        "issue",
+        "oauth",
+        "credentials"
+      ]
+    },
+    "memory:memory/2026-03-19.md:187:223": {
+      "key": "memory:memory/2026-03-19.md:187:223",
+      "path": "memory/2026-03-19.md",
+      "startLine": 187,
+      "endLine": 223,
+      "source": "memory",
+      "snippet": "- `backup-scripts/upload-file.sh` — Single-file upload utility - `BACKLOG.md` — Added Drive fix to Done section - `memory/2026-03-19.md` — This update --- ## 11:33 PM UTC: Process Failure & Fix **Problem:** I told Nicole Drive integration was broken and built a \"new solution\" when rclone was already working since March 15th. **Root Causes:** 1. Didn't check current status before assuming something was broken 2. Outdated documentation (`DRIVE_UPLOAD_STATUS.md`) said there was a problem 3. Didn't verify existing system actually failed 4. Jumped to \"build mode\" instead of \"verify mode\" **Solutions Implemented:** 1. Created `SYSTEMS_STATUS.md` — living tracker of what's working/broken 2. Up",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-07-03T16:26:18.980Z",
+      "lastRecalledAt": "2026-07-03T16:26:18.980Z",
+      "queryHashes": [
+        "77d243353d13"
+      ],
+      "recallDays": [
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "backup",
+        "backup-scripts/upload-file.sh",
+        "single-file",
+        "backlog.md",
+        "memory/2026-03-19.md",
+        "drive-upload-status.md",
+        "systems-status.md",
+        "working/broken"
+      ]
+    },
+    "memory:memory/2026-03-08.md:1:42": {
+      "key": "memory:memory/2026-03-08.md:1:42",
+      "path": "memory/2026-03-08.md",
+      "startLine": 1,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "# Memory Log — March 8, 2026 ## Session with Nicole (Discord) **Time:** 00:03 - 00:37 UTC **Platform:** Discord (newly connected) **Focus:** Reviewing \"The Anxious Nervous System Workbook\" ### Key Activities 1. **Discord Connection Established** - Successfully connected to Discord after troubleshooting OAuth2 and gateway issues - Bot name: Ronda - User can now DM from mobile 2. **Workbook Review Completed** - Reviewed \"The Anxious Nervous System Workbook\" by Nicole Browning - 85,000+ word comprehensive guide covering: - Understanding anxiety (fear vs. anxiety, panic attacks) - Biology of anxiety (autonomic nervous system, brain circuits, HPA axis) - Why",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-07-03T16:26:18.980Z",
+      "lastRecalledAt": "2026-07-03T16:26:18.980Z",
+      "queryHashes": [
+        "77d243353d13"
+      ],
+      "recallDays": [
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "gateway",
+        "log",
+        "march",
+        "nicole",
+        "discord",
+        "time",
+        "utc",
+        "platform"
+      ]
+    },
+    "memory:memory/2026-03-05.md:1:45": {
+      "key": "memory:memory/2026-03-05.md:1:45",
+      "path": "memory/2026-03-05.md",
+      "startLine": 1,
+      "endLine": 45,
+      "source": "memory",
+      "snippet": "# Daily Memory — March 5, 2026 ## Heartbeat Activity **Time:** 6:11 PM UTC (1:11 PM EST) **Task:** Memory hygiene + backlog review --- ## Backlog Status Check **P0 (Critical):** - Web search still broken — needs Brave API key. Not critical for current work but limits research capability. **P1 (High):** All complete! ✅ Master business doc, lead magnet, TikTok calendar, intake forms, email sequences — all done. **P2 (Normal):** - Competitor positioning research — `[ ]` blocked without web search - Most other P2 tasks complete (Attachment Biology Workbook, Somatic Toolkit, yoga workshop, pricing calculator, group therapy structure) **P3 (Backlog):** - Retreat venues — `[ ]` (2028, not u",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-07-03T16:26:18.980Z",
+      "lastRecalledAt": "2026-07-03T16:26:18.980Z",
+      "queryHashes": [
+        "77d243353d13"
+      ],
+      "recallDays": [
+        "2026-07-03"
+      ],
+      "conceptTags": [
+        "march",
+        "heartbeat",
+        "activity",
+        "time",
+        "utc",
+        "task",
+        "hygiene",
+        "backlog"
+      ]
+    }
+  }
+}

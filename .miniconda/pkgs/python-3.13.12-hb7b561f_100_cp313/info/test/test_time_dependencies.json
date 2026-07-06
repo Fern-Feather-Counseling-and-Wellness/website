@@ -1,0 +1,1 @@
+["make", "sysroot_linux-64 2.28.*", "ninja-base", "gxx_linux-64 14.3.0.*", "cmake-no-system", "ripgrep", "gcc_linux-64 14.3.0.*"]

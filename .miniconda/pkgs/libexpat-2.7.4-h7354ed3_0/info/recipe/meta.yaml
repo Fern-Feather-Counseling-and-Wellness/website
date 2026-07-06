@@ -1,0 +1,85 @@
+# This file created by conda-build 25.11.1
+# ------------------------------------------------
+
+package:
+  name: libexpat
+  version: 2.7.4
+source:
+  url: https://github.com/libexpat/libexpat/releases/download/R_2_7_4/expat-2.7.4.tar.bz2
+  sha256: e6af11b01e32e5ef64906a5cca8809eabc4beb7ff2f9a0e6aabbd42e825135d0
+build:
+  number: '0'
+  run_exports:
+    - libexpat >=2.7.4,<3.0a0
+  noarch: false
+  noarch_python: false
+  python_version_independent: false
+  string: h7354ed3_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - binutils_impl_linux-64 2.44 h4b9a079_2
+    - binutils_linux-64 2.44 hc03a8fd_2
+    - gcc_impl_linux-64 14.3.0 h4943218_4
+    - gcc_linux-64 14.3.0 hda73cce_12
+    - gxx_impl_linux-64 14.3.0 he634eba_4
+    - gxx_linux-64 14.3.0 hca8765c_12
+    - kernel-headers_linux-64 4.18.0 h3108a97_1
+    - ld_impl_linux-64 2.44 h153f514_2
+    - libgcc 15.2.0 h69a1729_7
+    - libgcc-devel_linux-64 14.3.0 he7458c1_104
+    - libgomp 15.2.0 h4751f2c_7
+    - libsanitizer 14.3.0 hd4faa28_4
+    - libstdcxx 15.2.0 h39759b7_7
+    - libstdcxx-devel_linux-64 14.3.0 he7458c1_104
+    - sysroot_linux-64 2.28 h3108a97_1
+    - tzdata 2025c he532380_0
+  run_constrained:
+    - expat 2.7.4.*
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - libgcc 15.2.0 h69a1729_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libstdcxx 15.2.0 h39759b7_7
+  run:
+    - __glibc >=2.28,<3.0.a0
+    - libgcc >=14
+    - libstdcxx >=14
+test:
+  requires:
+    - pkg-config
+  commands:
+    - ls $PREFIX/lib/libexpat*${SHLIB_EXT}* > /dev/null 2>&1
+    - pkg-config --libs expat
+about:
+  home: https://libexpat.github.io
+  license: MIT
+  license_family: MIT
+  license_file: COPYING
+  summary: Expat XML parser library in C
+  description: 'Expat is a stream-oriented XML parser library written in C.
+
+    Expat excels with files too large to fit RAM, and where performance
+
+    and flexibility are crucial.
+
+    '
+  dev_url: https://github.com/libexpat/libexpat
+  doc_url: https://libexpat.github.io/doc
+extra:
+  recipe-maintainers:
+    - kwilcox
+    - mingwandroid
+    - msarahan
+    - ocefpaf
+    - pelson
+    - scopatz
+  final: true
+  copy_test_source_files: true
+  remote_url: https://github.com/AnacondaRecipes/expat-feedstock
+  sha: 75551a24940eb30b246084f4d3af1d377b625365
+  task_id: ef61zYeqSiKIenZ0NpLiGQ
+  task_run_id: '0'
+  pbp_graph_uuid: 357eb72c-e51e-4011-b5ed-03ee225dfcbc

@@ -15,3 +15,4 @@
 ## Pending
 - [ ] Continue building digital product catalog
 - [ ] Continue content creation
+- [x] Created self‑care TikTok script (content/TikTok-Scripts/self-care-tips.txt)

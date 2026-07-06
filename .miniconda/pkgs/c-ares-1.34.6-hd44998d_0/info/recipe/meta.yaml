@@ -1,0 +1,101 @@
+# This file created by conda-build 25.1.2
+# ------------------------------------------------
+
+package:
+  name: c-ares
+  version: 1.34.6
+source:
+  sha256: 4358939ff800b13b92f37d5fdda003718101faedfbdee792d6b79ddc1a53d890
+  url: https://github.com/c-ares/c-ares/archive/refs/tags/v1.34.6.tar.gz
+build:
+  number: 0
+  run_exports:
+    - c-ares >=1.34.6,<2.0a0
+  string: hd44998d_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - binutils_impl_linux-64 2.44 h4b9a079_2
+    - binutils_linux-64 2.44 hc03a8fd_2
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2025.12.2 h06a4308_0
+    - cmake-no-system 3.25.3 h6a678d5_0
+    - gcc_impl_linux-64 14.3.0 h4943218_4
+    - gcc_linux-64 14.3.0 hda73cce_12
+    - gtest 1.17.0 h5f83a47_0
+    - gxx_impl_linux-64 14.3.0 he634eba_4
+    - gxx_linux-64 14.3.0 hca8765c_12
+    - kernel-headers_linux-64 4.18.0 h3108a97_1
+    - ld_impl_linux-64 2.44 h153f514_2
+    - libexpat 2.7.3 h7354ed3_4
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc 15.2.0 h69a1729_7
+    - libgcc-devel_linux-64 14.3.0 he7458c1_104
+    - libgcc-ng 15.2.0 h166f726_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libmpdec 4.0.0 h5eee18b_0
+    - libsanitizer 14.3.0 hd4faa28_4
+    - libstdcxx 15.2.0 h39759b7_7
+    - libstdcxx-devel_linux-64 14.3.0 he7458c1_104
+    - libstdcxx-ng 15.2.0 hc03a8fd_7
+    - libuuid 1.41.5 h5eee18b_0
+    - libxcb 1.17.0 h9b100fa_0
+    - libzlib 1.3.1 hb25bd0a_0
+    - lz4-c 1.9.4 h6a678d5_1
+    - ncurses 6.5 h7934f7d_0
+    - ninja 1.13.1 h06a4308_0
+    - ninja-base 1.13.1 h0f57076_0
+    - openssl 3.0.18 hd6dcaed_0
+    - pthread-stubs 0.3 h0ce48e5_1
+    - python 3.14.2 h90eec9f_101_cp314
+    - python_abi 3.14 2_cp314
+    - readline 8.3 hc2a1206_0
+    - sqlite 3.51.1 he0a8d7e_0
+    - sysroot_linux-64 2.28 h3108a97_1
+    - tk 8.6.15 h54e0aa7_0
+    - tzdata 2025c he532380_0
+    - xorg-libx11 1.8.12 h9b100fa_1
+    - xorg-libxau 1.0.12 h9b100fa_0
+    - xorg-libxdmcp 1.1.5 h9b100fa_0
+    - xorg-xorgproto 2024.1 h5eee18b_1
+    - xz 5.6.4 h5eee18b_1
+    - zlib 1.3.1 hb25bd0a_0
+    - zstd 1.5.7 h11fc155_0
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - libgcc 15.2.0 h69a1729_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libstdcxx 15.2.0 h39759b7_7
+  run:
+    - __glibc >=2.28,<3.0.a0
+    - libgcc >=14
+    - libstdcxx >=14
+  run_constraint:
+    - c-ares-static <0a0
+test:
+  commands:
+    - test -f ${PREFIX}/include/ares.h
+    - test -f ${PREFIX}/lib/libcares${SHLIB_EXT}
+    - test ! -f ${PREFIX}/lib/libcares.a
+    - test ! -f ${PREFIX}/lib/libcares_static.a
+about:
+  description: 'c-ares is a C library for asynchronous DNS requests (including name
+    resolves).
+
+    '
+  dev_url: https://github.com/c-ares/c-ares
+  doc_url: https://c-ares.org/docs.html
+  home: https://c-ares.org
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE.md
+  summary: This is c-ares, an asynchronous resolver library
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - ocefpaf
+    - wesm
+    - xhochy

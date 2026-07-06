@@ -1,0 +1,105 @@
+# This file created by conda-build 25.1.2
+# meta.yaml template originally from:
+# /home/task_175862240717140/anyio-feedstock/recipe, last modified Tue Sep 23 10:13:29 2025
+# ------------------------------------------------
+
+package:
+  name: anyio
+  version: 4.10.0
+source:
+  sha256: 3f3fae35c96039744587aa5b8371e7e8e603c0702999535961dd336026973ba6
+  url: https://pypi.org/packages/source/a/anyio/anyio-4.10.0.tar.gz
+build:
+  number: '0'
+  script: /home/task_175862240717140/conda-bld/anyio_1758622421932/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py313h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2025.9.9 h06a4308_0
+    - expat 2.7.1 h6a678d5_0
+    - ld_impl_linux-64 2.40 h12ee557_0
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libmpdec 4.0.0 h5eee18b_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - libxcb 1.17.0 h9b100fa_0
+    - libzlib 1.3.1 hb25bd0a_0
+    - ncurses 6.5 h7934f7d_0
+    - openssl 3.0.17 h5eee18b_0
+    - packaging 25.0 py313h06a4308_0
+    - pip 25.2 pyhc872135_0
+    - pthread-stubs 0.3 h0ce48e5_1
+    - python 3.13.7 h7e8bc2b_100_cp313
+    - python_abi 3.13 1_cp313
+    - readline 8.3 hc2a1206_0
+    - setuptools 78.1.1 py313h06a4308_0
+    - setuptools-scm 8.3.1 py313h06a4308_1
+    - sqlite 3.50.2 hb25bd0a_1
+    - tk 8.6.15 h54e0aa7_0
+    - tzdata 2025b h04d1e81_0
+    - wheel 0.45.1 py313h06a4308_0
+    - xorg-libx11 1.8.12 h9b100fa_1
+    - xorg-libxau 1.0.12 h9b100fa_0
+    - xorg-libxdmcp 1.1.5 h9b100fa_0
+    - xorg-xorgproto 2024.1 h5eee18b_1
+    - xz 5.6.4 h5eee18b_1
+    - zlib 1.3.1 hb25bd0a_0
+  run:
+    - idna >=2.8
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+    - sniffio >=1.1
+  run_constrained:
+    - trio >=0.26.1
+    - uvloop >=0.21
+test:
+  commands:
+    - pip check
+    - pytest -vv -ra -m "not network" -o xfail_strict=False --timeout 300
+  imports:
+    - anyio
+  requires:
+    - exceptiongroup >=1.2.0
+    - hypothesis >=4.0
+    - pip
+    - psutil >=5.9
+    - pytest >=7.0
+    - pytest-mock >=3.14
+    - pytest-timeout
+    - tomli
+    - trio
+    - trustme
+    - uvloop 0.21.0.*
+  source_files:
+    - pyproject.toml
+    - tests
+about:
+  description: 'AnyIO is an asynchronous networking and concurrency library that works
+    on top of
+
+    either asyncio or trio. It implements trio-like structured concurrency (SC) on
+    top of
+
+    asyncio and works in harmony with the native SC of trio itself.
+
+    '
+  dev_url: https://github.com/agronholm/anyio
+  doc_url: https://anyio.readthedocs.io
+  home: https://github.com/agronholm/anyio
+  license: MIT
+  license_family: MIT
+  license_file: LICENSE
+  summary: High level compatibility layer for multiple asynchronous event loop implementations
+    on Python
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - CJ-Wright
+    - bollwyvl

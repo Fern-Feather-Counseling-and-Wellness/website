@@ -1,0 +1,80 @@
+# This file created by conda-build 24.1.2
+# meta.yaml template originally from:
+# /feedstock/recipe, last modified Thu May 29 13:40:42 2025
+# ------------------------------------------------
+
+package:
+  name: httpcore
+  version: 1.0.9
+source:
+  sha256: 6e34463af53fd2ab5d807f399a9b45ea31c3dfa2276f15a2c3f00afff6e176e8
+  url: https://pypi.io/packages/source/h/httpcore/httpcore-1.0.9.tar.gz
+build:
+  number: '0'
+  script: /croot/httpcore_1748526048470/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/bin/python
+    -m pip install . -vv --no-deps --no-build-isolation
+  string: py313h06a4308_0
+requirements:
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2025.2.25 h06a4308_0
+    - expat 2.7.1 h6a678d5_0
+    - hatch-fancy-pypi-readme 24.1.0 py313h06a4308_0
+    - hatchling 1.27.0 py313h06a4308_0
+    - ld_impl_linux-64 2.40 h12ee557_0
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc-ng 11.2.0 h1234567_1
+    - libgomp 11.2.0 h1234567_1
+    - libmpdec 4.0.0 h5eee18b_0
+    - libstdcxx-ng 11.2.0 h1234567_1
+    - libuuid 1.41.5 h5eee18b_0
+    - ncurses 6.4 h6a678d5_0
+    - openssl 3.0.16 h5eee18b_0
+    - packaging 24.2 py313h06a4308_0
+    - pathspec 0.10.3 py313h06a4308_0
+    - pip 25.1 pyhc872135_2
+    - pluggy 1.5.0 py313h06a4308_0
+    - python 3.13.2 hf623796_100_cp313
+    - python_abi 3.13 0_cp313
+    - readline 8.2 h5eee18b_0
+    - setuptools 78.1.1 py313h06a4308_0
+    - sqlite 3.45.3 h5eee18b_0
+    - tk 8.6.14 h39e8969_0
+    - trove-classifiers 2024.10.14 py313h06a4308_0
+    - tzdata 2025b h04d1e81_0
+    - wheel 0.45.1 py313h06a4308_0
+    - xz 5.6.4 h5eee18b_1
+    - zlib 1.2.13 h5eee18b_1
+  run:
+    - certifi
+    - h11 >=0.16
+    - python >=3.13,<3.14.0a0
+    - python_abi 3.13.* *_cp313
+test:
+  commands:
+    - pip check
+  imports:
+    - httpcore
+  requires:
+    - pip
+about:
+  description: The HTTP Core package provides a minimal low-level HTTP client, which
+    does one thing only. Sending HTTP requests.
+  dev_url: https://github.com/encode/httpcore
+  doc_url: https://www.encode.io/httpcore/
+  home: https://github.com/encode/httpcore
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE.md
+  summary: The next generation HTTP client.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: 86f5e8db-440e-4094-93b2-b06eda562860
+  recipe-maintainers:
+    - nicoddemus
+    - synapticarbors
+  remote_url: git@github.com:AnacondaRecipes/httpcore-feedstock.git
+  sha: bf922a7a787fe76f6d2a10110d0d35537d06e5ca

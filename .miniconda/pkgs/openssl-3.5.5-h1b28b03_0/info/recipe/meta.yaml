@@ -1,0 +1,108 @@
+# This file created by conda-build 26.1.0
+# meta.yaml template originally from:
+# /home/task_177211824080552/openssl-feedstock/recipe, last modified Thu Feb 26 15:18:31 2026
+# ------------------------------------------------
+
+package:
+  name: openssl
+  version: 3.5.5
+source:
+  url: https://github.com/openssl/openssl/releases/download/openssl-3.5.5/openssl-3.5.5.tar.gz
+  sha256: b28c91532a8b65a1f983b4c28b7488174e4a01008e29ce8e69bd789f28bc2a89
+build:
+  number: '0'
+  no_link:
+    - lib/libcrypto.so.3.0
+  has_prefix_files:
+    - bin/c_rehash
+    - lib/pkgconfig/libcrypto.pc
+    - lib/pkgconfig/libssl.pc
+    - lib/pkgconfig/openssl.pc
+  detect_binary_files_with_prefix: true
+  binary_has_prefix_files:
+    - lib/libcrypto.so.3
+  run_exports:
+    - openssl >=3.5.5,<4.0a0
+  string: h1b28b03_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - binutils_impl_linux-64 2.44 h4b9a079_2
+    - binutils_linux-64 2.44 hc03a8fd_2
+    - gcc_impl_linux-64 14.3.0 h4943218_4
+    - gcc_linux-64 14.3.0 hda73cce_12
+    - kernel-headers_linux-64 4.18.0 h3108a97_1
+    - ld_impl_linux-64 2.44 h153f514_2
+    - libgcc 15.2.0 h69a1729_7
+    - libgcc-devel_linux-64 14.3.0 he7458c1_104
+    - libgcc-ng 15.2.0 h166f726_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libsanitizer 14.3.0 hd4faa28_4
+    - libstdcxx 15.2.0 h39759b7_7
+    - make 4.2.1 h1bed415_1
+    - perl 5.42.0 0_h47b2149_perl5
+    - sysroot_linux-64 2.28 h3108a97_1
+    - tzdata 2025c he532380_0
+  run:
+    - __glibc >=2.28,<3.0.a0
+    - ca-certificates
+    - libgcc >=14
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - libgcc 15.2.0 h69a1729_7
+    - libgomp 15.2.0 h4751f2c_7
+test:
+  requires:
+    - pkg-config
+    - python 3.13.*
+  commands:
+    - touch checksum.txt
+    - openssl sha256 checksum.txt
+    - openssl ecparam -name prime256v1
+    - python -c "import urllib.request; urllib.request.urlopen('https://pypi.org')"
+    - pkg-config --print-errors --exact-version "3.5.5" openssl
+    - test -f ${PREFIX}/lib/libcrypto.so.3
+    - test -f ${PREFIX}/lib/libssl.so.3
+    - test -f ${PREFIX}/lib/pkgconfig/libssl.pc
+    - test -f ${PREFIX}/lib/pkgconfig/libcrypto.pc
+    - test -f ${PREFIX}/lib/pkgconfig/openssl.pc
+    - test -f ${PREFIX}/bin/openssl
+    - test -f ${PREFIX}/bin/c_rehash
+    - test -n "$(ls -A ${PREFIX}/include/openssl 2>/dev/null)"
+about:
+  home: https://www.openssl.org
+  license_file: LICENSE.txt
+  license: Apache-2.0
+  license_family: Apache
+  summary: OpenSSL is an open-source implementation of the SSL and TLS protocols
+  description: 'OpenSSL is a robust, commercial-grade, full-featured Open Source Toolkit
+
+    for the Transport Layer Security (TLS) protocol formerly known as the
+
+    Secure Sockets Layer (SSL) protocol. The protocol implementation is based
+
+    on a full-strength general purpose cryptographic library, which can also
+
+    be used stand-alone.
+
+    '
+  dev_url: https://github.com/openssl/openssl
+  doc_url: https://docs.openssl.org
+extra:
+  recipe-maintainers:
+    - carlodri
+    - chenghlee
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - ocefpaf
+    - pelson
+  final: true
+  copy_test_source_files: true
+  remote_url: https://github.com/AnacondaRecipes/openssl-feedstock
+  sha: 1e8795c0ff49e79315ee6a027b0578eddf925ea8
+  task_id: TKaABasMTeSCylCz-jh7YA
+  task_run_id: '0'
+  pbp_graph_uuid: 2a9a46fc-4071-4209-979b-9d87c7aef018

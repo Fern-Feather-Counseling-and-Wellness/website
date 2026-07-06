@@ -1,0 +1,35 @@
+==========================================
+Token Refresh - Mon Apr 13 14:49:10 UTC 2026
+==========================================
+❌ FAILED: Could not get new token
+{
+  "access_token": "ya29.a0Aa7MYirwl92tpitZtpRjdlUFZIzmo8CLJ8qPwxqK-JSAne9lvykgzkoUH0fUjN0-G3SyGqKGMsPD661Xen1ubwUWgUYNDbM83gEAvV3nJ2KLeYMaAEIfR83YuWLpMqM9rsbNY7xbGw43_ygSQYtnyt2baDe9T2n1DuoZqCdyvFse_OOvucubMgxxHtWaoAld3cbs-WDkaCgYKAbYSARISFQHGX2MiNYR89SbSEGLWxS_swjCZ1g0207",
+  "expires_in": 3599,
+  "scope": "https://www.googleapis.com/auth/drive.file",
+  "token_type": "Bearer",
+  "refresh_token_expires_in": 539618
+}
+==========================================
+Token Refresh - Mon Apr 13 14:50:06 UTC 2026
+==========================================
+✅ Got new access token
+✅ Updated rclone config
+✅ SUCCESS: Drive connection verified
+✅ Token refresh complete
+==========================================
+Token Refresh - Mon Apr 13 15:58:06 UTC 2026
+==========================================
+✅ Got new access token
+✅ Updated rclone config
+✅ SUCCESS: Drive connection verified
+✅ Token refresh complete
+✅ Token refreshed successfully
+
+==========================================
+Token Refresh - Mon Apr 20 15:41 UTC 2026
+==========================================
+✅ Got new access token
+✅ Token saved to .gdrive-token.json
+✅ Drive connection verified
+✅ SUCCESS: Drive connection working
+

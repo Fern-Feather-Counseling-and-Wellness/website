@@ -5,6 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
   
+<<<<<<< HEAD
   // --- Navigation Dropdown Functionality ---
   const dropdowns = document.querySelectorAll('.dropdown');
   
@@ -27,6 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   // --- End Navigation Dropdown Functionality ---
 
+=======
+>>>>>>> a82ccfc (Beautiful cottage-core styled website with full navigation and all pages)
   // FAQ Accordion
   const faqItems = document.querySelectorAll('.faq-item');
   
@@ -215,4 +218,8 @@ window.FernFeather = {
   openBookingModal,
   debounce,
   throttle
+<<<<<<< HEAD
 };
+=======
+};
+>>>>>>> a82ccfc (Beautiful cottage-core styled website with full navigation and all pages)

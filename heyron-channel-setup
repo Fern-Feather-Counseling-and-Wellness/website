@@ -1,0 +1,25 @@
+#!/usr/bin/env node
+const { spawnSync } = require('child_process');
+const fs = require('fs');
+const channel = String(process.argv[2] || '').toLowerCase();
+let token = process.argv.filter(arg => arg !== '--dry-run').slice(3).join(' ').trim();
+if (!token) { try { token = fs.readFileSync(0, 'utf8').trim(); } catch {} }
+function fail(msg, code = 1) { console.error(msg); process.exit(code); }
+if (!['telegram', 'discord'].includes(channel)) fail('Usage: ./heyron-channel-setup <telegram|discord> [token]');
+if (!token) fail('No bot token provided on stdin.');
+if (token.length < 12) fail('Token looks too short.');
+const patch = channel === 'telegram'
+  ? { plugins: { entries: { telegram: { enabled: true } } }, channels: { telegram: { enabled: true, botToken: token, dmPolicy: 'pairing', groupPolicy: 'allowlist', streaming: { mode: 'partial', preview: { toolProgress: false } } } } }
+  : { messages: { visibleReplies: 'automatic', groupChat: { visibleReplies: 'automatic' } }, plugins: { entries: { discord: { enabled: true } } }, channels: { discord: { enabled: true, token, dmPolicy: 'open', groupPolicy: 'open', allowFrom: ['*'] } } };
+const args = ['config', 'patch', '--stdin'];
+const dryRun = process.env.HEYRON_CHANNEL_SETUP_DRY_RUN === '1' || process.argv.includes('--dry-run');
+if (dryRun) args.push('--dry-run', '--json');
+
+const result = spawnSync('openclaw', args, { input: JSON.stringify(patch), encoding: 'utf8', stdio: ['pipe', 'pipe', 'pipe'] });
+if (result.status !== 0) fail((result.stderr || result.stdout || 'config patch failed').replaceAll(token, '[REDACTED_TOKEN]').trim());
+if (dryRun) {
+  console.log(channel + ' config validated.');
+  process.exit(0);
+}
+spawnSync('sh', ['-c', '(sleep 20; pid=$(pgrep -u "$(id -u)" -x openclaw | head -1); [ -n "$pid" ] && kill -USR1 "$pid") >/dev/null 2>&1 &'], { stdio: 'ignore' });
+console.log(channel + ' configured. Gateway reload scheduled in about 20 seconds.');

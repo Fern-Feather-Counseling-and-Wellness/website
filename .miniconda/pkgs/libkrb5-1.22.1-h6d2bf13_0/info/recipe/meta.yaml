@@ -1,0 +1,124 @@
+# This file created by conda-build 25.1.2
+# ------------------------------------------------
+
+package:
+  name: libkrb5
+  version: 1.22.1
+source:
+  sha256: d7dd1ded54c1c2d3381da4a266935feda6ba6398155720df27e2975bd5a39239
+  url: https://github.com/krb5/krb5/archive/krb5-1.22.1-final.tar.gz
+build:
+  ignore_run_exports:
+    - libedit
+    - libstdcxx-ng
+    - lmdb
+    - ncurses
+  number: 0
+  run_exports:
+    - libkrb5 >=1.22.1,<1.23.0a0
+  string: h6d2bf13_0
+requirements:
+  build:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - autoconf 2.71 pl5340h5eee18b_0
+    - binutils_impl_linux-64 2.44 h4b9a079_2
+    - binutils_linux-64 2.44 hc03a8fd_2
+    - bison 3.7.5 h2531618_1
+    - bzip2 1.0.8 h5eee18b_6
+    - ca-certificates 2025.12.2 h06a4308_0
+    - flex 2.6.4 ha10e3a4_1
+    - gcc_impl_linux-64 14.3.0 h4943218_4
+    - gcc_linux-64 14.3.0 hda73cce_12
+    - gettext 0.21.0 hedfda30_2
+    - gxx_impl_linux-64 14.3.0 he634eba_4
+    - gxx_linux-64 14.3.0 hca8765c_12
+    - icu 73.1 h6a678d5_0
+    - kernel-headers_linux-64 4.18.0 h3108a97_1
+    - ld_impl_linux-64 2.44 h153f514_2
+    - libexpat 2.7.3 h7354ed3_4
+    - libffi 3.4.4 h6a678d5_1
+    - libgcc 15.2.0 h69a1729_7
+    - libgcc-devel_linux-64 14.3.0 he7458c1_104
+    - libgcc-ng 15.2.0 h166f726_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libmpdec 4.0.0 h5eee18b_0
+    - libsanitizer 14.3.0 hd4faa28_4
+    - libstdcxx 15.2.0 h39759b7_7
+    - libstdcxx-devel_linux-64 14.3.0 he7458c1_104
+    - libstdcxx-ng 15.2.0 hc03a8fd_7
+    - libtool 2.4.7 h6a678d5_0
+    - libuuid 1.41.5 h5eee18b_0
+    - libxcb 1.17.0 h9b100fa_0
+    - libxml2 2.13.9 h2c43086_0
+    - libzlib 1.3.1 hb25bd0a_0
+    - lz4-c 1.9.4 h6a678d5_1
+    - m4 1.4.18 h4e445db_0
+    - make 4.2.1 h1bed415_1
+    - ncurses 6.5 h7934f7d_0
+    - openssl 3.0.18 hd6dcaed_0
+    - perl 5.42.0 0_h47b2149_perl5
+    - pkg-config 0.29.2 h1bed415_8
+    - pthread-stubs 0.3 h0ce48e5_1
+    - python 3.14.2 h90eec9f_101_cp314
+    - python_abi 3.14 2_cp314
+    - readline 8.3 hc2a1206_0
+    - sqlite 3.51.1 he0a8d7e_0
+    - sysroot_linux-64 2.28 h3108a97_1
+    - tk 8.6.15 h54e0aa7_0
+    - tzdata 2025b h04d1e81_0
+    - xorg-libx11 1.8.12 h9b100fa_1
+    - xorg-libxau 1.0.12 h9b100fa_0
+    - xorg-libxdmcp 1.1.5 h9b100fa_0
+    - xorg-xorgproto 2024.1 h5eee18b_1
+    - xz 5.6.4 h5eee18b_1
+    - zlib 1.3.1 hb25bd0a_0
+    - zstd 1.5.7 h11fc155_0
+  host:
+    - _libgcc_mutex 0.1 main
+    - _openmp_mutex 5.1 1_gnu
+    - ca-certificates 2025.12.2 h06a4308_0
+    - libedit 3.1.20230828 h5eee18b_0
+    - libgcc 15.2.0 h69a1729_7
+    - libgcc-ng 15.2.0 h166f726_7
+    - libgomp 15.2.0 h4751f2c_7
+    - libstdcxx 15.2.0 h39759b7_7
+    - lmdb 0.9.31 hb25bd0a_0
+    - ncurses 6.5 h7934f7d_0
+    - openssl 3.0.18 hd6dcaed_0
+  run:
+    - __glibc >=2.28,<3.0.a0
+    - libgcc >=14
+    - libstdcxx >=14
+    - lmdb
+    - openssl >=3.0.18,<4.0a0
+test:
+  commands:
+    - set -x
+    - test -f $PREFIX/lib/libkrb5${SHLIB_EXT}
+    - test -f $PREFIX/include/krb5.h
+    - test -f $PREFIX/include/gssapi.h
+    - test -f $PREFIX/include/gssapi/gssapi.h
+    - test -f $PREFIX/include/krb5/krb5.h
+    - test -f $PREFIX/bin/krb5-config
+about:
+  description: 'Kerberos is a network authentication protocol. It is designed to provide
+    strong authentication for client/server applications by using secret-key cryptography.
+
+    '
+  dev_url: https://github.com/krb5/krb5
+  doc_url: https://web.mit.edu/kerberos/krb5-1.21/doc/index.html
+  home: https://web.mit.edu/kerberos
+  license: MIT
+  license_family: MIT
+  license_file: doc/notice.rst
+  summary: A network authentication protocol.
+extra:
+  copy_test_source_files: true
+  final: true
+  recipe-maintainers:
+    - chenghlee
+    - mariusvniekerk
+    - mingwandroid
+    - ocefpaf
+    - pelson

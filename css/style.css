@@ -117,11 +117,14 @@ a:hover {
   height: 40px;
 }
 
+<<<<<<< HEAD
 .logo-img {
   height: 40px;
   width: auto;
 }
 
+=======
+>>>>>>> a82ccfc (Beautiful cottage-core styled website with full navigation and all pages)
 .nav-links {
   display: flex;
   gap: 2.5rem;
@@ -836,6 +839,7 @@ section {
   background: var(--sage-200);
   color: var(--sage-800);
 }
+<<<<<<< HEAD
 
 /* Dropdown Styling */
 .dropdown {
@@ -908,3 +912,5 @@ section {
     padding: 0.5rem 1rem;
   }
 }
+=======
+>>>>>>> a82ccfc (Beautiful cottage-core styled website with full navigation and all pages)
