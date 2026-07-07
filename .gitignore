@@ -1,8 +1,12 @@
 # Website repo - HTML/CSS/JS ONLY
 # Do NOT add any non-website files here
 
-# Allow these
+# Block everything else
+*
 !.gitignore
+!*/
+
+# Allow these
 !*.html
 !*.css
 !*.js
@@ -13,7 +17,7 @@
 !/js/
 !/pages/
 
-# Block everything else
-*
-!.gitignore
-!*/
+# Anxiety Toolkit assets
+!/tools/
+!/tools/anxiety-toolkit.pdf
+!/tools/generate_toolkit.py
