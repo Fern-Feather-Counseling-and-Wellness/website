@@ -17,7 +17,27 @@
       .mobile-menu-btn { display:inline-block !important; } 
       .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
     }
-  </style>
+      /* Services: stack two-column sections on tablets and phones */
+      @media screen and (max-width:820px) {
+        .services-detail { padding: 3rem 1rem !important; }
+        .services-detail > .container > div {
+          grid-template-columns: 1fr !important;
+          gap: 2rem !important;
+          max-width: 100% !important;
+        }
+        .services-detail > .container > div > div {
+          padding: 2rem 1.25rem !important;
+        }
+      }
+      @media screen and (max-width:480px) {
+        .services-detail { padding: 2.5rem 0.75rem !important; }
+        .services-detail > .container > div > div {
+          padding: 1.5rem 1rem !important;
+        }
+        .services-detail h2 { font-size: 1.5rem !important; }
+        .services-detail h3 { font-size: 1.2rem !important; }
+      }
+    </style>
   <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
   <style>
     @media screen and (max-width:999px) {
@@ -126,7 +146,7 @@
   <section class="services-detail alt" id="couples" style="padding: 5rem 2rem; background: var(--sage-50);">
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center; order: 2;">
+        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center;">
           <div style="font-size: 3rem; margin-bottom: 1rem;">💑</div>
           <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Building Stronger Connections</h3>
           <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">Your relationship deserves space to heal, grow, and thrive. We help partners communicate better, repair attachment ruptures, and find practical tools to reconnect.</p>
@@ -216,7 +236,7 @@
   <section class="services-detail alt" id="consultation" style="padding: 5rem 2rem; background: var(--sage-50);">
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1100px; margin: 0 auto;">
-        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center; order: 2;">
+        <div style="background: white; border-radius: 20px; padding: 3rem; text-align: center;">
           <div style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
           <h3 style="color: var(--sage-700); margin-bottom: 1.5rem;">Professional Growth & Support</h3>
           <p style="font-size: 1.05rem; line-height: 1.7; color: var(--sage-700);">Whether you're an associate working toward licensure or a seasoned clinician wanting peer consultation, we offer a supportive space to grow.</p>
