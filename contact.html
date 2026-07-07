@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Fern & Feather Counseling and Wellness</title>
+  <meta name="description" content="Contact Fern & Feather Counseling and Wellness to schedule your free 15-minute consultation. Located in Cumming, GA.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=1774725873">
+  <style>
+    .nav-links { display: flex; }
+    @media(max-width:999px){
+      .nav-links{display:none}
+      .mobile-menu-btn{display:inline-block !important}
+    }
+    .contact-hero {
+      background: linear-gradient(135deg, var(--sage-100, #e8efe5), var(--sage-50, #f0f5ee));
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .contact-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: var(--sage-700, #3a5a40);
+      margin-bottom: 0.75rem;
+    }
+    .contact-hero p {
+      font-size: 1.15rem;
+      color: var(--charcoal, #333);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    .contact-section {
+      padding: 3rem 2rem;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    @media(max-width:768px){
+      .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+    }
+    .contact-info h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--sage-700, #3a5a40);
+      margin-bottom: 1.5rem;
+    }
+    .contact-info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .contact-info-item .icon {
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .contact-info-item .label {
+      font-weight: 600;
+      color: var(--sage-700, #3a5a40);
+      margin-bottom: 0.25rem;
+    }
+    .contact-info-item .value {
+      color: var(--charcoal, #333);
+      line-height: 1.6;
+    }
+    .contact-info-item a {
+      color: var(--sage-600, #588157);
+      text-decoration: none;
+    }
+    .contact-info-item a:hover {
+      text-decoration: underline;
+    }
+    .consultation-form {
+      background: white;
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .consultation-form h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--sage-700, #3a5a40);
+      margin-bottom: 0.5rem;
+    }
+    .consultation-form .form-subtitle {
+      color: #666;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: var(--charcoal, #333);
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.7rem 0.9rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      background: #fafafa;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--sage-500, #588157);
+      background: white;
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+    .form-note {
+      font-size: 0.85rem;
+      color: #888;
+      margin-top: 0.5rem;
+    }
+    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; position:relative;z-index:1001; }
+    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:relative; }
+    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
+    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
+    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
+    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
+    .site-nav .nav-links .dropdown{position:relative}
+    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
+    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0;white-space:nowrap}
+    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
+    @media(max-width:480px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-menu-btn{display:inline-block}.site-nav .nav-links.mobile-open{display:flex !important;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
+  </style>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Primary navigation">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="Fern & Feather homepage">
+      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
+      <span>Fern & Feather</span>
+    </a>
+    <button class="mobile-menu-btn" aria-label="Open menu" type="button" onclick="var n=document.querySelector('.nav-links');n.style.display=n.style.display==='flex'?'none':'flex';">☰</button>
+    <ul class="nav-links">
+      <li class="dropdown"><a href="about.html" class="dropdown-toggle">About ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="about.html">About the Practice</a></li>
+          <li><a href="nicole.html">Nicole</a></li>
+          <li><a href="kiera.html">Kiera</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="rates.html">Rates</a></li>
+      <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="crisis.html">Crisis Resources</a></li>
+          <li><a href="tools.html">Free Tools</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- Hero -->
+  <section class="contact-hero">
+    <h1>Let's Connect</h1>
+    <p>Ready to take the first step? Book a free 15-minute consultation with Nicole or Kiera. No pressure, no commitment — just a conversation to see if we're the right fit for you.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="contact-grid">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+
+        <div class="contact-info-item">
+          <div class="icon">📍</div>
+          <div>
+            <div class="label">Address</div>
+            <div class="value">566 Peachtree Pkwy Suite 122<br>Cumming, GA, 30041</div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="icon">📧</div>
+          <div>
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:info@fernandfeathercounseling.com">info@fernandfeathercounseling.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="icon">📱</div>
+          <div>
+            <div class="label">Phone</div>
+            <div class="value"><a href="tel:7705638334">770-563-8334</a></div>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="icon">🌧️</div>
+          <div>
+            <div class="label">In Crisis?</div>
+            <div class="value">If you're experiencing a mental health emergency, please call <a href="tel:988">988</a> or visit our <a href="crisis.html">Crisis Resources</a> page.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Consultation Form -->
+      <div class="consultation-form">
+        <h2>Book Your Free Consultation</h2>
+        <p class="form-subtitle">We'll get back to you within 1–2 business days.</p>
+        <form action="https://formspree.io/f/meebdrlg" method="POST">
+                  <div class="form-group">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your first name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="you@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number (optional)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
+                  </div>
+                  <div class="form-group">
+                    <label for="service">What are you interested in?</label>
+                    <select id="service" name="service">
+                      <option value="individual">Individual Therapy</option>
+                      <option value="couples">Couples Therapy</option>
+                      <option value="group">Group Therapy</option>
+                      <option value="consultation">Professional Consultation</option>
+                      <option value="other">Other / Not Sure</option>
+                    </select>
+                  </div>
+                  <button type="submit" class="btn btn-primary" style="width:100%;padding:0.8rem;font-size:1.05rem;">Request Consultation</button>
+                  <p class="form-note">For your privacy, please don't share clinical or health details in this form. We'll discuss everything during your consultation.</p>
+                </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Fern & Feather Counseling and Wellness</h3>
+          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Cumming, GA and throughout Georgia via telehealth.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#individual">Individual Therapy</a></li>
+            <li><a href="services.html#couples">Couples Therapy</a></li>
+            <li><a href="services.html#group">Group Therapy</a></li>
+            <li><a href="services.html">All Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Free Toolkit</a></li>
+            <li><a href="crisis.html">Crisis Resources</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
+            <li>📧 info@fernandfeathercounseling.com</li>
+            <li>📱 770-563-8334</li>
+            <li><a href="contact.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Terms of Service</a> |
+          <a href="#">Accessibility</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
