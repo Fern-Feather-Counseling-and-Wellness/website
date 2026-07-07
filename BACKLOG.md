@@ -7,6 +7,7 @@
 - [x] Couples & The Nervous System Workbook (6 chapters)
 - [x] Drive token refresh (April 14, 2026)
 - [x] Multiple TikTok scripts created
+- [x] Added grounding techniques TikTok script (content/TikTok-Scripts/tiktok-script-grounding-techniques.md)
 - [x] Multiple digital products created
 
 ## In Progress
