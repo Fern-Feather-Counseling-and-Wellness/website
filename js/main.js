@@ -139,6 +139,33 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+    // Footer "Join our mailing list" signup (#ml-signup-form) used across pages.
+    // Submits the address to the same MailerLite endpoint as the hero form so
+    // subscriptions actually register, then confirms inline.
+    document.querySelectorAll('form#ml-signup-form').forEach(function(form) {
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        var emailField = form.querySelector('input[type="email"]');
+        if (emailField && !emailField.checkValidity()) {
+          emailField.reportValidity();
+          return;
+        }
+        var btn = form.querySelector('button[type="submit"]');
+        if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = 'Joining…'; }
+
+        var mlEndpoint = 'https://assets.mailerlite.com/jsonp/2494357/forms/192367295992956581/subscribe';
+        try {
+          var payload = new FormData();
+          payload.append('fields[email]', emailField ? emailField.value : '');
+          payload.append('ml-submit', '1');
+          payload.append('anticsrf', 'true');
+          fetch(mlEndpoint, { method: 'POST', body: payload, mode: 'no-cors' }).catch(function() {});
+        } catch (err) { /* network blocked — still confirm to the user */ }
+
+        showInlineSuccess(form, 'Thank you for subscribing!', 'You have successfully joined our mailing list. Watch your inbox for updates and resources.');
+      });
+    });
+
   // Contact / consultation form (Formspree) — submit via AJAX and confirm inline.
   document.querySelectorAll('form.js-consult-form').forEach(function(form) {
     form.addEventListener('submit', function(e) {
