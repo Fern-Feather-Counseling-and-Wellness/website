@@ -19,44 +19,54 @@
       .tools-hero h1 { color: var(--sage-800); font-size: 2.5rem; margin-bottom: 1rem; }
       .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: var(--sage-600); }
 
-      /* MailerLite Form Styling */
-      .ml-custom-form-container {
+      /* MailerLite Form Styling — hero section (light background) */
+            .tools-hero #ml-form-wrapper-hero .ml-custom-form-container {
         margin: 30px auto 0;
         max-width: 450px;
       }
-      .ml-custom-form-container form {
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form {
         display: flex;
         gap: 10px;
         width: 100%;
+              flex-wrap: nowrap;
+            }
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form input[type="email"] {
+              flex: 1 1 auto;
+              min-width: 0;
+              padding: 12px 16px;
+              border-radius: 8px;
+              border: 2px solid var(--sage-300);
+              font-family: 'Source Sans 3', sans-serif;
+              font-size: 1rem;
+              outline: none;
+              background: white;
+              color: var(--charcoal);
+              box-sizing: border-box;
       }
-      .ml-custom-form-container input[type="email"] {
-        flex-grow: 1;
-        padding: 12px 16px;
-        border-radius: 8px;
-        border: 2px solid var(--sage-300);
-        font-family: 'Source Sans 3', sans-serif;
-        font-size: 1rem;
-        outline: none;
-        background: white;
-      }
-      .ml-custom-form-container input[type="email"]:focus {
-        border-color: var(--sage-600);
-        box-shadow: 0 0 0 3px rgba(82, 99, 69, 0.2);
-      }
-      .ml-custom-form-container button {
-        background: var(--sage-600);
-        color: white;
-        border: none;
-        padding: 12px 24px;
-        border-radius: 8px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: background 0.3s;
-        font-family: 'Source Sans 3', sans-serif;
-      }
-      .ml-custom-form-container button:hover {
-        background: var(--sage-700);
-      }
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form input[type="email"]::placeholder {
+              color: #999;
+            }
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form input[type="email"]:focus {
+              border-color: var(--sage-600);
+              box-shadow: 0 0 0 3px rgba(82, 99, 69, 0.2);
+            }
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form button,
+            .tools-hero #ml-form-wrapper-hero #ml-submit-btn {
+              background: var(--sage-600);
+              color: white;
+              border: none;
+              padding: 12px 24px;
+              border-radius: 8px;
+              font-weight: 600;
+              cursor: pointer;
+              transition: background 0.3s;
+              font-family: 'Source Sans 3', sans-serif;
+              white-space: nowrap;
+            }
+            .tools-hero #ml-form-wrapper-hero #ml-signup-form button:hover,
+            .tools-hero #ml-form-wrapper-hero #ml-submit-btn:hover {
+              background: var(--sage-700);
+            }
 
       .tools-section { padding: 60px 20px; background: var(--cream); }
       .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
@@ -81,7 +91,7 @@
         .tools-hero p { font-size: 0.9rem; }
         .tool-card { padding: 1.25rem; }
         .tool-card h3 { font-size: 1.1rem; }
-        .ml-custom-form-container form { flex-direction: column; }
+        .tools-hero #ml-form-wrapper-hero #ml-signup-form { flex-direction: column; }
       }
     </style>
 </head>
