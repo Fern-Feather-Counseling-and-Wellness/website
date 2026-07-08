@@ -71,11 +71,11 @@
         }
     .tools-section { padding: 60px 20px; background: #f0fdf4; }
     .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-    .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
+    .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; display: flex; flex-direction: column; }
     .tool-icon { font-size: 3rem; margin-bottom: 1rem; }
     .tool-card h3 { color: #14532d; margin-bottom: 0.75rem; }
-    .tool-card p { color: #4b5563; margin-bottom: 1.5rem; }
-    .tool-btn { display: inline-block; background: #b0bda3; color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; }
+        .tool-card p { color: #4b5563; margin-bottom: 1.5rem; flex-grow: 1; }
+        .tool-btn { display: inline-block; background: #b0bda3; color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; align-self: center; }
     .tool-btn:hover { background: #556b46; }
     @media (max-width: 768px) {
       .tools-hero { padding: 60px 20px; text-align: center; }
