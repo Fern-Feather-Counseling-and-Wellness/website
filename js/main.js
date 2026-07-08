@@ -184,7 +184,35 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
 
-  // Contact / consultation form (Formspree) — submit via AJAX and confirm inline.
+            // Group therapy mailing list signup (#ml-group-signup) — same MailerLite endpoint.
+            document.querySelectorAll('form#ml-group-signup').forEach(function(form) {
+              form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                var emailField = form.querySelector('input[type="email"]');
+                if (emailField && !emailField.checkValidity()) {
+                  emailField.reportValidity();
+                  return;
+                }
+                var btn = form.querySelector('button[type="submit"]');
+                if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = 'Joining…'; }
+
+                var mlEndpoint = 'https://assets.mailerlite.com/jsonp/2494357/forms/192367295992956581/subscribe';
+                try {
+                  var payload = new FormData();
+                  payload.append('fields[email]', emailField ? emailField.value : '');
+                  payload.append('ml-submit', '1');
+                  payload.append('anticsrf', 'true');
+                  fetch(mlEndpoint, { method: 'POST', body: payload, mode: 'no-cors' }).catch(function() {});
+                } catch (err) { /* network blocked — still confirm to the user */ }
+
+                form.style.display = 'none';
+                var confirm = form.parentElement.parentElement.querySelector('.ml-group-confirmation');
+                if (confirm) { confirm.style.display = 'block'; }
+                else { showInlineSuccess(form, 'You\'re on the list!', 'We\'ll keep you posted on upcoming groups.'); }
+              });
+            });
+
+          // Contact / consultation form (Formspree) — submit via AJAX and confirm inline.
   document.querySelectorAll('form.js-consult-form').forEach(function(form) {
     form.addEventListener('submit', function(e) {
       e.preventDefault();
