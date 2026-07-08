@@ -1,91 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Free Tools | Fern & Feather Counseling and Wellness</title>
-  <link rel="stylesheet" href="css/style.css?v=1774725873">
-  <style>
-    @media(max-width:480px){
-      .blog-hero,.tools-hero,.crisis-hero{padding:30px 10px!important}
-      .blog-hero h1,.tools-hero h1,.crisis-hero h1{font-size:1.3rem!important}
-      .blog-hero p,.tools-hero p,.crisis-hero p{font-size:0.85rem!important;max-width:95%!important}
-    }
-  </style>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    .tools-hero { background: linear-gradient(135deg, #dcfce7, #bbf7d0); padding: 80px 20px; text-align: center; }
-    .tools-hero > div { max-width: 800px; margin: 0 auto; text-align: center; }
-    .tools-hero h1 { color: #166534; font-size: 2.5rem; margin-bottom: 1rem; }
-    .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #14532d; }
-    
-        /* MailerLite Form Styling */
-        .ml-custom-form-container { 
-            margin: 30px auto 0; 
-            max-width: 450px; 
-            display: flex; 
-            gap: 10px; 
-            justify-content: center; 
-            align-items: center; 
-        }
-        .ml-custom-form-container form { 
-            display: flex; 
-            gap: 10px; 
-            width: 100%; 
-        }
-        .ml-custom-form-container input[type="email"] { 
-            flex-grow: 1; 
-            padding: 12px 16px; 
-            border-radius: 8px; 
-            border: 1px solid #bbf7d0; 
-            font-family: 'Source Sans 3', sans-serif; 
-            font-size: 1rem; 
-            outline: none; 
-        }
-        .ml-custom-form-container input[type="email"]:focus { 
-            border-color: #b0bda3; 
-            box-shadow: 0 0 0 2px rgba(176, 189, 163, 0.3); 
-        }
-        .ml-custom-form-container button { 
-            background: #b0bda3; 
-            color: white; 
-            border: none; 
-            padding: 12px 24px; 
-            border-radius: 8px; 
-            font-weight: 600; 
-            cursor: pointer; 
-            transition: background 0.2s; 
-            font-family: 'Source Sans 3', sans-serif; 
-        }
-        .ml-custom-form-container button:hover { 
-            background: #556b46; 
-        }
+  <link rel="stylesheet" href="css/style.css?v=1774729901">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+    <style>
+      .tools-hero {
+        background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 50%, var(--blush) 100%);
+        padding: 80px 20px;
+        text-align: center;
+      }
+      .tools-hero > div { max-width: 800px; margin: 0 auto; }
+      .tools-hero h1 { color: var(--sage-800); font-size: 2.5rem; margin-bottom: 1rem; }
+      .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: var(--sage-600); }
 
-        @media (max-width: 480px) {
-          .tools-hero { padding: 40px 15px; }
-          .tools-hero h1 { font-size: 1.5rem; }
-          .tools-hero p { font-size: 0.9rem; }
-          .ml-custom-form-container form { flex-direction: column; }
-        }
-    .tools-section { padding: 60px 20px; background: #f0fdf4; }
-    .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
-    .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; display: flex; flex-direction: column; }
-    .tool-icon { font-size: 3rem; margin-bottom: 1rem; }
-    .tool-card h3 { color: #14532d; margin-bottom: 0.75rem; }
-        .tool-card p { color: #4b5563; margin-bottom: 1.5rem; flex-grow: 1; }
-        .tool-btn { display: inline-block; background: #b0bda3; color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; align-self: center; }
-    .tool-btn:hover { background: #556b46; }
-    @media (max-width: 768px) {
-      .tools-hero { padding: 60px 20px; text-align: center; }
-      .tools-hero h1 { font-size: 1.75rem; text-align: center; }
-      .tools-hero p { font-size: 1rem; text-align: center; }
-      .tools-section { padding: 30px 20px; }
-      .tools-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-      .tool-card { padding: 1.5rem; }
-    }
-  </style>
+      /* MailerLite Form Styling */
+      .ml-custom-form-container {
+        margin: 30px auto 0;
+        max-width: 450px;
+      }
+      .ml-custom-form-container form {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+      }
+      .ml-custom-form-container input[type="email"] {
+        flex-grow: 1;
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 2px solid var(--sage-300);
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 1rem;
+        outline: none;
+        background: white;
+      }
+      .ml-custom-form-container input[type="email"]:focus {
+        border-color: var(--sage-600);
+        box-shadow: 0 0 0 3px rgba(82, 99, 69, 0.2);
+      }
+      .ml-custom-form-container button {
+        background: var(--sage-600);
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background 0.3s;
+        font-family: 'Source Sans 3', sans-serif;
+      }
+      .ml-custom-form-container button:hover {
+        background: var(--sage-700);
+      }
+
+      .tools-section { padding: 60px 20px; background: var(--cream); }
+      .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+      .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; display: flex; flex-direction: column; transition: transform 0.3s, box-shadow 0.3s; }
+      .tool-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(107, 127, 90, 0.12); }
+      .tool-icon { font-size: 3rem; margin-bottom: 1rem; }
+      .tool-card h3 { color: var(--sage-700); margin-bottom: 0.75rem; }
+      .tool-card p { color: var(--charcoal); margin-bottom: 1.5rem; flex-grow: 1; }
+      .tool-btn { display: inline-block; background: var(--sage-600); color: white; padding: 10px 24px; border-radius: 8px; text-decoration: none; font-weight: 500; align-self: center; transition: background 0.3s; }
+      .tool-btn:hover { background: var(--sage-700); }
+      @media (max-width: 768px) {
+        .tools-hero { padding: 60px 20px; }
+        .tools-hero h1 { font-size: 1.75rem; }
+        .tools-hero p { font-size: 1rem; }
+        .tools-section { padding: 30px 20px; }
+        .tools-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+        .tool-card { padding: 1.5rem; }
+      }
+      @media (max-width: 480px) {
+        .tools-hero { padding: 40px 15px; }
+        .tools-hero h1 { font-size: 1.5rem; }
+        .tools-hero p { font-size: 0.9rem; }
+        .tool-card { padding: 1.25rem; }
+        .tool-card h3 { font-size: 1.1rem; }
+        .ml-custom-form-container form { flex-direction: column; }
+      }
+    </style>
 </head>
 <body>
 
@@ -108,7 +106,7 @@
       </a>
       <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
       <ul class="nav-links">
-        <li class="dropdown"><a href="about.html">About ▾</a>
+        <li class="dropdown"><a href="about.html" class="dropdown-toggle">About ▾</a>
           <ul class="dropdown-menu">
             <li><a href="about.html">About the Practice</a></li>
             <li><a href="nicole.html">Nicole</a></li>
@@ -134,10 +132,10 @@
     <div>
       <h1>Free Tools</h1>
       <p>Practical resources you can use right now. No email required — though we'd love to stay in touch.</p>
-            <p style="font-size: 0.9rem; color: #14532d; margin-top: 10px; opacity: 0.8;"><em>Tip: To save any tool as a PDF, simply press Ctrl+P (or Cmd+P on Mac) and select "Save as PDF" in your print settings.</em></p>
+            <p style="font-size: 0.9rem; color: var(--sage-600); margin-top: 10px; opacity: 0.8;"><em>Tip: To save any tool as a PDF, simply press Ctrl+P (or Cmd+P on Mac) and select "Save as PDF" in your print settings.</em></p>
       
-          <div style="margin-top: 25px;" id="ml-form-wrapper">
-              <p style="font-weight: 600; color: #166534; margin-bottom: 15px;">Join our mailing list for future updates and resources</p>
+          <div style="margin-top: 25px;" id="ml-form-wrapper-hero">
+                        <p style="font-weight: 600; color: var(--sage-700); margin-bottom: 15px;">Join our mailing list for future updates and resources</p>
               <div class="ml-custom-form-container">
                 <form id="ml-signup-form">
                   <input type="email" name="email" id="ml-email" placeholder="Your email address" required>
@@ -194,63 +192,67 @@
     </div>
   </section>
 
-  <footer style="background: #2d3a2d; color: white; padding: 3rem 2rem; margin-top: 4rem;">
-    <div class="container" style="max-width: 980px; margin: 0 auto;">
-          <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 16px;">
-             <p style="font-weight: 600; color: white; margin-bottom: 15px; font-family: 'Playfair Display', serif; font-size: 1.2rem;">Join our mailing list for future updates and resources</p>
-             <div class="ml-custom-form-container">
-               <form id="ml-signup-form">
-                 <input type="email" name="email" id="ml-email" placeholder="Your email address" required>
-                 <button type="submit" id="ml-submit-btn">Join</button>
-               </form>
-             </div>
-          </div>
-          <div class="footer-grid" style="gap: 2rem;">
-        <div class="footer-brand">
-          <h3 style="color: white; margin-bottom: 0.5rem;">Fern & Feather Counseling and Wellness</h3>
-          <p style="color: rgba(255,255,255,0.7);">A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care in Cumming, GA and throughout Georgia via telehealth.</p>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Services</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li><a href="services.html#individual" style="color: rgba(255,255,255,0.7); text-decoration: none;">Individual Therapy</a></li>
-            <li><a href="services.html#couples" style="color: rgba(255,255,255,0.7); text-decoration: none;">Couples Therapy</a></li>
-            <li><a href="services.html#group" style="color: rgba(255,255,255,0.7); text-decoration: none;">Group Therapy</a></li>
-            <li><a href="services.html#consultation" style="color: rgba(255,255,255,0.7); text-decoration: none;">Professional Consultation</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Resources</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li><a href="blog.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Blog</a></li>
-            <li><a href="tools.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Free Toolkit</a></li>
-            <li><a href="crisis.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">Crisis Resources</a></li>
-            <li><a href="faq.html" style="color: rgba(255,255,255,0.7); text-decoration: none;">FAQ</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h4 style="color: white; margin-bottom: 0.75rem;">Contact</h4>
-          <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="color: rgba(255,255,255,0.7);">📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
-                        <li><a href="mailto:info@fernandfeathercounseling.com" style="color: rgba(255,255,255,0.7); text-decoration: none;">info@fernandfeathercounseling.com</a></li>
-                        <li style="color: rgba(255,255,255,0.7);">📱 770-563-8334</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div style="border-top: 1px solid rgba(255,255,255,0.2); margin-top: 2rem; padding-top: 1rem; text-align: center; color: rgba(255,255,255,0.5);">
-        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-        <p style="color: rgba(255,255,255,0.5);">
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Privacy Policy</a> | 
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Terms of Service</a> | 
-          <a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none;">Accessibility</a>
-        </p>
-      </div>
-    </div>
-  </footer>
-  <script src="js/main.js?v=1774727534"></script>
+  <footer class="footer">
+     <div class="container">
+       <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 16px;">
+         <p style="font-weight: 600; color: white; margin-bottom: 15px; font-family: 'Playfair Display', serif; font-size: 1.2rem;">Join our mailing list for future updates and resources</p>
+         <div class="ml-custom-form-container">
+           <form id="ml-signup-form">
+             <input type="email" name="email" id="ml-email-footer" placeholder="Your email address" required>
+             <button type="submit" id="ml-submit-btn-footer">Join</button>
+           </form>
+         </div>
+       </div>
+       <div class="footer-grid">
+       <div class="footer-brand">
+           <h3>Fern & Feather Counseling and Wellness</h3>
+           <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Cumming, GA and throughout Georgia via telehealth.</p>
+           <div class="footer-social">
+             <a href="#" class="social-link" aria-label="Instagram">📷</a>
+             <a href="#" class="social-link" aria-label="Facebook">📘</a>
+             <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+             <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+           </div>
+         </div>
+         <div class="footer-column">
+           <h4>Services</h4>
+           <ul>
+             <li><a href="services.html#individual">Individual Therapy</a></li>
+             <li><a href="services.html#couples">Couples Therapy</a></li>
+             <li><a href="services.html#group">Group Therapy</a></li>
+             <li><a href="services.html#supervision">Clinical Supervision</a></li>
+             <li><a href="services.html#workshops">Workshops</a></li>
+           </ul>
+         </div>
+         <div class="footer-column">
+           <h4>Resources</h4>
+           <ul>
+             <li><a href="blog.html">Blog</a></li>
+             <li><a href="tools.html">Free Toolkit</a></li>
+             <li><a href="crisis.html">Crisis Resources</a></li>
+             <li><a href="faq.html">FAQ</a></li>
+           </ul>
+         </div>
+         <div class="footer-column">
+           <h4>Contact</h4>
+           <ul>
+             <li>📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
+             <li>📧 <a href="mailto:info@fernandfeathercounseling.com">info@fernandfeathercounseling.com</a></li>
+             <li>📱 770-563-8334</li>
+             <li><a href="contact.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Consultation</a></li>
+           </ul>
+         </div>
+       </div>
+       <div class="footer-bottom">
+         <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+         <p>
+           <a href="#">Privacy Policy</a> |
+           <a href="#">Terms of Service</a> |
+           <a href="#">Accessibility</a>
+         </p>
+       </div>
+     </div>
+   </footer>
+  <script src="js/main.js?v=1774729901"></script>
 </body>
 </html>
