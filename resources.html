@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=1.0">
   <title>Resources | Fern & Feather Counseling and Wellness</title>
+    <meta name="description" content="Free mental health resources including crisis resources, self-help tools, blog articles, and guides from Fern & Feather Counseling and Wellness.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fernandfeathercounseling.com/resources.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mental Health Resources | Fern & Feather Counseling">
+    <meta property="og:description" content="Free mental health resources including crisis resources, self-help tools, and blog articles.">
+    <meta property="og:url" content="https://fernandfeathercounseling.com/resources.html">
+    <meta property="og:site_name" content="Fern & Feather Counseling and Wellness">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mental Health Resources | Fern & Feather Counseling">
+    <meta name="twitter:description" content="Free mental health resources including crisis resources, self-help tools, and blog articles.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/style.css?v=1774725872">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -27,14 +39,7 @@
   </style>
 </head>
 <body>
-  <!-- MOBILE FIXES -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-  </style>
+
   <nav class="site-nav" aria-label="Primary navigation">
     <style>
       .site-nav { font-family: var(--font-body), -apple-system, "Segoe UI", Roboto, Helvetica, Arial; background: white; border-bottom: 1px solid #eee; }
@@ -52,10 +57,11 @@
         <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
         <span>Fern & Feather</span>
       </a>
+      <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
       <ul class="nav-links">
-        <li class="dropdown"><a href="about.html">About ▾</a>
+        <li class="dropdown"><a href="about.html" class="dropdown-toggle">About ▾</a>
           <ul class="dropdown-menu">
-            <li><a href="about.html">About the Practice</a></li>
+            <li><a href="about.html" class="dropdown-toggle">About the Practice</a></li>
             <li><a href="nicole.html">Nicole</a></li>
             <li><a href="kiera.html">Kiera</a></li>
             <li><a href="faq.html">FAQs</a></li>
@@ -63,7 +69,7 @@
         </li>
         <li><a href="services.html">Services</a></li>
         <li><a href="rates.html">Rates</a></li>
-        <li class="dropdown"><a href="resources.html">Resources ▾</a>
+        <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources ▾</a>
           <ul class="dropdown-menu">
             <li><a href="crisis.html">Crisis Resources</a></li>
             <li><a href="tools.html">Free Tools</a></li>
@@ -105,10 +111,22 @@
     </div>
   </section>
 
-  <footer style="background: #2d3a2d; color: white; padding: 3rem 2rem; text-align: center; margin-top: 4rem;">
-      <p style="margin-bottom: 0.5rem;">📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</p>
-      <p style="margin-bottom: 0.5rem;">📧 info@fernandfeathercounseling.com | 📱 770-563-8334</p>
-      <p>© 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-    </footer>
-</body>
+  <footer style="background: #2d3a2d; color: white; padding: 4rem 2rem; text-align: center; margin-top: 4rem;">
+        <div style="max-width: 980px; margin: 0 auto;">
+          <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 16px;">
+             <p style="font-weight: 600; color: white; margin-bottom: 15px; font-family: 'Playfair Display', serif; font-size: 1.2rem;">Join our mailing list for future updates and resources</p>
+             <div class="ml-custom-form-container">
+               <form id="ml-signup-form">
+                 <input type="email" name="email" id="ml-email" placeholder="Your email address" required>
+                 <button type="submit" id="ml-submit-btn">Join</button>
+               </form>
+             </div>
+          </div>
+          <p style="margin-bottom: 0.5rem;">📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</p>
+          <p style="margin-bottom: 0.5rem;">📧 info@fernandfeathercounseling.com | 📱 770-563-8334</p>
+          <p>© 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        </div>
+      </footer>
+        <script src="js/main.js?v=1774730000"></script>
+      </body>
 </html>

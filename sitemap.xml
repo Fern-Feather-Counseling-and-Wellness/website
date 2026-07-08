@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Main pages -->
+  <url><loc>https://fernandfeathercounseling.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/rates.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/nicole.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/kiera.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/specialties.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/faq.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/resources.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/crisis.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+
+  <!-- Blog posts -->
+  <url><loc>https://fernandfeathercounseling.com/blog/trauma-informed-therapy.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/somatic-therapy-anxiety.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/setting-boundaries.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/nervous-system-guide.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/high-functioning-anxiety.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/grief-isnt-linear.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/first-therapy-session.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/burnout-recovery.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/blog/attachment-wounds.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
+
+  <!-- Free tools -->
+  <url><loc>https://fernandfeathercounseling.com/tools/ns-checkin.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools/grounding-guide.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools/boundary-scripts.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools/sleep-checklist.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools/thought-reframing.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/tools/window-tolerance.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+
+  <!-- Specialty pages -->
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/anxiety.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/trauma.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/depression.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/ocd.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/relationships.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/parenting.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/life-transitions.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/grief.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/burnout.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://fernandfeathercounseling.com/pages/specialties/identity.html</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+</urlset>

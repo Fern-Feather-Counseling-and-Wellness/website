@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /test.html
+Disallow: /pages/
+
+Sitemap: https://fernandfeathercounseling.com/sitemap.xml

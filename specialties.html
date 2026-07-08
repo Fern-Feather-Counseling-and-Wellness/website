@@ -1,58 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Specialties - Fern & Feather Counseling and Wellness</title>
-    <link rel="stylesheet" href="../css/style.css?v=1774725872"> <!-- Assuming CSS is in a parent css folder -->
-    <style>
-        body { font-family: sans-serif; line-height: 1.6; margin: 0; padding: 0; }
-        .page-header { background-color: #e8f5e9; /* soft green */ padding: 3rem 2rem; text-align: center; }
-        .page-header h1 { color: #2e7d32; /* dark green */ margin-bottom: 0.5rem; }
-        .page-header p.tagline { color: #388e3c; /* medium green */ font-size: 1.2rem; margin-bottom: 1.5rem; }
-        .content { padding: 3rem 2rem; max-width: 800px; margin: 2rem auto; }
-        .specialties-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
-        .specialty-item { background-color: #f1f8e9; /* lighter green */ padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .specialty-item h3 { color: #1b5e20; /* forest green */ margin-top: 0; }
-        .specialty-item p { margin-bottom: 1rem; }
-        .specialty-item a { color: #388e3c; text-decoration: none; font-weight: bold; }
-        .specialty-item a:hover { text-decoration: underline; }
-        .not-sure { background-color: #fff9c4; /* light yellow */ padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid #fbc02d; /* darker yellow/orange border */ }
-        .not-sure h3 { color: #f57f17; /* darker yellow/orange */ margin-top: 0; }
-        footer { background-color: #1b5e20; /* forest green */ color: white; text-align: center; padding: 1rem; margin-top: 3rem; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Specialties - Fern & Feather Counseling and Wellness</title>
+  <meta name="description" content="Fern & Feather Counseling and Wellness specializes in trauma, anxiety, OCD, depression, relationships, parenting, life transitions, grief, burnout, and identity for adults in Cumming, GA and via telehealth.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://fernandfeathercounseling.com/specialties.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Therapy Specialties | Fern & Feather Counseling">
+    <meta property="og:description" content="Specialties include trauma, anxiety, OCD, depression, relationships, parenting, life transitions, grief, burnout, and identity therapy in Cumming, GA.">
+    <meta property="og:url" content="https://fernandfeathercounseling.com/specialties.html">
+    <meta property="og:site_name" content="Fern & Feather Counseling and Wellness">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Therapy Specialties | Fern & Feather Counseling">
+    <meta name="twitter:description" content="Specialties include trauma, anxiety, OCD, depression, relationships, parenting, life transitions, grief, burnout, and identity therapy in Cumming, GA.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1774729901">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+  <style>
+    .specialties-hero { background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 50%, var(--blush) 100%); padding: 80px 20px; text-align: center; }
+    .specialties-hero h1 { font-family: var(--font-heading); color: var(--sage-800); margin-bottom: 0.5rem; }
+    .specialties-hero .tagline { font-style: italic; color: var(--fern); font-size: 1.2rem; margin-bottom: 0.5rem; }
+    .specialties-hero p { color: var(--sage-600); max-width: 600px; margin: 0 auto; }
+    .specialties-content { padding: 4rem 1rem; max-width: 1000px; margin: 0 auto; }
+    .specialties-intro { max-width: 700px; margin: 0 auto 2rem; text-align: center; color: var(--sage-700); }
+    .specialties-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+    .specialty-item { background: var(--cream); padding: 2rem; border-radius: 16px; box-shadow: var(--shadow-soft); transition: var(--transition-smooth); }
+    .specialty-item:hover { transform: translateY(-4px); box-shadow: var(--shadow-medium); }
+    .specialty-icon { font-size: 2.25rem; margin-bottom: 0.75rem; }
+    .specialty-item h3 { color: var(--sage-700); margin-bottom: 0.5rem; font-size: 1.25rem; }
+    .specialty-item p { color: var(--sage-600); margin-bottom: 1rem; font-size: 1rem; }
+    .specialty-item a { color: var(--fern); text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 0.25rem; }
+    .specialty-item a:hover { gap: 0.5rem; }
+    .specialty-item a::after { content: '→'; transition: var(--transition-smooth); }
+    .not-sure { background: linear-gradient(135deg, var(--blush), var(--cream)); padding: 2.5rem; border-radius: 16px; margin-top: 3rem; text-align: center; max-width: 700px; margin-left: auto; margin-right: auto; }
+    .not-sure h3 { color: var(--sage-700); margin-bottom: 0.75rem; }
+    .not-sure p { color: var(--sage-600); margin-bottom: 1.5rem; }
+    .not-sure .btn { margin-top: 0.5rem; }
+  </style>
 </head>
 <body>
-  <!-- MOBILE FIXES -->
+
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Primary navigation">
   <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-  </style>
-<nav class="site-nav" aria-label="Primary navigation">
-  <style>
-    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
+    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; position: relative; z-index: 1001; }
+    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:relative; }
     .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#6b7f5a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
+    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#b0bda3;display:flex;align-items:center;justify-content:center}
     .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
     .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
     .site-nav .nav-links .dropdown{position:relative}
     .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0}
+    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0;white-space:nowrap}
     .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
+    @media(max-width:768px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-menu-btn{display:inline-block}.site-nav .nav-links.mobile-open{display:flex !important;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#fdfcfb;padding:1rem;gap:0.5rem;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999}}
   </style>
   <div class="container">
     <a href="index.html" class="logo" aria-label="Fern & Feather homepage">
-      <div class="mark">F&F</div>
+      <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
-    <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">☰</button>
     <ul class="nav-links">
-      <li class="dropdown"><a href="about.html">About ▾</a>
+      <li class="dropdown"><a href="about.html" class="dropdown-toggle">About ▾</a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="about.html">About the Practice</a></li>
           <li><a href="nicole.html">Nicole</a></li>
@@ -62,140 +77,165 @@
       </li>
       <li><a href="services.html">Services</a></li>
       <li><a href="rates.html">Rates</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
-    </ul>
-  </div>
-</nav>
-
-
-
-    <nav class="site-nav" aria-label="Primary navigation">
-  <style>
-    .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
-    .site-nav .container { max-width:980px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between; }
-    .site-nav .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:inherit;font-weight:700}
-    .site-nav .logo .mark{width:44px;height:44px;border-radius:10px;background:#6b7f5a;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700}
-    .site-nav .nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0;align-items:center}
-    .site-nav .nav-links a{color:inherit;text-decoration:none;padding:6px 8px;border-radius:6px}
-    .site-nav .nav-links .dropdown{position:relative}
-    .site-nav .nav-links .dropdown .dropdown-menu{display:none;position:absolute;top:100%;left:0;background:#fff;border:1px solid #eee;padding:8px;margin-top:6px;list-style:none;min-width:200px;box-shadow:0 8px 24px rgba(0,0,0,0.08);z-index:1000}
-    .site-nav .nav-links .dropdown .dropdown-menu li{padding:4px 0}
-    .site-nav .nav-links .dropdown:hover .dropdown-menu{display:block}
-    @media(max-width:720px){.site-nav .container{padding:10px}.site-nav .nav-links{display:none}.site-nav .mobile-toggle{display:inline-block}}
-  </style>
-  <div class="container">
-    <a href="index.html" class="logo" aria-label="Fern & Feather homepage">
-      <div class="mark">F&F</div>
-      <span>Fern & Feather</span>
-    </a>
-    <button class="mobile-toggle" aria-label="Open menu" style="display:none;border:0;background:transparent;">☰</button>
-    <ul class="nav-links">
-      <li class="dropdown"><a href="about.html">About ▾</a>
+      <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources ▾</a>
         <ul class="dropdown-menu" role="menu">
-          <li><a href="about.html">About the Practice</a></li>
-          <li><a href="nicole.html">Nicole</a></li>
-          <li><a href="kiera.html">Kiera</a></li>
-          <li><a href="faq.html">FAQs</a></li>
+          <li><a href="crisis.html">Crisis Resources</a></li>
+          <li><a href="tools.html">Free Tools</a></li>
+          <li><a href="blog.html">Blog</a></li>
         </ul>
       </li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="rates.html">Rates</a></li>
-      <li><a href="resources.html">Resources</a></li>
-      <li><a href="contact.html" style="background:#6b7f5a;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
+      <li><a href="contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;">Schedule Consult</a></li>
     </ul>
   </div>
 </nav>
 
+  <!-- Hero -->
+  <section class="specialties-hero">
+    <h1>Specialties</h1>
+    <p class="tagline">Rooted and Rising</p>
+    <p>Compassionate, evidence-based care for adults navigating life's challenges — in Cumming, GA and throughout Georgia via telehealth.</p>
+  </section>
 
-    <header class="page-header">
-        <h1>Specialties</h1>
-        <p class="tagline">Rooted and Rising</p>
-        <p>Fern & Feather Counseling and Wellness</p>
-    </header>
+  <!-- Content -->
+  <section class="specialties-content">
+    <div class="specialties-intro">
+      <p>At Fern & Feather Counseling and Wellness, we work with adults navigating a wide range of challenges. Our approach is always tailored to your unique circumstances, integrating evidence-based methods with genuine compassion and a holistic understanding of your wellbeing.</p>
+      <p>Below are some of the areas we commonly address. Click through to learn more about how we approach each concern.</p>
+    </div>
 
-    <main class="content">
-        <p>At Fern & Feather Counseling and Wellness, we work with adults navigating a wide range of challenges. Our approach is always tailored to your unique circumstances, integrating evidence-based methods with genuine compassion and a holistic understanding of your wellbeing.</p>
+    <div class="specialties-grid">
+      <div class="specialty-item">
+        <div class="specialty-icon">🌿</div>
+        <h3>Trauma & PTSD</h3>
+        <p>Processing experiences safely and rebuilding a sense of security.</p>
+        <a href="specialties/trauma.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🌪️</div>
+        <h3>Anxiety & Panic</h3>
+        <p>Understanding your nervous system and building skills for regulation.</p>
+        <a href="specialties/anxiety.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🌧️</div>
+        <h3>Depression</h3>
+        <p>Finding hope and building resilience through challenging times.</p>
+        <a href="specialties/depression.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🔄</div>
+        <h3>OCD & Intrusive Thoughts</h3>
+        <p>Breaking free from the cycle of obsessions and compulsions.</p>
+        <a href="specialties/ocd.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">💑</div>
+        <h3>Relationship Issues</h3>
+        <p>Building connection, repair, and growth in your relationships.</p>
+        <a href="specialties/relationships.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">👨‍👩‍👧</div>
+        <h3>Parenting Challenges</h3>
+        <p>Nurturing yourself while nurturing your family through every stage.</p>
+        <a href="specialties/parenting.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🌱</div>
+        <h3>Life Transitions & Adjustments</h3>
+        <p>Navigating change with intention and resilience.</p>
+        <a href="specialties/transitions.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🕊️</div>
+        <h3>Grief & Loss</h3>
+        <p>Processing loss and finding a path forward with support.</p>
+        <a href="specialties/grief.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🔥</div>
+        <h3>Burnout & Professional Stress</h3>
+        <p>Reclaiming balance and preventing exhaustion in demanding roles.</p>
+        <a href="specialties/burnout.html">Learn More</a>
+      </div>
+      <div class="specialty-item">
+        <div class="specialty-icon">🪞</div>
+        <h3>Identity & Self-Esteem</h3>
+        <p>Exploring and strengthening your sense of self.</p>
+        <a href="specialties/identity.html">Learn More</a>
+      </div>
+    </div>
 
-        <p>Below are some of the areas we commonly address. Click through to learn more about how we approach each concern.</p>
+    <div class="not-sure">
+      <h3>Not sure if we can help?</h3>
+      <p>This list isn't exhaustive. If you're struggling with something not mentioned here, reach out. We're happy to discuss whether we're the right fit for your needs.</p>
+      <a href="contact.html" class="btn btn-primary">Reach Out — Free Consult</a>
+    </div>
+  </section>
 
-        <div class="specialties-grid">
-            
-            <div class="specialty-item">
-                <h3>Trauma & PTSD</h3>
-                <p>Processing experiences safely and rebuilding a sense of security.</p>
-                <p><a href="specialties/trauma.html">Learn More →</a></p>
-            </div>
-            
-            <div class="specialty-item">
-                <h3>Anxiety & Panic</h3>
-                <p>Understanding your nervous system and building skills for regulation.</p>
-                <p><a href="specialties/anxiety.html">Learn More →</a></p>
-            </div>
-            
-            <div class="specialty-item">
-                <h3>Depression</h3>
-                <p>Finding hope and building resilience through challenging times.</p>
-                <p><a href="specialties/depression.html">Learn More →</a></p>
-            </div>
-
-            <div class="specialty-item">
-                <h3>OCD & Intrusive Thoughts</h3>
-                <p>Breaking free from the cycle of obsessions and compulsions.</p>
-                <p><a href="specialties/ocd.html">Learn More →</a></p>
-            </div>
-            
-            <div class="specialty-item">
-                <h3>Relationship Issues</h3>
-                <p>Building connection, repair, and growth in your relationships.</p>
-                <p><a href="specialties/relationships.html">Learn More →</a></p>
-            </div>
-
-            <div class="specialty-item">
-                <h3>Parenting Challenges</h3>
-                <p>Nurturing yourself while nurturing your family through every stage.</p>
-                <p><a href="specialties/parenting.html">Learn More →</a></p>
-            </div>
-            
-            <div class="specialty-item">
-                <h3>Life Transitions & Adjustments</h3>
-                <p>Navigating change with intention and resilience.</p>
-                <p><a href="specialties/transitions.html">Learn More →</a></p>
-            </div>
-
-            <div class="specialty-item">
-                <h3>Grief & Loss</h3>
-                <p>Processing loss and finding a path forward with support.</p>
-                <p><a href="specialties/grief.html">Learn More →</a></p>
-            </div>
-
-            <div class="specialty-item">
-                <h3>Burnout & Professional Stress</h3>
-                <p>Reclaiming balance and preventing exhaustion in demanding roles.</p>
-                <p><a href="specialties/burnout.html">Learn More →</a></p>
-            </div>
-
-            <div class="specialty-item">
-                <h3>Identity & Self-Esteem</h3>
-                <p>Exploring and strengthening your sense of self.</p>
-                <p><a href="specialties/identity.html">Learn More →</a></p>
-            </div>
-
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div style="text-align: center; margin-bottom: 3rem; padding: 2rem; background: rgba(255,255,255,0.05); border-radius: 16px;">
+        <p style="font-weight: 600; color: white; margin-bottom: 15px; font-family: 'Playfair Display', serif; font-size: 1.2rem;">Join our mailing list for future updates and resources</p>
+        <div class="ml-custom-form-container">
+          <form id="ml-signup-form">
+            <input type="email" name="email" id="ml-email" placeholder="Your email address" required>
+            <button type="submit" id="ml-submit-btn">Join</button>
+          </form>
         </div>
-
-        <div class="not-sure">
-            <h3>Not sure if we can help?</h3>
-            <p>This list isn't exhaustive. If you're struggling with something not mentioned here, reach out. We're happy to discuss whether we're the right fit for your needs.</p>
+      </div>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Fern & Feather Counseling and Wellness</h3>
+          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Cumming, GA and throughout Georgia via telehealth.</p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+            <a href="#" class="social-link" aria-label="Facebook">📘</a>
+            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+          </div>
         </div>
+        <div class="footer-column">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#individual">Individual Therapy</a></li>
+            <li><a href="services.html#couples">Couples Therapy</a></li>
+            <li><a href="services.html#group">Group Therapy</a></li>
+            <li><a href="services.html#supervision">Clinical Supervision</a></li>
+            <li><a href="services.html#workshops">Workshops</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="tools.html">Free Toolkit</a></li>
+            <li><a href="crisis.html">Crisis Resources</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <ul>
+            <li>📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
+            <li>📧 info@fernandfeathercounseling.com</li>
+            <li>📱 770-563-8334</li>
+            <li><a href="contact.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Book Consultation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
+        <p>
+          <a href="#">Privacy Policy</a> |
+          <a href="#">Terms of Service</a> |
+          <a href="#">Accessibility</a>
+        </p>
+      </div>
+    </div>
+  </footer>
 
-    </main>
-
-    <footer>
-            <p style="margin-bottom: 0.5rem;">📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</p>
-            <p style="margin-bottom: 0.5rem;">📧 info@fernandfeathercounseling.com | 📱 770-563-8334</p>
-            <p>&copy; 2026 Fern & Feather Counseling and Wellness. All rights reserved.</p>
-            <p>Proudly serving Cumming, GA and clients throughout Georgia via telehealth.</p>
-        </footer>
-
+  <script src="js/main.js?v=1774729901"></script>
 </body>
 </html>
