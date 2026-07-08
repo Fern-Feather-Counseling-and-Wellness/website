@@ -20,11 +20,55 @@
     .tools-hero > div { max-width: 800px; margin: 0 auto; text-align: center; }
     .tools-hero h1 { color: #166534; font-size: 2.5rem; margin-bottom: 1rem; }
     .tools-hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto; color: #14532d; }
-    @media (max-width: 480px) {
-      .tools-hero { padding: 40px 15px; }
-      .tools-hero h1 { font-size: 1.5rem; }
-      .tools-hero p { font-size: 0.9rem; }
-    }
+    
+        /* MailerLite Form Styling */
+        .ml-custom-form-container { 
+            margin: 30px auto 0; 
+            max-width: 450px; 
+            display: flex; 
+            gap: 10px; 
+            justify-content: center; 
+            align-items: center; 
+        }
+        .ml-custom-form-container form { 
+            display: flex; 
+            gap: 10px; 
+            width: 100%; 
+        }
+        .ml-custom-form-container input[type="email"] { 
+            flex-grow: 1; 
+            padding: 12px 16px; 
+            border-radius: 8px; 
+            border: 1px solid #bbf7d0; 
+            font-family: 'Source Sans 3', sans-serif; 
+            font-size: 1rem; 
+            outline: none; 
+        }
+        .ml-custom-form-container input[type="email"]:focus { 
+            border-color: #b0bda3; 
+            box-shadow: 0 0 0 2px rgba(176, 189, 163, 0.3); 
+        }
+        .ml-custom-form-container button { 
+            background: #b0bda3; 
+            color: white; 
+            border: none; 
+            padding: 12px 24px; 
+            border-radius: 8px; 
+            font-weight: 600; 
+            cursor: pointer; 
+            transition: background 0.2s; 
+            font-family: 'Source Sans 3', sans-serif; 
+        }
+        .ml-custom-form-container button:hover { 
+            background: #556b46; 
+        }
+
+        @media (max-width: 480px) {
+          .tools-hero { padding: 40px 15px; }
+          .tools-hero h1 { font-size: 1.5rem; }
+          .tools-hero p { font-size: 0.9rem; }
+          .ml-custom-form-container form { flex-direction: column; }
+        }
     .tools-section { padding: 60px 20px; background: #f0fdf4; }
     .tools-grid { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
     .tool-card { background: white; padding: 2rem; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: center; }
@@ -110,8 +154,19 @@
     <div>
       <h1>Free Tools</h1>
       <p>Practical resources you can use right now. No email required — though we'd love to stay in touch.</p>
-    </div>
-  </section>
+            <p style="font-size: 0.9rem; color: #14532d; margin-top: 10px; opacity: 0.8;"><em>Tip: To save any tool as a PDF, simply press Ctrl+P (or Cmd+P on Mac) and select "Save as PDF" in your print settings.</em></p>
+      
+          <div style="margin-top: 25px;" id="ml-form-wrapper">
+              <p style="font-weight: 600; color: #166534; margin-bottom: 15px;">Join our mailing list for future updates and resources</p>
+              <div class="ml-custom-form-container">
+                <form id="ml-signup-form">
+                  <input type="email" name="email" id="ml-email" placeholder="Your email address" required>
+                  <button type="submit" id="ml-submit-btn">Join</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
 
   <section class="tools-section">
     <div class="tools-grid">
@@ -119,42 +174,42 @@
         <div class="tool-icon">🧘</div>
         <h3>Grounding Techniques Guide</h3>
         <p>Step-by-step instructions for 10 somatic grounding practices. Perfect for anxiety, dissociation, or when you need to come back to the present.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+        <a href="tools/grounding-guide.html" class="tool-btn">Download Free</a>
       </div>
       
       <div class="tool-card">
         <div class="tool-icon">📝</div>
         <h3>Nervous System Check-In</h3>
         <p>Daily tracking worksheet to identify your nervous system state and patterns. Build self-awareness with evidence-based tools.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+                <a href="tools/ns-checkin.html" class="tool-btn">Download Free</a>
       </div>
       
       <div class="tool-card">
         <div class="tool-icon">💭</div>
         <h3>Thought Reframing Worksheet</h3>
         <p>Cognitive restructuring exercises to help you identify and challenge unhelpful thought patterns.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+                <a href="tools/thought-reframing.html" class="tool-btn">Download Free</a>
       </div>
       
       <div class="tool-card">
         <div class="tool-icon">🌡️</div>
         <h3>Window of Tolerance Chart</h3>
         <p>Visual guide to understanding your window of tolerance and practical strategies for expanding it.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+                <a href="tools/window-tolerance.html" class="tool-btn">Download Free</a>
       </div>
       
       <div class="tool-card">
         <div class="tool-icon">🤝</div>
         <h3>Boundary Scripts</h3>
         <p>Word-for-word phrases for setting boundaries with family, partners, and coworkers. Because "no" is a complete sentence.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+                <a href="tools/boundary-scripts.html" class="tool-btn">Download Free</a>
       </div>
       
       <div class="tool-card">
         <div class="tool-icon">😴</div>
         <h3>Sleep Hygiene Checklist</h3>
         <p>Evidence-based strategies for improving sleep quality. Because rest is not optional.</p>
-        <a href="#" class="tool-btn">Download Free</a>
+                <a href="tools/sleep-checklist.html" class="tool-btn">Download Free</a>
       </div>
     </div>
   </section>

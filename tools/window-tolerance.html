@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window of Tolerance Chart | Fern & Feather</title>
+    <style>
+        body { font-family: 'Source Sans 3', sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 40px auto; padding: 20px; background: #fdfdfd; }
+        h1 { font-family: 'Playfair Display', serif; color: #166534; border-bottom: 2px solid #b0bda3; padding-bottom: 10px; text-align: center; }
+        .chart-container { margin: 40px 0; position: relative; border: 2px solid #ddd; border-radius: 16px; background: white; overflow: hidden; }
+        .zone { padding: 40px 20px; text-align: center; position: relative; }
+        .hyper { background: #fee2e2; color: #991b1b; border-bottom: 2px dashed #fca5a5; }
+        .window { background: #f0fdf4; color: #166534; border-bottom: 2px dashed #bbf7d0; }
+        .hypo { background: #eff6ff; color: #1e40af; }
+        .zone h3 { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin-bottom: 10px; }
+        .zone p { max-width: 600px; margin: 0 auto 15px; font-size: 0.95rem; }
+        .strategy-list { display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; list-style: none; padding: 0; }
+        .strategy-item { background: white; border: 1px solid rgba(0,0,0,0.1); padding: 5px 12px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; }
+        .intro { background: #f0fdf4; padding: 20px; border-radius: 12px; border-left: 5px solid #b0bda3; margin-bottom: 30px; }
+        .footer { margin-top: 50px; text-align: center; font-size: 0.9rem; color: #6b7280; border-top: 1px solid #eee; padding-top: 20px; }
+        @media print {
+            body { background: white; margin: 0; padding: 0; }
+            .chart-container { border: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body>
+    <h1>The Window of Tolerance</h1>
+    
+    <div class="intro">
+        <p><strong>What is the Window of Tolerance?</strong> Developed by Dr. Dan Siegel, this is the optimal zone of arousal where you can function, process emotions, and handle stress effectively. When we are pushed outside this window, we lose our ability to think rationally and regulate our emotions.</p>
+    </div>
+
+    <div class="chart-container">
+        <!-- Hyper-arousal -->
+        <div class="zone hyper">
+            <h3>Hyper-Arousal (The "Fight or Flight" Zone)</h3>
+            <p>Feeling "too much." Anxiety, panic, anger, racing thoughts, restlessness, hyper-vigilance.</p>
+            <div class="strategy-list">
+                <span class="strategy-item">Cold Water Splash</span>
+                <span class="strategy-item">Long Exhales</span>
+                <span class="strategy-item">Proprioceptive Input</span>
+                <span class="strategy-item">Grounding 5-4-3-2-1</span>
+            </div>
+        </div>
+
+        <!-- The Window -->
+        <div class="zone window">
+            <h3>The Window of Tolerance (Optimal Zone)</h3>
+            <p>Feeling capable, present, and regulated. You can feel a wide range of emotions without becoming overwhelmed or shutting down.</p>
+            <div class="strategy-list">
+                <span class="strategy-item">Mindfulness</span>
+                <span class="strategy-item">Healthy Boundaries</span>
+                <span class="strategy-item">Self-Care Habits</span>
+                <span class="strategy-item">Social Connection</span>
+            </div>
+        </div>
+
+        <!-- Hypo-arousal -->
+        <div class="zone hypo">
+            <h3>Hypo-Arousal (The "Freeze / Shutdown" Zone)</h3>
+            <p>Feeling "too little." Numbness, emptiness, depression, dissociation, brain fog, lethargy.</p>
+            <div class="strategy-list">
+                <span class="strategy-item">Somatic Shaking</span>
+                <span class="strategy-item">Upbeat Music</span>
+                <span class="strategy-item">Smelling Citrus/Mint</span>
+                <span class="strategy-item">Gentle Movement</span>
+            </div>
+        </div>
+    </div>
+
+    <div style="margin-top: 30px; background: #f9fafb; padding: 20px; border-radius: 12px; border: 1px solid #e5e7eb;">
+        <h3 style="color: #14532d;">How to use this:</h3>
+        <ol>
+            <li><strong>Notice:</strong> a feeling of anxiety climbing (Hyper) or a feeling of "checking out" (Hypo).</li>
+            <li><strong>Name:</strong> "I am currently in hyper-arousal."</li>
+            <li><strong>Shift:</strong> Use the specific strategies listed in that zone to gently bring yourself back into the Window.</li>
+        </ol>
+    </div>
+
+    <div class="footer">
+        <p><em>Based on Polyvagal Theory and Somatic Psychology.</em></p>
+        <p>&copy; 2026 Fern & Feather Counseling and Wellness</p>
+    </div>
+</body>
+</html>
