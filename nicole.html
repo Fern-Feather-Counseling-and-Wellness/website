@@ -165,7 +165,8 @@
                                         <span class="specialty-tag">Perfectionism & High Productivity</span>
         </div>
         
-        <a href="mailto:nicole@fernandfeathercounseling.com?subject=Therapy%20Inquiry%20-%20Nicole" class="btn btn-primary">Work With Me</a>
+        <a href="#contact-nicole" class="btn btn-primary">Work With Me</a>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--sage-600);">Or email me directly: <a href="mailto:nicole@fernandfeathercounseling.com" style="color: var(--fern); text-decoration: underline;">nicole@fernandfeathercounseling.com</a></p>
       </div>
       
       <div class="therapist-photo">
@@ -540,7 +541,7 @@
                   <li style="padding: 0.5rem 0;">✓ Flexible scheduling — several times a week, weekly, biweekly, or monthly</li>
                   <li style="padding: 0.5rem 0;">✓ In-person or telehealth</li>
           </ul>
-                <a href="mailto:nicole@fernandfeathercounseling.com?subject=Therapy%20Inquiry%20-%20Nicole" class="btn btn-primary">Book Individual Session</a>
+                <a href="#contact-nicole" class="btn btn-primary">Book Individual Session</a>
         </div>
 
         <div style="text-align: center; background: white; padding: 3rem; border-radius: 20px;">
@@ -551,20 +552,46 @@
                                   <li style="padding: 0.5rem 0;">✓ Flexible scheduling — several times a week, weekly, biweekly, or monthly</li>
                   <li style="padding: 0.5rem 0;">✓ In-person or telehealth</li>
           </ul>
-                <a href="mailto:nicole@fernandfeathercounseling.com?subject=Therapy%20Inquiry%20-%20Nicole" class="btn btn-primary">Book Couples Session</a>
+                <a href="#contact-nicole" class="btn btn-primary">Book Couples Session</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
-  <section class="lead-magnet">
-    <div class="container" style="text-align: center;">
+    <section class="lead-magnet" id="contact-nicole">
+      <div class="container" style="max-width: 600px; margin: 0 auto;">
       <h2>Ready to Work Together?</h2>
       <p style="max-width: 600px; margin: 1rem auto 2rem;">Whether you're looking for individual support or couples therapy — let's talk about what's going on. Free 15-minute consultation, no commitment.</p>
-            <a href="mailto:nicole@fernandfeathercounseling.com?subject=Therapy%20Inquiry%20-%20Nicole" class="btn btn-primary" style="background: white; color: var(--sage-700);">Book Your Free Consultation</a>
-    </div>
-  </section>
+        <p style="margin-bottom: 2rem; color: var(--sage-600);">Prefer email? Reach me directly at <a href="mailto:nicole@fernandfeathercounseling.com" style="color: var(--fern); text-decoration: underline;">nicole@fernandfeathercounseling.com</a></p>
+        <form class="js-consult-form" action="https://formspree.io/f/meebdrlg" method="POST" style="text-align: left; background: white; padding: 2.5rem; border-radius: 20px; box-shadow: var(--shadow-soft);">
+          <input type="hidden" name="_subject" value="Therapy Inquiry - Nicole">
+          <div class="form-group">
+            <label for="nicole-name">First Name</label>
+            <input type="text" id="nicole-name" name="name" required placeholder="Your first name">
+          </div>
+          <div class="form-group">
+            <label for="nicole-email">Email Address</label>
+            <input type="email" id="nicole-email" name="email" required placeholder="you@example.com">
+          </div>
+          <div class="form-group">
+            <label for="nicole-phone">Phone Number (optional)</label>
+            <input type="tel" id="nicole-phone" name="phone" placeholder="(000) 000-0000">
+          </div>
+          <div class="form-group">
+            <label for="nicole-service">What are you interested in?</label>
+            <select id="nicole-service" name="service" style="width: 100%; padding: 0.75rem; border: 1px solid var(--sage-300); border-radius: 8px; font-size: 1rem; font-family: var(--font-body); background: white; color: var(--charcoal);">
+              <option value="individual">Individual Therapy</option>
+              <option value="couples">Couples Therapy</option>
+              <option value="consultation">Free Consultation</option>
+              <option value="other">Other / Not Sure</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;padding:0.8rem;font-size:1.05rem;">Request Consultation</button>
+          <p class="form-note">For your privacy, please don't share clinical or health details in this form. We'll discuss everything during your consultation.</p>
+        </form>
+      </div>
+    </section>
 
   <!-- Footer -->
   <footer class="footer">
