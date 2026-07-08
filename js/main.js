@@ -57,9 +57,27 @@ style.textContent = `
     .nav-links { display:none !important; }
     .mobile-menu-btn { display:inline-block !important; }
     .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-  }
-`;
-document.head.appendChild(style);
+        .dropdown-menu { position:static !important; box-shadow:none !important; opacity:1 !important; visibility:visible !important; transform:none !important; }
+      }
+    `;
+    document.head.appendChild(style);
+
+    /**
+     * Dropdown Toggle (touch/click)
+     * On mobile there's no hover, so allow tapping the dropdown-toggle
+     * to expand/collapse the dropdown menu.
+     */
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
+        toggle.addEventListener('click', function(e) {
+          var parent = this.parentElement;
+          if (parent && parent.classList.contains('dropdown')) {
+            e.preventDefault();
+            parent.classList.toggle('active');
+          }
+        });
+      });
+    });
 
 /**
  * FAQ Accordion Toggle
