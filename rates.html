@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,34 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=1774725872">
+  <link rel="stylesheet" href="css/style.css?v=1774729901">
 </head>
 <body>
-  <!-- MOBILE FIXES -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-        @media screen and (max-width:768px) {
-          .pricing-grid { grid-template-columns: 1fr !important; max-width: 100% !important; }
-                  .why-cards { grid-template-columns: 1fr !important; }
-                }
-      </style>
-  <!-- EMERGENCY MOBILE FIXES - These CANNOT be overridden -->
-  <style>
-    @media screen and (max-width:999px) {
-      .nav-links { display:none !important; } 
-      .mobile-menu-btn { display:inline-block !important; } 
-      .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    }
-    @media screen and (max-width:600px) {
-      .blog-hero, .tools-hero, .crisis-hero { padding:25px 10px !important; }
-      .blog-hero h1, .tools-hero h1, .crisis-hero h1 { font-size:1.2rem !important; }
-      .blog-hero p, .tools-hero p, .crisis-hero p { font-size:0.8rem !important; }
-    }
-  </style>
   <nav class="site-nav" aria-label="Primary navigation">
   <style>
     .site-nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial; }
@@ -56,9 +31,9 @@
       <img src="images/logo-mark-final.svg" alt="F&F" class="mark">
       <span>Fern & Feather</span>
     </a>
-    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;" onclick="this.nextElementSibling.classList.toggle('mobile-open')">☰</button><script>document.querySelector(".mobile-menu-btn").addEventListener("click",function(){document.querySelector(".nav-links").classList.toggle("mobile-open")});</script>
+    <button class="mobile-menu-btn" aria-label="Open menu" style="border:0;background:transparent;font-size:24px;cursor:pointer;">â˜°</button>
     <ul class="nav-links">
-      <li class="dropdown"><a href="about.html">About ▾</a>
+      <li class="dropdown"><a href="about.html">About â–¾</a>
         <ul class="dropdown-menu" role="menu">
           <li><a href="about.html">About the Practice</a></li>
           <li><a href="nicole.html">Nicole</a></li>
@@ -68,7 +43,7 @@
       </li>
       <li><a href="services.html">Services</a></li>
       <li><a href="rates.html">Rates</a></li>
-      <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources ▾</a>
+      <li class="dropdown"><a href="resources.html" class="dropdown-toggle">Resources â–¾</a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="crisis.html">Crisis Resources</a></li>
                 <li><a href="tools.html">Free Tools</a></li>
@@ -96,31 +71,31 @@
     <div class="pricing-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; max-width: 900px; margin: 0 auto;">
       
       <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-400);">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">🧠</div>
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">ðŸ§ </div>
         <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Individual Therapy</h3>
-        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$135–$180</p>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$135â€“$180</p>
         <p style="color: var(--sage-600);">45 minutes</p>
         <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">One-on-one sessions focused on anxiety, trauma, relationships, or personal growth.</p>
       </div>
 
       <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-500);">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">💑</div>
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">ðŸ’‘</div>
         <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Couples Therapy</h3>
-        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$210–$235</p>
-        <p style="color: var(--sage-600);">50–80 minutes</p>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$210â€“$235</p>
+        <p style="color: var(--sage-600);">50â€“80 minutes</p>
         <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">Relationship counseling for partners looking to deepen connection and improve communication.</p>
       </div>
 
       <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-600);">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">👥</div>
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">ðŸ‘¥</div>
         <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Group Therapy</h3>
-        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$60–$75</p>
+        <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$60â€“$75</p>
         <p style="color: var(--sage-600);">90 minutes</p>
         <p style="margin-top: 1rem; font-size: 0.95rem; color: #666;">Small group sessions on topics like trauma recovery, somatic practice, or relationship skills.</p>
       </div>
 
       <div class="price-card" style="background: white; border-radius: 16px; padding: 2rem; box-shadow: var(--shadow-medium); border-left: 5px solid var(--sage-700);">
-        <div style="font-size: 2.5rem; margin-bottom: 1rem;">📚</div>
+        <div style="font-size: 2.5rem; margin-bottom: 1rem;">ðŸ“š</div>
         <h3 style="color: var(--sage-700); margin-bottom: 0.5rem;">Consultation</h3>
         <p style="font-size: 1.8rem; font-weight: 600; color: var(--fern); margin: 0.5rem 0;">$190</p>
         <p style="color: var(--sage-600);">60 minutes</p>
@@ -130,7 +105,7 @@
     </div>
 
     <div style="text-align: center; margin-top: 3rem; padding: 1.5rem; background: var(--sage-50); border-radius: 12px; max-width: 600px; margin-left: auto; margin-right: auto;">
-      <p style="font-size: 1rem; color: var(--sage-700);">🌱 <strong>Sliding Scale Available</strong></p>
+      <p style="font-size: 1rem; color: var(--sage-700);">ðŸŒ± <strong>Sliding Scale Available</strong></p>
       <p style="color: #666; margin-top: 0.5rem;">We keep a few spots open for those with financial need. During your free consultation, we can discuss options.</p>
     </div>
   </section>
@@ -143,26 +118,26 @@
           <div style="background: white; padding: 2.5rem; border-radius: 16px; box-shadow: var(--shadow-soft);">
             <p style="font-size: 1.15rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">
               <strong style="color: var(--sage-700);">Do you take insurance?</strong><br>
-              Nope — and that's by design. Insurance companies aren't in the business of your wellbeing; they're in the business of profit. When insurance gets involved, they require diagnoses that become permanent records, decide what "counts" as therapy (usually only crisis management, not actual growth), and limit how much care you can receive.
+              Nope â€” and that's by design. Insurance companies aren't in the business of your wellbeing; they're in the business of profit. When insurance gets involved, they require diagnoses that become permanent records, decide what "counts" as therapy (usually only crisis management, not actual growth), and limit how much care you can receive.
             </p>
             <p style="font-size: 1.15rem; line-height: 1.8; color: var(--charcoal); margin-bottom: 1.5rem;">
-              We chose private-pay so your records stay <em>actually</em> private, you don't need a label to get help, and we can focus on what you actually need — not what some insurer's spreadsheet says you should have.
+              We chose private-pay so your records stay <em>actually</em> private, you don't need a label to get help, and we can focus on what you actually need â€” not what some insurer's spreadsheet says you should have.
             </p>
             <p style="font-size: 1.15rem; line-height: 1.8; color: var(--charcoal);">
-                          We know paying out of pocket is a real investment. We're committed to working with you to make therapy accessible — during your free consultation, we're happy to talk through options and find an arrangement that fits your situation.
+                          We know paying out of pocket is a real investment. We're committed to working with you to make therapy accessible â€” during your free consultation, we're happy to talk through options and find an arrangement that fits your situation.
             </p>
           </div>
 
           <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
             <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: var(--shadow-soft); text-align: center;">
-              <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔒</div>
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">ðŸ”’</div>
               <strong style="color: var(--sage-700); display: block; margin-bottom: 0.25rem;">No diagnosis on your record</strong>
-              <p style="font-size: 0.95rem; color: #666;">Your therapy stays between you and your therapist — no permanent labels</p>
+              <p style="font-size: 0.95rem; color: #666;">Your therapy stays between you and your therapist â€” no permanent labels</p>
             </div>
             <div style="background: white; padding: 1.5rem; border-radius: 12px; box-shadow: var(--shadow-soft); text-align: center;">
-              <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">ðŸŽ¯</div>
               <strong style="color: var(--sage-700); display: block; margin-bottom: 0.25rem;">Care that fits your goals</strong>
-              <p style="font-size: 0.95rem; color: #666;">No limits on session count — you decide how much therapy you want</p>
+              <p style="font-size: 0.95rem; color: #666;">No limits on session count â€” you decide how much therapy you want</p>
             </div>
           </div>
         </div>
@@ -170,7 +145,7 @@
     </section>
 
   <section class="container" style="padding: 3rem 2rem; text-align: center;">
-    <p style="font-style: italic; color: #888;">📄 Under the No Surprises Act, you have the right to receive a Good Faith Estimate explaining how much your care will cost. We're happy to provide this upon request.</p>
+    <p style="font-style: italic; color: #888;">ðŸ“„ Under the No Surprises Act, you have the right to receive a Good Faith Estimate explaining how much your care will cost. We're happy to provide this upon request.</p>
   </section>
 
   <section class="lead-magnet" style="background: linear-gradient(135deg, var(--sage-600), var(--sage-700)); padding: 4rem 2rem; color: white; text-align: center;">
@@ -195,12 +170,12 @@
         <div class="footer-grid">
         <div class="footer-brand">
           <h3>Fern & Feather Counseling and Wellness</h3>
-          <p>A holistic approach to therapy that honors your whole self — mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Cumming, GA and throughout Georgia via telehealth.</p>
+          <p>A holistic approach to therapy that honors your whole self â€” mind, body, and spirit. Trauma-informed care for individuals, couples, and groups in Cumming, GA and throughout Georgia via telehealth.</p>
           <div class="footer-social">
-            <a href="#" class="social-link" aria-label="Instagram">📷</a>
-            <a href="#" class="social-link" aria-label="Facebook">📘</a>
-            <a href="#" class="social-link" aria-label="TikTok">🎵</a>
-            <a href="#" class="social-link" aria-label="LinkedIn">💼</a>
+            <a href="#" class="social-link" aria-label="Instagram">ðŸ“·</a>
+            <a href="#" class="social-link" aria-label="Facebook">ðŸ“˜</a>
+            <a href="#" class="social-link" aria-label="TikTok">ðŸŽµ</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">ðŸ’¼</a>
           </div>
         </div>
         
@@ -227,9 +202,9 @@
         <div class="footer-column">
           <h4>Contact</h4>
           <ul>
-            <li>📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
-            <li>📧 info@fernandfeathercounseling.com</li>
-            <li>📱 770-563-8334</li>
+            <li>ðŸ“ 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</li>
+            <li>ðŸ“§ info@fernandfeathercounseling.com</li>
+            <li>ðŸ“± 770-563-8334</li>
             <li><a href="contact.html" style="background:#b0bda3;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;display:inline-block;margin-top:0.5rem;">Book Consultation</a></li>
           </ul>
         </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,6 +23,12 @@
         @media print {
             body { background: white; margin: 0; padding: 0; }
             .state-box { grid-template-columns: 1fr 1fr 1fr; }
+                    }
+                    @media (max-width: 600px) {
+                        body { margin: 20px auto; padding: 15px; }
+                        h1 { font-size: 1.5rem; }
+                        h2 { font-size: 1.25rem; }
+                        .technique, .intro { padding: 15px; }
         }
     </style>
 </head>
