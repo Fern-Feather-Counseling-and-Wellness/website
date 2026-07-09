@@ -4,6 +4,7 @@
 # Block everything else
 *
 !.gitignore
+!CNAME
 !*/
 
 # Allow these
