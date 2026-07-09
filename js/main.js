@@ -1,4 +1,49 @@
 /**
+ * Calendly popup widget
+ * Auto-converts "Schedule Consultation" / "Book Consult" buttons to
+ * open a Calendly popup so visitors can self-book without leaving the page.
+ */
+(function() {
+  var CALENDLY_URL = 'https://calendly.com/nicole-fernandfeathercounseling/30min';
+
+  // Pre-load Calendly widget script + CSS on all pages except Kiera's
+  if (!/kiera\.html/i.test(window.location.pathname)) {
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://assets.calendly.com/assets/external/widget.css';
+    document.head.appendChild(css);
+
+    var s = document.createElement('script');
+    s.src = 'https://assets.calendly.com/assets/external/widget.js';
+    s.async = true;
+    document.head.appendChild(s);
+  }
+
+  function openCalendlyPopup(e) {
+    e.preventDefault();
+    if (typeof Calendly !== 'undefined') {
+      Calendly.initPopupWidget({ url: CALENDLY_URL });
+    } else {
+      // Fallback: open Calendly directly in a new tab
+      window.open(CALENDLY_URL, '_blank');
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Skip Kiera's page — she handles her own consultation scheduling separately
+    if (/kiera\.html/i.test(window.location.pathname)) return;
+
+    var consultPattern = /book.+consult|schedule.+consult|free consult|reach out.+consult/i;
+    document.querySelectorAll('a[href="contact.html"]').forEach(function(link) {
+      var text = link.textContent.trim();
+      if (consultPattern.test(text) || link.classList.contains('calendly-popup')) {
+        link.addEventListener('click', openCalendlyPopup);
+      }
+    });
+  });
+})();
+
+/**
  * Fern & Feather - Mobile Nav Fix
  * Dynamically adds hamburger button if missing, handles toggle
  */
