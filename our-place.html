@@ -22,49 +22,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=1774725872">
   <style>
-    .place-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-      margin: 2rem 0;
-    }
-    .place-card {
-      background: white;
-      border-radius: 20px;
-      overflow: hidden;
-      box-shadow: var(--shadow-soft);
-      transition: var(--transition-smooth);
-    }
-    .place-card:hover {
-      transform: translateY(-5px);
-      box-shadow: var(--shadow-medium);
-    }
-    .place-placeholder {
-      width: 100%;
-      aspect-ratio: 4/3;
-      background: linear-gradient(135deg, var(--sage-100), var(--sage-200));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 3rem;
-      color: var(--sage-500);
-    }
-    .place-card-body {
-      padding: 1.5rem;
-    }
-    .place-card-body h3 {
-      color: var(--sage-700);
-      margin-bottom: 0.5rem;
-    }
-    .place-card-body p {
-      color: var(--sage-600);
-      font-size: 0.95rem;
-      line-height: 1.6;
-    }
-    @media(max-width:768px){
-      .place-grid { grid-template-columns: 1fr; }
-    }
-  </style>
+      .place-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        margin: 2rem 0;
+      }
+      .place-placeholder {
+        width: 100%;
+        aspect-ratio: 4/3;
+        background: linear-gradient(135deg, var(--sage-100), var(--sage-200));
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        color: var(--sage-400);
+      }
+      @media(max-width:768px){
+        .place-grid { grid-template-columns: 1fr; }
+      }
+    </style>
 </head>
 <body>
 
@@ -107,66 +85,29 @@
   </nav>
 
   <!-- Hero -->
-  <section class="hero" style="min-height: 50vh; padding-top: 80px;">
-    <style>
-      @media(max-width:768px){.hero{min-height:40vh !important;padding-top:60px !important;padding-bottom:2rem !important}.hero-content{text-align:center !important;max-width:100% !important}}
-    </style>
-    <div class="container">
-      <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
-        <h1>Our Place</h1>
-        <p class="hero-subtitle">A warm, welcoming space designed to help you feel safe and at home. Take a peek inside our counseling office in Cumming, GA.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Gallery Placeholders -->
-  <section class="services" style="background: white;">
-    <div class="container">
-      <div class="section-header">
-        <h2>Inside Fern & Feather</h2>
-        <p>We're putting together photos of our space — check back soon for a full tour!</p>
-      </div>
-
-      <div class="place-grid">
-        <div class="place-card">
-          <div class="place-placeholder">🪟</div>
-          <div class="place-card-body">
-            <h3>The Waiting Area</h3>
-            <p>A calm, comfortable space to settle in before your session.</p>
-          </div>
-        </div>
-
-        <div class="place-card">
-          <div class="place-placeholder">🛋️</div>
-          <div class="place-card-body">
-            <h3>The Therapy Room</h3>
-            <p>Where the magic happens — cozy seating, soft lighting, and a space designed for meaningful conversation.</p>
-          </div>
-        </div>
-
-        <div class="place-card">
-          <div class="place-placeholder">🌿</div>
-          <div class="place-card-body">
-            <h3>The Details</h3>
-            <p>Thoughtful touches throughout to make you feel at ease the moment you walk in.</p>
-          </div>
-        </div>
-
-        <div class="place-card">
-          <div class="place-placeholder">🚪</div>
-          <div class="place-card-body">
-            <h3>Our Entrance</h3>
-            <p>Easy to find, with plenty of parking right outside our door.</p>
-          </div>
+    <section class="hero" style="min-height: 40vh; padding-top: 80px;">
+      <style>
+        @media(max-width:768px){.hero{min-height:30vh !important;padding-top:60px !important;padding-bottom:2rem !important}.hero-content{text-align:center !important;max-width:100% !important}}
+      </style>
+      <div class="container">
+        <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+          <h1>Our Place</h1>
+          <p class="hero-subtitle">Photos of our office space coming soon.</p>
         </div>
       </div>
+    </section>
 
-      <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--sage-50); border-radius: 16px;">
-        <p style="color: var(--sage-600); font-size: 1.05rem; margin-bottom: 1.5rem;">Photos coming soon! In the meantime, we'd love to show you around in person.</p>
-        <a href="contact.html" class="btn btn-primary">Schedule a Visit</a>
+    <!-- Photo Placeholders -->
+    <section style="background: white; padding: 3rem 0;">
+      <div class="container">
+        <div class="place-grid">
+          <div class="place-placeholder">🖼️</div>
+          <div class="place-placeholder">🖼️</div>
+          <div class="place-placeholder">🖼️</div>
+          <div class="place-placeholder">🖼️</div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- Footer -->
   <footer class="footer">
