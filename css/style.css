@@ -985,6 +985,12 @@ section {
       gap: 1.5rem !important;
     }
 
+        /* Services page: stack inline two-column grids on mobile */
+        .services-detail .container > div[style*="grid-template-columns"] {
+          grid-template-columns: 1fr !important;
+          gap: 2rem !important;
+        }
+
     /* Reduce card padding on mobile */
     .service-card,
     .testimonial-card,
