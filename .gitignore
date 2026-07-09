@@ -19,6 +19,14 @@
 !/js/
 !/pages/
 
+# Image files
+!*.svg
+!*.jpeg
+!*.jpg
+!*.png
+!*.webp
+!*.gif
+
 # Anxiety Toolkit assets
 !/tools/
 !/tools/anxiety-toolkit.pdf
