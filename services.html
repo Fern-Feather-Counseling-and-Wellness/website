@@ -47,7 +47,14 @@
       }
     }
     </script>
-  </head>
+      <style>
+        .page-hero { background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center; }
+        .page-hero h1 { color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 1rem; }
+        .page-hero p { color: var(--sage-600); font-size: 1.25rem; }
+        @media (max-width: 768px) { .page-hero { padding: 60px 20px; } }
+        @media (max-width: 480px) { .page-hero { padding: 40px 15px; } }
+      </style>
+      </head>
 <body>
 
   <nav class="site-nav" aria-label="Primary navigation">
@@ -94,10 +101,10 @@
   </div>
 </nav>
 
-  <section class="page-hero" style="background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center;">
+  <section class="page-hero">
     <div class="container">
-      <h1 style="color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem;">Our Services</h1>
-      <p style="color: var(--sage-600); font-size: 1.2rem;">Evidence-based therapy tailored to your unique needs and goals.</p>
+        <h1>Our Services</h1>
+        <p>Evidence-based therapy tailored to your unique needs and goals.</p>
     </div>
   </section>
 
