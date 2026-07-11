@@ -21,7 +21,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css?v=1774725872">
-</head>
+    <style>
+      .page-hero { background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center; }
+      .page-hero h1 { color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 1rem; }
+      .page-hero p { color: var(--sage-600); font-size: 1.25rem; }
+      @media (max-width: 768px) { .page-hero { padding: 60px 20px; } }
+      @media (max-width: 480px) { .page-hero { padding: 40px 15px; } }
+    </style>
+  </head>
 <body>
 
   <nav class="site-nav" aria-label="Primary navigation">
@@ -68,10 +75,10 @@
   </div>
 </nav>
 
-  <section class="page-hero" style="background: linear-gradient(135deg, var(--sage-50), var(--cream)); padding: 4rem 2rem; text-align: center;">
+  <section class="page-hero">
     <div class="container">
-      <h1 style="color: var(--sage-800); font-family: var(--font-heading); margin-bottom: 0.5rem;">Rates & Fees</h1>
-      <p style="color: var(--sage-600); font-size: 1.2rem;">Transparent pricing. No surprise bills. Just therapy that works for you.</p>
+        <h1>Rates & Fees</h1>
+        <p>Transparent pricing. No surprise bills. Just therapy that works for you.</p>
     </div>
   </section>
 

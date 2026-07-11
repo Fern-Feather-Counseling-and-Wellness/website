@@ -1070,7 +1070,7 @@ section {
     .blog-hero,
     .crisis-hero,
     .tools-hero,
-    .resources-hero { padding: 50px 12px !important; }
+        .resources-hero { padding: 40px 15px; }
 
     /* Footer */
     .footer { padding: 2rem 0 1rem; }
