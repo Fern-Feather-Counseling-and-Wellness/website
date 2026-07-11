@@ -1071,8 +1071,6 @@ section {
     .crisis-hero,
     .tools-hero,
     .resources-hero { padding: 50px 12px !important; }
-    .blog-hero h1, .crisis-hero h1, .tools-hero h1, .resources-hero h1 { font-size: 1.5rem !important; }
-    .blog-hero p, .crisis-hero p, .tools-hero p, .resources-hero p { font-size: 0.9rem !important; }
 
     /* Footer */
     .footer { padding: 2rem 0 1rem; }
