@@ -224,7 +224,9 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translateY(-100px);
+  align-self: center; /* vertically center within the hero grid */
+  padding-top: 0;
+  transform: none;
 }
 
 .hero-logo img {
