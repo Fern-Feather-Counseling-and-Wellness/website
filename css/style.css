@@ -251,6 +251,7 @@ a:hover {
   margin-bottom: 1.5rem;
   color: var(--sage-800);
   font-family: var(--font-heading);
+  font-size: clamp(2rem, 4vw, 3.25rem);
 }
 
 .hero h1 em {
