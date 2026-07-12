@@ -227,6 +227,7 @@ a:hover {
   align-self: start;
   padding-top: 0;
   transform: none;
+  margin-top: -100px;
 }
 
 .hero-logo img {
