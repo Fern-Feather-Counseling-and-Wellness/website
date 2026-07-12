@@ -45,12 +45,12 @@
         .faq-item { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0; }
         .faq-question { font-weight: bold; color: var(--sage-700); cursor: pointer; margin-bottom: 0.5rem; display: flex; justify-content: space-between; align-items: center; }
         .faq-question::after { content: '+'; font-size: 1.5rem; }
-        .faq-question.active::after { content: '−'; }
+        .faq-item.active .faq-question::after { content: '−'; }
         .faq-answer { display: none; padding-left: 1rem; }
         .faq-answer p { margin-bottom: 1rem; }
         .collaboration-section { background-color: var(--sage-100); padding: 2rem; border-radius: 8px; margin-top: 3rem; border-left: 5px solid var(--fern); }
         .collaboration-section h3 { color: var(--sage-700); margin-top: 0; }
-        .faq-question.active + .faq-answer { display: block; }
+        .faq-item.active .faq-answer { display: block; }
                 .faq-item.active .faq-answer { max-height: none !important; overflow: visible !important; }
                         @media (max-width: 768px) { .page-hero { padding: 60px 20px; } }
                         @media (max-width: 480px) { .page-hero { padding: 40px 15px; } }
@@ -264,6 +264,6 @@
     </div>
   </footer>
 
-<script src="js/main.js?v=1774733000"></script>
+<script src="js/main.js?v=1774733100"></script>
 </body>
 </html>
