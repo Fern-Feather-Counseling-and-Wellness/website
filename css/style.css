@@ -403,6 +403,8 @@ section {
 .service-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--sage-600);
+  line-height: 1;
 }
 
 .service-card h3 {
