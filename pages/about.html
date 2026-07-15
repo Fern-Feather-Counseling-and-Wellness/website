@@ -40,6 +40,13 @@
       align-items: center;
       justify-content: center;
       font-size: 4rem;
+      overflow: hidden;
+    }
+    .therapist-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
     }
     .therapist-card h3 {
       margin-bottom: 0.5rem;
@@ -166,7 +173,9 @@
       
       <div class="therapist-preview">
         <div class="therapist-card">
-          <div class="therapist-avatar">👩‍🔬</div>
+          <div class="therapist-avatar">
+            <img src="/images/nicole-portrait.jpeg" alt="Nicole, PhD, LPC">
+          </div>
           <h3>Nicole</h3>
           <p class="credentials">PhD, LPC | Co-Founder</p>
           <p class="specialties">Couples Therapy • Gottman Method • Anxiety • Trauma</p>
@@ -175,7 +184,9 @@
         </div>
         
         <div class="therapist-card">
-          <div class="therapist-avatar">👩‍🦱</div>
+          <div class="therapist-avatar">
+            <img src="/images/kiera-portrait.jpeg?v=20260712" alt="Kiera, LPC">
+          </div>
           <h3>Kiera</h3>
           <p class="credentials">LPC | Co-Founder</p>
           <p class="specialties">Holistic Approach • Adult Women • Anxiety • OCD • Depression • Grief • Life Transitions</p>
