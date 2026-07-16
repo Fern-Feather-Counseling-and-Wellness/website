@@ -14,6 +14,10 @@
   <url><loc>https://fernandfeathercounseling.com/resources.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://fernandfeathercounseling.com/tools.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://fernandfeathercounseling.com/crisis.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+    <url><loc>https://fernandfeathercounseling.com/our-place.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://fernandfeathercounseling.com/terms.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://fernandfeathercounseling.com/privacy.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+    <url><loc>https://fernandfeathercounseling.com/accessibility.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
   <!-- Blog posts -->
   <url><loc>https://fernandfeathercounseling.com/blog/trauma-informed-therapy.html</loc><changefreq>yearly</changefreq><priority>0.6</priority></url>
