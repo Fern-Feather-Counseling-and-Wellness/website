@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /test.html
 Disallow: /pages/
+Allow: /pages/specialties/
 
 Sitemap: https://fernandfeathercounseling.com/sitemap.xml
