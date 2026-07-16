@@ -291,6 +291,309 @@ a:hover {
   color: white;
 }
 
+/* Services hub + specialty pages */
+.service-page-hero,
+.service-hub-hero {
+  background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 55%, #f5ebe7 100%);
+  padding: 5rem 0 4rem;
+}
+
+.service-page-hero h1,
+.service-hub-hero h1 {
+  color: var(--sage-800);
+  margin-bottom: 1rem;
+}
+
+.service-page-hero p,
+.service-hub-hero p {
+  color: var(--sage-700);
+  font-size: 1.1rem;
+  max-width: 760px;
+}
+
+.service-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.service-page-secondary-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.service-page-secondary-links a,
+.service-support-links a {
+  color: var(--fern);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.service-page-secondary-links a:hover,
+.service-support-links a:hover {
+  text-decoration: underline;
+}
+
+.service-intro {
+  max-width: 760px;
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.service-hub-grid,
+.therapist-match-grid,
+.service-help-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.service-hub-grid,
+.service-help-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.therapist-match-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.service-hub-card,
+.service-section-card,
+.therapist-match-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: var(--shadow-soft);
+}
+
+.service-hub-card {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.service-hub-card h3,
+.service-section-card h2,
+.therapist-match-card h3 {
+  color: var(--sage-700);
+}
+
+.service-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--fern);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.service-therapist-list {
+  color: var(--sage-600);
+  font-size: 0.95rem;
+}
+
+.service-hub-card .btn {
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.service-section-shell {
+  padding: 4rem 0;
+}
+
+.service-section-shell.alt {
+  background: var(--cream);
+}
+
+.service-section-card {
+  padding: 2.5rem;
+}
+
+.service-section-card p:last-child,
+.therapist-match-card p:last-child {
+  margin-bottom: 0;
+}
+
+.service-list,
+.service-highlight-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.service-list li,
+.service-highlight-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.85rem;
+  color: var(--sage-700);
+}
+
+.service-list li::before,
+.service-highlight-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--fern);
+  font-weight: 700;
+}
+
+.service-help-card,
+.service-approach-card {
+  background: white;
+  border-radius: 18px;
+  padding: 1.75rem;
+  box-shadow: var(--shadow-soft);
+}
+
+.service-help-card h3,
+.service-approach-card h3 {
+  color: var(--sage-700);
+  margin-bottom: 0.75rem;
+}
+
+.service-support-links {
+  margin-top: 1.25rem;
+  color: var(--sage-600);
+}
+
+.therapist-match-card {
+  overflow: hidden;
+}
+
+.therapist-match-image {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.therapist-match-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.therapist-match-content {
+  padding: 1.75rem;
+}
+
+.therapist-match-meta {
+  color: var(--sage-600);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.therapist-emphasis {
+  margin-top: 1rem;
+  color: var(--sage-600);
+  font-size: 0.95rem;
+}
+
+.service-faq-list {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.service-faq-list .faq-item {
+  background: white;
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.service-faq-list .faq-question {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 1.25rem 1.5rem;
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  color: var(--sage-700);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-faq-list .faq-question::after {
+  content: "+";
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--fern);
+}
+
+.service-faq-list .faq-item.active .faq-question::after {
+  content: "−";
+}
+
+.service-faq-list .faq-answer {
+  padding: 0 1.5rem 1.25rem;
+  color: var(--sage-700);
+}
+
+.service-page-cta {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.service-page-cta p {
+  margin: 1rem auto 1.75rem;
+  color: var(--sage-700);
+}
+
+.related-service-links {
+  margin: 1.5rem 0 0;
+  padding: 1.25rem 1.5rem;
+  background: var(--sage-50);
+  border-left: 4px solid var(--fern);
+  border-radius: 0 16px 16px 0;
+}
+
+.related-service-links p {
+  margin: 0;
+}
+
+.related-service-links a {
+  color: var(--fern);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .service-page-hero,
+  .service-hub-hero {
+    padding: 4rem 0 3rem;
+  }
+
+  .service-page-actions,
+  .service-page-secondary-links {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .service-section-shell {
+    padding: 3rem 0;
+  }
+
+  .service-section-card,
+  .service-hub-card,
+  .therapist-match-content {
+    padding: 1.5rem;
+  }
+
+  .service-faq-list .faq-question,
+  .service-faq-list .faq-answer {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
 .btn-primary:hover {
   background: var(--sage-700);
   transform: translateY(-2px);
