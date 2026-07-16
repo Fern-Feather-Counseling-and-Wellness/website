@@ -32,9 +32,11 @@ if (Test-Path $TempDir) {
 
 # Clone the repo (full history)
 Write-Host "Cloning repository..."
-git clone --mirror $RepoUrl $TempDir 2>$null
+$ErrorActionPreference = 'SilentlyContinue'
+git clone --mirror $RepoUrl $TempDir 2>&1 | Out-Null
+$ErrorActionPreference = 'Continue'
 
-if ($?) {
+if (Test-Path "$TempDir/HEAD") {
     # Create zip from the mirror clone
     Write-Host "Creating backup archive..."
     Compress-Archive -Path "$TempDir\*" -DestinationPath $ZipPath -Force
