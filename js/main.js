@@ -161,7 +161,8 @@ function buildServiceLinks(prefix) {
     { href: prefix + 'services/anxiety-therapy/', label: 'Anxiety Therapy' },
     { href: prefix + 'services/ocd-therapy/', label: 'OCD Therapy and ERP' },
     { href: prefix + 'services/trauma-therapy/', label: 'Trauma Therapy' },
-    { href: prefix + 'services/couples-therapy/', label: 'Couples Therapy' }
+    { href: prefix + 'services/couples-therapy/', label: 'Couples Therapy' },
+    { href: prefix + 'services/group-therapy/', label: 'Group Therapy' }
   ];
 }
 
