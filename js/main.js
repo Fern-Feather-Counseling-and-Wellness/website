@@ -64,6 +64,7 @@ style.textContent = `
     .mobile-menu-btn { display:inline-block !important; }
     .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
         .dropdown-menu { position:static !important; box-shadow:none !important; opacity:1 !important; visibility:visible !important; transform:none !important; }
+        .dropdown.active .dropdown-menu { display:block !important; }
       }
     `;
     document.head.appendChild(style);
@@ -93,9 +94,136 @@ document.addEventListener('DOMContentLoaded', function() {
   const faqQuestions = document.querySelectorAll('.faq-question');
   
   faqQuestions.forEach(function(question) {
-    question.addEventListener('click', function() {
-      const faqItem = this.parentElement;
+    const faqItem = question.parentElement;
+    const answer = faqItem ? faqItem.querySelector('.faq-answer') : null;
+
+    if (question.tagName !== 'BUTTON') {
+      question.setAttribute('role', 'button');
+      question.setAttribute('tabindex', '0');
+    }
+
+    if (answer && !answer.id) {
+      answer.id = 'faq-answer-' + Math.random().toString(36).slice(2, 10);
+    }
+
+    if (answer) {
+      question.setAttribute('aria-controls', answer.id);
+      question.setAttribute('aria-expanded', faqItem.classList.contains('active') ? 'true' : 'false');
+      answer.hidden = !faqItem.classList.contains('active');
+    }
+
+    const toggleFaq = function() {
+      if (!faqItem) {
+        return;
+      }
+
       faqItem.classList.toggle('active');
+
+      if (answer) {
+        const expanded = faqItem.classList.contains('active');
+        question.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        answer.hidden = !expanded;
+      }
+    };
+
+    question.addEventListener('click', toggleFaq);
+
+    if (question.tagName !== 'BUTTON') {
+      question.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleFaq();
+        }
+      });
+    }
+  });
+});
+
+function getSiteRootPrefix() {
+  var path = window.location.pathname.replace(/\/+$/, '');
+  if (!path || path === '') {
+    return '';
+  }
+
+  var segments = path.split('/').filter(Boolean);
+  if (!segments.length) {
+    return '';
+  }
+
+  var last = segments[segments.length - 1];
+  var depth = last.indexOf('.') !== -1 ? segments.length - 1 : segments.length;
+  return '../'.repeat(depth);
+}
+
+function buildServiceLinks(prefix) {
+  return [
+    { href: prefix + 'services/', label: 'View All Services' },
+    { href: prefix + 'services/anxiety-therapy/', label: 'Anxiety Therapy' },
+    { href: prefix + 'services/ocd-therapy/', label: 'OCD Therapy and ERP' },
+    { href: prefix + 'services/trauma-therapy/', label: 'Trauma Therapy' },
+    { href: prefix + 'services/couples-therapy/', label: 'Couples Therapy' }
+  ];
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var prefix = getSiteRootPrefix();
+  var serviceLinks = buildServiceLinks(prefix);
+
+  document.querySelectorAll('.site-nav .nav-links > li > a').forEach(function(link) {
+    var navLabel = link.textContent.replace(/[▾▼]/g, '').trim();
+    if (navLabel !== 'Services') {
+      return;
+    }
+
+    var listItem = link.parentElement;
+    if (!listItem) {
+      return;
+    }
+
+    listItem.classList.add('dropdown');
+    link.classList.add('dropdown-toggle');
+    link.setAttribute('href', serviceLinks[0].href);
+    link.textContent = 'Services ▾';
+
+    if (listItem.querySelector('.dropdown-menu')) {
+      return;
+    }
+
+    var menu = document.createElement('ul');
+    menu.className = 'dropdown-menu';
+    menu.setAttribute('role', 'menu');
+
+    serviceLinks.forEach(function(item, index) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.label;
+      if (index === 0) {
+        a.style.fontWeight = '700';
+      }
+      li.appendChild(a);
+      menu.appendChild(li);
+    });
+
+    listItem.appendChild(menu);
+  });
+
+  document.querySelectorAll('.footer-column').forEach(function(column) {
+    var heading = column.querySelector('h4');
+    var list = column.querySelector('ul');
+    if (!heading || !list || heading.textContent.trim() !== 'Services') {
+      return;
+    }
+
+    list.innerHTML = '';
+
+    serviceLinks.forEach(function(item) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.label;
+      li.appendChild(a);
+      list.appendChild(li);
     });
   });
 });
