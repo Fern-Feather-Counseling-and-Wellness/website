@@ -1249,6 +1249,7 @@ section {
   .hero-logo {
     order: 1;
     transform: none;
+    margin-top: 0;
     margin-bottom: -1rem;
   }
 
