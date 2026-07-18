@@ -252,7 +252,8 @@ a:hover {
 
 .hero-home-title {
   white-space: nowrap;
-  font-size: clamp(1.8rem, 3.2vw, 3rem);
+  font-size: clamp(1.45rem, 2.55vw, 2.35rem);
+  letter-spacing: -0.02em;
 }
 
 .hero h1 em {
