@@ -191,7 +191,7 @@ a:hover {
   display: flex;
   align-items: flex-start;
   background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 50%, var(--blush) 100%);
-  padding-top: 2rem;
+  padding-top: 0;
   padding-bottom: 5rem;
   position: relative;
   overflow: hidden;
@@ -1295,7 +1295,7 @@ section {
     }
 
     /* Hero adjustments */
-    .hero { min-height: auto; padding-top: 1rem; padding-bottom: 2rem; }
+    .hero { min-height: auto; padding-top: 0; padding-bottom: 2rem; }
     .hero-brand-logo { max-width: 220px; }
     .page-hero { padding: 60px 15px; }
 
