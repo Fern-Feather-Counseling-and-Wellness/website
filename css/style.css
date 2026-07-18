@@ -187,11 +187,12 @@ a:hover {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background: linear-gradient(135deg, var(--sage-50) 0%, var(--cream) 50%, var(--blush) 100%);
-  padding-top: 80px;
+  padding-top: 120px;
+  padding-bottom: 5rem;
   position: relative;
   overflow: hidden;
 }
@@ -209,32 +210,24 @@ a:hover {
 }
 
 .hero .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  align-items: center;
+  display: block;
+  max-width: 920px;
+  text-align: center;
 }
 
 .hero-content {
   position: relative;
   z-index: 1;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
-.hero-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: start;
-  padding-top: 0;
-  transform: none;
-  margin-top: -100px;
-}
-
-.hero-logo img {
+.hero-brand-logo {
   display: block;
   width: 100%;
-  max-width: 650px;
+  max-width: 460px;
   height: auto;
+  margin: 0 auto 1.5rem;
 }
 
 .hero-badge {
@@ -265,14 +258,15 @@ a:hover {
 .hero-subtitle {
   font-size: 1.25rem;
   color: var(--sage-600);
-  margin-bottom: 2rem;
-  max-width: 500px;
+  margin: 0 auto 1.5rem;
+  max-width: 760px;
 }
 
 .hero-buttons {
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .btn {
@@ -1242,16 +1236,7 @@ section {
     text-align: center;
   }
 
-  .hero-content {
-    order: 2;
-  }
-
-  .hero-logo {
-    order: 1;
-    transform: none;
-    margin-top: 0;
-    margin-bottom: -1rem;
-  }
+  .hero-brand-logo { max-width: 390px; }
 
   .hero-image {
     order: 1;
@@ -1311,8 +1296,7 @@ section {
 
     /* Hero adjustments */
     .hero { min-height: auto; padding-top: 100px; padding-bottom: 2rem; }
-    .hero-logo { transform: none; }
-    .hero-logo img { max-width: 100%; }
+    .hero-brand-logo { max-width: 330px; }
     .page-hero { padding: 60px 15px; }
 
     /* Lead-magnet stack */
