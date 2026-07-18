@@ -250,6 +250,11 @@ a:hover {
   font-size: clamp(2rem, 4vw, 3.25rem);
 }
 
+.hero-home-title {
+  white-space: nowrap;
+  font-size: clamp(1.8rem, 3.2vw, 3rem);
+}
+
 .hero h1 em {
   color: var(--fern);
   font-style: italic;
@@ -1237,6 +1242,7 @@ section {
   }
 
   .hero-brand-logo { max-width: 240px; }
+  .hero-home-title { white-space: normal; }
 
   .hero-image {
     order: 1;
