@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-03T16:26:18.980Z",
+  "updatedAt": "2026-08-11T20:08:46.258Z",
   "entries": {
     "memory:memory/2026-03-15.md:1:35": {
       "key": "memory:memory/2026-03-15.md:1:35",
@@ -44,20 +44,22 @@
       "endLine": 54,
       "source": "memory",
       "snippet": "# Daily Log — March 9, 2026 **Day:** Monday **Time:** 2:05 PM UTC **Context:** Heartbeat check-in --- ## Heartbeat Activity **Task:** Tier 2 Capability Building — Check ClawHub for new skills **Result:** ClawHub site accessible but skill listings not parseable via web fetch. May need to check via browser automation or wait for API access. --- ## Status Check **BACKLOG.md review:** - All P0 tasks complete - All P1 tasks complete - All P2 tasks complete - P3 tasks all marked complete **Recent activity (per HEARTBEAT.md Last Run):** - Date: 2026-03-09 - Task: Created Fern & Feather Google Drive folder structure and uploaded all deliverables - Result: 6 main folders, 20+ files up",
-      "recallCount": 2,
+      "recallCount": 3,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 2,
+      "totalScore": 3,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-21T14:35:01.758Z",
-      "lastRecalledAt": "2026-05-04T14:33:30.758Z",
+      "lastRecalledAt": "2026-08-06T19:03:24.872Z",
       "queryHashes": [
         "6604f69d4bf5",
-        "fdf758e13b85"
+        "fdf758e13b85",
+        "2cc8ab4387ad"
       ],
       "recallDays": [
         "2026-04-21",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-08-06"
       ],
       "conceptTags": [
         "check-in",
@@ -241,13 +243,13 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "# Daily Log — March 10, 2026 **Day:** Tuesday **Time:** 12:04 AM UTC **Context:** Google Drive authentication troubleshooting --- ## Drive Access Issue Resolution (In Progress) **Problem:** Cannot upload files to Google Drive. OAuth failing with \"Project 'fern-feather' not found or deleted.\" **Attempted Solutions:** ### 1. Service Account (Failed) - Created service account: `ronda-drive@fern-and-feather.iam.gserviceaccount.com` - Error: \"Service Accounts do not have storage quota\" - Reason: Service accounts can't upload to regular Drive folders, only shared drives - Blocker: \"Fern & Feather Wellness Center\" folder cannot be upgraded to shared drive ### 2. OAuth with New Project (I",
-      "recallCount": 9,
+      "recallCount": 10,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 9,
+      "totalScore": 9.711474873582235,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-22T23:53:18.087Z",
-      "lastRecalledAt": "2026-06-29T21:56:51.949Z",
+      "lastRecalledAt": "2026-08-06T19:03:24.872Z",
       "queryHashes": [
         "80b3dcfea000",
         "54901b544296",
@@ -257,12 +259,14 @@
         "715eb5ef708d",
         "0c62764a64f5",
         "874b65b05746",
-        "fae34b618cfa"
+        "fae34b618cfa",
+        "2cc8ab4387ad"
       ],
       "recallDays": [
         "2026-04-22",
         "2026-06-22",
-        "2026-06-29"
+        "2026-06-29",
+        "2026-08-06"
       ],
       "conceptTags": [
         "fern-feather",
@@ -531,18 +535,20 @@
       "endLine": 43,
       "source": "memory",
       "snippet": "# March 1, 2026 - First Session with Nicole ## What Happened - First conversation with Nicole - Established my identity: Ronda, digital partner, sharp/witty/sarcastic/sassy - Learned about Nicole's background: PhD Biology, APC (pending LPC), college professor, therapist - Major project: Fern & Feather Wellness Center ## Key Details About Nicole - 51 years old (52 in June) - Full-time online college professor (~15 hrs/week) - Associate Professional Counselor at Awakenings (~15 clients/week) - Adjunct at 2nd college teaching A&P and Biology - **NEW:** Certified yoga instructor (wants to integrate into therapy) ## Fern & Feather Business Plan **Partnership:** Nicole + Kiera (both APCs pendin",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-04-25T15:39:23.723Z",
-      "lastRecalledAt": "2026-04-25T15:39:23.723Z",
+      "lastRecalledAt": "2026-08-06T19:03:24.872Z",
       "queryHashes": [
-        "833a8a5fe5e0"
+        "833a8a5fe5e0",
+        "2cc8ab4387ad"
       ],
       "recallDays": [
-        "2026-04-25"
+        "2026-04-25",
+        "2026-08-06"
       ],
       "conceptTags": [
         "sharp/witty/sarcastic/sassy",
@@ -1030,18 +1036,20 @@
       "endLine": 77,
       "source": "memory",
       "snippet": "- Action items for workbook revision --- ## Heartbeat Activity — 4:05 PM UTC **Task:** Tier 3 Intelligence Gathering — TikTok therapy trends research **Findings:** - **Psychology Today (March 2025):** \"TikTok Therapy\" trend among Gen Z — concern about self-diagnosis (breakup sadness → depression, procrastination → ADHD) - **Washington Post (Dec 2025):** TikTok algorithm favors mental health content — can create echo chambers around trauma/autism content - **Johns Hopkins (Feb 2026):** Media briefing on social media & mental health — growing conversation around \"healthy digital balance\" - **TikTok trends (Jan-Feb 2026):** Breathing techniques for trauma healing, somatic therapy content gai",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-06-08T16:58:46.935Z",
-      "lastRecalledAt": "2026-06-08T16:58:46.935Z",
+      "lastRecalledAt": "2026-08-06T19:03:24.872Z",
       "queryHashes": [
-        "1669533ce330"
+        "1669533ce330",
+        "2cc8ab4387ad"
       ],
       "recallDays": [
-        "2026-06-08"
+        "2026-06-08",
+        "2026-08-06"
       ],
       "conceptTags": [
         "self-diagnosis",
@@ -1061,18 +1069,20 @@
       "endLine": 45,
       "source": "memory",
       "snippet": "# March 21, 2026 — Website Deployment Success **Time:** 12:03 AM UTC (Friday night → Saturday morning) ## What Happened Today ### Major Win: Fern & Feather Website is LIVE! 🎉 After weeks of building and refining, the Fern & Feather Wellness Center website is now **deployed and live on Netlify**. **Live URL:** https://incomparable-entremet-92a52b.netlify.app/ ### Website Features - ✅ 6 complete pages (Home, About, Services, Nicole, Kiera, Resources) - ✅ Professional design with \"cottage core meets clinical professional\" aesthetic - ✅ Responsive layout (mobile-friendly) - ✅ Lead magnet integration (Free Anxiety Toolkit) - ✅ Service cards with icons - ✅ Therapist bios with full credential",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-06-28T21:37:07.078Z",
-      "lastRecalledAt": "2026-06-28T21:37:07.078Z",
+      "lastRecalledAt": "2026-08-06T19:03:24.872Z",
       "queryHashes": [
-        "3ab3e0b020a6"
+        "3ab3e0b020a6",
+        "2cc8ab4387ad"
       ],
       "recallDays": [
-        "2026-06-28"
+        "2026-06-28",
+        "2026-08-06"
       ],
       "conceptTags": [
         "mobile-friendly",
@@ -1275,6 +1285,71 @@
         "task",
         "hygiene",
         "backlog"
+      ]
+    },
+    "memory:memory/2026-05-04.md:1:39": {
+      "key": "memory:memory/2026-05-04.md:1:39",
+      "path": "memory/2026-05-04.md",
+      "startLine": 1,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "# May 4, 2026 - Session Summary ## Key Conversation Points ### CEU Course Slides Design - Nicole shared 4 slides from a ChatGPT-designed presentation for a Neurobiology course - **Design Style Analysis:** - Colors: Forest Green #27472C, Goldenrod #C1A768, Cream #F8F4E8, Terracotta #D2825D, Olive #8F9A4F - Layout: Card-based, top banners, bottom citation footers - Graphics: Flowcharts, body silhouettes, brain diagrams, timeline infographics - Typography: Montserrat (bold headings, regular body) - Brand elements: Fern/feather photography, 4 theme icons (Science, Compassion, Regulation, Healing) - **Created deliverables:** - `courses/somatic-therapy-ceu-design-spec-V2.md` - Compl",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-08-08T15:30:19.565Z",
+      "lastRecalledAt": "2026-08-11T20:08:46.258Z",
+      "queryHashes": [
+        "156349235441",
+        "acac34ecb0f9",
+        "310ff09983fa"
+      ],
+      "recallDays": [
+        "2026-08-08",
+        "2026-08-11"
+      ],
+      "conceptTags": [
+        "gpt",
+        "chatgpt-designed",
+        "card-based",
+        "fern/feather",
+        "may",
+        "summary",
+        "key",
+        "conversation"
+      ]
+    },
+    "memory:memory/2026-07-03.md:18:41": {
+      "key": "memory:memory/2026-07-03.md:18:41",
+      "path": "memory/2026-07-03.md",
+      "startLine": 18,
+      "endLine": 41,
+      "source": "memory",
+      "snippet": "*Image: Icons representing different types of boundaries – phone, clock, calendar, personal space.* **Text:** Types of Boundaries: 🚫 **Time:** Session limits, work hours, avoiding double-bookings. 📱 **Digital:** Managing client communication, response times. ↔️ **Emotional:** Not taking on client distress as your own, self-awareness. 👤 **Physical:** Space in your office, and personal space. **Slide 5:** *Image: A therapist smiling, engaging in a hobby, or spending time in nature.* **Text:** Practical Tips: 1. **Schedule It:** Block out non-negotiable self-care time in your calendar. 2. **Communicate Clearly:** State your boundaries politely but firmly. 3. **Say NO:** It’s okay to decl",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-08-11T20:08:46.258Z",
+      "lastRecalledAt": "2026-08-11T20:08:46.258Z",
+      "queryHashes": [
+        "310ff09983fa"
+      ],
+      "recallDays": [
+        "2026-08-11"
+      ],
+      "conceptTags": [
+        "double-bookings",
+        "self-awareness",
+        "non-negotiable",
+        "self-care",
+        "image",
+        "icons",
+        "representing",
+        "different"
       ]
     }
   }

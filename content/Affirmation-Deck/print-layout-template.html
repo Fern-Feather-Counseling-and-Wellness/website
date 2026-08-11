@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fern's Feels - 52 Card Deck Print Layout</title>
+    <style>
+        @page {
+            size: 13in 19in;
+            margin: 0.25in;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .sheet {
+            width: 13in;
+            height: 19in;
+            background: white;
+            margin: 0 auto 20px auto;
+            display: grid;
+            grid-template-columns: repeat(4, 3.125in);
+            grid-template-rows: repeat(4, 4.375in);
+            gap: 0.125in;
+            padding: 0.25in;
+            page-break-after: always;
+        }
+        
+        .card-front, .card-back {
+            width: 3.125in;
+            height: 4.375in;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .card-front {
+            background: #1a1a1a;
+            color: #f5f5f5;
+        }
+        
+        .card-back {
+            background: #fafafa;
+            color: #1a1a1a;
+            justify-content: flex-start;
+            padding-top: 20px;
+        }
+        
+        .illustration-placeholder {
+            width: 2in;
+            height: 2in;
+            border: 2px dashed #666;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        
+        .phrase {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+        
+        .section {
+            margin-bottom: 12px;
+            width: 100%;
+            padding: 0 10px;
+        }
+        
+        .section-label {
+            font-size: 9px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+        }
+        
+        .section-content {
+            font-size: 10px;
+            line-height: 1.4;
+        }
+        
+        .front .section-label { color: #888; }
+        .front .section-content { color: #ccc; }
+        
+        .back .truth .section-label { color: #2d5a4a; }
+        .back .truth .section-content { color: #1a1a1a; }
+        
+        .back .reflect .section-label { color: #5a4a2d; }
+        .back .reflect .section-content { color: #333; }
+        
+        .back .tinystep .section-label { color: #4a2d5a; }
+        .back .tinystep .section-content { color: #333; }
+        
+        .crop-marks {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        
+        .crop-marks::before, .crop-marks::after {
+            content: '';
+            position: absolute;
+            background: #ccc;
+        }
+        
+        .crop-marks::before {
+            width: 1in;
+            height: 1px;
+            top: 0.25in;
+            left: 0.25in;
+        }
+        
+        .instructions {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+        }
+        
+        h1 { margin-bottom: 20px; }
+        h2 { margin: 20px 0 10px; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 8px; }
+        
+        .note {
+            background: #fffde7;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="instructions">
+    <h1>🎴 Fern's Feels — Print Layout Guide</h1>
+    
+    <div class="note">
+        <strong>How to Use This Template:</strong><br>
+        1. Replace each <code>[ILLUSTRATION]</code> placeholder with artwork<br>
+        2. Front and back are laid out for double-sided printing — flip on SHORT edge<br>
+        3. Print on 13"x19" cardstock, or use 8.5"x11" (2 cards per page, landscape)<br>
+        4. Cut along crop marks, round corners if desired
+    </div>
+    
+    <h2>Card Specifications</h2>
+    <ul>
+        <li><strong>Card Size:</strong> 3.5" x 2.5" (poker card standard)</li>
+        <li><strong>Print Size:</strong> 3.125" x 4.375" (with bleed/crop marks)</li>
+        <li><strong>Paper:</strong> 12-14pt cardstock, matte</li>
+        <li><strong>Finishing:</strong> Round corners (optional), UV coating (optional)</li>
+    </ul>
+    
+    <h2>Front Design Elements</h2>
+    <ul>
+        <li>Dark background (#1a1a1a) for contrast with light text</li>
+        <li>Fern/crew illustration centered (2" x 2")</li>
+        <li>Phrase in bold, white text, centered below illustration</li>
+        <li>Small Fern & Feather logo or "Fern's Feels" text at bottom</li>
+    </ul>
+    
+    <h2>Back Design Elements</h2>
+    <ul>
+        <li>Light background (#fafafa)</li>
+        <li>THE TRUTH: Dark green accent (#2d5a4a)</li>
+        <li>REFLECT: Warm brown accent (#5a4a2d)</li>
+        <li>TINY STEP: Purple accent (#4a2d5a)</li>
+    </ul>
+</div>
+
+<!-- Sheet 1: Cards 1-8 (Front and Back) -->
+<div class="sheet">
+    <!-- Card 1 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">No is a complete sentence.</div>
+    </div>
+    <!-- Card 1 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Boundaries aren't rude — they're respectful. You're teaching people how to treat you by what you allow.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What's something you've been saying "yes" to that actually means "no" to yourself?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Say no to one small thing today — even just internally.</div>
+        </div>
+    </div>
+    
+    <!-- Card 2 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">I SAID NO.</div>
+    </div>
+    <!-- Card 2 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Repeating yourself isn't rude — it's clarity. You don't owe anyone a justification.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">Who makes you feel like you need to explain yourself? Why?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Practice "No, thanks" without adding "because."</div>
+        </div>
+    </div>
+    
+    <!-- Card 3 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Your comfort isn't my responsibility.</div>
+    </div>
+    <!-- Card 3 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Other people's discomfort about your boundaries is their work, not yours.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What's one boundary you've been afraid to set because of how someone might react?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Write down one sentence you'd say if you had zero fear.</div>
+        </div>
+    </div>
+    
+    <!-- Card 4 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN COTTAGE]<br>Illustration</div>
+        <div class="phrase">Dead to people pleasing.</div>
+    </div>
+    <!-- Card 4 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">People pleasing is a trauma response — you're trying to survive, not be liked.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">When did "being nice" cost you your own needs?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Do one thing today that people might not like but you need.</div>
+        </div>
+    </div>
+    
+    <!-- Card 5 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN COTTAGE]<br>Illustration</div>
+        <div class="phrase">Protect your peace like it's your job.</div>
+    </div>
+    <!-- Card 5 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Peace is a practice. You don't find it — you protect it daily.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What's draining your peace right now?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Delete one app, mute one person, or leave one group chat.</div>
+        </div>
+    </div>
+    
+    <!-- Card 6 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Not today, Satan.</div>
+    </div>
+    <!-- Card 6 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">You get to decide what enters your nervous system. Not every battle is yours.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What's a trigger you can choose not to engage with today?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">When drama calls, let it go to voicemail.</div>
+        </div>
+    </div>
+    
+    <!-- Card 7 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Boundaries Club. Member in good standing.</div>
+    </div>
+    <!-- Card 7 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Boundaries aren't walls — they're gates. You decide who enters and when.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">Who in your life respects your gates?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Thank someone who honors your boundaries.</div>
+        </div>
+    </div>
+    
+    <!-- Card 8 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN SOFT GRUNGE]<br>Illustration</div>
+        <div class="phrase">Soft heart. Sharp beak.</div>
+    </div>
+    <!-- Card 8 Back -->
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Kindness doesn't mean softness. You can be gentle and still bite back.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">When has your kindness been mistaken for weakness?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Speak up in one situation where you'd usually stay quiet.</div>
+        </div>
+    </div>
+</div>
+
+<!-- Sheet 2: Cards 9-16 -->
+<div class="sheet">
+    <!-- Card 9 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Absolutely not.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">You don't need a reason to refuse. "No" is a full sentence.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What's a request you need to decline this week?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Practice declining with zero explanation.</div>
+        </div>
+    </div>
+    
+    <!-- Card 10 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN SOFT GRUNGE]<br>Illustration</div>
+        <div class="phrase">Heck yes, or no.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Maybe is a form of self-abandonment. Get clear on what you actually want.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">Where in your life are you "maybe-ing" when you really know?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Turn one "maybe" into a yes or no.</div>
+        </div>
+    </div>
+    
+    <!-- Card 11 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Zero f*cks left.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Some energy is better spent elsewhere. Not every opinion deserves your attention.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">Whose opinions do you carry that don't serve you?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Let one piece of unsolicited feedback go in one ear and out the other.</div>
+        </div>
+    </div>
+    
+    <!-- Card 12 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">That's a no from me.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Your intuition knows before your brain catches up. Trust the "no."</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">When has your gut said no but your brain talked you out of it?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Next time you feel that "no," don't talk yourself out of it.</div>
+        </div>
+    </div>
+    
+    <!-- Card 13 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN PUNK]<br>Illustration</div>
+        <div class="phrase">Worthy as hell.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">You don't earn worth. You already have it. Nothing can take it away.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What would you believe about yourself if you already knew you were worthy?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Look in the mirror and say "I'm worthy" — don't flinch.</div>
+        </div>
+    </div>
+    
+    <!-- Card 14 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN SOFT GRUNGE]<br>Illustration</div>
+        <div class="phrase">Healing isn't linear, babe.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">The nervous system heals in spirals, not lines. You return to old wounds to heal them deeper.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What feels like "going backwards" that might actually be going deeper?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Celebrate one "relapse" as a re-visit, not a failure.</div>
+        </div>
+    </div>
+    
+    <!-- Card 15 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN COTTAGE]<br>Illustration</div>
+        <div class="phrase">You're doing better than you think.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Anxiety makes you notice every crack. Joy makes you blind to progress.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What would your best friend say about how far you've come?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Text yourself three things you've accomplished this year.</div>
+        </div>
+    </div>
+    
+    <!-- Card 16 Front -->
+    <div class="card-front">
+        <div class="illustration-placeholder">[FERN COTTAGE]<br>Illustration</div>
+        <div class="phrase">It's okay to not be okay.</div>
+    </div>
+    <div class="card-back">
+        <div class="section truth">
+            <div class="section-label">THE TRUTH</div>
+            <div class="section-content">Numbing pain numbs joy too. Feel it to heal it.</div>
+        </div>
+        <div class="section reflect">
+            <div class="section-label">REFLECT</div>
+            <div class="section-content">What emotion have you been pushing away lately?</div>
+        </div>
+        <div class="section tinystep">
+            <div class="section-label">TINY STEP</div>
+            <div class="section-content">Name one feeling you're avoiding — then feel it for 60 seconds.</div>
+        </div>
+    </div>
+</div>
+
+<!-- Additional sheets would continue... -->
+
+</body>
+</html>
