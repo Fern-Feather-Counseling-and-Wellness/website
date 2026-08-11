@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fern & Feather - Seasonal Yoga Card (Fall)</title>
+  <style>
+    @page {
+      size: letter;
+      margin: 0;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      background: #faf9f6;
+      color: #2d2d2d;
+    }
+    
+    .card {
+      width: 7.5in;
+      height: 10in;
+      padding: 0.5in;
+      background: #faf9f6;
+      page-break-after: always;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* Header */
+    .header {
+      text-align: center;
+      padding-bottom: 0.25in;
+      border-bottom: 2px solid #6b7f5a;
+      margin-bottom: 0.3in;
+    }
+    
+    .season-title {
+      font-size: 36px;
+      font-weight: 300;
+      color: #6b7f5a;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+    }
+    
+    .subtitle {
+      font-size: 14px;
+      color: #888;
+      margin-top: 8px;
+      font-style: italic;
+    }
+    
+    .tagline {
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 4px;
+    }
+    
+    /* Pose Grid */
+    .pose-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.25in;
+      flex: 1;
+    }
+    
+    /* Individual Pose Card */
+    .pose-card {
+      background: white;
+      border-radius: 12px;
+      padding: 0.2in;
+      box-shadow: 0 2px 8px rgba(107, 127, 90, 0.1);
+      display: flex;
+      gap: 15px;
+      border: 1px solid #e8e6e1;
+    }
+    
+    .pose-illustration {
+      width: 120px;
+      height: 140px;
+      background: #f5f3ef;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .pose-illustration-placeholder {
+      text-align: center;
+      color: #aaa;
+      font-size: 11px;
+    }
+    
+    .pose-illustration-placeholder span {
+      display: block;
+      font-size: 24px;
+      margin-bottom: 4px;
+    }
+    
+    .pose-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .pose-names {
+      margin-bottom: 8px;
+    }
+    
+    .pose-sanskrit {
+      font-size: 14px;
+      font-weight: 600;
+      color: #6b7f5a;
+      font-style: italic;
+    }
+    
+    .pose-common {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2d2d2d;
+      margin-top: 2px;
+    }
+    
+    .pose-cue {
+      font-size: 12px;
+      line-height: 1.5;
+      color: #555;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+    
+    .pose-cue-label {
+      font-weight: 600;
+      color: #6b7f5a;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .pose-science {
+      background: #f0f4ed;
+      padding: 10px;
+      border-radius: 6px;
+      border-left: 3px solid #6b7f5a;
+    }
+    
+    .pose-science-label {
+      font-size: 9px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #6b7f5a;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    
+    .pose-science-text {
+      font-size: 11px;
+      line-height: 1.4;
+      color: #444;
+    }
+    
+    /* Footer */
+    .footer {
+      margin-top: auto;
+      padding-top: 0.2in;
+      border-top: 1px solid #e8e6e1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 10px;
+      color: #999;
+    }
+    
+    .footer-logo {
+      font-weight: 600;
+      color: #6b7f5a;
+      letter-spacing: 2px;
+    }
+    
+    .footer-note {
+      font-style: italic;
+    }
+    
+    /* Back of card */
+    .card-back {
+      background: #faf9f6;
+    }
+    
+    .card-back .header {
+      border-bottom-color: #c4a77d;
+    }
+    
+    .card-back .season-title {
+      color: #c4a77d;
+    }
+    
+    .card-back .pose-science {
+      background: #faf6ed;
+      border-left-color: #c4a77d;
+    }
+    
+    .card-back .pose-science-label,
+    .card-back .pose-sanskrit {
+      color: #c4a77d;
+    }
+    
+    .card-back .footer-logo {
+      color: #c4a77d;
+    }
+    
+    /* Instructions for printing */
+    .print-instructions {
+      display: none;
+    }
+    
+    @media print {
+      .card {
+        page-break-after: always;
+      }
+      .print-instructions {
+        display: block;
+        padding: 20px;
+        background: #fff;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- FRONT OF CARD - 4 poses -->
+<div class="card">
+  <div class="header">
+    <h1 class="season-title">Autumn Restoration</h1>
+    <p class="subtitle">Nervous System Soothing Yoga</p>
+    <p class="tagline">Gentle movements to help your body find calm</p>
+  </div>
+  
+  <div class="pose-grid">
+    <!-- Pose 1: Child's Pose -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Balasana</div>
+          <div class="pose-common">Child's Pose</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          Kneel with big toes touching, sit back on heels, fold forward with arms extended or by sides. Forehead rests on floor.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Activates the vagus nerve through gentle pressure on the forehead and promotes parasympathetic response via forward folding.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pose 2: Legs Up the Wall -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Viparita Karani</div>
+          <div class="pose-common">Legs Up the Wall</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          Sit sideways against wall, swing legs up as you lie back. Scoot hips close to wall. Arms relaxed by sides.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Reverses blood flow and activates the parasympathetic nervous system, reducing heart rate and cortisol levels.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pose 3: Seated Forward Fold -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Paschimottanasana</div>
+          <div class="pose-common">Seated Forward Fold</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          Sit with legs extended. Inhale to lengthen spine, exhale to fold forward from hips. Hold where you feel a gentle stretch.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Stretches the posterior chain and stimulates the vagus nerve through gentle compression, promoting calm.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pose 4: Supine Twist -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Supta Matsyendrasana</div>
+          <div class="pose-common">Supine Twist</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          Lie on back, draw knees to chest, drop both knees to one side. Arms in a "T" position. Turn head opposite direction.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Twisting poses massage abdominal organs and stimulate the vagus nerve, activating the relaxation response.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-logo">FERN & FEATHER</div>
+    <div class="footer-note">Restore • Breathe • Ground</div>
+    <div>fernandfeatherwellness.com</div>
+  </div>
+</div>
+
+<!-- BACK OF CARD - 2 poses for space -->
+<div class="card card-back">
+  <div class="header">
+    <h1 class="season-title">More Calm</h1>
+    <p class="subtitle">Extended Practice</p>
+    <p class="tagline">Continue your restoration journey</p>
+  </div>
+  
+  <div class="pose-grid">
+    <!-- Pose 5: Mountain Pose -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Tadasana</div>
+          <div class="pose-common">Mountain Pose</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          Stand with feet hip-width apart, arms at sides. Distribute weight evenly, engage thighs, lengthen spine, relax shoulders.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Establishes body awareness (proprioception) and grounding, which helps regulate the nervous system through spatial orientation.</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pose 6: Standing Forward Fold -->
+    <div class="pose-card">
+      <div class="pose-illustration">
+        <div class="pose-illustration-placeholder">
+          <span>🧘</span>
+          [Illustration]
+        </div>
+      </div>
+      <div class="pose-content">
+        <div class="pose-names">
+          <div class="pose-sanskrit">Uttanasana</div>
+          <div class="pose-common">Standing Forward Fold</div>
+        </div>
+        <div class="pose-cue">
+          <div class="pose-cue-label">How to do it</div>
+          From standing, hinge at hips and fold forward. Let head hang heavy. Bend knees as needed. Grab opposite elbows.
+        </div>
+        <div class="pose-science">
+          <div class="pose-science-label">Why it works</div>
+          <div class="pose-science-text">Activates the vestibular system through head position and encourages blood flow to the brain, regulating stress response.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="footer-logo">FERN & FEATHER</div>
+    <div class="footer-note">Breathe deeply • You are safe</div>
+    <div>Consult your healthcare provider before beginning any new exercise practice.</div>
+  </div>
+</div>
+
+</body>
+</html>
