@@ -4,12 +4,7 @@
  * Nicole's page has its own embedded Calendly inline widget.
  */
 
-/**
- * Fern & Feather - Mobile Nav Fix
- * Dynamically adds hamburger button if missing, handles toggle
- */
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Mobile nav fix loading...');
   const nav = document.querySelector('.site-nav, nav');
   if (!nav) return;
   let hamburger = nav.querySelector('.mobile-menu-btn');
@@ -34,6 +29,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const style = document.createElement('style');
 style.textContent = `
+  @media(min-width:1000px) {
+    .site-nav .container { max-width: 1120px !important; }
+    .site-nav .nav-links { gap: 12px !important; flex-wrap: nowrap !important; }
+    .site-nav .nav-links > li { flex: 0 0 auto; }
+    .site-nav .nav-links > li > a { white-space: nowrap; padding-left: 6px !important; padding-right: 6px !important; }
+    .site-nav .logo { white-space: nowrap; flex: 0 0 auto; }
+  }
   @media(max-width:999px) {
     .nav-links { display:none !important; }
     .mobile-menu-btn { display:inline-block !important; }
@@ -118,19 +120,22 @@ document.addEventListener('DOMContentLoaded', function() {
     serviceLinks.forEach(function(item) { var li = document.createElement('li'); var a = document.createElement('a'); a.href = item.href; a.textContent = item.label; li.appendChild(a); list.appendChild(li); });
   });
 
-  // Keep the recruitment page discoverable from the primary menu on every page.
   document.querySelectorAll('.site-nav .nav-links').forEach(function(navLinks) {
-    var alreadyPresent = Array.from(navLinks.querySelectorAll(':scope > li > a')).some(function(link) {
-      return link.textContent.trim() === 'Join Our Team';
+    var existingLink = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
+      return link.textContent.trim() === 'Join Our Team' || link.textContent.trim() === 'Join Us';
     });
-    if (alreadyPresent) return;
+    if (existingLink) {
+      existingLink.textContent = 'Join Us';
+      existingLink.href = prefix + 'join-our-team.html';
+      return;
+    }
     var consultLink = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
       return /Schedule Consult/i.test(link.textContent);
     });
     var item = document.createElement('li');
     var link = document.createElement('a');
     link.href = prefix + 'join-our-team.html';
-    link.textContent = 'Join Our Team';
+    link.textContent = 'Join Us';
     item.appendChild(link);
     if (consultLink && consultLink.parentElement) navLinks.insertBefore(item, consultLink.parentElement); else navLinks.appendChild(item);
   });
