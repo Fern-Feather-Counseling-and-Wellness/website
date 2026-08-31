@@ -30,10 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
 const style = document.createElement('style');
 style.textContent = `
   @media(min-width:1000px) {
-    .site-nav .container { max-width: 1120px !important; }
-    .site-nav .nav-links { gap: 12px !important; flex-wrap: nowrap !important; }
+    .site-nav .container { max-width: var(--container-max) !important; padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
+    .site-nav .nav-links { gap: 2rem !important; flex-wrap: nowrap !important; }
     .site-nav .nav-links > li { flex: 0 0 auto; }
-    .site-nav .nav-links > li > a { white-space: nowrap; padding-left: 6px !important; padding-right: 6px !important; }
+    .site-nav .nav-links > li > a { white-space: nowrap; }
     .site-nav .logo { white-space: nowrap; flex: 0 0 auto; }
   }
   @media(max-width:999px) {
