@@ -1,84 +1,10 @@
 /**
- * Consultation buttons on non-Nicole pages link to contact.html
- * (the consultation page with Calendly inline widget + contact form).
- * Nicole's page has its own embedded Calendly inline widget.
+ * Fern & Feather shared site behavior.
+ * The homepage is the visual/content source of truth for the site header and footer.
  */
-
-document.addEventListener('DOMContentLoaded', function() {
-  const nav = document.querySelector('.site-nav, nav');
-  if (!nav) return;
-  let hamburger = nav.querySelector('.mobile-menu-btn');
-  if (!hamburger) {
-    hamburger = document.createElement('button');
-    hamburger.className = 'mobile-menu-btn';
-    hamburger.setAttribute('aria-label', 'Open menu');
-    hamburger.innerHTML = '☰';
-    hamburger.style.cssText = 'border:0;background:transparent;font-size:24px;cursor:pointer;margin-left:auto;';
-    const navLinks = nav.querySelector('.nav-links');
-    if (navLinks) nav.insertBefore(hamburger, navLinks); else nav.appendChild(hamburger);
-  }
-  hamburger.onclick = function(e) {
-    e.preventDefault(); e.stopPropagation();
-    const navLinks = document.querySelector('.nav-links');
-    if (navLinks) {
-      navLinks.classList.toggle('mobile-open');
-      hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
-    }
-  };
-});
-
-const style = document.createElement('style');
-style.textContent = `
-  @media(min-width:1000px) {
-    .site-nav .container { max-width: var(--container-max) !important; padding-left: 1.5rem !important; padding-right: 1.5rem !important; }
-    .site-nav .nav-links { gap: 2rem !important; flex-wrap: nowrap !important; }
-    .site-nav .nav-links > li { flex: 0 0 auto; }
-    .site-nav .nav-links > li > a { white-space: nowrap; }
-    .site-nav .logo { white-space: nowrap; flex: 0 0 auto; }
-  }
-  @media(max-width:999px) {
-    .nav-links { display:none !important; }
-    .mobile-menu-btn { display:inline-block !important; }
-    .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,0.2); }
-    .dropdown-menu { position:static !important; box-shadow:none !important; opacity:1 !important; visibility:visible !important; transform:none !important; }
-    .dropdown.active .dropdown-menu { display:block !important; }
-  }
-`;
-document.head.appendChild(style);
-
-document.addEventListener('DOMContentLoaded', function() {
-  document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
-    toggle.addEventListener('click', function(e) {
-      var parent = this.parentElement;
-      if (parent && parent.classList.contains('dropdown')) {
-        e.preventDefault();
-        parent.classList.toggle('active');
-      }
-    });
-  });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  const faqQuestions = document.querySelectorAll('.faq-question');
-  faqQuestions.forEach(function(question) {
-    const faqItem = question.parentElement;
-    const answer = faqItem ? faqItem.querySelector('.faq-answer') : null;
-    if (question.tagName !== 'BUTTON') { question.setAttribute('role', 'button'); question.setAttribute('tabindex', '0'); }
-    if (answer && !answer.id) answer.id = 'faq-answer-' + Math.random().toString(36).slice(2, 10);
-    if (answer) { question.setAttribute('aria-controls', answer.id); question.setAttribute('aria-expanded', faqItem.classList.contains('active') ? 'true' : 'false'); answer.hidden = !faqItem.classList.contains('active'); }
-    const toggleFaq = function() {
-      if (!faqItem) return;
-      faqItem.classList.toggle('active');
-      if (answer) { const expanded = faqItem.classList.contains('active'); question.setAttribute('aria-expanded', expanded ? 'true' : 'false'); answer.hidden = !expanded; }
-    };
-    question.addEventListener('click', toggleFaq);
-    if (question.tagName !== 'BUTTON') question.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleFaq(); } });
-  });
-});
 
 function getSiteRootPrefix() {
   var path = window.location.pathname.replace(/\/+$/, '');
-  if (!path || path === '') return '';
   var segments = path.split('/').filter(Boolean);
   if (!segments.length) return '';
   var last = segments[segments.length - 1];
@@ -97,76 +23,227 @@ function buildServiceLinks(prefix) {
   ];
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+function absolutizeShellLinks(shell) {
+  shell.querySelectorAll('[href]').forEach(function(el) {
+    var href = el.getAttribute('href');
+    if (!href || href.charAt(0) === '#' || /^(https?:|mailto:|tel:|javascript:)/i.test(href)) return;
+    el.setAttribute('href', '/' + href.replace(/^\.\//, '').replace(/^\.\.\//, ''));
+  });
+  shell.querySelectorAll('[src]').forEach(function(el) {
+    var src = el.getAttribute('src');
+    if (!src || /^(https?:|data:)/i.test(src)) return;
+    el.setAttribute('src', '/' + src.replace(/^\.\//, '').replace(/^\.\.\//, ''));
+  });
+}
+
+function normalizeNavigation(nav) {
+  if (!nav) return;
   var prefix = getSiteRootPrefix();
   var serviceLinks = buildServiceLinks(prefix);
+  var navLinks = nav.querySelector('.nav-links');
+  if (!navLinks) return;
 
-  document.querySelectorAll('.site-nav .nav-links > li > a').forEach(function(link) {
-    var navLabel = link.textContent.replace(/[▾▼]/g, '').trim();
-    if (navLabel !== 'Services') return;
-    var listItem = link.parentElement;
-    if (!listItem) return;
-    listItem.classList.add('dropdown'); link.classList.add('dropdown-toggle'); link.setAttribute('href', serviceLinks[0].href); link.textContent = 'Services ▾';
-    if (listItem.querySelector('.dropdown-menu')) return;
-    var menu = document.createElement('ul'); menu.className = 'dropdown-menu'; menu.setAttribute('role', 'menu');
-    serviceLinks.forEach(function(item, index) { var li = document.createElement('li'); var a = document.createElement('a'); a.href = item.href; a.textContent = item.label; if (index === 0) a.style.fontWeight = '700'; li.appendChild(a); menu.appendChild(li); });
-    listItem.appendChild(menu);
-  });
-
-  document.querySelectorAll('.footer-column').forEach(function(column) {
-    var heading = column.querySelector('h4'); var list = column.querySelector('ul');
-    if (!heading || !list || heading.textContent.trim() !== 'Services') return;
-    list.innerHTML = '';
-    serviceLinks.forEach(function(item) { var li = document.createElement('li'); var a = document.createElement('a'); a.href = item.href; a.textContent = item.label; li.appendChild(a); list.appendChild(li); });
-  });
-
-  document.querySelectorAll('.site-nav .nav-links').forEach(function(navLinks) {
-    var existingLink = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
-      return link.textContent.trim() === 'Join Our Team' || link.textContent.trim() === 'Join Us';
+  nav.querySelectorAll('.nav-links > li > a').forEach(function(link) {
+    var label = link.textContent.replace(/[▾▼]/g, '').trim();
+    if (label !== 'Services') return;
+    var li = link.parentElement;
+    li.classList.add('dropdown');
+    link.classList.add('dropdown-toggle');
+    link.href = serviceLinks[0].href;
+    link.textContent = 'Services ▾';
+    var oldMenu = li.querySelector('.dropdown-menu');
+    if (oldMenu) oldMenu.remove();
+    var menu = document.createElement('ul');
+    menu.className = 'dropdown-menu';
+    menu.setAttribute('role', 'menu');
+    serviceLinks.forEach(function(item, i) {
+      var row = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.label;
+      if (i === 0) a.style.fontWeight = '700';
+      row.appendChild(a);
+      menu.appendChild(row);
     });
-    if (existingLink) {
-      existingLink.textContent = 'Join Us';
-      existingLink.href = prefix + 'join-our-team.html';
-      return;
-    }
-    var consultLink = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
+    li.appendChild(menu);
+  });
+
+  var existingJoin = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
+    return /^(Join Our Team|Join Us)$/i.test(link.textContent.trim());
+  });
+  if (existingJoin) {
+    existingJoin.textContent = 'Join Us';
+    existingJoin.href = prefix + 'join-our-team.html';
+  } else {
+    var consult = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
       return /Schedule Consult/i.test(link.textContent);
     });
     var item = document.createElement('li');
-    var link = document.createElement('a');
-    link.href = prefix + 'join-our-team.html';
-    link.textContent = 'Join Us';
-    item.appendChild(link);
-    if (consultLink && consultLink.parentElement) navLinks.insertBefore(item, consultLink.parentElement); else navLinks.appendChild(item);
-  });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-  function showInlineSuccess(form, headline, body) {
-    var wrapper = form.closest('.ml-form-embedWrapper');
-    if (wrapper) { var formBody = wrapper.querySelector('.ml-form-embedBody'); var successBody = wrapper.querySelector('.ml-form-successBody'); if (formBody && successBody) { formBody.style.display = 'none'; successBody.style.display = 'block'; return; } }
-    var note = document.createElement('div'); note.className = 'form-confirmation'; note.style.cssText = 'padding:1.5rem;text-align:center;background:#f3f8f0;border:1px solid #cbd9c4;border-radius:12px;';
-    note.innerHTML = '<h4 style="margin:0 0 0.5rem;color:#4A6741;">' + (headline || 'Thank you!') + '</h4>' + '<p style="margin:0;color:#4A6741;">' + (body || 'You have successfully joined our subscriber list.') + '</p>';
-    if (form.parentNode) form.parentNode.replaceChild(note, form);
+    var join = document.createElement('a');
+    join.href = prefix + 'join-our-team.html';
+    join.textContent = 'Join Us';
+    item.appendChild(join);
+    if (consult && consult.parentElement) navLinks.insertBefore(item, consult.parentElement);
+    else navLinks.appendChild(item);
   }
 
-  document.querySelectorAll('form.ml-block-form').forEach(function(form) {
-    form.addEventListener('submit', function(e) { e.preventDefault(); var emailField = form.querySelector('input[type="email"]'); if (emailField && !emailField.value) { emailField.focus(); return; } try { var data = new FormData(form); fetch(form.action, { method: 'POST', body: data, mode: 'no-cors' }).catch(function() {}); } catch (err) {} showInlineSuccess(form, 'Thank you!', 'You have successfully joined our subscriber list. Check your inbox for the Anxiety Toolkit!'); });
-  });
+  var hamburger = nav.querySelector('.mobile-menu-btn');
+  if (!hamburger) {
+    hamburger = document.createElement('button');
+    hamburger.className = 'mobile-menu-btn';
+    hamburger.type = 'button';
+    hamburger.setAttribute('aria-label', 'Open menu');
+    hamburger.textContent = '☰';
+    nav.querySelector('.container').insertBefore(hamburger, navLinks);
+  }
+  hamburger.onclick = function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    navLinks.classList.toggle('mobile-open');
+    hamburger.setAttribute('aria-expanded', navLinks.classList.contains('mobile-open') ? 'true' : 'false');
+  };
 
-  document.querySelectorAll('form#leadForm, form.lead-form').forEach(function(form) {
-    form.addEventListener('submit', function(e) { e.preventDefault(); var emailField = form.querySelector('input[type="email"]'); if (emailField && !emailField.checkValidity()) { emailField.reportValidity(); return; } showInlineSuccess(form, 'Thank you!', 'You have successfully joined our subscriber list. Check your inbox for the Anxiety Toolkit!'); });
+  nav.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
+    toggle.onclick = function(e) {
+      if (window.innerWidth >= 1000) return;
+      e.preventDefault();
+      this.parentElement.classList.toggle('active');
+    };
   });
+}
 
-  document.querySelectorAll('form#ml-signup-form').forEach(function(form) {
-    form.addEventListener('submit', function(e) { e.preventDefault(); var emailField = form.querySelector('input[type="email"]'); if (emailField && !emailField.checkValidity()) { emailField.reportValidity(); return; } var btn = form.querySelector('button[type="submit"]'); if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = 'Joining…'; } var mlEndpoint = 'https://assets.mailerlite.com/jsonp/2494357/forms/192367295992956581/subscribe'; try { var payload = new FormData(); payload.append('fields[email]', emailField ? emailField.value : ''); payload.append('ml-submit', '1'); payload.append('anticsrf', 'true'); fetch(mlEndpoint, { method: 'POST', body: payload, mode: 'no-cors' }).catch(function() {}); } catch (err) {} showInlineSuccess(form, 'Thank you for subscribing!', 'You have successfully joined our mailing list. Watch your inbox for updates and resources.'); });
+function normalizeFooter(footer) {
+  if (!footer) return;
+  var prefix = getSiteRootPrefix();
+  var services = buildServiceLinks(prefix);
+  footer.querySelectorAll('.footer-column').forEach(function(column) {
+    var heading = column.querySelector('h4');
+    var list = column.querySelector('ul');
+    if (!heading || !list || heading.textContent.trim() !== 'Services') return;
+    list.innerHTML = '';
+    services.forEach(function(item) {
+      var li = document.createElement('li');
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.label;
+      li.appendChild(a);
+      list.appendChild(li);
+    });
   });
+  attachMailingListForm(footer);
+}
 
-  document.querySelectorAll('form#ml-group-signup').forEach(function(form) {
-    form.addEventListener('submit', function(e) { e.preventDefault(); var emailField = form.querySelector('input[type="email"]'); if (emailField && !emailField.checkValidity()) { emailField.reportValidity(); return; } var btn = form.querySelector('button[type="submit"]'); if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = 'Joining…'; } var mlEndpoint = 'https://assets.mailerlite.com/jsonp/2494357/forms/192367295992956581/subscribe'; try { var payload = new FormData(); payload.append('fields[email]', emailField ? emailField.value : ''); payload.append('ml-submit', '1'); payload.append('anticsrf', 'true'); fetch(mlEndpoint, { method: 'POST', body: payload, mode: 'no-cors' }).catch(function() {}); } catch (err) {} form.style.display = 'none'; var confirm = form.parentElement.parentElement.querySelector('.ml-group-confirmation'); if (confirm) confirm.style.display = 'block'; else showInlineSuccess(form, 'You\'re on the list!', 'We\'ll keep you posted on upcoming groups.'); });
+function attachMailingListForm(scope) {
+  (scope || document).querySelectorAll('form#ml-signup-form').forEach(function(form) {
+    if (form.dataset.ffBound) return;
+    form.dataset.ffBound = 'true';
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = form.querySelector('input[type="email"]');
+      if (email && !email.checkValidity()) { email.reportValidity(); return; }
+      var btn = form.querySelector('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.textContent = 'Joining…'; }
+      try {
+        var payload = new FormData();
+        payload.append('fields[email]', email ? email.value : '');
+        payload.append('ml-submit', '1');
+        payload.append('anticsrf', 'true');
+        fetch('https://assets.mailerlite.com/jsonp/2494357/forms/192367295992956581/subscribe', { method: 'POST', body: payload, mode: 'no-cors' }).catch(function() {});
+      } catch (err) {}
+      form.innerHTML = '<p style="margin:0;color:white;font-weight:600;">Thank you for subscribing!</p>';
+    });
   });
+}
 
-  document.querySelectorAll('form.js-consult-form').forEach(function(form) {
-    form.addEventListener('submit', function(e) { e.preventDefault(); var emailField = form.querySelector('input[type="email"]'); if (emailField && !emailField.checkValidity()) { emailField.reportValidity(); return; } var btn = form.querySelector('button[type="submit"]'); if (btn) { btn.disabled = true; btn.dataset.label = btn.textContent; btn.textContent = 'Sending…'; } fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } }).then(function(res) { if (res.ok) showInlineSuccess(form, 'Thanks for reaching out!', 'We received your request and will get back to you within 1–2 business days.'); else { if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label || 'Request Consultation'; } alert('Something went wrong sending your request. Please try again or email us directly.'); } }).catch(function() { if (btn) { btn.disabled = false; btn.textContent = btn.dataset.label || 'Request Consultation'; } alert('Something went wrong sending your request. Please try again or email us directly.'); }); });
+function standardizeSiteShell() {
+  var currentNav = document.querySelector('.site-nav');
+  var currentFooter = document.querySelector('footer.footer');
+  var isHome = window.location.pathname === '/' || /\/index\.html$/.test(window.location.pathname);
+
+  if (isHome) {
+    normalizeNavigation(currentNav);
+    normalizeFooter(currentFooter);
+    return Promise.resolve();
+  }
+
+  return fetch('/index.html', { cache: 'no-store' })
+    .then(function(response) { if (!response.ok) throw new Error('Unable to load site shell'); return response.text(); })
+    .then(function(html) {
+      var doc = new DOMParser().parseFromString(html, 'text/html');
+      var masterNav = doc.querySelector('.site-nav');
+      var masterFooter = doc.querySelector('footer.footer');
+      if (masterNav && currentNav) {
+        absolutizeShellLinks(masterNav);
+        currentNav.replaceWith(masterNav);
+        normalizeNavigation(masterNav);
+      } else normalizeNavigation(currentNav);
+      if (masterFooter && currentFooter) {
+        absolutizeShellLinks(masterFooter);
+        currentFooter.replaceWith(masterFooter);
+        normalizeFooter(masterFooter);
+      } else if (masterFooter && !currentFooter) {
+        absolutizeShellLinks(masterFooter);
+        document.body.insertBefore(masterFooter, document.body.querySelector('script'));
+        normalizeFooter(masterFooter);
+      } else normalizeFooter(currentFooter);
+    })
+    .catch(function() {
+      normalizeNavigation(currentNav);
+      normalizeFooter(currentFooter);
+    });
+}
+
+function fixRecruitmentSupportCard() {
+  document.querySelectorAll('.benefit').forEach(function(card) {
+    var heading = card.querySelector('h3');
+    var paragraph = card.querySelector('p');
+    if (!heading || !paragraph || heading.textContent.trim() !== 'Administrative support.') return;
+    heading.textContent = 'Practice tools & support.';
+    paragraph.textContent = 'Access to our EHR, established practice systems, and some behind-the-scenes administrative help when you need it. You maintain control of your own practice and day-to-day client management.';
   });
+}
+
+function bindFaqs() {
+  document.querySelectorAll('.faq-question').forEach(function(question) {
+    if (question.dataset.ffBound) return;
+    question.dataset.ffBound = 'true';
+    var item = question.parentElement;
+    var answer = item ? item.querySelector('.faq-answer') : null;
+    if (question.tagName !== 'BUTTON') { question.setAttribute('role', 'button'); question.setAttribute('tabindex', '0'); }
+    function toggle() {
+      if (!item) return;
+      item.classList.toggle('active');
+      if (answer) answer.hidden = !item.classList.contains('active');
+    }
+    question.addEventListener('click', toggle);
+    if (question.tagName !== 'BUTTON') question.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
+  });
+}
+
+var sharedStyle = document.createElement('style');
+sharedStyle.textContent = `
+  @media(min-width:1000px) {
+    .site-nav .container { max-width: 1200px !important; padding-left: 2rem !important; padding-right: 2rem !important; }
+    .site-nav .nav-links { gap: 2.5rem !important; flex-wrap: nowrap !important; }
+    .site-nav .nav-links > li { flex: 0 0 auto; }
+    .site-nav .nav-links > li > a { white-space: nowrap; }
+    .site-nav .logo { white-space: nowrap; flex: 0 0 auto; }
+  }
+  @media(max-width:1350px) and (min-width:1000px) {
+    .site-nav .nav-links { gap: 1.35rem !important; }
+  }
+  @media(max-width:999px) {
+    .nav-links { display:none !important; }
+    .mobile-menu-btn { display:inline-block !important; }
+    .nav-links.mobile-open { display:flex !important; flex-direction:column; position:absolute; top:60px; left:0; right:0; background:#fff; padding:20px; box-shadow:0 4px 10px rgba(0,0,0,.2); z-index:1000; }
+    .dropdown-menu { position:static !important; box-shadow:none !important; opacity:1 !important; visibility:visible !important; transform:none !important; }
+    .dropdown.active .dropdown-menu { display:block !important; }
+  }
+`;
+document.head.appendChild(sharedStyle);
+
+document.addEventListener('DOMContentLoaded', function() {
+  fixRecruitmentSupportCard();
+  bindFaqs();
+  standardizeSiteShell();
 });
