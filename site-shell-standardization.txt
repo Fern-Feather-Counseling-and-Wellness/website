@@ -1,1 +1,0 @@
-Fern & Feather site shell standardization: homepage header/footer are the source of truth. js/main.js applies them to standard pages and updates the recruitment support wording.
