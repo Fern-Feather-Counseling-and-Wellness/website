@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us | Fern & Feather Counseling and Wellness</title>
-  <meta name="description" content="Meet Nicole and Kiera, licensed therapists and co-founders of Fern & Feather Counseling and Wellness. Science-based, trauma-informed, LGBTQ+ affirming therapy in Cumming, GA.">
+  <meta name="description" content="Meet Nicole, Kiera, and office administrator Lydia Snell at Fern & Feather Counseling and Wellness in Cumming, GA.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://fernandfeathercounseling.com/about.html">
     <meta property="og:type" content="website">
     <meta property="og:title" content="About Us | Fern & Feather Counseling and Wellness">
-    <meta property="og:description" content="Meet Nicole and Kiera, licensed therapists in Cumming, GA offering trauma-informed, LGBTQ+ affirming therapy.">
+    <meta property="og:description" content="Meet the therapists and office administrator at Fern & Feather Counseling and Wellness in Cumming, GA.">
     <meta property="og:url" content="https://fernandfeathercounseling.com/about.html">
     <meta property="og:site_name" content="Fern & Feather Counseling and Wellness">
         <meta property="og:image" content="https://fernandfeathercounseling.com/images/logo-full.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About Us | Fern & Feather Counseling and Wellness">
-    <meta name="twitter:description" content="Meet Nicole and Kiera, licensed therapists in Cumming, GA offering trauma-informed, LGBTQ+ affirming therapy.">
+    <meta name="twitter:description" content="Meet the therapists and office administrator at Fern & Feather Counseling and Wellness in Cumming, GA.">
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,6 +72,44 @@
       margin-bottom: 1.5rem;
       font-size: 0.95rem;
     }
+    .administrator-profile {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 3rem;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2.5rem;
+      background: var(--sage-50);
+      border-radius: 20px;
+      box-shadow: var(--shadow-soft);
+    }
+    .administrator-profile img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+    }
+    .administrator-profile h3 {
+      margin-bottom: 0.5rem;
+    }
+    .administrator-profile .credentials {
+      color: var(--sage-500);
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+    .administrator-profile .bio p {
+      color: var(--sage-700);
+      line-height: 1.8;
+      margin-bottom: 1.25rem;
+    }
+    .administrator-profile .bio p:last-child {
+      margin-bottom: 0;
+    }
+    .administrator-profile .btn {
+      margin-top: 1.5rem;
+    }
     @media (max-width: 768px) {
       .therapist-preview {
         grid-template-columns: 1fr;
@@ -87,6 +125,19 @@
       }
       .therapist-card .specialties {
         font-size: 0.9rem;
+      }
+      .administrator-profile {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 1.5rem;
+      }
+      .administrator-profile img {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+      }
+      .administrator-profile .bio {
+        text-align: left;
       }
     }
   </style>
@@ -152,6 +203,7 @@
           <li><a href="about.html">About the Practice</a></li>
           <li><a href="nicole.html">Nicole</a></li>
           <li><a href="kiera.html">Kiera</a></li>
+          <li><a href="lydia.html">Lydia</a></li>
           <li><a href="our-place.html">Our Place</a></li>
         </ul>
       </li>
@@ -250,7 +302,26 @@
     </div>
   </section>
 
-  <!-- Why We Started (old position - now removed) -->
+  <!-- Meet the Office Administrator -->
+  <section class="services about-tight-section" style="background: white;">
+    <div class="container">
+      <div class="section-header">
+        <h2>Meet Our Office Administrator</h2>
+      </div>
+
+      <article class="administrator-profile">
+        <img loading="lazy" src="images/lydia-snell-portrait.jpeg" alt="Lydia Snell, office administrator at Fern &amp; Feather Counseling and Wellness">
+        <div class="bio">
+          <h3>Lydia Snell</h3>
+          <p class="credentials">Office Administrator</p>
+          <p>Hi, I’m Lydia! I’m so excited to be joining the Fern &amp; Feather team and to have the opportunity to play a part in helping connect people with the support and resources they need. I have my Bachelor’s degree in Education, and while my primary role these days is being home with my young kids, I’m excited to bring my love of learning, connecting with others, and helping people into this new chapter of theirs.</p>
+          <p>Outside of work, my favorite role is being a wife and mom. I absolutely love spending time with my husband and our kids, and we’re always up for a little adventure! Some of my favorite places to visit are Walt Disney World and Universal Studios! There’s just something about a theme park day that never gets old!</p>
+          <p>When I’m not chasing after my kids or planning our next adventure, you can usually find me outside enjoying nature, baking something sweet, or dreaming about our next trip. I’m so happy to be part of the Fern &amp; Feather team and help make a difference in people’s lives!</p>
+          <a href="lydia.html" class="btn btn-primary">Learn More About Lydia</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
   <!-- Our Values -->
   <section class="why-us about-values-section" style="background: var(--sage-50);">
