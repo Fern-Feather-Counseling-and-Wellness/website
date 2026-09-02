@@ -68,6 +68,32 @@ function normalizeNavigation(nav) {
     li.appendChild(menu);
   });
 
+  var aboutToggle = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
+    return /^About/i.test(link.textContent.replace(/[▾▼]/g, '').trim());
+  });
+  if (aboutToggle && aboutToggle.parentElement) {
+    var aboutMenu = aboutToggle.parentElement.querySelector('.dropdown-menu');
+    if (aboutMenu) {
+      var lydiaLink = Array.from(aboutMenu.querySelectorAll('a')).find(function(link) {
+        return link.textContent.trim() === 'Lydia';
+      });
+      if (!lydiaLink) {
+        var kieraLink = Array.from(aboutMenu.querySelectorAll('a')).find(function(link) {
+          return link.textContent.trim() === 'Kiera';
+        });
+        var lydiaItem = document.createElement('li');
+        var lydia = document.createElement('a');
+        lydia.href = prefix + 'lydia.html';
+        lydia.textContent = 'Lydia';
+        lydiaItem.appendChild(lydia);
+        if (kieraLink && kieraLink.parentElement) kieraLink.parentElement.insertAdjacentElement('afterend', lydiaItem);
+        else aboutMenu.appendChild(lydiaItem);
+      } else {
+        lydiaLink.href = prefix + 'lydia.html';
+      }
+    }
+  }
+
   var existingJoin = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) {
     return /^(Join Our Team|Join Us)$/i.test(link.textContent.trim());
   });
@@ -203,6 +229,19 @@ function fixRecruitmentSupportCard() {
   });
 }
 
+function addLydiaContactButton() {
+  if (!/\/lydia\.html$/.test(window.location.pathname)) return;
+  if (document.querySelector('a[href="mailto:info@fernandfeathercounseling.com"]')) return;
+  var details = document.querySelector('.administrator-hero .profile-details');
+  if (!details) return;
+  var button = document.createElement('a');
+  button.href = 'mailto:info@fernandfeathercounseling.com';
+  button.className = 'btn btn-primary';
+  button.textContent = 'Contact Lydia';
+  button.style.marginTop = '1.5rem';
+  details.appendChild(button);
+}
+
 function bindFaqs() {
   document.querySelectorAll('.faq-question').forEach(function(question) {
     if (question.dataset.ffBound) return;
@@ -244,6 +283,7 @@ document.head.appendChild(sharedStyle);
 
 document.addEventListener('DOMContentLoaded', function() {
   fixRecruitmentSupportCard();
+  addLydiaContactButton();
   bindFaqs();
   standardizeSiteShell();
 });
