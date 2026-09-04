@@ -140,6 +140,17 @@ function normalizeFooter(footer) {
       a.href = item.href; a.textContent = item.label; li.appendChild(a); list.appendChild(li);
     });
   });
+  var footerBottom = footer.querySelector('.footer-bottom');
+  if (footerBottom && !footerBottom.querySelector('a[href*="notice-of-privacy-practices"]')) {
+    var privacyLink = footerBottom.querySelector('a[href*="privacy.html"]');
+    if (privacyLink) {
+      privacyLink.insertAdjacentText('afterend', ' | ');
+      var nppLink = document.createElement('a');
+      nppLink.href = prefix + 'notice-of-privacy-practices.html';
+      nppLink.textContent = 'Notice of Privacy Practices';
+      privacyLink.nextSibling.insertAdjacentElement ? privacyLink.nextSibling.insertAdjacentElement('afterend', nppLink) : privacyLink.parentNode.insertBefore(nppLink, privacyLink.nextSibling.nextSibling);
+    }
+  }
   attachMailingListForm(footer);
 }
 
