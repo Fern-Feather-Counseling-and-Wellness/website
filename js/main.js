@@ -261,7 +261,15 @@ function bindFaqs() {
     question.dataset.ffBound = 'true';
     var item = question.parentElement; var answer = item ? item.querySelector('.faq-answer') : null;
     if (question.tagName !== 'BUTTON') { question.setAttribute('role', 'button'); question.setAttribute('tabindex', '0'); }
-    function toggle() { if (!item) return; item.classList.toggle('active'); if (answer) answer.hidden = !item.classList.contains('active'); }
+    if (answer) answer.hidden = !item.classList.contains('active');
+    question.setAttribute('aria-expanded', item && item.classList.contains('active') ? 'true' : 'false');
+    function toggle() {
+      if (!item) return;
+      item.classList.toggle('active');
+      var isOpen = item.classList.contains('active');
+      if (answer) answer.hidden = !isOpen;
+      question.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    }
     question.addEventListener('click', toggle);
     if (question.tagName !== 'BUTTON') question.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(); } });
   });
