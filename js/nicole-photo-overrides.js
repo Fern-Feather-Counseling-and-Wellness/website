@@ -7,6 +7,8 @@
       if (aboutNicole) {
         aboutNicole.src = 'images/38-IMG_1797.jpg';
         aboutNicole.style.objectPosition = '50% 18%';
+        aboutNicole.style.transform = 'scale(1.18)';
+        aboutNicole.style.transformOrigin = '50% 30%';
       }
     }
 
