@@ -10,6 +10,10 @@
     document.querySelectorAll('.site-nav .nav-links').forEach(function(nav){
       var hasJoin=Array.prototype.some.call(nav.querySelectorAll('a'),function(a){return /join-our-team\.html(?:$|[?#])/.test(a.getAttribute('href')||'') || (a.textContent||'').trim().toLowerCase()==='join us';});
       if(!hasJoin){var li=document.createElement('li');li.className='nav-join-us';li.innerHTML='<a href="/join-our-team.html">Join Us</a>';var consult=Array.prototype.find.call(nav.children,function(item){var a=item.querySelector&&item.querySelector('a');return a && /contact\.html(?:$|[?#])/.test(a.getAttribute('href')||'');});nav.insertBefore(li,consult||null);}
+
+      // Keep Connie in the About dropdown on every page.
+      var aboutDropdown=Array.prototype.find.call(nav.querySelectorAll('.dropdown'),function(item){var first=item.querySelector('a');return first && /about\.html(?:$|[?#])/.test(first.getAttribute('href')||'');});
+      if(aboutDropdown){var menu=aboutDropdown.querySelector('.dropdown-menu');if(menu){var hasConnie=Array.prototype.some.call(menu.querySelectorAll('a'),function(a){return /connie\.html(?:$|[?#])/.test(a.getAttribute('href')||'') || (a.textContent||'').trim().toLowerCase()==='connie';});if(!hasConnie){var cli=document.createElement('li');cli.className='nav-connie';cli.innerHTML='<a href="/connie.html">Connie</a>';var kiera=Array.prototype.find.call(menu.children,function(item){var a=item.querySelector&&item.querySelector('a');return a && /kiera\.html(?:$|[?#])/.test(a.getAttribute('href')||'');});if(kiera && kiera.nextSibling){menu.insertBefore(cli,kiera.nextSibling);}else{menu.appendChild(cli);}}}}
     });
 
     if(/(^|\/)about\.html$/.test(location.pathname)||location.pathname==='/about'){
@@ -21,13 +25,7 @@
       var placeholder=document.querySelector('.therapist-photo .photo-placeholder');
       if(placeholder){var img=document.createElement('img');img.src='/images/1000002526.jpg';img.alt='Connie Wei, Associate Professional Counselor';img.className='therapist-portrait';img.style.cssText='width:100%;border-radius:15px;display:block;';placeholder.replaceWith(img);}
       var sections=document.querySelectorAll('section');
-      sections.forEach(function(section){
-        var heading=section.querySelector('h2');
-        if(heading && /rate|payment|investment/i.test(heading.textContent||'')){
-          var box=section.querySelector('.approach-section') || section.querySelector('[style*="max-width"]') || section.querySelector('.container');
-          if(box){box.innerHTML='<div class="section-header"><h2>Rates & Payment</h2></div><div style="max-width:700px;margin:0 auto;text-align:center;background:white;padding:2.5rem;border-radius:20px;box-shadow:var(--shadow-soft);"><h3>$135 per session</h3><p>Connie is a private-pay clinician and does not bill insurance.</p><p><strong>Reduced-fee sessions are available from $70–$135</strong> based on financial need and availability. A limited number of sliding-scale spots are available.</p><a href="/contact.html" class="btn btn-primary">Schedule a Consultation</a></div>';}
-        }
-      });
+      sections.forEach(function(section){var heading=section.querySelector('h2');if(heading && /rate|payment|investment/i.test(heading.textContent||'')){var box=section.querySelector('.approach-section') || section.querySelector('[style*="max-width"]') || section.querySelector('.container');if(box){box.innerHTML='<div class="section-header"><h2>Rates & Payment</h2></div><div style="max-width:700px;margin:0 auto;text-align:center;background:white;padding:2.5rem;border-radius:20px;box-shadow:var(--shadow-soft);"><h3>$135 per session</h3><p>Connie is a private-pay clinician and does not bill insurance.</p><p><strong>Reduced-fee sessions are available from $70–$135</strong> based on financial need and availability. A limited number of sliding-scale spots are available.</p><a href="/contact.html" class="btn btn-primary">Schedule a Consultation</a></div>';}}});
     }
 
     if(location.pathname==='/'||/(^|\/)index\.html$/.test(location.pathname)){
