@@ -1,0 +1,3 @@
+/* Nicole photo focal-point fixes */
+.therapist-avatar img[src*="38-IMG_1797"] { object-position: 50% 18% !important; }
+.therapist-photo img[src*="64-IMG_2001"] { object-position: 50% 18% !important; }
