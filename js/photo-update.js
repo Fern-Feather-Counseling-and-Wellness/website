@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){var p=location.pathname;if(/\/about\.html$/.test(p)){var i=document.querySelector('.therapist-card img[src*="nicole-portrait"]');if(i)i.src='images/38-IMG_1797.jpg';}if(/\/nicole\.html$/.test(p)){var n=document.querySelector('.therapist-photo img');if(n)n.src='images/64-IMG_2001.jpg';}});
