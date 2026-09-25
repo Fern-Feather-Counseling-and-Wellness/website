@@ -1,12 +1,28 @@
 // Load the existing site behavior, then apply site-wide consistency updates.
 (function(){
-  // Connie's portrait should render independently of the legacy/core script.
-  function renderConniePhoto(){
+  function renderConniePageUpdates(){
     if(!(/(^|\/)connie\.html$/.test(location.pathname)||location.pathname==='/connie')) return;
     var placeholder=document.querySelector('.therapist-photo .photo-placeholder');
     if(placeholder){var img=document.createElement('img');img.src='/images/1000002526.jpg?v=20260925';img.alt='Connie Wei, Associate Professional Counselor';img.className='therapist-portrait';img.style.cssText='width:100%;height:auto;border-radius:15px;display:block;';placeholder.replaceWith(img);}
+    document.querySelectorAll('section').forEach(function(section){
+      var heading=section.querySelector('h2');
+      if(heading && /ready to connect with connie/i.test(heading.textContent||'')){
+        var container=section.querySelector('.container');
+        if(container){
+          var oldButton=container.querySelector('a.btn');
+          if(oldButton){oldButton.remove();}
+          if(!container.querySelector('.connie-practice-contact')){
+            var contact=document.createElement('div');
+            contact.className='connie-practice-contact';
+            contact.style.cssText='font-size:1.15rem;line-height:2;margin-top:.5rem;';
+            contact.innerHTML='<a href="tel:+17705638334" style="color:inherit;text-decoration:underline;font-weight:600;">770-563-8334</a><br><a href="mailto:info@fernandfeathercounseling.com" style="color:inherit;text-decoration:underline;font-weight:600;">info@fernandfeathercounseling.com</a>';
+            container.appendChild(contact);
+          }
+        }
+      }
+    });
   }
-  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',renderConniePhoto);}else{renderConniePhoto();}
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',renderConniePageUpdates);}else{renderConniePageUpdates();}
 
   var core=document.createElement('script');
   core.src='/js/main-core.js?v=20260925';
@@ -28,7 +44,7 @@
     }
 
     if(/(^|\/)connie\.html$/.test(location.pathname)||location.pathname==='/connie'){
-      renderConniePhoto();
+      renderConniePageUpdates();
       var sections=document.querySelectorAll('section');
       sections.forEach(function(section){var heading=section.querySelector('h2');if(heading && /rate|payment|investment/i.test(heading.textContent||'')){var box=section.querySelector('.approach-section') || section.querySelector('[style*="max-width"]') || section.querySelector('.container');if(box){box.innerHTML='<div class="section-header"><h2>Rates & Payment</h2></div><div style="max-width:700px;margin:0 auto;text-align:center;background:white;padding:2.5rem;border-radius:20px;box-shadow:var(--shadow-soft);"><h3>$135 per session</h3><p>Connie is a private-pay clinician and does not bill insurance.</p><p><strong>Reduced-fee sessions are available from $70–$135</strong> based on financial need and availability. A limited number of sliding-scale spots are available.</p><a href="/contact.html" class="btn btn-primary">Schedule a Consultation</a></div>';}}});
     }
