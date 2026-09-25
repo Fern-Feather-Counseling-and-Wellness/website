@@ -1,0 +1,1 @@
+Nicole photo override now executes even when loaded after DOMContentLoaded.
