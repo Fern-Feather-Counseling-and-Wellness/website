@@ -1,4 +1,4 @@
-// Load the existing site behavior, then apply page-specific photo updates.
+// Load the existing site behavior, then apply site-wide consistency updates.
 (function(){
   var core=document.createElement('script');
   core.src='/js/main-core.js?v=20260925';
@@ -6,6 +6,23 @@
     var photos=document.createElement('script');
     photos.src='/js/nicole-photo-overrides-fixed.js?v=20260925-facecrop-3';
     document.head.appendChild(photos);
+
+    // Keep Join Us visible in the primary navigation on every page that uses this script.
+    document.querySelectorAll('.site-nav .nav-links').forEach(function(nav){
+      var hasJoin=Array.prototype.some.call(nav.querySelectorAll('a'),function(a){
+        return /join-our-team\.html(?:$|[?#])/.test(a.getAttribute('href')||'') || (a.textContent||'').trim().toLowerCase()==='join us';
+      });
+      if(!hasJoin){
+        var li=document.createElement('li');
+        li.className='nav-join-us';
+        li.innerHTML='<a href="/join-our-team.html">Join Us</a>';
+        var consult=Array.prototype.find.call(nav.children,function(item){
+          var a=item.querySelector&&item.querySelector('a');
+          return a && /contact\.html(?:$|[?#])/.test(a.getAttribute('href')||'');
+        });
+        nav.insertBefore(li,consult||null);
+      }
+    });
 
     if(/(^|\/)about\.html$/.test(location.pathname)||location.pathname==='/about'){
       var nicole=document.querySelector('.therapist-preview .therapist-card:first-child .therapist-avatar img');
