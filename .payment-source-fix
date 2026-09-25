@@ -1,1 +1,0 @@
-Payment and insurance messaging was moved into source HTML for rates.html and faq.html so it no longer depends on JavaScript replacement. Nicole-specific new-client payment messaging remains in js/main.js.
