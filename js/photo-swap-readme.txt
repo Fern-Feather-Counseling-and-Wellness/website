@@ -1,0 +1,1 @@
+Nicole photo selection: About page uses 38-IMG_1797.jpg; Nicole profile uses 64-IMG_2001.jpg.
