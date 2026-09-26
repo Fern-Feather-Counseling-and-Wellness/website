@@ -1,0 +1,21 @@
+name: Add Connie photo to About page
+on:
+  push:
+    branches: [add-connie-photo-about]
+    paths: ['scripts/add_connie_about_photo.py','.github/workflows/add-connie-about-photo.yml']
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: add-connie-photo-about
+      - run: python scripts/add_connie_about_photo.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add about.html
+          git commit -m "Add Connie headshot to About page"
+          git push origin HEAD:add-connie-photo-about
