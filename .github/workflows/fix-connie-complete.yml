@@ -1,0 +1,29 @@
+name: Fix Connie complete page
+on:
+  push:
+    branches: [fix-connie-photo-rates-cta]
+    paths:
+      - 'scripts/fix_connie_complete.py'
+      - '.github/workflows/fix-connie-complete.yml'
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix-connie-photo-rates-cta
+      - name: Repair Connie page
+        run: python scripts/fix_connie_complete.py
+      - name: Commit repaired page
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add connie.html
+          if git diff --cached --quiet; then
+            echo "No changes needed"
+          else
+            git commit -m "Restore Connie photo rates and contact CTA"
+            git push origin HEAD:fix-connie-photo-rates-cta
+          fi
