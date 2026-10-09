@@ -161,11 +161,20 @@ sharedStyle.textContent = `
 `;
 document.head.appendChild(sharedStyle);
 
-document.addEventListener('DOMContentLoaded', function() {
+function initializeSiteBehaviors() {
+  if (window.__ffCoreInitialized) return;
+  window.__ffCoreInitialized = true;
   fixRecruitmentSupportCard();
   addLydiaContactButton();
   addNicoleTennesseeTelehealth();
   updatePaymentMessaging();
   bindFaqs();
   standardizeSiteShell();
-});
+}
+// main-core.js is dynamically loaded by main.js. DOMContentLoaded may
+// already have fired before this script arrives, so handle both cases.
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initializeSiteBehaviors, { once: true });
+} else {
+  initializeSiteBehaviors();
+}
