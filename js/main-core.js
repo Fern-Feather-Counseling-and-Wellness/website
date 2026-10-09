@@ -67,7 +67,7 @@ function normalizeNavigation(nav) {
   // Keep the About clinician list consistent even when the page's static menu is older.
   if (aboutToggle && aboutToggle.parentElement) {
     var clinicianMenu = aboutToggle.parentElement.querySelector('.dropdown-menu');
-    if (clinicianMenu && !Array.from(clinicianMenu.querySelectorAll('a')).some(function(a) { return /(^|\\/)mridula\\.html(?:$|[?#])/.test(a.getAttribute('href') || ''); })) {
+    if (clinicianMenu && !Array.from(clinicianMenu.querySelectorAll('a')).some(function(a) { return (a.getAttribute('href') || '').split('?')[0].split('#')[0].endsWith('/mridula.html') || (a.textContent || '').trim() === 'Mridula'; })) {
       var mridulaItem = document.createElement('li');
       var mridulaLink = document.createElement('a');
       mridulaLink.href = prefix + 'mridula.html';
