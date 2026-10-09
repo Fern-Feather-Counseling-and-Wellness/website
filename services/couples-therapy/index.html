@@ -275,6 +275,29 @@
     </div>
   </footer>
 
+  <script>
+  // Bind service-page accordions directly so they work even if shared scripts load late.
+  (function () {
+    function initServiceFaqs() {
+      document.querySelectorAll('.service-faq-list .faq-question').forEach(function (question) {
+        if (question.dataset.ffBound === 'true') return;
+        question.dataset.ffBound = 'true';
+        var item = question.closest('.faq-item');
+        var answer = item && item.querySelector('.faq-answer');
+        if (!item || !answer) return;
+        question.setAttribute('aria-expanded', item.classList.contains('active') ? 'true' : 'false');
+        answer.hidden = !item.classList.contains('active');
+        question.addEventListener('click', function () {
+          var open = item.classList.toggle('active');
+          answer.hidden = !open;
+          question.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+      });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initServiceFaqs);
+    else initServiceFaqs();
+  })();
+  </script>
   <script src="../../js/main.js?v=1774733000"></script>
 </body>
 </html>
