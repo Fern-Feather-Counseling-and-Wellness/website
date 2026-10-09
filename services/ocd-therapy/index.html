@@ -92,6 +92,29 @@
     <section class="service-section-shell alt"><div class="container"><div class="service-page-cta"><h2>OCD does not have to keep making the decisions</h2><p>OCD can make uncertainty feel urgent and convincing, but you do not have to solve every thought or obey every compulsion. Therapy can help you practice responding differently, build greater tolerance for uncertainty, and reclaim more of your time and attention from OCD.</p><div class="service-page-actions" style="justify-content:center;"><a href="../../contact.html" class="btn btn-primary">Request an Appointment</a></div></div></div></section>
   </main>
   <footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><h3>Fern &amp; Feather Counseling and Wellness</h3><p>Therapy for anxiety, OCD, trauma, and overwhelmed minds.</p><p>Fern &amp; Feather provides warm, affirming therapy for teens and adults navigating anxiety, OCD, intrusive thoughts, overthinking, and trauma. We offer Exposure and Response Prevention (ERP) and other individualized approaches in Cumming, GA and through telehealth across Georgia.</p><div class="footer-social"><a href="https://www.instagram.com/fernandfeathercounseling?igsh=NjVlN29ucHJpa3lw" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a><a href="https://www.tiktok.com/@fern.feather4" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="TikTok"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.04-.1z"></path></svg></a></div></div><div class="footer-column"><h4>Services</h4><ul><li><a href="../">Services</a></li></ul></div><div class="footer-column"><h4>Resources</h4><ul><li><a href="../../blog.html">Blog</a></li><li><a href="../../tools.html">Free Toolkit</a></li><li><a href="../../crisis.html">Crisis Resources</a></li><li><a href="../../faq.html">FAQ</a></li></ul></div><div class="footer-column"><h4>Contact</h4><ul><li><a href="https://www.google.com/maps/dir/?api=1&amp;destination=566+Peachtree+Pkwy+Suite+122,+Cumming,+GA+30041" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">📍 566 Peachtree Pkwy Suite 122, Cumming, GA, 30041</a></li><li>📧 info@fernandfeathercounseling.com</li><li>📱 770-563-8334</li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 Fern &amp; Feather Counseling and Wellness. All rights reserved.</p><p><a href="../../privacy.html">Privacy Policy</a> | <a href="../../terms.html">Terms of Service</a> | <a href="../../accessibility.html">Accessibility</a></p></div></div></footer>
+  <script>
+  // Bind service-page accordions directly so they work even if shared scripts load late.
+  (function () {
+    function initServiceFaqs() {
+      document.querySelectorAll('.service-faq-list .faq-question').forEach(function (question) {
+        if (question.dataset.ffBound === 'true') return;
+        question.dataset.ffBound = 'true';
+        var item = question.closest('.faq-item');
+        var answer = item && item.querySelector('.faq-answer');
+        if (!item || !answer) return;
+        question.setAttribute('aria-expanded', item.classList.contains('active') ? 'true' : 'false');
+        answer.hidden = !item.classList.contains('active');
+        question.addEventListener('click', function () {
+          var open = item.classList.toggle('active');
+          answer.hidden = !open;
+          question.setAttribute('aria-expanded', open ? 'true' : 'false');
+        });
+      });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initServiceFaqs);
+    else initServiceFaqs();
+  })();
+  </script>
   <script src="../../js/main.js?v=1774733000"></script>
 </body>
 </html>
