@@ -64,6 +64,18 @@ function normalizeNavigation(nav) {
       } else lydiaLink.href = prefix + 'lydia.html';
     }
   }
+  // Keep the About clinician list consistent even when the page's static menu is older.
+  if (aboutToggle && aboutToggle.parentElement) {
+    var clinicianMenu = aboutToggle.parentElement.querySelector('.dropdown-menu');
+    if (clinicianMenu && !Array.from(clinicianMenu.querySelectorAll('a')).some(function(a) { return /(^|\\/)mridula\\.html(?:$|[?#])/.test(a.getAttribute('href') || ''); })) {
+      var mridulaItem = document.createElement('li');
+      var mridulaLink = document.createElement('a');
+      mridulaLink.href = prefix + 'mridula.html';
+      mridulaLink.textContent = 'Mridula';
+      mridulaItem.appendChild(mridulaLink);
+      clinicianMenu.appendChild(mridulaItem);
+    }
+  }
   var existingJoin = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) { return /^(Join Our Team|Join Us)$/i.test(link.textContent.trim()); });
   if (existingJoin) { existingJoin.textContent = 'Join Us'; existingJoin.href = prefix + 'join-our-team.html'; }
   else { var consult = Array.from(navLinks.querySelectorAll(':scope > li > a')).find(function(link) { return /Schedule Consult/i.test(link.textContent); }); var item = document.createElement('li'); var join = document.createElement('a'); join.href = prefix + 'join-our-team.html'; join.textContent = 'Join Us'; item.appendChild(join); if (consult && consult.parentElement) navLinks.insertBefore(item, consult.parentElement); else navLinks.appendChild(item); }
